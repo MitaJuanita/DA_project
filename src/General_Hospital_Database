@@ -1,0 +1,86 @@
+--CREATE DATABASE
+
+CREATE DATABASE patient_vitals;
+
+\c patient_vitals;
+
+CREATE TABLE patient_vitals (
+    patient_id VARCHAR(20) PRIMARY KEY,
+    age INT,
+    gender VARCHAR(10),
+    blood_type VARCHAR(5),
+    height_cm DECIMAL(5,2),
+    weight_kg DECIMAL(5,2),
+    bmi DECIMAL(4,1),
+    temperature_c DECIMAL(4,1),
+    heart_rate_bpm INT,
+    blood_pressure_mmhg VARCHAR(7)
+);
+
+CREATE TABLE encounters (
+    encounter_id SERIAL PRIMARY KEY,
+    patient_id VARCHAR(20),
+    admission_date DATE,
+    discharge_date DATE,
+    diagnosis_code VARCHAR(10),
+    FOREIGN KEY (patient_id) REFERENCES patient_vitals (patient_id)
+);
+
+-- Load data from CSV files into patient_vitals table
+COPY patient_vitals (patient_id, age, gender, blood_type, height_cm, weight_kg, bmi, temperature_c, heart_rate_bpm, blood_pressure_mmhg)
+FROM 'tests/patient_vitals.csv'
+DELIMITER ',' 
+CSV HEADER;
+
+-- Load data from CSV files into encounters table
+COPY encounters (encounter_id, patient_id, admission_date, discharge_date, diagnosis_code)
+FROM 'tests/encounters.csv'
+DELIMITER ',' 
+CSV HEADER;
+
+-- Sample data for vitals
+INSERT INTO vitals (patient_id, visit_date, height_cm, weight_kg, blood_pressure, heart_rate, temperature_c) VALUES
+(1, '2023-01-01', 175.5, 70.2, '120/80', 72, 36.6),
+(2, '2023-01-02', 160.0, 60.5, '110/70', 68, 36.7),
+(3, '2023-01-03', 180.2, 80.1, '130/85', 75, 36.8);
+
+-- Sample data for encounters
+INSERT INTO encounters (patient_id, encounter_id, admission_date, diagnosis_code) VALUES
+(1, 1, '2023-01-01', 'E11'),
+(2, 2, '2023-01-02', 'E22'),
+(3, 3, '2023-01-03', 'E33');
+
+-- EDA: Check for missing values in both tables
+
+SELECT 'vitals' AS table_name, id, patient_id, visit_date, height_cm, weight_kg, blood_pressure, heart_rate, temperature_c
+FROM vitals
+WHERE height_cm IS NULL
+   OR weight_kg IS NULL
+   OR blood_pressure IS NULL
+   OR heart_rate IS NULL
+   OR temperature_c IS NULL
+UNION ALL
+SELECT 'encounters' AS table_name, encounter_id AS id, patient_id, admission_date, diagnosis_code, NULL, NULL, NULL, NULL
+FROM encounters
+WHERE admission_date IS NULL
+   OR diagnosis_code IS NULL;
+
+--EDA: Total number of patients and encounters per patient
+
+SELECT COUNT (DISTINCT patient_id) AS total_patients,
+       COUNT (DISTINCT encounter_id) AS total_encounters,
+FROM encounters;
+
+SELECT COUNT (DISTINCT patient_id) AS total_patients,
+FROM patient_vitals;
+
+--EDA: Average BMI and heart rate by diagnosis code
+
+SELECT 
+    e.diagnosis_code,
+    AVG(v.bmi) AS avg_bmi,
+    AVG(v.heart_rate_bpm) AS avg_heart_rate
+FROM encounters e
+JOIN patient_vitals v ON e.patient_id = v.patient_id
+GROUP BY e.diagnosis_code
+ORDER BY avg_bmi DESC;

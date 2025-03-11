@@ -1,0 +1,12 @@
+--DATA Aggrigation: Count, Distinct, Group By 
+-- Count the total number of patients
+-- Count the number of unique patients      
+-- Calculate the percentage of unique patients
+-- Group by GENDER
+
+SELECT COUNT(Patient_ID) AS total_patients, 
+       COUNT(DISTINCT Patient_ID) AS unique_patients, 
+       COUNT(DISTINCT Patient_ID) / COUNT(Patient_ID) AS unique_patients_percentage
+       FROM Patient_vitals
+         WHERE patient_vitals.Patient_ID IS NOT NULL;
+         GROUP BY Gender;
