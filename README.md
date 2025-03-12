@@ -6,7 +6,7 @@ Hello!
 
 My name is Sherminta Lawrence, and I am a Data Analyst/Interface Analyst with over 10 years of experience in hospital data analytics and EMR integration. This repository showcases my skills, projects, and progress in healthcare data analytics.
 
-In my spare time, I explore new tools and techniques to gain insights into solving complex problems. I believe that data tells a compelling story—one that can illuminate systemic issues often hidden in the noise.
+In my spare time, I explore new tools and techniques to gain insights into solving complex problems. 
 
 [View My Resume/CV](#)
 
