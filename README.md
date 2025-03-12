@@ -132,4 +132,4 @@ Contributions and feedback are welcome! Please feel free to open an issue or sub
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the 
