@@ -1,27 +1,85 @@
-# Healthcare Data Analytics Portfolio
+# Healthcare Interface Engineering and Data Analytics Portfolio
 
 ## About Me
 
-Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in building **HL7 interfaces, validating FHIR resources, and developing data-driven insights for hospital systems**. This repository showcases my projects demonstrating how data analytics can enhance healthcare operations and decision-making.
+Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in **HL7 interface migration, FHIR validation, and Agile SDLC methodologies**, particularly in **Mirth-based interface engines and EMR/EHR integrations**. This repository showcases my projects demonstrating how data analytics and interoperability solutions can enhance healthcare operations and decision-making.
 
 ## Who Should Use This?
 
 This repository is designed for:
-
-- **Healthcare data professionals** looking for real-world examples of HL7/FHIR integration.
-- **Data analysts** interested in healthcare-focused SQL and Python projects.
+- **Healthcare data professionals** looking for examples of HL7/FHIR integration.
+- **Data analysts** interested in healthcare-focused JavaScript, SQL, and Python projects.
 - **Developers & engineers** working on interoperability solutions.
-- **Anyone exploring healthcare data modeling and visualization.**
-
-## Database Schema
-
-Below is an ER diagram representing the healthcare database structure. It models patient encounters, lab results, providers, and hospital locations.
+- **Anyone exploring healthcare data modeling, Software Development Life Cycle (SDLC), and visualization techniques.**
 
 
+---
+## Mirth HL7 Interface Migration (Case Study)
+
+### **Project Overview**
+**Challenge:** Migrate clients from a legacy VB-based interface to a **Mirth-powered HL7 interface engine** while ensuring seamless data exchange with EMRs like **Epic Beaker, Meditech, Vista, and Cloverleaf.**
+
+**SDLC Approach:**
+- Followed **Agile methodology** with sprint-based releases.
+- Participated in **backlog grooming, sprint planning, and iterative testing cycles.**
+- Conducted **interface validation** using HL7 message types (ADT, ORM, ORU) to ensure compliance.
+- Deployed using **parallel testing strategies** to minimize downtime.
+
+**Solution:**
+- Configured and optimized **HL7 transactions (ADT, ORM, ORU)** to align with EMR requirements.
+- Developed **FHIR validation scripts** to support JSON-based patient resource exchange.
+- Created SQL queries for **data validation and integrity checks** during migration.
+- Designed **monitoring workflows** to track message success rates post-migration, utilizing Mirth's channel statistics and built-in dashboards.
+
+**Outcome:**
+
+✅ **Reduced HL7 transaction errors**, improving data reliability.  
+✅ **Enhanced interoperability** with major EMRs like Epic Beaker, Meditech, and Cloverleaf.  
+
+### **Legacy Interface to Mirth Migration Workflow**
+
+
+```mermaid
+graph TD;
+
+    A[Assess Legacy HL7 Interfaces] --> B[Define Requirements]
+    B --> C[Present to Stakeholders]
+    C --> D[Develop Timeline & Planning]
+    D --> E[Design & Configure Interfaces]
+    E --> F[Test Messages & Resources]
+    F --> G[Deploy & Validate]
+    G --> H[Monitor & Support]
+
+    %% Feedback loops for Agile process
+    H -->|If issues found| F
+    G -->|Iterative improvements| F
+    D -->|Continuous Sprints| F
+
+    %% Optional: Major redesign loop
+    H -->|Major redesign needed| A
+
+    %% Styling
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef highlight fill:#e1f3d8,stroke:#82b366,stroke-width:2px;
+    class F,G highlight
+```
+
+
+This diagram illustrates:
+1. **Legacy Interface → Mirth Engine Migration Process**
+2. **Sprint-based development cycle** (Agile Kanban representation)
+3. **Testing & Validation Phases** for HL7 message compliance
+
+---
+
+# Data Analysis Projects 
 
 ## Features
 
-✅ **Data Cleaning & Transformation** – Used SQL and Python to handle missing values, outliers, and format inconsistencies, improving data quality for analysis. ✅ **Predictive Modeling** – Built a logistic regression model to predict hospital readmissions, helping optimize patient care. ✅ **FHIR Resource Validation** – Developed Python scripts to validate HL7 FHIR patient resources against schema standards. ✅ **Dashboard Development** – Created a Power BI dashboard for tracking real-time hospital performance KPIs.
+- **Data Cleaning & Transformation** – Used SQL and Python to handle missing values, outliers, and format inconsistencies, improving data quality for analysis.
+- **Predictive Modeling** – Built a logistic regression model to predict hospital readmissions, helping optimize patient care.
+- **FHIR Resource Validation** – Developed Python scripts to validate HL7 FHIR patient resources against schema standards.
+
 
 ## Tech Stack
 
@@ -31,19 +89,34 @@ Below is an ER diagram representing the healthcare database structure. It models
 - **Data Processing & ETL:** Pandas, SQLAlchemy, SSIS
 - **Data Visualization:** Power BI, Tableau, Matplotlib, Seaborn
 
-## Projects
-
 ### **Project 1: Clinical Trial Patient List (JOIN + CASE)**
-
 - **Objective:** Identify eligible patients for a clinical trial based on lab results and demographic data.
 - **Skills Used:** SQL joins, CASE statements, filtering, and patient cohort identification.
 - **Outcome:** Helped refine patient selection criteria, improving recruitment efficiency.
 
-### **Project 2: FHIR Resource Validation Lite**
+![Project 1_Notebook](path_to_your_image.png)
 
+
+### **Project 2: FHIR Resource Validation Lite**
 - **Objective:** Validate JSON-based FHIR patient resources against HL7 standards.
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
 - **Outcome:** Ensured compliance with FHIR interoperability guidelines, reducing integration errors.
+
+![Project 2_Notebook](path_to_your_image.png)
+
+### **Project 3: Predictive Modeling
+
+- **Objective:** Predict readmission rates within a 30 day period by generating features from our three data sets:
+
+- Patient_Vitals: Capturing patient health status
+- Encounters: Understanding patient visits and length of stay
+- Patient_RX: Analyzing medication history
+
+
+- **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
+
+![Project 3_Notebook](path_to_your_image.png)
+
 
 ## How to Use
 
@@ -58,14 +131,12 @@ Below is an ER diagram representing the healthcare database structure. It models
 3. Run SQL scripts or Python files as needed for data analysis.
 
 ## Future Enhancements
-
 - Expand FHIR validation scripts for more resources (Observations, Encounters, Medications).
 - Add more interactive visualizations in Power BI and Tableau.
 - Develop API integrations for real-time data exchange.
 
 ## Contact
-
-For questions or collaboration opportunities, reach out via [LinkedIn](https://linkedin.com/in/shermintalawrence) or email me at [**shermintalawrence@gmail.com**](mailto\:shermintalawrence@gmail.com).
+For questions or collaboration opportunities, reach out via [LinkedIn](https://linkedin.com/in/shermintalawrence) or email me at **shermintalawrence@gmail.com**.
 
 ---
 
