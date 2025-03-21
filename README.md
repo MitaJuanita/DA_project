@@ -84,7 +84,7 @@ This diagram illustrates:
 2. **Sprint-based development cycle** (Agile Kanban representation)
 3. **Testing & Validation Phases** for HL7 message compliance
 
-## Example: JavaScript for Parsing JSON in Mirth:
+## JavaScript for Parsing JSON in Mirth:
 
 Here’s a generalized example of how JavaScript is used in Mirth to parse JSON patient data and create an HL7 message (with error handling).
 ![JavaScript for Parsing JSON in Mirth](JS_Parse.ipynb)
