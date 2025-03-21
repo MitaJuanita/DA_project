@@ -1,4 +1,4 @@
-# Healthcare Interface Engineering and Data Analytics Portfolio
+# Healthcare Interface and Data Analytics Portfolio
 
 ## About Me
 
