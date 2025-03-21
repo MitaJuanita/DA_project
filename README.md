@@ -16,7 +16,7 @@ This repository is designed for:
 
 Real-world patient healthcare data isn't available, however, there are datasets avaialble as well as ways to create our own data using Python. 
 
-How the data used in this repository was created and sourced: ![Practice Data](C********ipynb)
+How the data used in this repository was created and sourced: ![Practice Data](Faker_encounter.ipynb)
 
 ---
 ## Tech Stack
@@ -128,9 +128,10 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 
 ## Future Enhancements
 - Expand FHIR validation scripts for more resources (Observations, Encounters, Medications).
-- Add more interactive visualizations in Power BI and Tableau.
+- Add more interactive visualizations
+- Machine Learning 
 - Develop API integrations for real-time data exchange.
-- Instructions for how to use this repository
+- Instructions for how to use this repository.
 
 ## Contact
 For questions or collaboration opportunities, reach out via [LinkedIn](https://linkedin.com/in/shermintalawrence) or email me at **shermintalawrence@gmail.com**.
