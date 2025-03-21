@@ -126,7 +126,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - Develop API integrations for real-time data exchange.
 - Instructions for how to use this repository.
 
-### **Project 3: Predictive Modeling (In-Progress)
+### **Project 3: Predictive Modeling (In-Progress)**
 
 **Objective:** Predict readmission rates within a 30 day period by generating features from our three data sets:
 
