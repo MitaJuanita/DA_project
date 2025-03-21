@@ -28,7 +28,7 @@ How the data used in this repository was created and sourced: ![Practice Data](C
 - **Data Visualization:** Matplotlib, Seaborn
 ---
 
-## Mirth HL7 Interface Migration (Case Study)
+# Mirth HL7 Interface Migration (Case Study)
 
 ### **Overview**
 **Challenge:** Migrate clients from a legacy VB-based interface to a **Mirth-powered HL7 interface engine** while ensuring seamless data exchange with EMRs like **Epic Beaker, Meditech, Vista, and Cloverleaf.**
