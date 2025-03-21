@@ -73,7 +73,7 @@ This diagram illustrates:
 ## Example: JavaScript for Parsing JSON in Mirth:
 
 Here’s a generalized example of how JavaScript is used in Mirth to parse JSON patient data and create an HL7 message (with error handling).
-![JavaScript for Parsing JSON in Mirth ](JS_Parse.ipynb.)
+![JavaScript for Parsing JSON in Mirth](JS_Parse.ipynb)
 
 ---
 
@@ -107,7 +107,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
 - **Outcome:** Ensured compliance with FHIR interoperability guidelines, reducing integration errors.
 
-![Project 2_Notebook](path_to_your_image.png)
+![Project 2_Notebook](FHIR Project.ipynb)
 
 ### **Project 3: Predictive Modeling
 
