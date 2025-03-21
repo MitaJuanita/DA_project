@@ -107,7 +107,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
 - **Outcome:** Ensured compliance with FHIR interoperability guidelines, reducing integration errors.
 
-![Project 2_Notebook](FHIR Project.ipynb)
+![Project 2_Notebook](FHIR_Project.ipynb)
 
 ### **Project 3: Predictive Modeling
 
@@ -120,7 +120,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
 
-![Project 3_Notebook](FHIR Project.ipynb)
+![Project 3_Notebook]
 
 
 ## How to Use
