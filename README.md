@@ -114,7 +114,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 
 ![Project 2_Notebook](FHIR_Project.ipynb)
 
-### **Project 3: Predictive Modeling
+### **Project 3: Predictive Modeling (In-Progress)
 
 - **Objective:** Predict readmission rates within a 30 day period by generating features from our three data sets:
 
@@ -125,25 +125,12 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
 
-![Project 3_Notebook]
-
-
-## How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/healthcare-data-analytics.git
-   ```
-2. Set up the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run SQL scripts or Python files as needed for data analysis.
 
 ## Future Enhancements
 - Expand FHIR validation scripts for more resources (Observations, Encounters, Medications).
 - Add more interactive visualizations in Power BI and Tableau.
 - Develop API integrations for real-time data exchange.
+- Instructions for how to use this repository
 
 ## Contact
 For questions or collaboration opportunities, reach out via [LinkedIn](https://linkedin.com/in/shermintalawrence) or email me at **shermintalawrence@gmail.com**.
