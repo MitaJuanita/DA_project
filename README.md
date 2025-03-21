@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in **HL7 interface migration, HL7/FHIR validation, data analysis and Agile SDLC methodologies**.This repository showcases some of my skills in data analytics and interoperability solutions. 
+Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in **HL7 interface migration, HL7/FHIR validation, data analysis and Agile SDLC methodologies**. This repository showcases some of my skills in data analytics and interoperability solutions. 
 
 ## Who Should Use This?
 
