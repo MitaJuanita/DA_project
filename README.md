@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in **HL7 interface migration, FHIR validation, and Agile SDLC methodologies**, particularly in **Mirth-based interface engines and EMR/EHR integrations**. This repository showcases my projects demonstrating how data analytics and interoperability solutions can enhance healthcare operations and decision-making.
+Hello! I'm **Sherminta Lawrence**, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data. My expertise lies in **HL7 interface migration, HL7/FHIR validation, data analysis and Agile SDLC methodologies**.This repository showcases some of my skills in data analytics and interoperability solutions. 
 
 ## Who Should Use This?
 
@@ -12,11 +12,25 @@ This repository is designed for:
 - **Developers & engineers** working on interoperability solutions.
 - **Anyone exploring healthcare data modeling, Software Development Life Cycle (SDLC), and visualization techniques.**
 
+## About the data used in this repository
+
+Real-world patient healthcare data isn't available, however, there are datasets avaialble as well as ways to create our own data using Python. 
+
+How the data used in this repository was created and sourced: ![Practice Data](C********ipynb)
 
 ---
+## Tech Stack
+
+- **Programming:** Python, SQL, JavaScript
+- **Databases:** PostgreSQL
+- **Healthcare Data Standards:** HL7 (ADT, ORM, ORU), FHIR (Patient Resource), JSON Validation
+- **Data Processing & ETL:** Pandas, SQLAlchemy, SSIS
+- **Data Visualization:** Matplotlib, Seaborn
+---
+
 ## Mirth HL7 Interface Migration (Case Study)
 
-### **Project Overview**
+### **Overview**
 **Challenge:** Migrate clients from a legacy VB-based interface to a **Mirth-powered HL7 interface engine** while ensuring seamless data exchange with EMRs like **Epic Beaker, Meditech, Vista, and Cloverleaf.**
 
 **SDLC Approach:**
@@ -84,15 +98,6 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - **Data Cleaning & Transformation** – Used SQL and Python to handle missing values, outliers, and format inconsistencies, improving data quality for analysis.
 - **Predictive Modeling** – Built a logistic regression model to predict hospital readmissions, helping optimize patient care.
 - **FHIR Resource Validation** – Developed Python scripts to validate HL7 FHIR patient resources against schema standards.
-
-
-## Tech Stack
-
-- **Programming:** Python, SQL, JavaScript
-- **Databases:** PostgreSQL, SQL Server, SQLite
-- **Healthcare Data Standards:** HL7 (ADT, ORM, ORU), FHIR (Patient Resource), JSON Validation
-- **Data Processing & ETL:** Pandas, SQLAlchemy, SSIS
-- **Data Visualization:** Power BI, Tableau, Matplotlib, Seaborn
 
 ### **Project 1: Clinical Trial Patient List (JOIN + CASE)**
 - **Objective:** Identify eligible patients for a clinical trial based on lab results and demographic data.
