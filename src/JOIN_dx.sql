@@ -1,16 +1,15 @@
--- Query the encounters table for all columns where the diagnosis code is 'E11'
--- and join the patient_vitals table on patient_id to get the age, bmi, and blood_pressure_mmhg columns.
--- Return the encounter_id, admission_date, discharge_date, diagnosis_code, age, bmi, and blood_pressure_mmhg columns.
+--Join the encounters table with the patient_vitals table to get the following columns for patients with a diagnosis code of 'E11':
+--
 SELECT 
-    e.encounter_id,
-    e.admission_date,
-    e.discharge_date,
-    e.diagnosis_code,
-    e.patient_id,
-    v.age,
-    v.bmi,
-    v.blood_pressure_mmhg
-FROM encounters e
-JOIN patient_vitals v
-    ON e.patient_id = v.patient_id
-WHERE e.diagnosis_code = 'E11';
+    e."Encounter_ID",
+    e."Admission_Date",
+    e."Discharge_Date",
+    e."Diagnosis_Code",
+    e."Patient_ID",
+    v."Age",
+    v."BMI",
+    v."Blood_Pressure_MMHG"
+FROM encounters AS e
+JOIN patient_vitals AS v
+    ON e."Patient_ID" = v."Patient_ID"
+WHERE e."Diagnosis_Code" = 'E11';

@@ -38,11 +38,11 @@ patient_data = generate_patient_data(NUM_PATIENTS)
 with open("tests/Patient_RX.csv", mode="w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow([
-        "Patient_ID",
-        "Weight_Loss_Drug",
-        "Hypertension_Drug",
-        "Diabetes_Drug",
-        "Cholesterol_Drug",
+        "patient_id",
+        "weight_loss_drug",
+        "hypertension_drug",
+        "diabetes_drug",
+        "cholesterol_drug",
     ])
     writer.writerows(patient_data)
 

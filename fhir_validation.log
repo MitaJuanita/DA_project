@@ -1,0 +1,432 @@
+2025-03-13 13:22:37,773 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:37,774 - INFO - File: tests/synthea_sample_data_fhir_latest/Todd315_Abernathy524_a0b3ad14-4bd2-3abd-b02e-9116247d9fea.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:37,897 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:37,897 - INFO - File: tests/synthea_sample_data_fhir_latest/Leticia253_María_Luisa888_Torres807_1c6c9d07-b38f-8fe5-fac9-0edd06a64f85.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:37,922 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:37,922 - INFO - File: tests/synthea_sample_data_fhir_latest/Wade235_Emmerich580_13cc1678-474c-7932-a719-c64f3a7adc9f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,008 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,008 - INFO - File: tests/synthea_sample_data_fhir_latest/Alonzo487_Friesen796_32d7e67e-d2f7-8e45-a332-a763e004976b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,172 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,172 - INFO - File: tests/synthea_sample_data_fhir_latest/Arnulfo253_Jaskolski867_50ca7edb-0dee-35e6-5d8f-66fbcb0b37c1.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,236 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,236 - INFO - File: tests/synthea_sample_data_fhir_latest/Pei116_Anderson154_21d26e56-f4e6-779d-e0d1-bdd371d8e4aa.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,307 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,307 - INFO - File: tests/synthea_sample_data_fhir_latest/Lahoma872_Greenholt190_03bde354-de87-a404-4ab3-00edf0b184a7.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,372 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,372 - INFO - File: tests/synthea_sample_data_fhir_latest/Marylee823_Trantow673_97df0b48-a67b-9b95-31c0-99bd722fd28e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,412 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,412 - INFO - File: tests/synthea_sample_data_fhir_latest/Arthur650_Roberts511_ec1a6cad-8825-7b5c-4e14-257c696d5f11.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,779 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,779 - INFO - File: tests/synthea_sample_data_fhir_latest/Alena861_Danna372_Gusikowski974_bd2a8021-2868-6dd2-c17f-bfd7c36fe247.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:38,915 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:38,915 - INFO - File: tests/synthea_sample_data_fhir_latest/Jolyn4_Kattie846_Ortiz186_d5635f98-2461-70a1-5916-f854efa27fc0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:39,922 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:39,922 - INFO - File: tests/synthea_sample_data_fhir_latest/Zenia843_Genesis248_Weimann465_655baba7-47ed-22ac-2093-1196ebb44928.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,015 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,015 - INFO - File: tests/synthea_sample_data_fhir_latest/Willian804_Keeling57_c1acd7ba-dacf-36d2-6010-db8934400000.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,113 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,113 - INFO - File: tests/synthea_sample_data_fhir_latest/Tyree261_Champlin946_3d46defd-463f-a34b-4551-f9bbe96575bd.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,164 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,164 - INFO - File: tests/synthea_sample_data_fhir_latest/Yun266_Ernser583_37713015-cfb5-bf1a-70eb-970101f32341.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,233 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,233 - INFO - File: tests/synthea_sample_data_fhir_latest/Kimbery217_Schuppe920_2ce5c76d-8d65-1347-33c5-7d0cbf3f1b2b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,276 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,276 - INFO - File: tests/synthea_sample_data_fhir_latest/Sunday568_Lavonne167_Mitchell808_f07e12ed-dff4-6161-3d23-8f043c4e316d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:40,783 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:40,783 - INFO - File: tests/synthea_sample_data_fhir_latest/Tambra47_Balistreri607_916b1ac8-56c8-ec1b-3b9a-721336a74912.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,007 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,007 - INFO - File: tests/synthea_sample_data_fhir_latest/Homero668_Vigil207_fb164202-4e38-04a0-470a-b7229db13c04.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,106 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,106 - INFO - File: tests/synthea_sample_data_fhir_latest/Aurea194_Weissnat378_12696753-a126-88f4-da66-a87c70d2cad7.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,218 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,218 - INFO - File: tests/synthea_sample_data_fhir_latest/Maryjane289_Murazik203_ba459391-501f-22f5-3446-7defd52e5fab.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,265 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,265 - INFO - File: tests/synthea_sample_data_fhir_latest/Chana895_Schinner682_36ecae05-0060-b555-716f-303a8c34e914.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,356 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,356 - INFO - File: tests/synthea_sample_data_fhir_latest/Ada662_Sari509_Balistreri607_dbc4a3f7-9c69-4435-3ce3-4e1988ab6b91.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,384 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,384 - INFO - File: tests/synthea_sample_data_fhir_latest/Darwin703_Cruickshank494_4c9a07e5-1e1c-00a5-2841-2b1e0fce61e3.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,418 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,418 - INFO - File: tests/synthea_sample_data_fhir_latest/Bennie663_Ebert178_34a4dcc4-35fb-6ad5-ab98-be285c586a4f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,666 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,666 - INFO - File: tests/synthea_sample_data_fhir_latest/Faustino767_Robel940_be3fe2c4-52da-02bb-e656-00e303e48a42.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,723 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,723 - INFO - File: tests/synthea_sample_data_fhir_latest/Kieth891_McKenzie376_081abe99-9641-1098-8903-61de9e66d9fa.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:41,825 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:41,825 - INFO - File: tests/synthea_sample_data_fhir_latest/Elvera717_Koepp521_8d2a62f2-d630-6288-93ee-0fea3f859560.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,013 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,013 - INFO - File: tests/synthea_sample_data_fhir_latest/Nathanael908_Wisozk929_f07fac6b-0a84-7874-f0d2-e1a1e1cffa09.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,071 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,071 - INFO - File: tests/synthea_sample_data_fhir_latest/Leo278_Franecki195_27eb7bda-3896-d2f9-47a7-4d739283e770.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,171 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,171 - INFO - File: tests/synthea_sample_data_fhir_latest/Ulysses632_Schiller186_5032b4e1-c68e-b135-30ac-ad7e386b619b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,255 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,255 - INFO - File: tests/synthea_sample_data_fhir_latest/Jimmie93_Doyle959_e335de09-0994-4111-3c15-6edcc17ae4bc.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,353 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,354 - INFO - File: tests/synthea_sample_data_fhir_latest/Signe792_Salley758_Waters156_778f10bc-09e5-8e86-64e8-bffa36d47246.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,429 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,429 - INFO - File: tests/synthea_sample_data_fhir_latest/Lauralee67_Taren286_Sauer652_e73d2c53-6e7e-13b9-d296-460e42e6014a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,630 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,630 - INFO - File: tests/synthea_sample_data_fhir_latest/Lorenzo669_Hartmann983_3ec070e8-7f78-6a8b-12d7-9ee9808012e0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:42,720 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:42,720 - INFO - File: tests/synthea_sample_data_fhir_latest/Bernetta267_Rutherford999_81df73ed-e648-6a5d-22af-7f24d5fdb4cb.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:43,064 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:43,064 - INFO - File: tests/synthea_sample_data_fhir_latest/Lon587_Kuhic920_6c602779-9775-f512-2724-fa4e0d0788f5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:43,160 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:43,160 - INFO - File: tests/synthea_sample_data_fhir_latest/Aleisha941_Treutel973_2d799deb-df07-0c4a-8692-42cce7595251.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:43,213 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:43,213 - INFO - File: tests/synthea_sample_data_fhir_latest/Trinidad33_King743_18d9f8cb-b3b2-5e9f-4c62-5a82a90c0141.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:45,050 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:45,050 - INFO - File: tests/synthea_sample_data_fhir_latest/Elna874_Dian810_Prohaska837_d1622e8b-d26b-ec81-ffcb-ec4bf2af385b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:45,127 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:45,127 - INFO - File: tests/synthea_sample_data_fhir_latest/Carson894_Littel644_dc323bce-e583-d903-303e-9c865bc87e67.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:45,252 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:45,252 - INFO - File: tests/synthea_sample_data_fhir_latest/Nicki254_Jacobi462_c055bc9e-ce1a-b116-287a-be9162e35a2f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:45,361 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:45,361 - INFO - File: tests/synthea_sample_data_fhir_latest/Homero668_Quiñones183_5c779b5a-b6f0-2954-0c1c-9855c010d4d0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:45,511 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:45,511 - INFO - File: tests/synthea_sample_data_fhir_latest/Anita473_Berta524_Sánchez310_d426334c-a982-3a31-7e0f-ca3c7fe01310.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:47,695 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:47,695 - INFO - File: tests/synthea_sample_data_fhir_latest/Aubrey96_Schmidt332_d27273f0-f62d-7d7f-746d-4565f35cf176.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:47,755 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:47,755 - INFO - File: tests/synthea_sample_data_fhir_latest/Delilah659_Sanford861_4f7a6432-3814-be2f-eb8a-1db4fe90e12d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:47,827 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:47,827 - INFO - File: tests/synthea_sample_data_fhir_latest/Nichol11_Stiedemann542_d3526c15-a6eb-ec69-d2ce-7f4dfac7fc5e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:48,179 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:48,179 - INFO - File: tests/synthea_sample_data_fhir_latest/Ramiro608_Moreno82_bcd4d6cd-0c79-a19e-5b9e-64816e3fd72d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:48,253 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:48,253 - INFO - File: tests/synthea_sample_data_fhir_latest/Maris768_Lindgren255_898a6256-7ffb-dbe2-e24d-12fda2fedcfd.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:48,314 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:48,314 - INFO - File: tests/synthea_sample_data_fhir_latest/Caryl47_Kassulke119_4569671e-ed39-055f-8e78-422b96c9896b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:48,379 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:48,379 - INFO - File: tests/synthea_sample_data_fhir_latest/Leigh689_White193_8635f76c-d1ee-89fe-9051-b90c16afd70c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:49,664 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:49,664 - INFO - File: tests/synthea_sample_data_fhir_latest/Dudley365_Blick895_4f159375-4ee4-36ab-b464-6d38f6ff2dae.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:49,830 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:49,830 - INFO - File: tests/synthea_sample_data_fhir_latest/Blanca837_Reinger292_f339a5f7-0b09-3072-2b01-7c8e8ca2c1fc.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:49,938 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:49,938 - INFO - File: tests/synthea_sample_data_fhir_latest/Erasmo545_Connelly992_3e96ffd1-e286-f5ac-1606-539e37c7c46a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:50,209 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:50,210 - INFO - File: tests/synthea_sample_data_fhir_latest/Margarette462_Britt177_West559_cca2c7f0-a2aa-94e5-ccea-cb78a7d38652.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:50,229 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:50,229 - INFO - File: tests/synthea_sample_data_fhir_latest/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:50,539 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:50,539 - INFO - File: tests/synthea_sample_data_fhir_latest/Antonia30_Schuster709_00732e11-5e4d-37b7-01f8-929a25536862.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:50,655 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:50,655 - INFO - File: tests/synthea_sample_data_fhir_latest/Herbert830_Klocko335_8935bc21-92f0-a4ad-d8b4-bcdd5b92204a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:50,757 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:50,757 - INFO - File: tests/synthea_sample_data_fhir_latest/Aleen595_Alanna27_Rogahn59_5358446e-e631-c640-5880-c6cf99dc8bed.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:52,838 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:52,839 - INFO - File: tests/synthea_sample_data_fhir_latest/German382_Ebert178_bad5a231-3709-952a-cf44-f8d6a52cc214.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:52,888 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:52,888 - INFO - File: tests/synthea_sample_data_fhir_latest/Joshua658_Kunde533_30a6452c-4297-a1ac-977a-6a23237c7b46.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:52,944 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:52,944 - INFO - File: tests/synthea_sample_data_fhir_latest/Dan465_Brakus656_b05fba34-1719-c0de-ac25-16e65de3d26a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:53,044 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:53,044 - INFO - File: tests/synthea_sample_data_fhir_latest/Carlyn477_Florencia449_Williamson769_37c177ea-4398-fb7a-29fa-70eb3d673876.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:53,983 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:53,983 - INFO - File: tests/synthea_sample_data_fhir_latest/Grady603_Swaniawski813_cb1b46a1-9cb5-1187-ccc5-9fb7b98aa957.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,095 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,095 - INFO - File: tests/synthea_sample_data_fhir_latest/Marisha663_Carter549_0bc53e6a-8820-ded4-57c5-7ccc6355354c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,193 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,193 - INFO - File: tests/synthea_sample_data_fhir_latest/Dahlia209_Ferry570_4804956b-3c8f-baa7-9a42-87518e486055.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,315 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,315 - INFO - File: tests/synthea_sample_data_fhir_latest/Britteny287_Brigida296_Carter549_9e9b5929-6880-fd20-f386-026109e24028.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,477 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,477 - INFO - File: tests/synthea_sample_data_fhir_latest/Pauletta164_Spencer878_65016a46-14f4-d19a-f82f-10299aba4c14.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,698 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,698 - INFO - File: tests/synthea_sample_data_fhir_latest/Moses679_Friesen796_98cbb02b-c16a-60e4-1ff0-37c0e45e0e9f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,764 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,764 - INFO - File: tests/synthea_sample_data_fhir_latest/Vivien121_Brakus656_5279920f-e303-9dca-844d-82ed5485f5da.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,819 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,819 - INFO - File: tests/synthea_sample_data_fhir_latest/Gilbert263_Marvin195_8656f713-282f-e5f6-cc7e-346a573ef3b5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:54,965 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:54,965 - INFO - File: tests/synthea_sample_data_fhir_latest/Laurie826_Tisa11_Bechtelar572_17e0bdef-4558-cc1d-2d44-90868cad827b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:55,003 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:55,003 - INFO - File: tests/synthea_sample_data_fhir_latest/Dominick530_Schiller186_116916b1-0b2b-e099-1b72-e8935f3bea0f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:55,130 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:55,130 - INFO - File: tests/synthea_sample_data_fhir_latest/Adrianne466_Jonnie215_Glover433_99d3b9b2-46c1-ef9e-da70-81ac3d365f52.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:55,207 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:55,207 - INFO - File: tests/synthea_sample_data_fhir_latest/Hershel911_Grant908_60fc807a-de74-7722-b431-a63362670472.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:55,676 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:55,677 - INFO - File: tests/synthea_sample_data_fhir_latest/Eva64_Gloria696_Gurule738_87cb7301-9d12-b048-416d-2b290eed1bde.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,129 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,129 - INFO - File: tests/synthea_sample_data_fhir_latest/Truman805_Hermiston71_c1ce8dfc-3c0d-de97-ce0e-5dc0460da340.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,196 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,196 - INFO - File: tests/synthea_sample_data_fhir_latest/practitionerInformation1730906375349.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,555 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,555 - INFO - File: tests/synthea_sample_data_fhir_latest/Teresa94_Pichardo350_74ad71cb-f64d-efce-02c9-ae3bc917c4a2.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,696 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,696 - INFO - File: tests/synthea_sample_data_fhir_latest/Jeana169_Weimann465_2bd4d47d-5e00-3b67-cdd7-03f4b811b711.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,813 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,814 - INFO - File: tests/synthea_sample_data_fhir_latest/Leonor133_Silvia880_Colunga237_b0f6cc39-6dfd-4ac2-84c7-e7478723d563.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,874 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,874 - INFO - File: tests/synthea_sample_data_fhir_latest/Tomás404_Benavides239_0689b59f-0721-5384-9294-def3c13db427.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:56,984 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:56,984 - INFO - File: tests/synthea_sample_data_fhir_latest/Tamara8_Schinner682_c3deeb5b-66ef-b1bf-0202-0e5ce485d30f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,083 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,083 - INFO - File: tests/synthea_sample_data_fhir_latest/Berta524_Ester635_Alemán808_bf40c2b4-4f0d-10cf-a2bb-cbb235e4e437.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,133 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,133 - INFO - File: tests/synthea_sample_data_fhir_latest/Ettie537_Farrell962_d8638449-e632-1ac7-6695-eb60c8773813.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,255 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,255 - INFO - File: tests/synthea_sample_data_fhir_latest/Khadijah960_Maryalice613_Veum823_9e24368b-f85b-f38f-ae0b-db191e224335.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,306 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,306 - INFO - File: tests/synthea_sample_data_fhir_latest/Christopher407_Brakus656_9933f4bd-106c-b41d-467a-94ec42baeb81.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,351 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,351 - INFO - File: tests/synthea_sample_data_fhir_latest/hospitalInformation1730906375349.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,418 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,418 - INFO - File: tests/synthea_sample_data_fhir_latest/Hunter736_Gerlach374_7179458e-d6e3-c723-2530-d4acfe1c2668.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,586 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,587 - INFO - File: tests/synthea_sample_data_fhir_latest/Domenica436_Rau926_3648fb36-1cd1-3641-0b1c-1f00d1e7e7de.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,641 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,641 - INFO - File: tests/synthea_sample_data_fhir_latest/Fabian647_Hayes766_de480ca4-19a6-f2e0-7922-1c51e7c8dcb8.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,676 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,676 - INFO - File: tests/synthea_sample_data_fhir_latest/Dwight645_Hilll811_45b89342-dc05-8e57-8eee-9ed68ec42378.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,744 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,744 - INFO - File: tests/synthea_sample_data_fhir_latest/Stanton715_Kassulke119_780fe740-20fb-07ee-1fbd-3fafa9f5df91.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,791 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,791 - INFO - File: tests/synthea_sample_data_fhir_latest/Carolina179_Otero621_5a3a689b-77d6-6c1a-7a86-a9c1b9b6847c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,870 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,870 - INFO - File: tests/synthea_sample_data_fhir_latest/Sylvia544_Margherita470_Langworth352_488e5395-0a2a-f2da-0389-e0e8062b009d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:57,957 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:57,957 - INFO - File: tests/synthea_sample_data_fhir_latest/Hattie299_Reatha769_Nader710_5e0a6984-38d7-c604-f55f-f1de5e933768.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,593 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,593 - INFO - File: tests/synthea_sample_data_fhir_latest/Cathy455_Lanita675_Wolff180_14dc5e57-1b84-3305-c042-86c9fc7e4996.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,678 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,678 - INFO - File: tests/synthea_sample_data_fhir_latest/Diamond340_Keebler762_d6cc7569-5f31-9648-ec6a-e1162b32b183.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,776 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,776 - INFO - File: tests/synthea_sample_data_fhir_latest/Clair921_O'Reilly797_8a25981a-eb31-cb7c-047d-8249f6111a3e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,825 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,825 - INFO - File: tests/synthea_sample_data_fhir_latest/Robin66_Gleichner915_0fef2411-21f0-a269-82fb-c42b55471405.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,905 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,905 - INFO - File: tests/synthea_sample_data_fhir_latest/Princess223_Bobbi508_Schmeler639_33828cb4-a2f6-3a66-fe02-c990fa88af61.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:58,971 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:58,971 - INFO - File: tests/synthea_sample_data_fhir_latest/Harley673_Goldner995_699d2e19-7af4-de30-b430-ae854f5f690d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:59,073 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:59,074 - INFO - File: tests/synthea_sample_data_fhir_latest/Dolly486_Franecki195_da7b1f55-c782-544f-ba8c-fe69d519dc85.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:59,181 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:59,181 - INFO - File: tests/synthea_sample_data_fhir_latest/Aracelis412_Greenholt190_bd277bc3-11ad-a0bd-7057-4ec1b705610f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:59,276 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:59,276 - INFO - File: tests/synthea_sample_data_fhir_latest/Elsa29_Chapa957_f20c093a-ec77-3358-b0a5-3c298f82ea1f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:22:59,399 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:22:59,400 - INFO - File: tests/synthea_sample_data_fhir_latest/Hershel911_Labadie908_24a8f8bc-f502-5f0e-0dd7-27d64a15ed9e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:23:00,993 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:23:00,993 - INFO - File: tests/synthea_sample_data_fhir_latest/Boyd728_Bosco882_f3884e8a-8b36-1e93-66dd-e910dfab2ef5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:23:01,136 - ERROR - Error validating resource of type Bundle: 'Bundle' object has no attribute 'is_valid'
+2025-03-13 13:23:01,136 - INFO - File: tests/synthea_sample_data_fhir_latest/Yolanda648_Baca589_355f70c7-b1f4-b1db-8843-56b8b193a30c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:04,646 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:04,646 - INFO - File: tests/synthea_sample_data_fhir_latest/Todd315_Abernathy524_a0b3ad14-4bd2-3abd-b02e-9116247d9fea.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:04,771 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:04,771 - INFO - File: tests/synthea_sample_data_fhir_latest/Leticia253_María_Luisa888_Torres807_1c6c9d07-b38f-8fe5-fac9-0edd06a64f85.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:04,797 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:04,798 - INFO - File: tests/synthea_sample_data_fhir_latest/Wade235_Emmerich580_13cc1678-474c-7932-a719-c64f3a7adc9f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:04,886 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:04,886 - INFO - File: tests/synthea_sample_data_fhir_latest/Alonzo487_Friesen796_32d7e67e-d2f7-8e45-a332-a763e004976b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,050 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,050 - INFO - File: tests/synthea_sample_data_fhir_latest/Arnulfo253_Jaskolski867_50ca7edb-0dee-35e6-5d8f-66fbcb0b37c1.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,113 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,114 - INFO - File: tests/synthea_sample_data_fhir_latest/Pei116_Anderson154_21d26e56-f4e6-779d-e0d1-bdd371d8e4aa.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,184 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,184 - INFO - File: tests/synthea_sample_data_fhir_latest/Lahoma872_Greenholt190_03bde354-de87-a404-4ab3-00edf0b184a7.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,249 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,249 - INFO - File: tests/synthea_sample_data_fhir_latest/Marylee823_Trantow673_97df0b48-a67b-9b95-31c0-99bd722fd28e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,288 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,288 - INFO - File: tests/synthea_sample_data_fhir_latest/Arthur650_Roberts511_ec1a6cad-8825-7b5c-4e14-257c696d5f11.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,666 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,666 - INFO - File: tests/synthea_sample_data_fhir_latest/Alena861_Danna372_Gusikowski974_bd2a8021-2868-6dd2-c17f-bfd7c36fe247.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:05,799 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:05,799 - INFO - File: tests/synthea_sample_data_fhir_latest/Jolyn4_Kattie846_Ortiz186_d5635f98-2461-70a1-5916-f854efa27fc0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:06,810 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:06,810 - INFO - File: tests/synthea_sample_data_fhir_latest/Zenia843_Genesis248_Weimann465_655baba7-47ed-22ac-2093-1196ebb44928.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:06,900 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:06,901 - INFO - File: tests/synthea_sample_data_fhir_latest/Willian804_Keeling57_c1acd7ba-dacf-36d2-6010-db8934400000.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:06,998 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:06,999 - INFO - File: tests/synthea_sample_data_fhir_latest/Tyree261_Champlin946_3d46defd-463f-a34b-4551-f9bbe96575bd.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,049 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,049 - INFO - File: tests/synthea_sample_data_fhir_latest/Yun266_Ernser583_37713015-cfb5-bf1a-70eb-970101f32341.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,117 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,117 - INFO - File: tests/synthea_sample_data_fhir_latest/Kimbery217_Schuppe920_2ce5c76d-8d65-1347-33c5-7d0cbf3f1b2b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,161 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,161 - INFO - File: tests/synthea_sample_data_fhir_latest/Sunday568_Lavonne167_Mitchell808_f07e12ed-dff4-6161-3d23-8f043c4e316d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,667 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,667 - INFO - File: tests/synthea_sample_data_fhir_latest/Tambra47_Balistreri607_916b1ac8-56c8-ec1b-3b9a-721336a74912.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,894 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,894 - INFO - File: tests/synthea_sample_data_fhir_latest/Homero668_Vigil207_fb164202-4e38-04a0-470a-b7229db13c04.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:07,993 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:07,993 - INFO - File: tests/synthea_sample_data_fhir_latest/Aurea194_Weissnat378_12696753-a126-88f4-da66-a87c70d2cad7.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,105 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,105 - INFO - File: tests/synthea_sample_data_fhir_latest/Maryjane289_Murazik203_ba459391-501f-22f5-3446-7defd52e5fab.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,152 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,152 - INFO - File: tests/synthea_sample_data_fhir_latest/Chana895_Schinner682_36ecae05-0060-b555-716f-303a8c34e914.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,243 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,243 - INFO - File: tests/synthea_sample_data_fhir_latest/Ada662_Sari509_Balistreri607_dbc4a3f7-9c69-4435-3ce3-4e1988ab6b91.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,270 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,270 - INFO - File: tests/synthea_sample_data_fhir_latest/Darwin703_Cruickshank494_4c9a07e5-1e1c-00a5-2841-2b1e0fce61e3.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,304 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,304 - INFO - File: tests/synthea_sample_data_fhir_latest/Bennie663_Ebert178_34a4dcc4-35fb-6ad5-ab98-be285c586a4f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,553 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,553 - INFO - File: tests/synthea_sample_data_fhir_latest/Faustino767_Robel940_be3fe2c4-52da-02bb-e656-00e303e48a42.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,610 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,610 - INFO - File: tests/synthea_sample_data_fhir_latest/Kieth891_McKenzie376_081abe99-9641-1098-8903-61de9e66d9fa.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,712 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,712 - INFO - File: tests/synthea_sample_data_fhir_latest/Elvera717_Koepp521_8d2a62f2-d630-6288-93ee-0fea3f859560.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,899 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,899 - INFO - File: tests/synthea_sample_data_fhir_latest/Nathanael908_Wisozk929_f07fac6b-0a84-7874-f0d2-e1a1e1cffa09.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:08,957 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:08,957 - INFO - File: tests/synthea_sample_data_fhir_latest/Leo278_Franecki195_27eb7bda-3896-d2f9-47a7-4d739283e770.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,055 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,055 - INFO - File: tests/synthea_sample_data_fhir_latest/Ulysses632_Schiller186_5032b4e1-c68e-b135-30ac-ad7e386b619b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,131 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,131 - INFO - File: tests/synthea_sample_data_fhir_latest/Jimmie93_Doyle959_e335de09-0994-4111-3c15-6edcc17ae4bc.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,230 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,230 - INFO - File: tests/synthea_sample_data_fhir_latest/Signe792_Salley758_Waters156_778f10bc-09e5-8e86-64e8-bffa36d47246.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,303 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,303 - INFO - File: tests/synthea_sample_data_fhir_latest/Lauralee67_Taren286_Sauer652_e73d2c53-6e7e-13b9-d296-460e42e6014a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,506 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,506 - INFO - File: tests/synthea_sample_data_fhir_latest/Lorenzo669_Hartmann983_3ec070e8-7f78-6a8b-12d7-9ee9808012e0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,595 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,596 - INFO - File: tests/synthea_sample_data_fhir_latest/Bernetta267_Rutherford999_81df73ed-e648-6a5d-22af-7f24d5fdb4cb.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:09,937 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:09,937 - INFO - File: tests/synthea_sample_data_fhir_latest/Lon587_Kuhic920_6c602779-9775-f512-2724-fa4e0d0788f5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:10,033 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:10,033 - INFO - File: tests/synthea_sample_data_fhir_latest/Aleisha941_Treutel973_2d799deb-df07-0c4a-8692-42cce7595251.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:10,086 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:10,086 - INFO - File: tests/synthea_sample_data_fhir_latest/Trinidad33_King743_18d9f8cb-b3b2-5e9f-4c62-5a82a90c0141.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:11,905 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:11,905 - INFO - File: tests/synthea_sample_data_fhir_latest/Elna874_Dian810_Prohaska837_d1622e8b-d26b-ec81-ffcb-ec4bf2af385b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:11,982 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:11,982 - INFO - File: tests/synthea_sample_data_fhir_latest/Carson894_Littel644_dc323bce-e583-d903-303e-9c865bc87e67.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:12,107 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:12,107 - INFO - File: tests/synthea_sample_data_fhir_latest/Nicki254_Jacobi462_c055bc9e-ce1a-b116-287a-be9162e35a2f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:12,215 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:12,216 - INFO - File: tests/synthea_sample_data_fhir_latest/Homero668_Quiñones183_5c779b5a-b6f0-2954-0c1c-9855c010d4d0.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:12,364 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:12,364 - INFO - File: tests/synthea_sample_data_fhir_latest/Anita473_Berta524_Sánchez310_d426334c-a982-3a31-7e0f-ca3c7fe01310.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:14,534 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:14,535 - INFO - File: tests/synthea_sample_data_fhir_latest/Aubrey96_Schmidt332_d27273f0-f62d-7d7f-746d-4565f35cf176.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:14,594 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:14,594 - INFO - File: tests/synthea_sample_data_fhir_latest/Delilah659_Sanford861_4f7a6432-3814-be2f-eb8a-1db4fe90e12d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:14,664 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:14,664 - INFO - File: tests/synthea_sample_data_fhir_latest/Nichol11_Stiedemann542_d3526c15-a6eb-ec69-d2ce-7f4dfac7fc5e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:15,017 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:15,017 - INFO - File: tests/synthea_sample_data_fhir_latest/Ramiro608_Moreno82_bcd4d6cd-0c79-a19e-5b9e-64816e3fd72d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:15,092 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:15,092 - INFO - File: tests/synthea_sample_data_fhir_latest/Maris768_Lindgren255_898a6256-7ffb-dbe2-e24d-12fda2fedcfd.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:15,152 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:15,153 - INFO - File: tests/synthea_sample_data_fhir_latest/Caryl47_Kassulke119_4569671e-ed39-055f-8e78-422b96c9896b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:15,217 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:15,217 - INFO - File: tests/synthea_sample_data_fhir_latest/Leigh689_White193_8635f76c-d1ee-89fe-9051-b90c16afd70c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:16,499 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:16,499 - INFO - File: tests/synthea_sample_data_fhir_latest/Dudley365_Blick895_4f159375-4ee4-36ab-b464-6d38f6ff2dae.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:16,663 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:16,663 - INFO - File: tests/synthea_sample_data_fhir_latest/Blanca837_Reinger292_f339a5f7-0b09-3072-2b01-7c8e8ca2c1fc.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:16,771 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:16,771 - INFO - File: tests/synthea_sample_data_fhir_latest/Erasmo545_Connelly992_3e96ffd1-e286-f5ac-1606-539e37c7c46a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:17,044 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:17,044 - INFO - File: tests/synthea_sample_data_fhir_latest/Margarette462_Britt177_West559_cca2c7f0-a2aa-94e5-ccea-cb78a7d38652.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:17,064 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:17,064 - INFO - File: tests/synthea_sample_data_fhir_latest/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:17,372 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:17,372 - INFO - File: tests/synthea_sample_data_fhir_latest/Antonia30_Schuster709_00732e11-5e4d-37b7-01f8-929a25536862.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:17,487 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:17,487 - INFO - File: tests/synthea_sample_data_fhir_latest/Herbert830_Klocko335_8935bc21-92f0-a4ad-d8b4-bcdd5b92204a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:17,589 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:17,589 - INFO - File: tests/synthea_sample_data_fhir_latest/Aleen595_Alanna27_Rogahn59_5358446e-e631-c640-5880-c6cf99dc8bed.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:19,679 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:19,679 - INFO - File: tests/synthea_sample_data_fhir_latest/German382_Ebert178_bad5a231-3709-952a-cf44-f8d6a52cc214.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:19,728 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:19,728 - INFO - File: tests/synthea_sample_data_fhir_latest/Joshua658_Kunde533_30a6452c-4297-a1ac-977a-6a23237c7b46.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:19,782 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:19,782 - INFO - File: tests/synthea_sample_data_fhir_latest/Dan465_Brakus656_b05fba34-1719-c0de-ac25-16e65de3d26a.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:19,879 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:19,879 - INFO - File: tests/synthea_sample_data_fhir_latest/Carlyn477_Florencia449_Williamson769_37c177ea-4398-fb7a-29fa-70eb3d673876.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:20,758 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:20,758 - INFO - File: tests/synthea_sample_data_fhir_latest/Grady603_Swaniawski813_cb1b46a1-9cb5-1187-ccc5-9fb7b98aa957.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:20,858 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:20,858 - INFO - File: tests/synthea_sample_data_fhir_latest/Marisha663_Carter549_0bc53e6a-8820-ded4-57c5-7ccc6355354c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:20,956 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:20,956 - INFO - File: tests/synthea_sample_data_fhir_latest/Dahlia209_Ferry570_4804956b-3c8f-baa7-9a42-87518e486055.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,075 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,075 - INFO - File: tests/synthea_sample_data_fhir_latest/Britteny287_Brigida296_Carter549_9e9b5929-6880-fd20-f386-026109e24028.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,231 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,231 - INFO - File: tests/synthea_sample_data_fhir_latest/Pauletta164_Spencer878_65016a46-14f4-d19a-f82f-10299aba4c14.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,451 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,451 - INFO - File: tests/synthea_sample_data_fhir_latest/Moses679_Friesen796_98cbb02b-c16a-60e4-1ff0-37c0e45e0e9f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,515 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,515 - INFO - File: tests/synthea_sample_data_fhir_latest/Vivien121_Brakus656_5279920f-e303-9dca-844d-82ed5485f5da.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,569 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,569 - INFO - File: tests/synthea_sample_data_fhir_latest/Gilbert263_Marvin195_8656f713-282f-e5f6-cc7e-346a573ef3b5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,715 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,715 - INFO - File: tests/synthea_sample_data_fhir_latest/Laurie826_Tisa11_Bechtelar572_17e0bdef-4558-cc1d-2d44-90868cad827b.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,752 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,752 - INFO - File: tests/synthea_sample_data_fhir_latest/Dominick530_Schiller186_116916b1-0b2b-e099-1b72-e8935f3bea0f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,874 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,875 - INFO - File: tests/synthea_sample_data_fhir_latest/Adrianne466_Jonnie215_Glover433_99d3b9b2-46c1-ef9e-da70-81ac3d365f52.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:21,948 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:21,948 - INFO - File: tests/synthea_sample_data_fhir_latest/Hershel911_Grant908_60fc807a-de74-7722-b431-a63362670472.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,066 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,067 - INFO - File: tests/synthea_sample_data_fhir_latest/Eva64_Gloria696_Gurule738_87cb7301-9d12-b048-416d-2b290eed1bde.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,189 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,189 - INFO - File: tests/synthea_sample_data_fhir_latest/Truman805_Hermiston71_c1ce8dfc-3c0d-de97-ce0e-5dc0460da340.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,235 - ERROR - Error validating resource of type Bundle: 'Practitioner' object has no attribute 'get'
+2025-03-13 13:27:22,235 - INFO - File: tests/synthea_sample_data_fhir_latest/practitionerInformation1730906375349.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,448 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,448 - INFO - File: tests/synthea_sample_data_fhir_latest/Teresa94_Pichardo350_74ad71cb-f64d-efce-02c9-ae3bc917c4a2.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,548 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,549 - INFO - File: tests/synthea_sample_data_fhir_latest/Jeana169_Weimann465_2bd4d47d-5e00-3b67-cdd7-03f4b811b711.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,635 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,635 - INFO - File: tests/synthea_sample_data_fhir_latest/Leonor133_Silvia880_Colunga237_b0f6cc39-6dfd-4ac2-84c7-e7478723d563.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,678 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,678 - INFO - File: tests/synthea_sample_data_fhir_latest/Tomás404_Benavides239_0689b59f-0721-5384-9294-def3c13db427.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,770 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,770 - INFO - File: tests/synthea_sample_data_fhir_latest/Tamara8_Schinner682_c3deeb5b-66ef-b1bf-0202-0e5ce485d30f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,858 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,858 - INFO - File: tests/synthea_sample_data_fhir_latest/Berta524_Ester635_Alemán808_bf40c2b4-4f0d-10cf-a2bb-cbb235e4e437.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:22,903 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:22,903 - INFO - File: tests/synthea_sample_data_fhir_latest/Ettie537_Farrell962_d8638449-e632-1ac7-6695-eb60c8773813.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,013 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,013 - INFO - File: tests/synthea_sample_data_fhir_latest/Khadijah960_Maryalice613_Veum823_9e24368b-f85b-f38f-ae0b-db191e224335.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,062 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,062 - INFO - File: tests/synthea_sample_data_fhir_latest/Christopher407_Brakus656_9933f4bd-106c-b41d-467a-94ec42baeb81.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,105 - ERROR - Error validating resource of type Bundle: 'Organization' object has no attribute 'get'
+2025-03-13 13:27:23,105 - INFO - File: tests/synthea_sample_data_fhir_latest/hospitalInformation1730906375349.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,169 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,169 - INFO - File: tests/synthea_sample_data_fhir_latest/Hunter736_Gerlach374_7179458e-d6e3-c723-2530-d4acfe1c2668.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,324 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,324 - INFO - File: tests/synthea_sample_data_fhir_latest/Domenica436_Rau926_3648fb36-1cd1-3641-0b1c-1f00d1e7e7de.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,376 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,376 - INFO - File: tests/synthea_sample_data_fhir_latest/Fabian647_Hayes766_de480ca4-19a6-f2e0-7922-1c51e7c8dcb8.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,411 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,411 - INFO - File: tests/synthea_sample_data_fhir_latest/Dwight645_Hilll811_45b89342-dc05-8e57-8eee-9ed68ec42378.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,478 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,478 - INFO - File: tests/synthea_sample_data_fhir_latest/Stanton715_Kassulke119_780fe740-20fb-07ee-1fbd-3fafa9f5df91.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,524 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,524 - INFO - File: tests/synthea_sample_data_fhir_latest/Carolina179_Otero621_5a3a689b-77d6-6c1a-7a86-a9c1b9b6847c.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,602 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,602 - INFO - File: tests/synthea_sample_data_fhir_latest/Sylvia544_Margherita470_Langworth352_488e5395-0a2a-f2da-0389-e0e8062b009d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:23,685 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:23,686 - INFO - File: tests/synthea_sample_data_fhir_latest/Hattie299_Reatha769_Nader710_5e0a6984-38d7-c604-f55f-f1de5e933768.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,274 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,274 - INFO - File: tests/synthea_sample_data_fhir_latest/Cathy455_Lanita675_Wolff180_14dc5e57-1b84-3305-c042-86c9fc7e4996.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,350 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,350 - INFO - File: tests/synthea_sample_data_fhir_latest/Diamond340_Keebler762_d6cc7569-5f31-9648-ec6a-e1162b32b183.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,448 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,448 - INFO - File: tests/synthea_sample_data_fhir_latest/Clair921_O'Reilly797_8a25981a-eb31-cb7c-047d-8249f6111a3e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,495 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,496 - INFO - File: tests/synthea_sample_data_fhir_latest/Robin66_Gleichner915_0fef2411-21f0-a269-82fb-c42b55471405.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,575 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,575 - INFO - File: tests/synthea_sample_data_fhir_latest/Princess223_Bobbi508_Schmeler639_33828cb4-a2f6-3a66-fe02-c990fa88af61.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,640 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,640 - INFO - File: tests/synthea_sample_data_fhir_latest/Harley673_Goldner995_699d2e19-7af4-de30-b430-ae854f5f690d.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,740 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,740 - INFO - File: tests/synthea_sample_data_fhir_latest/Dolly486_Franecki195_da7b1f55-c782-544f-ba8c-fe69d519dc85.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,844 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,844 - INFO - File: tests/synthea_sample_data_fhir_latest/Aracelis412_Greenholt190_bd277bc3-11ad-a0bd-7057-4ec1b705610f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:24,939 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:24,939 - INFO - File: tests/synthea_sample_data_fhir_latest/Elsa29_Chapa957_f20c093a-ec77-3358-b0a5-3c298f82ea1f.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:25,054 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:25,054 - INFO - File: tests/synthea_sample_data_fhir_latest/Hershel911_Labadie908_24a8f8bc-f502-5f0e-0dd7-27d64a15ed9e.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:26,549 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:26,550 - INFO - File: tests/synthea_sample_data_fhir_latest/Boyd728_Bosco882_f3884e8a-8b36-1e93-66dd-e910dfab2ef5.json, ResourceType: Bundle -> is_valid: False
+2025-03-13 13:27:26,686 - ERROR - Error validating resource of type Bundle: 'Patient' object has no attribute 'get'
+2025-03-13 13:27:26,686 - INFO - File: tests/synthea_sample_data_fhir_latest/Yolanda648_Baca589_355f70c7-b1f4-b1db-8843-56b8b193a30c.json, ResourceType: Bundle -> is_valid: False

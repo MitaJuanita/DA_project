@@ -1,4 +1,4 @@
-Patient_ID,Weight_Loss_Drug,Hypertension_Drug,Diabetes_Drug,Cholesterol_Drug
+patient_id,weight_loss_drug,hypertension_drug,diabetes_drug,cholesterol_drug
 1825,Phentermine,Lisinopril,Glipizide,Simvastatin
 410,Semaglutide,Metoprolol,Metformin,Atorvastatin
 4507,,,Metformin,Atorvastatin

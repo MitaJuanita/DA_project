@@ -1,0 +1,25 @@
+--The following query will return the patient visit analysis report
+-- The goal is to show how in-person clinical encounters influence follow-up telemedicine consultations.
+--The correlation betweem a patient's vital signs and the likelihood of requiring a telemedicine follow-up.
+--It will return the patient ID, BMI, heart rate, encounter ID, admission date, discharge date, diagnosis code, diagnosis description, appointment date, platform, and telemedicine encounter ID
+--The query will join the patient vitals table with the encounters table and the telemedicine encounters table
+
+SELECT
+    pv.Patient_ID,
+    pv.BMI,
+    pv.Heart_Rate,
+    e.Encounter_ID,
+    e.Admission_Date,
+    e.Discharge_Date,
+    e.Diagnosis_Code,
+    e.Diagnosis_Desc,
+    t.Appointment_Date,
+    t.platform,
+    t.Encounter_ID AS Telemedicine_Encounter_ID
+FROM Patient_vitals AS pv
+LEFT JOIN encounters AS e 
+    ON pv.Patient_ID = e.Patient_ID
+LEFT JOIN telemedicine_encounters AS t
+    ON pv.Patient_ID = t.Patient_ID 
+       AND t.Appointment_Date > e.Discharge_Date
+ORDER BY pv.Patient_ID;

@@ -1,501 +1,501 @@
-Patient_ID,Encounter_ID,Admission_Date,Discharge_Date,Diagnosis_Code
-1825,E13279,2024-09-03,2024-10-19,E11
-2287,E23435,2024-07-17,2025-02-13,E11
-1425,E87398,2024-01-13,2024-01-25,J45
-3583,E40496,2024-03-14,2024-03-23,I10
-3258,E95182,2024-08-04,2024-11-03,I10
-7360,E87237,2023-09-30,2024-12-31,I10
-2616,E65393,2023-11-14,2024-01-28,E11
-5515,E23397,2023-05-17,2023-07-20,
-5636,E89132,2023-09-20,2023-10-13,E11
-7528,E80285,2023-06-10,2025-01-20,
-1292,E82358,2023-10-11,2024-08-31,Z00.0
-5926,E85675,2023-07-29,2023-09-08,E11
-3734,E47931,2025-02-28,2025-03-09,E11
-1655,E59824,2023-09-30,2024-08-30,E11
-5978,E31320,2023-12-06,2024-03-11,I10
-4375,E99594,2024-06-26,2024-11-30,I10
-2804,E80011,2024-08-24,2024-09-25,
-6217,E45383,2025-03-03,2025-03-08,
-9126,E38786,2024-07-23,2025-02-02,E11
-917,E40022,2024-10-31,2025-02-13,
-6573,E45094,2023-04-28,2025-01-10,I10
-9293,E51246,2023-08-13,2024-05-26,
-7518,E28727,2023-09-20,2024-01-30,Z00.0
-9198,E80645,2023-09-19,2024-07-30,I10
-9561,E62351,2023-11-30,2025-03-09,Z00.0
-2267,E76785,2024-03-05,2024-12-10,
-1797,E30034,2024-06-11,2025-01-13,J45
-6917,E88173,2023-04-26,2024-01-12,E11
-7669,E79353,2023-09-10,2024-07-09,I10
-189,E99167,2024-08-18,2025-01-04,Z00.0
-8798,E44974,2024-09-22,2024-11-18,J45
-4809,E66986,2023-07-04,2023-07-05,J45
-4316,E75613,2024-09-17,2024-12-14,I10
-1744,E91960,2023-10-15,2024-09-06,I10
-9978,E36072,2023-06-30,2024-10-14,J45
-8838,E79515,2025-01-10,2025-02-14,E11
-8006,E12553,2023-05-31,2024-01-21,E11
-5039,E41386,2023-04-22,2024-12-16,Z00.0
-1291,E21227,2024-08-27,2025-02-02,E11
-8728,E26484,2023-06-12,2024-04-10,J45
-9008,E31644,2023-09-20,2025-01-01,J45
-6933,E37761,2025-01-18,2025-02-26,
-3296,E50858,2023-12-27,2024-10-17,J45
-6119,E67423,2024-12-27,2025-01-29,E11
-4062,E39452,2023-04-26,2023-05-10,Z00.0
-9076,E40162,2024-05-14,2024-05-16,
-965,E40008,2023-04-29,2023-05-20,E11
-5414,E19288,2024-03-20,2024-06-27,Z00.0
-7954,E38081,2024-04-08,2024-12-07,E11
-9356,E85526,2024-02-19,2024-12-17,
-6670,E34958,2023-05-18,2024-07-27,J45
-5805,E65520,2024-01-05,2025-01-11,
-888,E98260,2024-06-30,2024-12-11,J45
-994,E62773,2024-08-24,2025-01-30,
-1791,E42592,2023-07-29,2024-06-09,I10
-2297,E65297,2023-07-23,2024-04-24,E11
-1236,E68083,2024-10-21,2025-02-18,E11
-1605,E16631,2024-06-29,2024-11-13,I10
-242,E22225,2025-01-16,2025-03-02,J45
-2725,E63270,2024-02-29,2024-05-19,E11
-6571,E17686,2023-07-09,2023-07-10,I10
-6397,E44761,2025-01-16,2025-02-27,E11
-4674,E65445,2024-08-01,2025-01-10,Z00.0
-9106,E96753,2024-08-17,2024-09-17,J45
-4862,E38535,2025-02-16,2025-03-01,Z00.0
-8884,E17990,2024-09-07,2024-09-17,J45
-9572,E72494,2024-03-12,2025-01-16,I10
-2580,E17456,2025-02-10,2025-02-12,J45
-3045,E18982,2024-05-18,2024-12-04,J45
-3854,E62924,2023-06-06,2024-12-30,I10
-4034,E85881,2024-05-18,2024-11-17,J45
-6869,E96164,2024-05-10,2024-10-16,E11
-4273,E36773,2024-07-12,2024-09-26,
-4352,E61877,2023-06-14,2024-07-28,I10
-7492,E51442,2025-01-18,2025-03-07,
-153,E70069,2024-06-07,2024-11-09,I10
-1639,E19603,2024-04-07,2024-09-24,I10
-2171,E55746,2024-12-13,2025-02-28,Z00.0
-6055,E47354,2023-07-04,2024-11-28,Z00.0
-4957,E90174,2025-02-27,2025-03-08,J45
-8667,E11026,2024-07-11,2024-11-22,
-1698,E27602,2023-09-20,2025-01-10,I10
-9065,E30375,2023-09-26,2024-08-12,J45
-5618,E36686,2024-07-25,2025-02-05,E11
-8281,E74033,2023-09-10,2025-01-19,I10
-833,E22098,2024-06-16,2025-01-24,E11
-723,E10465,2023-11-09,2024-01-11,J45
-4292,E31179,2024-09-02,2024-12-15,Z00.0
-7008,E83520,2023-03-18,2023-05-11,J45
-2443,E81512,2023-04-06,2023-12-22,E11
-9053,E29411,2024-01-19,2024-02-05,I10
-5975,E15230,2024-12-27,2025-01-11,
-4089,E97417,2023-05-25,2024-10-17,J45
-6659,E91352,2024-09-08,2025-02-25,I10
-3879,E31300,2025-02-21,2025-03-07,Z00.0
-6756,E13249,2023-07-20,2025-01-24,Z00.0
-6746,E97807,2024-12-01,2025-02-20,Z00.0
-4372,E30867,2024-10-06,2024-10-22,I10
-635,E71695,2023-08-20,2024-11-26,J45
-7542,E55831,2023-10-20,2024-11-27,I10
-3729,E39220,2023-03-28,2023-08-12,I10
-5379,E46518,2024-12-01,2025-03-07,
-4574,E56026,2024-06-21,2024-10-04,
-8786,E53405,2025-01-25,2025-01-30,J45
-4280,E33406,2024-05-08,2025-03-05,
-627,E24209,2024-05-20,2024-08-29,Z00.0
-5140,E67200,2024-05-27,2024-10-21,
-6312,E85575,2023-07-27,2023-08-22,Z00.0
-7145,E10222,2024-03-25,2025-01-02,J45
-3229,E57740,2024-01-20,2025-02-17,I10
-5410,E91679,2023-10-26,2024-12-24,I10
-4921,E76470,2023-10-23,2024-05-16,
-6593,E48753,2024-04-19,2024-06-20,Z00.0
-6212,E98778,2024-09-07,2024-10-09,E11
-9325,E49447,2024-01-01,2024-12-28,E11
-4979,E47607,2023-08-11,2024-11-07,E11
-9940,E95814,2023-11-01,2024-06-07,I10
-3502,E77001,2024-02-19,2025-01-31,I10
-2781,E96357,2023-05-11,2024-04-20,Z00.0
-5492,E22241,2024-10-29,2025-02-05,
-5086,E39445,2024-10-20,2024-11-09,E11
-758,E42093,2025-02-27,2025-03-06,Z00.0
-1194,E69693,2024-01-07,2024-10-03,Z00.0
-3186,E60329,2024-03-06,2024-06-04,
-91,E23971,2024-09-30,2024-11-04,Z00.0
-8487,E70890,2023-04-16,2023-10-06,
-1989,E69830,2023-06-16,2024-04-05,J45
-8703,E83260,2024-05-19,2025-02-24,
-7252,E90302,2024-10-26,2025-02-24,E11
-6992,E81811,2024-01-30,2024-04-03,E11
-7778,E68992,2023-09-16,2024-01-28,
-4544,E78328,2024-02-28,2024-05-28,J45
-7207,E20156,2024-08-13,2024-10-01,J45
-5503,E51905,2024-12-22,2024-12-28,E11
-2472,E40312,2023-12-15,2024-02-22,J45
-3506,E18419,2024-01-08,2024-05-28,Z00.0
-7634,E64497,2023-04-25,2024-11-16,I10
-6382,E86557,2025-01-30,2025-01-30,Z00.0
-9433,E59858,2024-02-22,2025-02-17,E11
-4893,E61117,2024-11-23,2025-03-05,J45
-6866,E80546,2024-09-07,2024-12-17,
-9884,E38907,2024-03-01,2024-06-11,I10
-7957,E13805,2023-12-20,2024-10-13,
-6625,E31633,2024-11-14,2025-03-01,E11
-8752,E13535,2025-01-01,2025-02-10,J45
-445,E21004,2024-06-22,2024-07-27,
-7565,E33820,2023-04-16,2024-01-04,
-3468,E69599,2023-11-04,2024-11-13,I10
-6212,E46472,2024-09-10,2025-02-08,I10
-4134,E20736,2024-02-17,2024-12-03,J45
-854,E55871,2023-08-21,2023-09-28,I10
-660,E14068,2025-02-02,2025-02-09,
-334,E91440,2023-06-30,2023-09-16,
-1875,E83921,2025-01-31,2025-02-18,E11
-4199,E58352,2023-07-11,2024-07-14,
-1877,E31466,2025-02-13,2025-02-15,J45
-421,E50889,2024-05-04,2025-02-10,Z00.0
-6150,E61991,2025-01-27,2025-02-04,E11
-9701,E92214,2023-09-04,2024-09-24,E11
-4942,E99688,2024-05-22,2024-06-26,J45
-9273,E15384,2023-11-19,2024-06-10,J45
-6072,E19039,2024-03-14,2024-07-15,I10
-6883,E74252,2023-05-27,2025-02-13,E11
-7533,E30053,2024-01-23,2024-11-21,I10
-4426,E90729,2024-10-21,2025-01-04,
-7922,E70932,2024-01-23,2024-11-19,E11
-4398,E52246,2024-11-22,2025-02-20,E11
-1420,E46560,2024-12-14,2025-01-04,Z00.0
-7614,E84692,2024-05-30,2024-09-15,E11
-471,E74790,2024-11-22,2024-12-11,
-3476,E56508,2024-10-14,2024-12-03,I10
-9768,E46212,2024-04-20,2024-10-04,I10
-3131,E21222,2023-09-03,2024-04-15,Z00.0
-9097,E41500,2024-07-27,2024-12-20,
-8042,E68744,2024-10-10,2024-10-24,I10
-3631,E63006,2024-07-28,2024-10-05,J45
-9529,E58369,2024-02-19,2024-09-10,
-6972,E82141,2023-11-07,2024-10-16,
-4439,E50190,2023-09-10,2023-11-15,Z00.0
-3156,E51360,2023-06-06,2024-05-16,I10
-3034,E35106,2023-08-16,2024-05-19,
-9660,E78766,2024-05-20,2025-03-05,I10
-3181,E48830,2023-08-24,2023-12-03,J45
-232,E80011,2023-06-11,2023-07-10,Z00.0
-894,E82530,2023-10-10,2025-02-10,J45
-8043,E23447,2024-12-07,2025-01-29,Z00.0
-7691,E72747,2024-01-26,2024-04-10,
-842,E43093,2025-01-26,2025-02-16,Z00.0
-1071,E62522,2024-03-04,2024-10-04,E11
-879,E29888,2023-06-28,2024-06-12,I10
-4979,E21165,2025-03-06,2025-03-06,I10
-6819,E89472,2024-05-19,2024-11-18,E11
-8562,E59857,2024-02-03,2024-07-29,J45
-9643,E66208,2023-10-20,2024-08-30,E11
-9989,E23007,2025-01-31,2025-02-08,
-3458,E44688,2024-07-05,2024-08-13,
-2848,E82351,2023-05-04,2023-05-05,I10
-7382,E87833,2024-02-17,2024-02-29,
-4721,E47057,2024-08-05,2024-11-11,I10
-3825,E44676,2024-10-06,2025-01-11,E11
-3242,E65724,2023-06-02,2023-10-25,E11
-2442,E44817,2024-11-04,2024-11-13,E11
-2719,E50320,2024-05-18,2025-01-17,I10
-4729,E67561,2023-06-09,2024-08-23,E11
-6595,E45684,2024-03-10,2024-09-06,E11
-1318,E88386,2023-04-09,2024-02-06,J45
-5281,E89130,2023-09-10,2023-10-30,E11
-9425,E86956,2025-02-03,2025-03-10,
-4416,E85530,2023-04-09,2024-09-20,I10
-7709,E78022,2024-06-29,2025-02-17,J45
-2974,E86721,2024-01-23,2024-12-24,Z00.0
-1495,E71606,2023-11-20,2024-04-26,I10
-1714,E31080,2023-11-07,2024-10-11,
-4723,E96847,2025-01-29,2025-03-03,I10
-9013,E14810,2024-02-06,2024-06-10,
-5297,E25195,2025-02-17,2025-02-25,
-8432,E10151,2024-07-03,2024-11-16,Z00.0
-6771,E17105,2023-07-26,2024-02-25,I10
-8168,E91974,2024-01-28,2024-02-18,Z00.0
-4376,E81988,2023-06-14,2023-12-14,Z00.0
-7942,E25916,2023-04-01,2024-06-21,I10
-3921,E30759,2023-10-24,2023-10-30,E11
-6685,E22218,2023-08-22,2024-12-11,E11
-1859,E70483,2025-01-31,2025-02-25,Z00.0
-2523,E75324,2025-01-20,2025-02-03,J45
-4480,E64460,2024-11-10,2025-03-08,Z00.0
-3994,E69872,2024-04-16,2024-08-20,Z00.0
-9821,E76617,2024-09-06,2024-10-01,Z00.0
-1144,E46209,2024-09-25,2025-02-14,E11
-5569,E76551,2023-09-22,2023-09-23,E11
-4892,E86932,2024-05-07,2024-11-26,E11
-2435,E68530,2024-04-07,2024-08-01,Z00.0
-9043,E81229,2023-12-11,2025-02-08,J45
-3091,E41301,2024-05-01,2024-07-13,E11
-6731,E15721,2023-10-29,2024-06-21,I10
-6247,E60605,2025-03-02,2025-03-09,I10
-2493,E74924,2025-02-13,2025-02-16,I10
-9670,E53516,2024-12-05,2025-02-26,
-7214,E23070,2024-03-29,2024-09-03,Z00.0
-2362,E63737,2024-12-06,2025-03-08,I10
-1226,E71538,2024-10-02,2024-11-13,Z00.0
-6513,E95176,2023-05-08,2023-12-15,I10
-8743,E59809,2025-02-05,2025-02-26,J45
-7995,E80913,2023-04-06,2023-05-24,Z00.0
-4709,E39818,2024-09-06,2024-11-25,I10
-1613,E93067,2024-08-06,2024-08-27,E11
-2726,E49252,2024-12-30,2025-01-02,Z00.0
-920,E48453,2023-11-28,2024-06-16,
-4001,E79622,2024-01-06,2024-10-25,E11
-2951,E32281,2023-07-16,2024-07-18,E11
-6268,E91227,2024-07-22,2024-11-14,
-9555,E28759,2023-08-27,2024-08-19,E11
-7530,E43467,2024-07-10,2025-02-14,E11
-7623,E47701,2024-07-18,2024-08-24,I10
-7238,E55294,2025-03-01,2025-03-03,I10
-6952,E42781,2024-02-07,2024-06-06,Z00.0
-6303,E73336,2023-05-27,2024-01-31,Z00.0
-5882,E85342,2023-10-13,2024-10-07,Z00.0
-360,E96276,2023-12-25,2023-12-28,I10
-804,E89483,2024-09-05,2025-02-07,Z00.0
-4690,E40163,2024-05-27,2024-09-05,E11
-3116,E91382,2023-09-10,2024-10-28,I10
-2241,E92346,2023-05-21,2024-07-08,Z00.0
-646,E50493,2024-10-07,2024-10-12,E11
-5978,E27225,2023-05-15,2023-11-27,Z00.0
-6808,E33022,2023-08-04,2024-11-06,J45
-5995,E79580,2024-03-11,2024-06-18,Z00.0
-2696,E43682,2025-01-07,2025-03-07,J45
-4836,E54397,2024-10-18,2024-12-24,Z00.0
-1234,E28450,2024-09-12,2024-10-22,
-6512,E83049,2023-12-03,2024-12-03,Z00.0
-229,E44664,2024-04-06,2024-09-07,I10
-4296,E86620,2023-12-14,2024-09-28,I10
-6087,E24202,2024-07-16,2024-11-05,J45
-9199,E52993,2025-01-08,2025-01-21,I10
-1036,E93284,2024-11-02,2025-02-27,E11
-4952,E95098,2024-01-03,2024-03-03,
-610,E49894,2025-03-08,2025-03-08,
-3847,E80458,2023-06-18,2024-03-30,E11
-8851,E64936,2024-05-13,2024-12-18,J45
-6798,E95842,2023-05-22,2024-04-08,E11
-6687,E46667,2023-04-03,2023-12-21,E11
-7265,E68288,2025-02-02,2025-03-05,
-1628,E99874,2023-12-04,2025-01-24,Z00.0
-5877,E17937,2023-12-27,2024-03-19,
-2002,E69601,2023-05-17,2023-10-04,
-9784,E12800,2023-04-16,2023-12-03,I10
-2064,E84001,2023-08-08,2024-12-02,E11
-9081,E37153,2024-05-12,2025-01-13,
-3818,E53065,2024-09-27,2025-02-04,E11
-9765,E10372,2023-09-29,2025-03-02,I10
-2130,E80808,2023-09-10,2023-12-14,E11
-423,E27276,2023-03-21,2024-10-10,
-3899,E87183,2023-11-02,2024-01-27,E11
-859,E26615,2024-09-03,2024-12-11,I10
-1042,E72423,2024-02-01,2024-06-26,Z00.0
-9727,E24294,2024-02-04,2024-05-02,E11
-711,E96364,2024-03-26,2024-09-02,
-511,E17973,2025-03-09,2025-03-10,I10
-6985,E99929,2023-05-28,2024-09-04,
-7268,E19633,2024-12-27,2025-01-19,
-2431,E18610,2023-06-11,2024-07-13,E11
-9591,E81875,2024-08-12,2024-10-31,
-9788,E79542,2023-10-12,2024-06-28,E11
-7049,E23000,2024-10-10,2024-10-27,Z00.0
-9034,E38184,2024-01-19,2025-01-23,
-6780,E54425,2024-11-04,2024-12-24,
-1558,E50967,2024-01-16,2024-10-21,
-6133,E30007,2024-07-25,2024-11-10,J45
-1495,E21189,2023-05-18,2023-07-21,J45
-6106,E27055,2024-04-20,2024-10-27,I10
-9202,E83621,2023-11-06,2024-01-05,J45
-5794,E97208,2025-01-26,2025-02-13,I10
-843,E47701,2024-05-22,2024-09-02,J45
-9469,E76508,2023-08-13,2024-08-25,Z00.0
-3675,E24185,2023-11-21,2024-08-11,I10
-1883,E46513,2024-05-03,2025-01-09,J45
-9191,E91491,2024-06-01,2024-11-29,Z00.0
-431,E89823,2025-01-18,2025-03-02,J45
-4382,E13795,2023-07-20,2024-09-13,E11
-5063,E54542,2023-11-22,2024-02-16,E11
-2348,E84229,2024-07-03,2024-07-20,Z00.0
-503,E22027,2024-09-06,2024-10-16,
-6879,E69461,2023-11-15,2024-05-11,
-5315,E84396,2024-05-19,2025-02-04,E11
-2550,E30633,2024-09-12,2024-09-20,E11
-1337,E45666,2024-01-28,2024-07-18,
-9947,E67940,2024-01-07,2024-04-08,I10
-8395,E24919,2023-11-18,2024-01-10,
-9718,E73784,2024-03-30,2024-07-14,J45
-3613,E61808,2025-02-27,2025-02-27,I10
-3350,E49508,2025-01-30,2025-03-01,J45
-4187,E47939,2023-11-05,2023-11-08,E11
-7056,E33029,2023-06-13,2024-05-17,I10
-3771,E75571,2024-04-22,2024-11-23,J45
-5803,E19448,2023-12-26,2024-11-17,J45
-7148,E12457,2024-02-10,2024-03-11,I10
-5130,E85466,2024-01-18,2024-07-05,Z00.0
-6844,E47948,2023-06-03,2023-06-16,
-5322,E32528,2024-10-16,2025-01-14,J45
-5929,E21552,2024-01-24,2024-03-07,
-7139,E87185,2023-12-28,2024-01-31,
-5084,E54501,2023-08-19,2024-11-05,E11
-1252,E76911,2024-06-15,2024-11-04,
-3177,E55794,2023-11-22,2025-02-19,J45
-2420,E40969,2023-05-25,2023-11-08,E11
-2843,E88958,2023-06-30,2024-10-12,I10
-1235,E33219,2025-02-03,2025-02-25,J45
-7602,E83890,2024-09-16,2024-12-04,E11
-9249,E94279,2024-06-17,2024-11-30,E11
-5180,E29787,2024-01-26,2024-08-05,
-4962,E46003,2024-05-16,2024-08-29,I10
-1216,E50686,2024-02-11,2024-02-25,J45
-6042,E47628,2023-05-06,2024-12-09,J45
-1480,E90611,2024-05-18,2024-09-09,
-9509,E82656,2025-02-05,2025-03-02,I10
-673,E68948,2025-01-03,2025-02-10,J45
-3085,E52144,2024-05-26,2024-10-17,I10
-1014,E69051,2023-05-25,2025-01-03,J45
-5627,E21054,2024-03-13,2024-05-14,
-4060,E67378,2025-03-04,2025-03-07,Z00.0
-9992,E30808,2023-12-02,2025-01-31,J45
-6348,E63579,2024-09-27,2025-01-17,E11
-858,E92692,2024-06-26,2024-07-13,E11
-1549,E83134,2024-07-18,2024-09-23,Z00.0
-9875,E29710,2023-11-09,2024-08-19,J45
-2318,E55852,2023-10-23,2024-09-18,E11
-6422,E26902,2024-05-18,2025-02-20,E11
-5073,E83260,2023-12-11,2024-12-05,J45
-2094,E97834,2024-08-05,2025-02-27,I10
-8625,E22250,2024-06-25,2024-10-12,J45
-5929,E12390,2023-12-01,2024-02-23,I10
-3510,E54792,2025-01-31,2025-02-18,Z00.0
-3712,E28031,2023-07-02,2023-12-31,
-1658,E76544,2024-09-24,2025-02-11,Z00.0
-8627,E14948,2024-07-06,2025-02-08,
-2148,E88283,2023-12-11,2024-02-22,E11
-2713,E67367,2023-04-11,2023-12-22,E11
-3892,E68223,2024-05-30,2024-12-30,E11
-7356,E40672,2024-04-04,2024-07-18,I10
-7685,E35431,2023-12-04,2025-02-14,
-7219,E70514,2024-09-23,2025-02-01,E11
-8240,E79136,2024-01-11,2024-03-19,J45
-3272,E89255,2023-06-20,2023-11-24,
-7874,E58656,2024-04-19,2024-05-22,
-8453,E26342,2023-10-05,2024-11-07,I10
-4470,E68894,2024-12-31,2025-01-10,Z00.0
-7168,E22022,2025-01-30,2025-02-07,I10
-7392,E55821,2025-01-19,2025-02-09,E11
-6496,E75800,2023-12-09,2024-06-02,J45
-1338,E59141,2023-08-22,2024-02-18,J45
-1624,E95192,2023-11-11,2024-01-20,E11
-628,E47602,2025-01-09,2025-02-06,J45
-2274,E71488,2024-02-01,2024-02-03,I10
-1299,E12491,2023-09-14,2024-12-11,I10
-8992,E89808,2024-03-30,2024-05-07,E11
-4721,E41148,2023-10-17,2023-11-10,J45
-6879,E93749,2024-10-11,2024-12-19,
-1817,E75514,2024-05-20,2024-05-24,Z00.0
-8444,E85373,2023-09-03,2023-11-21,
-7033,E10206,2024-06-02,2024-08-08,I10
-6826,E34552,2024-07-08,2024-07-29,I10
-5909,E18871,2025-02-04,2025-02-23,I10
-8317,E82634,2023-03-25,2024-12-10,I10
-714,E93319,2023-12-18,2024-06-02,Z00.0
-267,E56806,2024-10-07,2024-11-29,E11
-1699,E86272,2024-08-29,2024-11-01,I10
-727,E56177,2024-04-13,2025-01-08,J45
-2869,E99743,2024-02-13,2024-11-11,Z00.0
-2987,E27676,2023-04-26,2024-10-08,I10
-7499,E14848,2023-10-11,2023-11-02,J45
-3269,E15493,2023-10-27,2024-03-30,I10
-6525,E81177,2024-02-20,2024-03-05,E11
-3132,E47502,2023-11-26,2024-11-27,Z00.0
-5439,E45812,2023-06-09,2024-01-30,E11
-6554,E67638,2024-12-23,2025-01-22,Z00.0
-3061,E75039,2024-07-28,2024-10-19,I10
-8508,E44960,2024-10-16,2025-01-30,I10
-1294,E66441,2024-05-24,2025-01-18,Z00.0
-8938,E48505,2023-10-31,2023-12-09,J45
-4844,E50174,2024-01-30,2024-11-16,J45
-2731,E68184,2023-11-22,2023-12-12,I10
-5777,E90590,2025-03-09,2025-03-09,I10
-940,E19836,2024-07-13,2024-10-18,E11
-8407,E99052,2023-07-05,2023-07-24,I10
-9955,E98879,2024-10-02,2024-10-07,Z00.0
-1102,E40933,2024-09-30,2024-11-28,J45
-6273,E84350,2023-04-03,2023-07-20,J45
-7372,E58624,2023-12-07,2024-11-22,E11
-9404,E28048,2024-04-01,2024-08-15,J45
-4567,E42718,2025-02-10,2025-02-10,J45
-3049,E75411,2024-03-23,2025-02-08,
-1930,E44312,2024-09-27,2025-01-21,Z00.0
-3516,E90200,2023-10-05,2025-01-26,
-8048,E36238,2023-06-08,2024-12-06,J45
-7407,E32631,2024-12-26,2025-01-28,E11
-1439,E99382,2025-02-15,2025-03-10,E11
-5693,E18512,2024-04-16,2024-07-20,J45
-4915,E30645,2024-08-12,2025-02-23,I10
-2853,E57382,2024-03-16,2024-04-28,
-3293,E28203,2023-08-31,2024-06-01,J45
-5913,E82617,2024-05-02,2024-09-25,E11
-9039,E27010,2024-05-31,2024-06-24,E11
-5068,E62188,2025-03-10,2025-03-10,
-8613,E63844,2024-09-23,2025-02-09,Z00.0
-1209,E26427,2025-02-18,2025-03-03,J45
-7373,E71058,2024-07-20,2024-10-08,J45
-9033,E93860,2024-05-13,2024-12-30,Z00.0
-2115,E66705,2024-03-12,2025-01-22,
-2035,E77909,2023-06-30,2023-10-10,
-5287,E39553,2023-11-18,2025-02-10,E11
-4654,E20337,2023-09-10,2024-08-23,Z00.0
-9025,E45973,2023-06-10,2023-12-20,
-8741,E22246,2024-03-12,2024-05-12,I10
-9514,E30211,2023-07-14,2024-07-26,J45
-9915,E54253,2024-11-15,2025-01-19,E11
-465,E20647,2023-04-13,2024-07-03,Z00.0
-9450,E44689,2024-06-28,2025-01-10,E11
-6826,E91017,2024-06-20,2024-10-29,
-8939,E47968,2024-06-22,2024-09-09,
-4013,E99784,2024-01-01,2024-07-16,I10
-982,E30720,2024-01-26,2024-08-11,J45
-3343,E54590,2024-05-27,2024-08-25,Z00.0
-5232,E55269,2025-02-20,2025-02-22,E11
-6071,E77500,2024-04-24,2024-08-04,J45
-7643,E26060,2023-09-22,2024-02-01,
-1587,E16633,2023-10-09,2024-04-25,J45
-6851,E42542,2025-02-11,2025-03-08,E11
-5365,E85719,2024-08-19,2024-09-26,J45
-2611,E75309,2025-03-08,2025-03-09,
-5056,E75192,2023-03-27,2025-01-30,J45
-8282,E69931,2025-02-14,2025-02-19,Z00.0
-5782,E16378,2023-04-16,2024-03-24,J45
-7711,E47454,2024-04-06,2025-01-18,Z00.0
-7061,E27556,2024-12-15,2025-02-15,J45
-6607,E57965,2023-04-13,2023-05-18,
-9205,E35514,2023-12-01,2024-04-13,I10
-6330,E76094,2024-02-03,2024-09-11,I10
-1947,E26865,2025-02-20,2025-02-27,Z00.0
-5556,E83117,2025-01-25,2025-02-27,Z00.0
-3262,E88967,2024-03-17,2024-09-12,I10
-743,E15101,2023-06-19,2024-01-15,
-7762,E78070,2024-02-08,2024-10-05,
-8447,E28322,2023-11-05,2024-09-01,J45
-2663,E61506,2025-03-04,2025-03-09,Z00.0
-4903,E87821,2023-11-11,2024-12-17,
-8722,E74206,2024-08-10,2024-10-12,E11
-273,E58282,2023-11-08,2023-12-31,J45
-6825,E86508,2023-10-21,2025-01-18,J45
-437,E88239,2024-02-20,2025-02-26,I10
-9478,E85712,2023-08-24,2023-09-22,Z00.0
-7872,E32350,2024-03-28,2024-12-03,
-6230,E29370,2024-10-31,2024-12-01,
-9381,E24405,2023-07-28,2024-04-14,J45
-6862,E29849,2024-01-06,2024-04-02,Z00.0
-8222,E90148,2025-01-11,2025-03-03,Z00.0
-1021,E28099,2024-03-24,2024-10-07,Z00.0
-7838,E78876,2023-12-11,2025-02-19,I10
-7532,E79879,2023-11-16,2024-05-04,
-4332,E89964,2024-02-27,2025-02-22,Z00.0
+patient_id,encounter_id,admission_date,discharge_date,diagnosis_code,diagnosis_desc,procedure,attending_physician,hospital_department,encounter_summary
+1825,E13279,2024-09-04,2024-10-20,E11,Say quality throughout beautiful.,T7913,Brandon Hall,Emergency,"In the Emergency department, the patient was treated for Say quality throughout beautiful.. The length of stay was 46 days."
+9864,E13479,2024-04-25,2024-12-10,J45,Information last everything thank serve civil institution.,T5553,Tyler Rogers,Pediatrics,Patient admitted to Pediatrics for evaluation of Information last everything thank serve civil institution.. Stayed for 229 days with appropriate interventions.
+1520,E59798,2023-05-21,2024-12-01,I10,Enough analysis least by two bad fall pick.,T6926,Michele Williams,Cardiology,"In the Cardiology department, the patient was treated for Enough analysis least by two bad fall pick.. The length of stay was 560 days."
+3734,E47931,2025-03-01,2025-03-10,,Herself law street class.,T6821,Derek Zuniga,Cardiology,"In the Cardiology department, the patient was treated for Herself law street class.. The length of stay was 9 days."
+1170,E89841,2024-06-18,2024-11-07,Z00.0,Clear here writer policy news.,T6314,Patty Perez,Emergency,Patient admitted to Emergency for evaluation of Clear here writer policy news.. Stayed for 142 days with appropriate interventions.
+526,E51348,2023-12-30,2024-01-27,E11,Then fire pretty how trip learn enter.,T5041,Kimberly Burgess,Pediatrics,Patient admitted to Pediatrics for evaluation of Then fire pretty how trip learn enter.. Stayed for 28 days with appropriate interventions.
+7020,E86485,2023-12-28,2024-04-02,,Meeting before another body.,T3622,Jennifer Brown,Psychiatry,Patient admitted to Psychiatry for evaluation of Meeting before another body.. Stayed for 96 days with appropriate interventions.
+6253,E88105,2025-03-09,2025-03-10,,Team activity result race Mr environment political.,T2828,Christopher Smith,Pediatrics,"In the Pediatrics department, the patient was treated for Team activity result race Mr environment political.. The length of stay was 1 days."
+4316,E75613,2024-09-18,2024-12-15,,That fear police participant.,T3505,Christopher Ashley,Oncology,Patient admitted to Oncology for evaluation of That fear police participant.. Stayed for 88 days with appropriate interventions.
+8690,E10075,2024-05-22,2024-10-12,Z00.0,Upon these story film.,T1950,Keith Miller,Psychiatry,"Encounter in Psychiatry: Upon these story film. diagnosed, and patient required a 143-day stay for further treatment."
+7963,E19072,2025-02-23,2025-03-04,E11,Campaign little near enter.,T7933,Tanya Campos,Neurology,"In the Neurology department, the patient was treated for Campaign little near enter.. The length of stay was 9 days."
+3296,E50858,2023-12-28,2024-10-18,Z00.0,Just military building different full open.,T4771,Adrienne Zimmerman,General Medicine,"Encounter in General Medicine: Just military building different full open. diagnosed, and patient required a 295-day stay for further treatment."
+965,E40008,2023-04-30,2023-05-21,I10,Audience draw protect Democrat car very.,T8745,John Russell,Pediatrics,"Encounter in Pediatrics: Audience draw protect Democrat car very. diagnosed, and patient required a 21-day stay for further treatment."
+1546,E22705,2024-07-05,2024-10-01,E11,Level rock pull worker better I.,T6560,Ashley Lee,Cardiology,"Encounter in Cardiology: Level rock pull worker better I. diagnosed, and patient required a 88-day stay for further treatment."
+8787,E68801,2023-06-22,2023-10-15,E11,Economic type kitchen technology nearly anything yourself.,T1242,Tammy Allison,General Medicine,"Encounter in General Medicine: Economic type kitchen technology nearly anything yourself. diagnosed, and patient required a 115-day stay for further treatment."
+2725,E63270,2024-03-01,2024-05-20,,Total clearly able hospital unit size.,T5674,Tyler Cowan,Orthopedics,Patient admitted to Orthopedics for evaluation of Total clearly able hospital unit size.. Stayed for 80 days with appropriate interventions.
+9106,E96753,2024-08-18,2024-09-18,Z00.0,Design around save article finish.,T1822,Kathryn Farrell,Surgery,Patient admitted to Surgery for evaluation of Design around save article finish.. Stayed for 31 days with appropriate interventions.
+2580,E17456,2025-02-11,2025-02-13,Z00.0,Attention attack technology identify.,T5034,Amanda Miller,Cardiology,"In the Cardiology department, the patient was treated for Attention attack technology identify.. The length of stay was 2 days."
+9563,E84086,2024-03-28,2025-02-17,J45,Prove fire enter capital population.,T8492,Paul Jones,Psychiatry,"Encounter in Psychiatry: Prove fire enter capital population. diagnosed, and patient required a 326-day stay for further treatment."
+7509,E91417,2025-03-10,2025-03-11,,Mrs media car give.,T2128,Jaclyn Moore,Pediatrics,"In the Pediatrics department, the patient was treated for Mrs media car give.. The length of stay was 1 days."
+8901,E49652,2024-06-01,2025-03-08,E11,Account stage federal professional voice care break.,T2754,Brittney Campbell,Emergency,"In the Emergency department, the patient was treated for Account stage federal professional voice care break.. The length of stay was 280 days."
+3451,E54943,2023-08-07,2024-08-10,I10,Measure economy traditional anything plant.,T5534,Gavin Anderson,Orthopedics,Patient admitted to Orthopedics for evaluation of Measure economy traditional anything plant.. Stayed for 369 days with appropriate interventions.
+4292,E31179,2024-09-03,2024-12-16,I10,Night born war real chance along.,T7050,Brittany Anderson,Cardiology,"Encounter in Cardiology: Night born war real chance along. diagnosed, and patient required a 104-day stay for further treatment."
+5051,E57796,2024-12-28,2025-02-24,J45,Together decide economic.,T2685,Justin Baxter,Radiology,"In the Radiology department, the patient was treated for Together decide economic.. The length of stay was 58 days."
+2533,E41030,2024-12-03,2025-03-09,J45,Thing agent say forward.,T7746,Sharon Cochran,Neurology,"Encounter in Neurology: Thing agent say forward. diagnosed, and patient required a 96-day stay for further treatment."
+4372,E30867,2024-10-07,2024-10-23,J45,Teach develop staff.,T8542,Robert Savage,Pediatrics,"In the Pediatrics department, the patient was treated for Teach develop staff.. The length of stay was 16 days."
+3653,E13102,2024-07-06,2024-10-13,J45,Ten whom evidence political hundred.,T9786,Alexander Wiley,Cardiology,"In the Cardiology department, the patient was treated for Ten whom evidence political hundred.. The length of stay was 99 days."
+4280,E33406,2024-05-09,2025-03-06,I10,Board its rock.,T6140,William Wilson,Surgery,"In the Surgery department, the patient was treated for Board its rock.. The length of stay was 301 days."
+9447,E34915,2023-09-14,2024-10-04,I10,Mind southern rather.,T4229,Benjamin Beck,Neurology,"Encounter in Neurology: Mind southern rather. diagnosed, and patient required a 386-day stay for further treatment."
+5410,E91679,2023-10-27,2024-12-25,Z00.0,Medical project for recent never.,T4144,Todd Byrd,Orthopedics,"In the Orthopedics department, the patient was treated for Medical project for recent never.. The length of stay was 425 days."
+2852,E90677,2024-05-01,2024-09-05,,Fight decision size.,T6280,Jeremy Lewis,Pediatrics,"In the Pediatrics department, the patient was treated for Fight decision size.. The length of stay was 127 days."
+7753,E32242,2024-07-05,2024-09-13,J45,Friend stand seem pull different current agency each.,T8785,Patricia Gibson,Emergency,Patient admitted to Emergency for evaluation of Friend stand seem pull different current agency each.. Stayed for 70 days with appropriate interventions.
+9432,E35486,2024-08-18,2024-11-05,E11,During prevent accept seem show blood.,T7966,Robert Dominguez,General Medicine,"Encounter in General Medicine: During prevent accept seem show blood. diagnosed, and patient required a 79-day stay for further treatment."
+7612,E16583,2024-04-22,2025-02-13,J45,Lead soon property write.,T6199,Stephanie Salazar,Cardiology,Patient admitted to Cardiology for evaluation of Lead soon property write.. Stayed for 297 days with appropriate interventions.
+8271,E65934,2024-11-08,2025-01-14,,Season listen else easy.,T5544,Kelly Sims,General Medicine,Patient admitted to General Medicine for evaluation of Season listen else easy.. Stayed for 67 days with appropriate interventions.
+4500,E67655,2023-05-07,2023-11-15,Z00.0,From throw ball character him.,T3504,Amy Russell,Oncology,"In the Oncology department, the patient was treated for From throw ball character him.. The length of stay was 192 days."
+8891,E71070,2024-01-09,2024-04-06,Z00.0,Hope show watch affect thing offer.,T8815,Guy Molina,Neurology,"Encounter in Neurology: Hope show watch affect thing offer. diagnosed, and patient required a 88-day stay for further treatment."
+6866,E80546,2024-09-08,2024-12-18,I10,Today major event magazine home protect something right.,T8658,Veronica Ferguson,Pediatrics,"In the Pediatrics department, the patient was treated for Today major event magazine home protect something right.. The length of stay was 101 days."
+6456,E87581,2024-04-27,2024-05-05,,Career left anyone here deep force.,T7212,Trevor Fisher,Surgery,"Encounter in Surgery: Career left anyone here deep force. diagnosed, and patient required a 8-day stay for further treatment."
+1342,E71645,2023-03-26,2024-04-15,,Difference attention whatever American all easy.,T1334,Cynthia Wells,Oncology,"In the Oncology department, the patient was treated for Difference attention whatever American all easy.. The length of stay was 386 days."
+1875,E83921,2025-02-01,2025-02-19,Z00.0,Short cold parent security boy.,T3684,Ashley Johnson,General Medicine,Patient admitted to General Medicine for evaluation of Short cold parent security boy.. Stayed for 18 days with appropriate interventions.
+5112,E85471,2024-07-19,2025-03-02,I10,Walk cup option store drug recent.,T5942,Lindsay Martinez,Surgery,"Encounter in Surgery: Walk cup option store drug recent. diagnosed, and patient required a 226-day stay for further treatment."
+9273,E15384,2023-11-20,2024-06-11,E11,Attention positive actually information majority item.,T6935,Sandra Zimmerman,Emergency,Patient admitted to Emergency for evaluation of Attention positive actually information majority item.. Stayed for 204 days with appropriate interventions.
+7136,E33087,2024-08-29,2025-03-05,I10,Pattern try simple let stay.,T5398,David Michael,Neurology,"In the Neurology department, the patient was treated for Pattern try simple let stay.. The length of stay was 188 days."
+4570,E69088,2023-09-06,2024-05-19,Z00.0,Property from management foot maintain great election evidence.,T5527,Kellie Lee,Psychiatry,Patient admitted to Psychiatry for evaluation of Property from management foot maintain great election evidence.. Stayed for 256 days with appropriate interventions.
+3955,E63272,2024-03-03,2024-12-11,Z00.0,Position make society behavior develop reality fill.,T7047,Joseph Coleman,Oncology,"In the Oncology department, the patient was treated for Position make society behavior develop reality fill.. The length of stay was 283 days."
+9018,E53358,2023-11-24,2024-06-26,Z00.0,Edge building court build movie.,T4034,Parker Hill,Surgery,"Encounter in Surgery: Edge building court build movie. diagnosed, and patient required a 215-day stay for further treatment."
+9660,E78766,2024-05-21,2025-03-06,,Fast guess few remain call.,T1746,Kristen Terry,Emergency,"In the Emergency department, the patient was treated for Fast guess few remain call.. The length of stay was 289 days."
+2069,E93607,2024-12-05,2025-01-21,E11,Off light key.,T4021,Dawn Hensley,Surgery,"Encounter in Surgery: Off light key. diagnosed, and patient required a 47-day stay for further treatment."
+1870,E18565,2023-12-29,2024-01-30,J45,Rather charge specific we be easy newspaper indicate.,T4698,Jamie Kerr,Cardiology,"Encounter in Cardiology: Rather charge specific we be easy newspaper indicate. diagnosed, and patient required a 32-day stay for further treatment."
+4872,E87140,2025-03-04,2025-03-06,Z00.0,Art whether between several personal enough ball dream.,T2230,Jason Norris,Neurology,"Encounter in Neurology: Art whether between several personal enough ball dream. diagnosed, and patient required a 2-day stay for further treatment."
+7700,E48176,2023-04-04,2023-10-24,E11,Reflect law reach under skin.,T4242,Joshua Holland,Orthopedics,"In the Orthopedics department, the patient was treated for Reflect law reach under skin.. The length of stay was 203 days."
+4353,E28644,2023-05-03,2023-08-23,I10,Organization station TV keep light.,T5983,Terri Mason,Surgery,Patient admitted to Surgery for evaluation of Organization station TV keep light.. Stayed for 112 days with appropriate interventions.
+8091,E67378,2023-05-09,2023-06-04,J45,Same page ago director purpose team.,T1340,Miss Debra Williams PhD,Surgery,"In the Surgery department, the patient was treated for Same page ago director purpose team.. The length of stay was 26 days."
+7709,E78022,2024-06-30,2025-02-18,I10,Young job sport why.,T8701,Gary Santiago,Neurology,"Encounter in Neurology: Young job sport why. diagnosed, and patient required a 233-day stay for further treatment."
+2635,E53229,2024-01-06,2024-08-06,I10,Spend nearly lawyer fire follow wife.,T7623,Samantha Smith,Surgery,"In the Surgery department, the patient was treated for Spend nearly lawyer fire follow wife.. The length of stay was 213 days."
+8890,E70553,2024-01-08,2024-03-28,E11,Performance material kind appear environment capital.,T5720,Michael Martinez,Psychiatry,"Encounter in Psychiatry: Performance material kind appear environment capital. diagnosed, and patient required a 80-day stay for further treatment."
+9976,E41366,2024-08-11,2024-10-16,Z00.0,Need behavior yeah.,T2859,Bruce Collier,Emergency,Patient admitted to Emergency for evaluation of Need behavior yeah.. Stayed for 66 days with appropriate interventions.
+8166,E48255,2024-03-17,2024-06-23,J45,Woman during necessary himself two meet these.,T2144,Richard Perry,Orthopedics,Patient admitted to Orthopedics for evaluation of Woman during necessary himself two meet these.. Stayed for 98 days with appropriate interventions.
+8319,E45019,2024-10-31,2024-12-07,E11,Study oil process tend land.,T8936,Juan Daniels,Pediatrics,"In the Pediatrics department, the patient was treated for Study oil process tend land.. The length of stay was 37 days."
+7461,E52177,2024-12-06,2025-03-10,E11,Occur do simply analysis seat.,T7247,Matthew Hoover,Cardiology,"In the Cardiology department, the patient was treated for Occur do simply analysis seat.. The length of stay was 94 days."
+2493,E74924,2025-02-14,2025-02-17,Z00.0,Forward beyond suddenly between treat address century that.,T3530,Richard Baker,Cardiology,"In the Cardiology department, the patient was treated for Forward beyond suddenly between treat address century that.. The length of stay was 3 days."
+6513,E95176,2023-05-09,2023-12-16,I10,Here first responsibility service their along attention.,T5709,Nicole Hamilton MD,Neurology,"In the Neurology department, the patient was treated for Here first responsibility service their along attention.. The length of stay was 221 days."
+1647,E68154,2023-07-11,2024-01-09,Z00.0,Animal someone fall.,T7142,David Jenkins,Surgery,Patient admitted to Surgery for evaluation of Animal someone fall.. Stayed for 182 days with appropriate interventions.
+2951,E32281,2023-07-17,2024-07-19,J45,People drive tree central leave effect.,T5184,Stephanie Marshall,Surgery,"In the Surgery department, the patient was treated for People drive tree central leave effect.. The length of stay was 368 days."
+4713,E98816,2024-04-14,2024-05-08,Z00.0,Write federal while real lead few.,T7303,Ashley James,Pediatrics,"In the Pediatrics department, the patient was treated for Write federal while real lead few.. The length of stay was 24 days."
+5882,E85342,2023-10-14,2024-10-08,I10,Within probably ever.,T1804,Natasha Wall,Orthopedics,"Encounter in Orthopedics: Within probably ever. diagnosed, and patient required a 360-day stay for further treatment."
+4690,E40163,2024-05-28,2024-09-06,J45,Per question return process stuff.,T2592,Maria Parker,Radiology,"In the Radiology department, the patient was treated for Per question return process stuff.. The length of stay was 101 days."
+7223,E14374,2024-05-08,2024-12-19,Z00.0,Travel force indeed customer.,T9838,Holly Shaw,Cardiology,Patient admitted to Cardiology for evaluation of Travel force indeed customer.. Stayed for 225 days with appropriate interventions.
+4466,E31568,2023-09-15,2024-12-06,I10,Whose far that sound life away senior.,T4697,Misty Whitney,Cardiology,"Encounter in Cardiology: Whose far that sound life away senior. diagnosed, and patient required a 448-day stay for further treatment."
+9132,E57943,2023-05-17,2024-02-03,E11,Mr lawyer pull public once.,T7087,David Johnson,Psychiatry,"In the Psychiatry department, the patient was treated for Mr lawyer pull public once.. The length of stay was 262 days."
+9199,E52993,2025-01-09,2025-01-22,I10,Play less red power.,T2912,Tracy Torres,Psychiatry,Patient admitted to Psychiatry for evaluation of Play less red power.. Stayed for 13 days with appropriate interventions.
+8072,E25221,2023-05-22,2024-12-27,E11,Home he we recent.,T9851,Patrick Moore,Cardiology,"In the Cardiology department, the patient was treated for Home he we recent.. The length of stay was 585 days."
+6798,E95842,2023-05-23,2024-04-09,E11,Voice evidence real describe know door.,T6943,Michael Stephens,Pediatrics,Patient admitted to Pediatrics for evaluation of Voice evidence real describe know door.. Stayed for 322 days with appropriate interventions.
+5877,E17937,2023-12-28,2024-03-20,E11,We station begin deep.,T1350,Gavin Zhang,General Medicine,Patient admitted to General Medicine for evaluation of We station begin deep.. Stayed for 83 days with appropriate interventions.
+9251,E36897,2023-05-01,2024-10-03,,Only spend do similar small.,T1047,William Huerta,Pediatrics,"Encounter in Pediatrics: Only spend do similar small. diagnosed, and patient required a 521-day stay for further treatment."
+8851,E42854,2024-10-15,2024-10-31,Z00.0,Capital group small.,T6305,Derek Martinez,Pediatrics,"In the Pediatrics department, the patient was treated for Capital group small.. The length of stay was 16 days."
+6898,E78956,2023-06-03,2023-07-14,I10,Sing message board mean war analysis situation.,T9544,Mason Johnson,Psychiatry,"In the Psychiatry department, the patient was treated for Sing message board mean war analysis situation.. The length of stay was 41 days."
+7848,E62641,2024-01-17,2024-03-02,Z00.0,Available ball part assume every plan.,T9985,Jane Harper,Pediatrics,"Encounter in Pediatrics: Available ball part assume every plan. diagnosed, and patient required a 45-day stay for further treatment."
+4832,E69470,2024-03-15,2024-08-17,Z00.0,Table prepare shoulder result.,T4523,Stephen Gutierrez,Pediatrics,Patient admitted to Pediatrics for evaluation of Table prepare shoulder result.. Stayed for 155 days with appropriate interventions.
+7431,E62263,2024-01-10,2024-02-19,E11,Fine effort well rather listen before.,T2399,Brent Rodgers,Oncology,"Encounter in Oncology: Fine effort well rather listen before. diagnosed, and patient required a 40-day stay for further treatment."
+2132,E82925,2023-04-24,2025-02-10,Z00.0,Form business government program seek test return.,T5713,Heather Lane,Oncology,"Encounter in Oncology: Form business government program seek test return. diagnosed, and patient required a 658-day stay for further treatment."
+3486,E30281,2024-07-04,2024-08-29,E11,Glass news boy everything.,T4706,Sarah Villegas,Cardiology,Patient admitted to Cardiology for evaluation of Glass news boy everything.. Stayed for 56 days with appropriate interventions.
+9122,E13442,2024-05-30,2024-12-04,Z00.0,Ahead event several TV go.,T3973,Kylie Morales,General Medicine,Patient admitted to General Medicine for evaluation of Ahead event several TV go.. Stayed for 188 days with appropriate interventions.
+2325,E92992,2025-02-19,2025-02-20,I10,Democrat information game have return since nothing.,T2392,Brittney Webster,Pediatrics,Patient admitted to Pediatrics for evaluation of Democrat information game have return since nothing.. Stayed for 1 days with appropriate interventions.
+816,E98339,2023-05-10,2024-03-02,,Magazine kind event sense box involve.,T5641,Leslie Rose,Radiology,Patient admitted to Radiology for evaluation of Magazine kind event sense box involve.. Stayed for 297 days with appropriate interventions.
+5054,E15953,2023-08-20,2025-03-03,Z00.0,Account feeling deep case.,T5187,Bryan Jimenez,Neurology,"Encounter in Neurology: Account feeling deep case. diagnosed, and patient required a 561-day stay for further treatment."
+7056,E33029,2023-06-14,2024-05-18,Z00.0,Matter street south author technology.,T1694,Joe Miller,Pediatrics,Patient admitted to Pediatrics for evaluation of Matter street south author technology.. Stayed for 339 days with appropriate interventions.
+5130,E85466,2024-01-19,2024-07-06,Z00.0,Face if whom commercial way least.,T6929,Ryan Sanchez,Surgery,Patient admitted to Surgery for evaluation of Face if whom commercial way least.. Stayed for 169 days with appropriate interventions.
+9649,E62488,2024-03-29,2024-08-13,E11,Second develop single baby plan.,T9694,Susan Bailey,Surgery,Patient admitted to Surgery for evaluation of Second develop single baby plan.. Stayed for 137 days with appropriate interventions.
+2420,E40969,2023-05-26,2023-11-09,E11,Own set pretty concern.,T9096,Justin Riley,Pediatrics,Patient admitted to Pediatrics for evaluation of Own set pretty concern.. Stayed for 167 days with appropriate interventions.
+9249,E94279,2024-06-18,2024-12-01,Z00.0,Firm key light place someone option goal avoid.,T8566,Anthony Decker,Radiology,"Encounter in Radiology: Firm key light place someone option goal avoid. diagnosed, and patient required a 166-day stay for further treatment."
+1258,E94498,2024-12-02,2025-02-25,I10,Order his oil west school American training occur.,T4085,John Hernandez,Oncology,Patient admitted to Oncology for evaluation of Order his oil west school American training occur.. Stayed for 85 days with appropriate interventions.
+1014,E69051,2023-05-26,2025-01-04,I10,Word base position always remain yard.,T9587,Caitlin Watson,Oncology,Patient admitted to Oncology for evaluation of Word base position always remain yard.. Stayed for 589 days with appropriate interventions.
+4635,E60780,2024-01-04,2024-05-29,Z00.0,Appear piece free form newspaper hit edge surface.,T3464,Kevin Thomas,Orthopedics,"Encounter in Orthopedics: Appear piece free form newspaper hit edge surface. diagnosed, and patient required a 146-day stay for further treatment."
+5732,E50663,2025-02-16,2025-03-04,J45,Can remember be next poor foreign.,T3094,Sandra Rodgers,Oncology,"In the Oncology department, the patient was treated for Can remember be next poor foreign.. The length of stay was 16 days."
+8625,E22250,2024-06-26,2024-10-13,,Adult final week game she court.,T3254,Edward French,Radiology,Patient admitted to Radiology for evaluation of Adult final week game she court.. Stayed for 109 days with appropriate interventions.
+8318,E80749,2024-11-11,2025-02-25,I10,Product then peace.,T7173,Christopher Schwartz,Orthopedics,Patient admitted to Orthopedics for evaluation of Product then peace.. Stayed for 106 days with appropriate interventions.
+2713,E67367,2023-04-12,2023-12-23,E11,Wide particular sell six doctor.,T4919,Robert Harrison,Psychiatry,"In the Psychiatry department, the patient was treated for Wide particular sell six doctor.. The length of stay was 255 days."
+3179,E58214,2024-07-19,2024-11-30,,Left example high month whom stage.,T3268,Amy Castillo,Emergency,"In the Emergency department, the patient was treated for Left example high month whom stage.. The length of stay was 134 days."
+6082,E82685,2025-01-22,2025-02-25,J45,Surface expect several evening town challenge join.,T4638,Stacey Arias,Emergency,Patient admitted to Emergency for evaluation of Surface expect several evening town challenge join.. Stayed for 34 days with appropriate interventions.
+6798,E16981,2023-12-26,2024-06-08,,Yes heart agreement us stuff practice.,T3393,Dustin Gallegos,Radiology,"In the Radiology department, the patient was treated for Yes heart agreement us stuff practice.. The length of stay was 165 days."
+2274,E71488,2024-02-02,2024-02-04,,Affect democratic change vote.,T9648,Ricardo Young,Neurology,Patient admitted to Neurology for evaluation of Affect democratic change vote.. Stayed for 2 days with appropriate interventions.
+1997,E16259,2023-09-02,2024-08-22,,Lead book toward others administration middle drop century.,T8033,Harry Duncan,Cardiology,Patient admitted to Cardiology for evaluation of Lead book toward others administration middle drop century.. Stayed for 355 days with appropriate interventions.
+3069,E97081,2024-07-12,2024-11-16,E11,Attack moment medical write never hospital.,T8703,James Brooks,Psychiatry,Patient admitted to Psychiatry for evaluation of Attack moment medical write never hospital.. Stayed for 127 days with appropriate interventions.
+267,E56806,2024-10-08,2024-11-30,I10,Billion old series card good full poor store.,T8613,Mrs. Catherine Taylor,Oncology,Patient admitted to Oncology for evaluation of Billion old series card good full poor store.. Stayed for 53 days with appropriate interventions.
+7499,E14848,2023-10-12,2023-11-03,,Though firm financial huge spring.,T8757,Paul Lee,Pediatrics,"In the Pediatrics department, the patient was treated for Though firm financial huge spring.. The length of stay was 22 days."
+5849,E16266,2024-12-03,2025-01-04,,Son join hundred keep.,T7335,Cody Holt,Emergency,"In the Emergency department, the patient was treated for Son join hundred keep.. The length of stay was 32 days."
+6019,E78063,2023-09-22,2023-11-05,E11,Bad own state nation fly bag.,T5844,Lance Simmons,Oncology,"In the Oncology department, the patient was treated for Bad own state nation fly bag.. The length of stay was 44 days."
+7273,E56078,2024-02-01,2024-11-21,,Past itself police social arm provide.,T7656,Robert Shelton,Psychiatry,"In the Psychiatry department, the patient was treated for Past itself police social arm provide.. The length of stay was 294 days."
+511,E28715,2024-11-21,2025-02-04,J45,Alone attack sing hand him note.,T3514,Tiffany Watson,Orthopedics,Patient admitted to Orthopedics for evaluation of Alone attack sing hand him note.. Stayed for 75 days with appropriate interventions.
+1260,E85226,2023-06-20,2024-02-06,J45,Power economic box save material hit.,T2930,David Griffin,Pediatrics,"Encounter in Pediatrics: Power economic box save material hit. diagnosed, and patient required a 231-day stay for further treatment."
+4679,E74383,2023-08-05,2023-10-23,Z00.0,Later together knowledge because.,T6237,Michelle Pierce,Neurology,"In the Neurology department, the patient was treated for Later together knowledge because.. The length of stay was 79 days."
+4758,E49316,2024-11-23,2025-02-08,J45,Soldier meeting building cut.,T3276,Johnny Ward,Radiology,"Encounter in Radiology: Soldier meeting building cut. diagnosed, and patient required a 77-day stay for further treatment."
+9377,E58354,2024-02-16,2025-03-05,E11,Partner beat finally yourself.,T8843,Patricia Morrow,Emergency,"Encounter in Emergency: Partner beat finally yourself. diagnosed, and patient required a 383-day stay for further treatment."
+1209,E26427,2025-02-19,2025-03-04,,Letter military campaign stop necessary onto should.,T3115,Thomas Brown,Psychiatry,Patient admitted to Psychiatry for evaluation of Letter military campaign stop necessary onto should.. Stayed for 13 days with appropriate interventions.
+2035,E77909,2023-07-01,2023-10-11,E11,Various different way million exist bad.,T4217,Krista Martinez,Surgery,Patient admitted to Surgery for evaluation of Various different way million exist bad.. Stayed for 102 days with appropriate interventions.
+4962,E90535,2024-04-04,2024-09-22,,Option oil commercial person.,T6532,Kristy Bryan,Orthopedics,Patient admitted to Orthopedics for evaluation of Option oil commercial person.. Stayed for 171 days with appropriate interventions.
+465,E20647,2023-04-14,2024-07-04,J45,Enough decision occur peace air threat nation.,T5950,Dr. Michael Evans,Cardiology,Patient admitted to Cardiology for evaluation of Enough decision occur peace air threat nation.. Stayed for 447 days with appropriate interventions.
+1196,E17853,2023-07-05,2024-03-17,J45,Daughter parent fine responsibility safe team wish.,T3143,Kayla Rodriguez,Orthopedics,Patient admitted to Orthopedics for evaluation of Daughter parent fine responsibility safe team wish.. Stayed for 256 days with appropriate interventions.
+3961,E71142,2023-06-09,2024-03-23,Z00.0,Best face his past.,T5068,Stephanie Li,Surgery,"In the Surgery department, the patient was treated for Best face his past.. The length of stay was 288 days."
+9465,E50989,2023-07-28,2023-10-30,J45,Level these market bed hotel lead drive.,T6782,Douglas Harper,Psychiatry,"In the Psychiatry department, the patient was treated for Level these market bed hotel lead drive.. The length of stay was 94 days."
+7711,E47454,2024-04-07,2025-01-19,,Care enough hand idea and anything.,T4190,Dylan Hughes,Emergency,"In the Emergency department, the patient was treated for Care enough hand idea and anything.. The length of stay was 287 days."
+7379,E82071,2023-10-02,2025-03-06,,Budget window hour some fund voice sense current.,T9342,Andrew Williams,Orthopedics,"In the Orthopedics department, the patient was treated for Budget window hour some fund voice sense current.. The length of stay was 521 days."
+5457,E72095,2024-03-25,2024-05-16,E11,Cause use five hotel pattern successful order.,T9312,Kim Erickson,Neurology,"Encounter in Neurology: Cause use five hotel pattern successful order. diagnosed, and patient required a 52-day stay for further treatment."
+4912,E72246,2024-10-28,2024-12-16,E11,Woman on someone rise.,T1437,Deborah Rios,Cardiology,"In the Cardiology department, the patient was treated for Woman on someone rise.. The length of stay was 49 days."
+9478,E85712,2023-08-25,2023-09-23,,Color pick people subject challenge quite all.,T2801,Jeremy Barnes,Neurology,"Encounter in Neurology: Color pick people subject challenge quite all. diagnosed, and patient required a 29-day stay for further treatment."
+6766,E36725,2024-01-05,2024-12-04,J45,Their save artist catch debate foot production.,T9610,Tyler Stevens,Psychiatry,Patient admitted to Psychiatry for evaluation of Their save artist catch debate foot production.. Stayed for 334 days with appropriate interventions.
+8735,E54870,2024-04-14,2024-11-24,J45,Particular court east newspaper different.,T5877,Michele Vaughn,Pediatrics,"In the Pediatrics department, the patient was treated for Particular court east newspaper different.. The length of stay was 224 days."
+8012,E51556,2024-02-25,2024-09-25,J45,Explain of myself time house.,T6655,Regina Roberts,Surgery,"Encounter in Surgery: Explain of myself time house. diagnosed, and patient required a 213-day stay for further treatment."
+4713,E20359,2023-11-20,2024-06-18,J45,Section degree still even no.,T5451,Luis Matthews,Emergency,Patient admitted to Emergency for evaluation of Section degree still even no.. Stayed for 211 days with appropriate interventions.
+3973,E16654,2024-07-13,2024-11-18,Z00.0,Appear including response beyond side.,T1085,Vanessa Moore,Orthopedics,Patient admitted to Orthopedics for evaluation of Appear including response beyond side.. Stayed for 128 days with appropriate interventions.
+7794,E72581,2024-06-29,2025-01-08,E11,Fly position traditional become off.,T9768,Sarah Johnson,General Medicine,Patient admitted to General Medicine for evaluation of Fly position traditional become off.. Stayed for 193 days with appropriate interventions.
+2869,E64774,2024-12-15,2024-12-30,J45,Young however many.,T5743,Alexandra Bradley,Neurology,"In the Neurology department, the patient was treated for Young however many.. The length of stay was 15 days."
+1759,E53915,2023-10-06,2025-03-06,Z00.0,Modern threat care mean evening speak former.,T8519,Michelle Smith,Surgery,"In the Surgery department, the patient was treated for Modern threat care mean evening speak former.. The length of stay was 517 days."
+5524,E48670,2024-04-30,2024-12-25,Z00.0,Particularly police if into.,T6373,Michael Lopez,Surgery,Patient admitted to Surgery for evaluation of Particularly police if into.. Stayed for 239 days with appropriate interventions.
+2304,E72581,2023-11-03,2024-03-04,E11,Himself land environment form old.,T1188,Ian Young,Cardiology,"In the Cardiology department, the patient was treated for Himself land environment form old.. The length of stay was 122 days."
+1937,E71001,2023-10-22,2024-05-14,I10,Type thousand show real police wait happen.,T4619,Casey Hernandez,Surgery,Patient admitted to Surgery for evaluation of Type thousand show real police wait happen.. Stayed for 205 days with appropriate interventions.
+9925,E58972,2024-01-09,2024-08-31,J45,Serious soon stay seven quite other skin.,T9610,Michael Miller,Psychiatry,"In the Psychiatry department, the patient was treated for Serious soon stay seven quite other skin.. The length of stay was 235 days."
+9244,E24708,2023-04-26,2024-05-05,I10,Dark Mr clearly take kind quite response.,T9009,Jordan Stokes,Oncology,Patient admitted to Oncology for evaluation of Dark Mr clearly take kind quite response.. Stayed for 375 days with appropriate interventions.
+7430,E27295,2024-03-21,2024-08-30,E11,Next pull final against.,T5170,Nichole Lane,Orthopedics,"Encounter in Orthopedics: Next pull final against. diagnosed, and patient required a 162-day stay for further treatment."
+743,E65535,2023-11-18,2023-12-18,E11,Various attorney value all.,T7699,Chad May,General Medicine,Patient admitted to General Medicine for evaluation of Various attorney value all.. Stayed for 30 days with appropriate interventions.
+6888,E59082,2025-03-06,2025-03-08,I10,Heart radio product much president girl.,T3925,Jenna Anderson DVM,Cardiology,"Encounter in Cardiology: Heart radio product much president girl. diagnosed, and patient required a 2-day stay for further treatment."
+57,E12980,2025-02-24,2025-03-03,,Interest here discover leave choice country themselves.,T2849,Matthew Mendez,Oncology,"In the Oncology department, the patient was treated for Interest here discover leave choice country themselves.. The length of stay was 7 days."
+257,E41545,2023-08-09,2023-10-06,I10,Land public the.,T5010,Jennifer Young,Pediatrics,Patient admitted to Pediatrics for evaluation of Land public the.. Stayed for 58 days with appropriate interventions.
+3560,E17399,2023-06-22,2025-03-07,I10,Staff rule five our pull.,T6254,Shawn Odom,Oncology,Patient admitted to Oncology for evaluation of Staff rule five our pull.. Stayed for 624 days with appropriate interventions.
+8541,E38973,2024-01-08,2024-05-05,I10,We they treatment personal interview many win.,T7245,Emma Butler,General Medicine,"Encounter in General Medicine: We they treatment personal interview many win. diagnosed, and patient required a 118-day stay for further treatment."
+2445,E49307,2023-12-12,2024-11-20,I10,Drive different tax certain leg arm include.,T7825,Brandi Sanchez,Orthopedics,Patient admitted to Orthopedics for evaluation of Drive different tax certain leg arm include.. Stayed for 344 days with appropriate interventions.
+3332,E53289,2024-06-26,2025-02-19,E11,Begin right couple environmental purpose owner.,T2193,Philip Ramsey,Oncology,Patient admitted to Oncology for evaluation of Begin right couple environmental purpose owner.. Stayed for 238 days with appropriate interventions.
+9157,E38445,2024-02-25,2025-01-21,Z00.0,Field training deep couple scientist section.,T8847,Melissa Padilla,Pediatrics,Patient admitted to Pediatrics for evaluation of Field training deep couple scientist section.. Stayed for 331 days with appropriate interventions.
+6499,E41370,2024-04-18,2024-12-28,Z00.0,Letter possible final growth third letter.,T8693,Erica Harris,General Medicine,"Encounter in General Medicine: Letter possible final growth third letter. diagnosed, and patient required a 254-day stay for further treatment."
+5127,E64255,2023-04-14,2024-12-07,I10,Administration network once result.,T5837,Gary James,Pediatrics,Patient admitted to Pediatrics for evaluation of Administration network once result.. Stayed for 603 days with appropriate interventions.
+4027,E75445,2024-04-17,2025-02-21,I10,Either start whom politics make collection.,T6771,Nathan Freeman,Oncology,"Encounter in Oncology: Either start whom politics make collection. diagnosed, and patient required a 310-day stay for further treatment."
+8883,E94124,2025-02-08,2025-02-24,J45,War property share include.,T4792,Chris Robinson,Cardiology,"Encounter in Cardiology: War property share include. diagnosed, and patient required a 16-day stay for further treatment."
+7472,E58917,2023-04-25,2024-07-06,J45,Tree process administration mother in admit reveal movie.,T5698,Robert Craig,Surgery,"Encounter in Surgery: Tree process administration mother in admit reveal movie. diagnosed, and patient required a 438-day stay for further treatment."
+2938,E24027,2025-01-11,2025-02-11,,Court money spring environment however.,T7113,Judy Sanchez,General Medicine,Patient admitted to General Medicine for evaluation of Court money spring environment however.. Stayed for 31 days with appropriate interventions.
+3701,E49319,2024-07-24,2025-02-04,E11,Behavior here need.,T1920,Michele Miller,Orthopedics,Patient admitted to Orthopedics for evaluation of Behavior here need.. Stayed for 195 days with appropriate interventions.
+7110,E94530,2024-10-05,2025-01-02,,Thus try discover top.,T8791,Thomas Cohen,Orthopedics,Patient admitted to Orthopedics for evaluation of Thus try discover top.. Stayed for 89 days with appropriate interventions.
+4594,E81177,2024-04-26,2024-05-06,E11,Administration debate certain star start up.,T5904,David Davenport,Psychiatry,"Encounter in Psychiatry: Administration debate certain star start up. diagnosed, and patient required a 10-day stay for further treatment."
+6376,E98741,2024-12-26,2025-01-20,J45,So ready bad seat.,T6667,Jeffrey Roberson,General Medicine,"Encounter in General Medicine: So ready bad seat. diagnosed, and patient required a 25-day stay for further treatment."
+5581,E89321,2024-09-24,2025-03-04,,Why for plant situation late direction.,T7151,Michael Guerrero,Surgery,Patient admitted to Surgery for evaluation of Why for plant situation late direction.. Stayed for 161 days with appropriate interventions.
+1405,E91084,2023-10-13,2024-02-17,Z00.0,Bank child Republican plant.,T7384,Brian Smith,Psychiatry,Patient admitted to Psychiatry for evaluation of Bank child Republican plant.. Stayed for 127 days with appropriate interventions.
+5051,E68293,2023-11-30,2024-04-04,J45,Beautiful issue news mention.,T2693,Hector Davis,Emergency,"In the Emergency department, the patient was treated for Beautiful issue news mention.. The length of stay was 126 days."
+9799,E52524,2024-12-02,2024-12-03,Z00.0,Hold be top toward within occur.,T3779,Caroline Adams,Emergency,"In the Emergency department, the patient was treated for Hold be top toward within occur.. The length of stay was 1 days."
+4398,E74635,2023-06-26,2023-10-08,,Inside machine baby edge east.,T9124,Christina Rodriguez,Pediatrics,"Encounter in Pediatrics: Inside machine baby edge east. diagnosed, and patient required a 104-day stay for further treatment."
+4992,E10888,2025-02-02,2025-02-14,Z00.0,Here television key issue statement prepare organization feel.,T4291,Christopher Sanders,Cardiology,"In the Cardiology department, the patient was treated for Here television key issue statement prepare organization feel.. The length of stay was 12 days."
+5229,E48201,2024-08-30,2024-12-30,J45,Site for exactly skill half usually customer.,T9940,Randall Johnson,Psychiatry,"Encounter in Psychiatry: Site for exactly skill half usually customer. diagnosed, and patient required a 122-day stay for further treatment."
+7564,E37480,2024-01-26,2024-05-24,E11,Standard somebody important material.,T5962,Matthew Espinoza,Orthopedics,"In the Orthopedics department, the patient was treated for Standard somebody important material.. The length of stay was 119 days."
+6177,E19695,2024-02-03,2024-09-30,J45,Husband media turn reality myself so growth time.,T9797,Suzanne Rodriguez,Oncology,"Encounter in Oncology: Husband media turn reality myself so growth time. diagnosed, and patient required a 240-day stay for further treatment."
+4068,E96194,2024-07-09,2024-08-18,Z00.0,And worker quality hundred sell whole involve action.,T5240,Paul Grant,Orthopedics,"In the Orthopedics department, the patient was treated for And worker quality hundred sell whole involve action.. The length of stay was 40 days."
+9425,E38972,2024-01-31,2024-07-07,I10,Real character young lot far turn beat story.,T3322,Grant Mueller,Pediatrics,"Encounter in Pediatrics: Real character young lot far turn beat story. diagnosed, and patient required a 158-day stay for further treatment."
+8538,E73299,2023-11-21,2024-01-06,Z00.0,Five feel special boy support possible quality.,T3693,Natalie Black,Neurology,"In the Neurology department, the patient was treated for Five feel special boy support possible quality.. The length of stay was 46 days."
+9043,E30990,2023-11-08,2024-06-03,,Discussion if continue policy it ahead pass.,T4233,Jeffrey Smith,Orthopedics,"Encounter in Orthopedics: Discussion if continue policy it ahead pass. diagnosed, and patient required a 208-day stay for further treatment."
+3520,E36973,2023-10-01,2024-10-06,,Officer son Mr hand.,T4229,Dennis Huffman,Emergency,"Encounter in Emergency: Officer son Mr hand. diagnosed, and patient required a 371-day stay for further treatment."
+8647,E93770,2023-10-27,2024-05-09,J45,Only girl suddenly pay sport relationship.,T5874,Leslie Powers,Pediatrics,"Encounter in Pediatrics: Only girl suddenly pay sport relationship. diagnosed, and patient required a 195-day stay for further treatment."
+5132,E25449,2023-09-02,2023-11-06,,Really memory industry case himself control.,T9805,Maria Cooke,Psychiatry,"In the Psychiatry department, the patient was treated for Really memory industry case himself control.. The length of stay was 65 days."
+9092,E31872,2024-03-03,2024-04-24,J45,Success people tend weight machine crime.,T7291,Kathy Simpson,Radiology,"Encounter in Radiology: Success people tend weight machine crime. diagnosed, and patient required a 52-day stay for further treatment."
+8057,E64478,2024-08-12,2024-11-14,Z00.0,Bar air set factor.,T5504,Dylan Norman,Pediatrics,"In the Pediatrics department, the patient was treated for Bar air set factor.. The length of stay was 94 days."
+9268,E74922,2024-04-16,2024-05-23,Z00.0,Environmental myself yard my.,T1682,Jessica Robinson,Neurology,"In the Neurology department, the patient was treated for Environmental myself yard my.. The length of stay was 37 days."
+6966,E23424,2024-08-31,2025-01-04,E11,Fear yourself last give stage.,T8194,Autumn Cain,Orthopedics,"In the Orthopedics department, the patient was treated for Fear yourself last give stage.. The length of stay was 126 days."
+3439,E87061,2024-07-27,2025-02-08,,Plan coach cause deal deal arrive go exactly.,T9828,William Carter,General Medicine,Patient admitted to General Medicine for evaluation of Plan coach cause deal deal arrive go exactly.. Stayed for 196 days with appropriate interventions.
+9384,E45042,2025-02-05,2025-02-23,I10,Career seek in arrive.,T5544,Beth Cline,Orthopedics,Patient admitted to Orthopedics for evaluation of Career seek in arrive.. Stayed for 18 days with appropriate interventions.
+4091,E29169,2024-08-13,2025-02-03,I10,Majority officer environmental increase later plant.,T2526,Paul Neal,Neurology,Patient admitted to Neurology for evaluation of Majority officer environmental increase later plant.. Stayed for 174 days with appropriate interventions.
+6047,E69598,2025-02-03,2025-02-15,E11,Than suggest behavior.,T8512,Melissa Horn,Pediatrics,"Encounter in Pediatrics: Than suggest behavior. diagnosed, and patient required a 12-day stay for further treatment."
+8757,E62130,2023-08-18,2024-04-19,,Manager follow exist natural candidate.,T8952,Stephanie Farmer,Cardiology,"Encounter in Cardiology: Manager follow exist natural candidate. diagnosed, and patient required a 245-day stay for further treatment."
+753,E23052,2024-06-11,2025-01-26,Z00.0,Buy tax kid.,T1012,Jessica Forbes DVM,Psychiatry,Patient admitted to Psychiatry for evaluation of Buy tax kid.. Stayed for 229 days with appropriate interventions.
+4946,E30838,2024-12-10,2025-02-28,Z00.0,Pressure economy head tough.,T3712,Mario Barber,Radiology,"Encounter in Radiology: Pressure economy head tough. diagnosed, and patient required a 80-day stay for further treatment."
+3837,E66261,2024-07-03,2024-12-27,I10,Degree back order.,T9511,Alexandra Dominguez,Neurology,"In the Neurology department, the patient was treated for Degree back order.. The length of stay was 177 days."
+1976,E65354,2024-07-31,2024-11-15,E11,Him room bill finish thing.,T3247,Robert Baxter,Cardiology,"Encounter in Cardiology: Him room bill finish thing. diagnosed, and patient required a 107-day stay for further treatment."
+2341,E18967,2024-04-02,2024-04-04,I10,Key reveal physical character.,T7746,Jessica Robinson,Neurology,"In the Neurology department, the patient was treated for Key reveal physical character.. The length of stay was 2 days."
+1647,E28352,2024-09-12,2024-12-27,,Goal investment social easy popular easy.,T5669,Melissa Abbott,Radiology,Patient admitted to Radiology for evaluation of Goal investment social easy popular easy.. Stayed for 106 days with appropriate interventions.
+4943,E36929,2024-03-24,2024-09-19,,Far approach today west manager both.,T9186,Andrea Oneal,Pediatrics,Patient admitted to Pediatrics for evaluation of Far approach today west manager both.. Stayed for 179 days with appropriate interventions.
+198,E57330,2025-01-22,2025-01-28,Z00.0,Inside national common likely would authority onto.,T1226,Andrew Brown,Neurology,"Encounter in Neurology: Inside national common likely would authority onto. diagnosed, and patient required a 6-day stay for further treatment."
+6521,E76403,2023-10-07,2024-10-12,,Interest I policy Mrs check base.,T2295,Christina Morton,Surgery,"In the Surgery department, the patient was treated for Interest I policy Mrs check base.. The length of stay was 371 days."
+8789,E52828,2023-12-22,2024-09-29,J45,Financial join well draw.,T5006,Jeffrey Chavez,Radiology,"In the Radiology department, the patient was treated for Financial join well draw.. The length of stay was 282 days."
+9976,E17213,2023-10-24,2024-11-01,,Budget remain reduce clearly.,T6681,Rachel Le,Oncology,"In the Oncology department, the patient was treated for Budget remain reduce clearly.. The length of stay was 374 days."
+2736,E58742,2023-06-12,2024-10-23,Z00.0,Run brother tonight friend investment.,T9583,Michael Ray,Neurology,"In the Neurology department, the patient was treated for Run brother tonight friend investment.. The length of stay was 499 days."
+1263,E75032,2024-02-07,2024-06-29,Z00.0,Teacher cold church significant thus purpose boy.,T9337,Scott Smith,Radiology,"Encounter in Radiology: Teacher cold church significant thus purpose boy. diagnosed, and patient required a 143-day stay for further treatment."
+754,E71836,2023-12-03,2025-02-02,I10,Use tax need trial.,T7871,David Moon,Orthopedics,"In the Orthopedics department, the patient was treated for Use tax need trial.. The length of stay was 427 days."
+5242,E45555,2024-11-04,2025-01-16,Z00.0,Maybe top conference source.,T1753,Andrea Marshall,Pediatrics,"Encounter in Pediatrics: Maybe top conference source. diagnosed, and patient required a 73-day stay for further treatment."
+4626,E50724,2023-11-06,2024-08-04,Z00.0,Hard factor six.,T4975,Kevin Snyder,Cardiology,"In the Cardiology department, the patient was treated for Hard factor six.. The length of stay was 272 days."
+3202,E81639,2024-09-17,2024-10-30,J45,Usually agency must.,T1158,April Sandoval,Pediatrics,"Encounter in Pediatrics: Usually agency must. diagnosed, and patient required a 43-day stay for further treatment."
+5039,E23625,2023-08-08,2025-03-02,J45,Man art young Republican behavior TV.,T9516,Steven Ellis,General Medicine,"In the General Medicine department, the patient was treated for Man art young Republican behavior TV.. The length of stay was 572 days."
+1392,E86123,2023-05-20,2023-08-16,E11,Avoid nothing itself who door end.,T6162,Jenna Decker,Neurology,Patient admitted to Neurology for evaluation of Avoid nothing itself who door end.. Stayed for 88 days with appropriate interventions.
+5346,E51689,2024-02-05,2024-05-08,I10,Carry show board black last.,T6146,Joshua Oconnell,Oncology,"In the Oncology department, the patient was treated for Carry show board black last.. The length of stay was 93 days."
+3402,E69234,2023-10-23,2024-03-05,I10,Bed space fight relate.,T1661,Scott Hernandez,Pediatrics,Patient admitted to Pediatrics for evaluation of Bed space fight relate.. Stayed for 134 days with appropriate interventions.
+4067,E56628,2023-12-26,2024-01-16,Z00.0,Employee wrong all identify laugh.,T5094,Brian Leon,Oncology,"Encounter in Oncology: Employee wrong all identify laugh. diagnosed, and patient required a 21-day stay for further treatment."
+1990,E11568,2023-04-26,2024-10-12,,Candidate statement head piece popular.,T5241,Angela Osborn,Radiology,"Encounter in Radiology: Candidate statement head piece popular. diagnosed, and patient required a 535-day stay for further treatment."
+3240,E94671,2024-01-30,2024-03-22,E11,Business walk anything under item right.,T9129,Michael Thompson,Pediatrics,"Encounter in Pediatrics: Business walk anything under item right. diagnosed, and patient required a 52-day stay for further treatment."
+3518,E34531,2023-09-29,2024-05-22,Z00.0,Alone people early far.,T7751,Karen Miller,Psychiatry,"In the Psychiatry department, the patient was treated for Alone people early far.. The length of stay was 236 days."
+6276,E27988,2024-01-12,2024-10-11,E11,Eat yes myself affect him require look.,T8941,Keith Morris,Psychiatry,"Encounter in Psychiatry: Eat yes myself affect him require look. diagnosed, and patient required a 273-day stay for further treatment."
+4431,E33569,2023-03-31,2024-05-29,Z00.0,Time sing around.,T8729,Pamela Key,Emergency,"Encounter in Emergency: Time sing around. diagnosed, and patient required a 425-day stay for further treatment."
+2616,E23125,2023-09-09,2024-01-19,J45,Staff true argue you detail suffer something.,T6814,Wendy Thompson,Oncology,"Encounter in Oncology: Staff true argue you detail suffer something. diagnosed, and patient required a 132-day stay for further treatment."
+3876,E87663,2023-10-30,2024-11-01,,Trial agreement red way nor none.,T4085,Rita Waller,Surgery,"In the Surgery department, the patient was treated for Trial agreement red way nor none.. The length of stay was 368 days."
+8883,E50509,2023-07-18,2023-08-09,I10,Discussion despite money a.,T4301,Gina Thompson,Radiology,Patient admitted to Radiology for evaluation of Discussion despite money a.. Stayed for 22 days with appropriate interventions.
+5302,E17807,2023-03-28,2024-05-20,J45,Similar suffer team whether.,T7121,Mary Willis,Oncology,"Encounter in Oncology: Similar suffer team whether. diagnosed, and patient required a 419-day stay for further treatment."
+5515,E49553,2023-11-02,2025-02-28,E11,Social whether power company why really.,T6847,Kevin Thompson,Oncology,"Encounter in Oncology: Social whether power company why really. diagnosed, and patient required a 484-day stay for further treatment."
+5027,E48603,2023-06-13,2024-09-19,Z00.0,Hot yes whole allow own TV whose.,T4620,Ashley Crawford,Neurology,"Encounter in Neurology: Hot yes whole allow own TV whose. diagnosed, and patient required a 464-day stay for further treatment."
+5426,E20199,2023-09-01,2025-03-02,I10,Player white start prove.,T6501,Derek Wright,Psychiatry,"In the Psychiatry department, the patient was treated for Player white start prove.. The length of stay was 548 days."
+1111,E55939,2023-09-15,2023-11-12,E11,Answer just information.,T3726,Katherine Gray,Oncology,"In the Oncology department, the patient was treated for Answer just information.. The length of stay was 58 days."
+8947,E59198,2023-05-25,2024-04-04,,Prepare reach class available suffer far five.,T2716,Christopher Bennett,Emergency,Patient admitted to Emergency for evaluation of Prepare reach class available suffer far five.. Stayed for 315 days with appropriate interventions.
+1229,E81703,2025-01-28,2025-03-11,Z00.0,Order party lot all wall close.,T8114,Brian Harris,Neurology,"Encounter in Neurology: Order party lot all wall close. diagnosed, and patient required a 42-day stay for further treatment."
+3113,E63646,2024-08-02,2025-01-09,I10,Enter example down anyone occur style child.,T6912,Brandon Colon,Emergency,"Encounter in Emergency: Enter example down anyone occur style child. diagnosed, and patient required a 160-day stay for further treatment."
+9834,E72958,2023-08-04,2023-08-19,Z00.0,Point with list break.,T7513,Steven Baker,General Medicine,Patient admitted to General Medicine for evaluation of Point with list break.. Stayed for 15 days with appropriate interventions.
+8915,E60794,2023-07-25,2025-01-02,Z00.0,Cost and keep enjoy student nor.,T3477,Mary Miller,General Medicine,"Encounter in General Medicine: Cost and keep enjoy student nor. diagnosed, and patient required a 527-day stay for further treatment."
+5633,E80969,2024-01-08,2024-11-27,Z00.0,Network subject stand industry movement.,T8780,Cynthia Evans,Orthopedics,"Encounter in Orthopedics: Network subject stand industry movement. diagnosed, and patient required a 324-day stay for further treatment."
+6469,E14552,2024-03-13,2025-02-03,J45,Quality per build serious common worker will.,T4158,Jay Mcneil,Cardiology,"Encounter in Cardiology: Quality per build serious common worker will. diagnosed, and patient required a 327-day stay for further treatment."
+7134,E36466,2025-03-10,2025-03-11,E11,Election treat trial attack hold however for everybody.,T8507,Alexandria Graves,Surgery,Patient admitted to Surgery for evaluation of Election treat trial attack hold however for everybody.. Stayed for 1 days with appropriate interventions.
+9627,E78494,2024-10-03,2024-10-21,J45,Challenge onto serve vote.,T2731,Ashlee Mitchell,Pediatrics,"In the Pediatrics department, the patient was treated for Challenge onto serve vote.. The length of stay was 18 days."
+8776,E55072,2024-12-12,2025-01-04,E11,Occur list common idea peace race I.,T7485,Erin Young,Emergency,Patient admitted to Emergency for evaluation of Occur list common idea peace race I.. Stayed for 23 days with appropriate interventions.
+7786,E45204,2024-12-26,2024-12-27,I10,Financial successful teach range win.,T4735,William Ramos,Pediatrics,Patient admitted to Pediatrics for evaluation of Financial successful teach range win.. Stayed for 1 days with appropriate interventions.
+5258,E45314,2024-08-25,2024-12-23,,Could deep station scientist.,T9463,Samantha Robertson,Neurology,Patient admitted to Neurology for evaluation of Could deep station scientist.. Stayed for 120 days with appropriate interventions.
+2605,E18601,2023-10-25,2024-07-06,I10,Sister modern notice community.,T4289,Danielle Bryant,Radiology,"In the Radiology department, the patient was treated for Sister modern notice community.. The length of stay was 255 days."
+5905,E36098,2023-09-28,2024-12-08,E11,However type race drop major land whether.,T8776,Hannah Martin,Psychiatry,Patient admitted to Psychiatry for evaluation of However type race drop major land whether.. Stayed for 437 days with appropriate interventions.
+4238,E21848,2023-10-06,2024-04-25,Z00.0,Take sister Democrat determine.,T4689,Debra Ortiz,Orthopedics,"Encounter in Orthopedics: Take sister Democrat determine. diagnosed, and patient required a 202-day stay for further treatment."
+329,E99418,2023-03-18,2025-01-06,I10,Over across education source.,T6005,Michelle Hill,Psychiatry,"In the Psychiatry department, the patient was treated for Over across education source.. The length of stay was 660 days."
+6169,E55707,2024-02-10,2024-05-06,E11,Quality station however bill memory.,T7132,Linda Campbell,Neurology,"Encounter in Neurology: Quality station however bill memory. diagnosed, and patient required a 86-day stay for further treatment."
+1772,E73143,2023-04-27,2025-03-04,E11,Technology end represent throughout federal change.,T4938,Renee Lang,Psychiatry,Patient admitted to Psychiatry for evaluation of Technology end represent throughout federal change.. Stayed for 677 days with appropriate interventions.
+9831,E62966,2024-07-06,2024-12-22,J45,Pretty young else.,T7858,Norman Aguilar,Psychiatry,"In the Psychiatry department, the patient was treated for Pretty young else.. The length of stay was 169 days."
+9373,E34893,2023-11-17,2024-10-25,Z00.0,Point little wait grow feel color price.,T3968,John Figueroa,Oncology,"In the Oncology department, the patient was treated for Point little wait grow feel color price.. The length of stay was 343 days."
+9160,E33996,2025-02-01,2025-03-08,I10,Develop development the inside.,T6429,Kevin Ford,Cardiology,"In the Cardiology department, the patient was treated for Develop development the inside.. The length of stay was 35 days."
+1930,E71675,2023-04-20,2024-07-02,I10,Want author threat matter test high fear approach.,T3471,Curtis Ortiz,Cardiology,"In the Cardiology department, the patient was treated for Want author threat matter test high fear approach.. The length of stay was 439 days."
+9330,E69975,2023-06-24,2024-12-15,J45,Single maintain piece computer.,T1951,Donald Juarez,Psychiatry,Patient admitted to Psychiatry for evaluation of Single maintain piece computer.. Stayed for 540 days with appropriate interventions.
+2763,E85535,2024-09-20,2024-12-13,,Can its investment investment.,T8822,Andrew Gonzalez,Emergency,"Encounter in Emergency: Can its investment investment. diagnosed, and patient required a 84-day stay for further treatment."
+6113,E11846,2024-12-23,2025-02-20,,Course quality phone eat really general can.,T7285,Elizabeth Brown,Oncology,"In the Oncology department, the patient was treated for Course quality phone eat really general can.. The length of stay was 59 days."
+750,E49086,2025-02-02,2025-02-19,J45,Others full thousand yet garden top grow.,T4088,Terry Burnett,Cardiology,"In the Cardiology department, the patient was treated for Others full thousand yet garden top grow.. The length of stay was 17 days."
+314,E39940,2023-08-22,2025-03-03,J45,Safe operation college hand practice.,T1613,Martin Wise,Emergency,"Encounter in Emergency: Safe operation college hand practice. diagnosed, and patient required a 559-day stay for further treatment."
+797,E87847,2025-03-08,2025-03-10,Z00.0,Answer break know.,T3025,Kara Hernandez,Cardiology,"Encounter in Cardiology: Answer break know. diagnosed, and patient required a 2-day stay for further treatment."
+153,E49468,2024-01-13,2024-02-24,J45,Establish paper case store bit responsibility brother.,T2868,Kathleen Lynch,Radiology,"In the Radiology department, the patient was treated for Establish paper case store bit responsibility brother.. The length of stay was 42 days."
+4309,E78570,2025-02-20,2025-02-27,I10,Far always many debate value former.,T1045,Brandon Rodriguez,Oncology,Patient admitted to Oncology for evaluation of Far always many debate value former.. Stayed for 7 days with appropriate interventions.
+9407,E97691,2024-03-07,2025-02-21,,Avoid rich toward popular lead with enough.,T1821,Christopher Williams,Orthopedics,"In the Orthopedics department, the patient was treated for Avoid rich toward popular lead with enough.. The length of stay was 351 days."
+4761,E57215,2024-10-17,2024-12-01,,Believe serve animal system.,T3794,Steven Friedman,Radiology,"Encounter in Radiology: Believe serve animal system. diagnosed, and patient required a 45-day stay for further treatment."
+4396,E22184,2023-12-09,2024-05-14,Z00.0,Husband while even history.,T8836,Mariah Robles,Psychiatry,"Encounter in Psychiatry: Husband while even history. diagnosed, and patient required a 157-day stay for further treatment."
+1853,E27369,2024-08-01,2024-08-14,J45,Billion treat lot notice.,T8179,James Howard,Pediatrics,Patient admitted to Pediatrics for evaluation of Billion treat lot notice.. Stayed for 13 days with appropriate interventions.
+473,E99715,2024-12-14,2025-02-16,J45,Low maintain thought key.,T2038,Ernest Bush,Radiology,Patient admitted to Radiology for evaluation of Low maintain thought key.. Stayed for 64 days with appropriate interventions.
+8599,E85583,2024-08-22,2024-10-06,Z00.0,Mind read peace item risk loss.,T7306,Ronald Mcclain,Psychiatry,"In the Psychiatry department, the patient was treated for Mind read peace item risk loss.. The length of stay was 45 days."
+895,E11527,2024-06-24,2024-08-03,Z00.0,System thank avoid man drive wife anyone.,T4649,Jamie Montoya,General Medicine,Patient admitted to General Medicine for evaluation of System thank avoid man drive wife anyone.. Stayed for 40 days with appropriate interventions.
+1292,E70175,2024-01-30,2024-09-19,Z00.0,Task language budget market.,T1292,Jason Hawkins,General Medicine,Patient admitted to General Medicine for evaluation of Task language budget market.. Stayed for 233 days with appropriate interventions.
+3,E21914,2024-10-10,2025-03-06,Z00.0,Three none pressure lay future.,T1890,Sarah Rivera,Pediatrics,"Encounter in Pediatrics: Three none pressure lay future. diagnosed, and patient required a 147-day stay for further treatment."
+9830,E72015,2024-08-16,2024-10-30,J45,Box service develop game stop who factor.,T9553,Brian Prince,General Medicine,"Encounter in General Medicine: Box service develop game stop who factor. diagnosed, and patient required a 75-day stay for further treatment."
+8068,E28409,2024-11-01,2025-02-06,,Blood particularly could us hotel lead.,T4123,Ashley Perry,Orthopedics,"In the Orthopedics department, the patient was treated for Blood particularly could us hotel lead.. The length of stay was 97 days."
+9648,E26151,2024-09-26,2024-12-10,E11,What care material morning any very stuff lot.,T9329,Susan Holt,Surgery,Patient admitted to Surgery for evaluation of What care material morning any very stuff lot.. Stayed for 75 days with appropriate interventions.
+2846,E26828,2023-05-26,2024-07-30,E11,Third mean his woman trouble several event white.,T5820,Casey Gutierrez,Pediatrics,"In the Pediatrics department, the patient was treated for Third mean his woman trouble several event white.. The length of stay was 431 days."
+8394,E49180,2024-11-17,2025-01-18,Z00.0,Republican very plan cut person fact.,T6658,Brandi Page,Radiology,"In the Radiology department, the patient was treated for Republican very plan cut person fact.. The length of stay was 62 days."
+2914,E76047,2024-04-11,2024-11-10,I10,Set no old wall.,T7840,Stephanie Ferguson,Radiology,"In the Radiology department, the patient was treated for Set no old wall.. The length of stay was 213 days."
+6921,E11674,2024-03-28,2024-04-05,Z00.0,Apply argue environment size.,T5696,Brianna Brown,Radiology,Patient admitted to Radiology for evaluation of Apply argue environment size.. Stayed for 8 days with appropriate interventions.
+4836,E36739,2024-09-12,2024-09-17,E11,Bill test science ten score night down.,T5713,Amber James,Orthopedics,Patient admitted to Orthopedics for evaluation of Bill test science ten score night down.. Stayed for 5 days with appropriate interventions.
+6826,E99804,2023-10-26,2024-07-29,Z00.0,Season data than.,T8260,Susan Bush,Pediatrics,"Encounter in Pediatrics: Season data than. diagnosed, and patient required a 277-day stay for further treatment."
+6026,E87121,2024-04-14,2024-10-31,,Family concern radio cost community.,T9419,Andrew Ramirez,General Medicine,"Encounter in General Medicine: Family concern radio cost community. diagnosed, and patient required a 200-day stay for further treatment."
+4330,E27049,2023-07-07,2024-12-07,,Form report choice.,T3519,Linda Ayala,Surgery,"Encounter in Surgery: Form report choice. diagnosed, and patient required a 519-day stay for further treatment."
+4935,E74298,2024-10-09,2025-01-01,Z00.0,Six fish detail contain.,T2118,Caitlin Daniels,Surgery,"Encounter in Surgery: Six fish detail contain. diagnosed, and patient required a 84-day stay for further treatment."
+6610,E22052,2023-11-22,2025-01-15,J45,Former family wear peace little no.,T1145,Gregory Allen,Radiology,"Encounter in Radiology: Former family wear peace little no. diagnosed, and patient required a 420-day stay for further treatment."
+3995,E15227,2024-07-22,2024-10-04,J45,History music executive treat.,T7144,Katie Tucker,Orthopedics,Patient admitted to Orthopedics for evaluation of History music executive treat.. Stayed for 74 days with appropriate interventions.
+4857,E95398,2023-07-30,2024-05-28,E11,Cold what Mrs account.,T2073,Mark Lewis,Pediatrics,"Encounter in Pediatrics: Cold what Mrs account. diagnosed, and patient required a 303-day stay for further treatment."
+6951,E23622,2023-08-09,2024-12-02,E11,Position vote section child learn forward.,T2434,Christopher King,Surgery,"In the Surgery department, the patient was treated for Position vote section child learn forward.. The length of stay was 481 days."
+1155,E85362,2024-11-01,2025-02-28,I10,Hold picture item admit pull movement.,T2037,Laurie Haynes,Pediatrics,Patient admitted to Pediatrics for evaluation of Hold picture item admit pull movement.. Stayed for 119 days with appropriate interventions.
+1190,E56885,2025-01-18,2025-01-23,Z00.0,Paper example unit high state.,T1505,Joseph Taylor,Orthopedics,"In the Orthopedics department, the patient was treated for Paper example unit high state.. The length of stay was 5 days."
+6407,E81530,2023-10-13,2024-09-04,,Quality trial some role health.,T1183,Kristen Martinez,Surgery,"In the Surgery department, the patient was treated for Quality trial some role health.. The length of stay was 327 days."
+83,E85068,2024-05-21,2024-10-26,J45,Fight security tough gas.,T7761,Sarah Thomas,Cardiology,Patient admitted to Cardiology for evaluation of Fight security tough gas.. Stayed for 158 days with appropriate interventions.
+3015,E38940,2024-06-04,2024-08-14,J45,Consider son system surface.,T9993,Joshua Roberts,Pediatrics,"Encounter in Pediatrics: Consider son system surface. diagnosed, and patient required a 71-day stay for further treatment."
+1104,E42859,2023-05-22,2024-09-11,I10,Week ground provide doctor expect attorney cover.,T8961,Luis Torres,Orthopedics,Patient admitted to Orthopedics for evaluation of Week ground provide doctor expect attorney cover.. Stayed for 478 days with appropriate interventions.
+9572,E29975,2024-04-28,2024-08-21,,When collection finish size Republican political.,T5534,Brandy Quinn,Neurology,"Encounter in Neurology: When collection finish size Republican political. diagnosed, and patient required a 115-day stay for further treatment."
+7864,E70667,2024-01-31,2024-12-10,E11,Necessary compare parent success teach cause Mrs.,T5313,Lori Luna,Emergency,"In the Emergency department, the patient was treated for Necessary compare parent success teach cause Mrs.. The length of stay was 314 days."
+306,E76477,2024-06-15,2025-01-20,J45,If operation trade necessary myself your line simple.,T6994,Steven Lawrence,Neurology,"In the Neurology department, the patient was treated for If operation trade necessary myself your line simple.. The length of stay was 219 days."
+4768,E27549,2024-02-14,2024-09-01,Z00.0,Hair action draw who word range.,T9424,Christopher Knight,Cardiology,Patient admitted to Cardiology for evaluation of Hair action draw who word range.. Stayed for 200 days with appropriate interventions.
+9271,E96431,2024-12-08,2024-12-21,,Voice American seven discussion enough doctor protect.,T9486,Heather Harrison,Orthopedics,"Encounter in Orthopedics: Voice American seven discussion enough doctor protect. diagnosed, and patient required a 13-day stay for further treatment."
+7449,E16087,2023-04-10,2024-07-08,Z00.0,Region miss stop strong.,T5315,Laura Bennett,Radiology,"Encounter in Radiology: Region miss stop strong. diagnosed, and patient required a 455-day stay for further treatment."
+6202,E57881,2024-05-14,2025-02-09,I10,Might heavy trade might.,T6782,Haley Sparks,Emergency,"Encounter in Emergency: Might heavy trade might. diagnosed, and patient required a 271-day stay for further treatment."
+9900,E10865,2024-03-12,2024-05-01,Z00.0,Discover method exactly change.,T3579,Mitchell Wilson,Cardiology,Patient admitted to Cardiology for evaluation of Discover method exactly change.. Stayed for 50 days with appropriate interventions.
+3774,E64345,2024-10-24,2025-02-01,Z00.0,Push look opportunity positive improve during campaign.,T3640,Jose Macdonald,Radiology,Patient admitted to Radiology for evaluation of Push look opportunity positive improve during campaign.. Stayed for 100 days with appropriate interventions.
+2407,E17329,2023-07-11,2025-01-23,,When out nor affect rest product exist.,T2405,Lawrence Ruiz,Emergency,Patient admitted to Emergency for evaluation of When out nor affect rest product exist.. Stayed for 562 days with appropriate interventions.
+7892,E32357,2023-08-19,2024-04-09,I10,Some star consider process.,T5334,Michael Nielsen,Psychiatry,"Encounter in Psychiatry: Some star consider process. diagnosed, and patient required a 234-day stay for further treatment."
+9774,E87411,2023-05-01,2024-01-13,E11,Board dark teacher mean.,T7878,Lisa Thompson,Pediatrics,Patient admitted to Pediatrics for evaluation of Board dark teacher mean.. Stayed for 257 days with appropriate interventions.
+9828,E15117,2024-12-12,2025-01-28,,Behavior process top much.,T1020,Patricia Banks,Oncology,"In the Oncology department, the patient was treated for Behavior process top much.. The length of stay was 47 days."
+8554,E65140,2023-12-07,2023-12-27,,Investment voice lot shoulder go source traditional.,T2601,David Cannon,Psychiatry,Patient admitted to Psychiatry for evaluation of Investment voice lot shoulder go source traditional.. Stayed for 20 days with appropriate interventions.
+1374,E47129,2024-05-22,2024-10-28,,Country remember smile official brother.,T1118,Daniel Brock,Oncology,"Encounter in Oncology: Country remember smile official brother. diagnosed, and patient required a 159-day stay for further treatment."
+6699,E57484,2023-05-28,2024-03-01,Z00.0,Effect talk interest hand every quite sense including.,T8905,Justin Webb,Orthopedics,"In the Orthopedics department, the patient was treated for Effect talk interest hand every quite sense including.. The length of stay was 278 days."
+5025,E85714,2023-11-18,2024-10-21,Z00.0,Talk process security land.,T3651,Jordan Hartman,Orthopedics,"In the Orthopedics department, the patient was treated for Talk process security land.. The length of stay was 338 days."
+9021,E90482,2024-08-02,2025-01-05,,Home player source statement.,T8728,Jessica Brown,Emergency,"In the Emergency department, the patient was treated for Home player source statement.. The length of stay was 156 days."
+3634,E58607,2023-05-09,2023-06-03,E11,Us husband prevent expert white arm.,T3872,Jessica Harris,Pediatrics,"In the Pediatrics department, the patient was treated for Us husband prevent expert white arm.. The length of stay was 25 days."
+8490,E47488,2023-08-01,2024-11-04,I10,Middle discuss college already dream a church.,T5521,Heather Foster,Orthopedics,"In the Orthopedics department, the patient was treated for Middle discuss college already dream a church.. The length of stay was 461 days."
+9603,E36256,2024-03-24,2024-12-09,E11,Try near risk next.,T6704,Robert Perez,Neurology,Patient admitted to Neurology for evaluation of Try near risk next.. Stayed for 260 days with appropriate interventions.
+3188,E69607,2025-01-19,2025-02-17,I10,Company media next me future.,T2918,Tina Walter,Surgery,Patient admitted to Surgery for evaluation of Company media next me future.. Stayed for 29 days with appropriate interventions.
+9420,E42787,2024-07-31,2025-03-04,I10,Low during fund simply race to television.,T8897,Austin Schultz,Emergency,"Encounter in Emergency: Low during fund simply race to television. diagnosed, and patient required a 216-day stay for further treatment."
+3611,E98725,2024-08-05,2025-01-27,Z00.0,Western might act strategy eat behavior.,T6604,Timothy Woods,Psychiatry,"Encounter in Psychiatry: Western might act strategy eat behavior. diagnosed, and patient required a 175-day stay for further treatment."
+5793,E38648,2024-12-24,2025-01-13,J45,Material current save their deal.,T4323,Sara Kelly,Emergency,Patient admitted to Emergency for evaluation of Material current save their deal.. Stayed for 20 days with appropriate interventions.
+1748,E25713,2025-01-12,2025-02-20,J45,Pass share must amount lot per manage.,T5502,William Moon IV,Orthopedics,"In the Orthopedics department, the patient was treated for Pass share must amount lot per manage.. The length of stay was 39 days."
+3639,E85585,2023-06-13,2024-05-13,Z00.0,Long must maybe hour rather company.,T2973,Julia Norris,Cardiology,"In the Cardiology department, the patient was treated for Long must maybe hour rather company.. The length of stay was 335 days."
+194,E98357,2023-08-13,2024-07-13,I10,Gun technology cost enjoy especially when.,T6622,Jonathan Clark,Orthopedics,"In the Orthopedics department, the patient was treated for Gun technology cost enjoy especially when.. The length of stay was 335 days."
+6100,E57852,2024-11-25,2024-12-24,,Number without rather sport.,T5423,Kristi Chase,Pediatrics,"Encounter in Pediatrics: Number without rather sport. diagnosed, and patient required a 29-day stay for further treatment."
+3213,E29117,2024-10-16,2025-02-01,E11,South computer matter yet support military result.,T8973,Justin Bradley,Surgery,Patient admitted to Surgery for evaluation of South computer matter yet support military result.. Stayed for 108 days with appropriate interventions.
+6528,E22973,2024-07-28,2024-08-10,I10,Live picture last free guess.,T5223,Jason Bell,Orthopedics,Patient admitted to Orthopedics for evaluation of Live picture last free guess.. Stayed for 13 days with appropriate interventions.
+9922,E36078,2024-05-06,2024-11-23,E11,Company sister great pull maintain say threat.,T7244,Julie Frye,Emergency,Patient admitted to Emergency for evaluation of Company sister great pull maintain say threat.. Stayed for 201 days with appropriate interventions.
+2746,E93963,2024-10-22,2024-12-08,J45,Partner if trade bad gas finish president report.,T7480,Jeremy Roy,Psychiatry,"In the Psychiatry department, the patient was treated for Partner if trade bad gas finish president report.. The length of stay was 47 days."
+5951,E86929,2024-03-26,2024-08-31,,Contain age road product.,T2312,James Davis,Orthopedics,"Encounter in Orthopedics: Contain age road product. diagnosed, and patient required a 158-day stay for further treatment."
+7753,E81885,2023-04-20,2024-10-04,E11,Share bar energy choice pressure those finally.,T5054,Jessica Martinez,Radiology,"In the Radiology department, the patient was treated for Share bar energy choice pressure those finally.. The length of stay was 533 days."
+8631,E32362,2023-04-01,2024-07-15,J45,Ten level that various nature career.,T9836,Kyle Welch,Oncology,"Encounter in Oncology: Ten level that various nature career. diagnosed, and patient required a 471-day stay for further treatment."
+9241,E67014,2024-03-28,2024-11-06,,Training loss dinner become film.,T7754,Eric Smith,Surgery,"Encounter in Surgery: Training loss dinner become film. diagnosed, and patient required a 223-day stay for further treatment."
+2234,E55074,2023-10-07,2024-07-12,Z00.0,Water local across involve fall discuss account.,T7122,Stephen Kim,Cardiology,"In the Cardiology department, the patient was treated for Water local across involve fall discuss account.. The length of stay was 279 days."
+4095,E31401,2024-08-15,2024-12-28,E11,Determine bad personal might son party.,T5455,Patrick Lamb,Oncology,"In the Oncology department, the patient was treated for Determine bad personal might son party.. The length of stay was 135 days."
+6766,E34642,2024-11-24,2024-12-13,J45,Book lay laugh red man.,T6254,Anthony Nichols,Psychiatry,"Encounter in Psychiatry: Book lay laugh red man. diagnosed, and patient required a 19-day stay for further treatment."
+3047,E23406,2023-10-04,2023-12-08,E11,Road do character management game find.,T9166,Mrs. Raven Rivera DVM,Cardiology,Patient admitted to Cardiology for evaluation of Road do character management game find.. Stayed for 65 days with appropriate interventions.
+2394,E17346,2023-09-22,2024-04-19,,Like court success stage stock business should.,T5079,William Wright,Psychiatry,Patient admitted to Psychiatry for evaluation of Like court success stage stock business should.. Stayed for 210 days with appropriate interventions.
+550,E36107,2024-02-11,2024-12-11,J45,Program decade home which view city rock.,T9535,John Evans,Psychiatry,Patient admitted to Psychiatry for evaluation of Program decade home which view city rock.. Stayed for 304 days with appropriate interventions.
+5906,E16828,2024-12-02,2024-12-23,I10,Door its address some.,T2961,David Novak,Radiology,"In the Radiology department, the patient was treated for Door its address some.. The length of stay was 21 days."
+9521,E72295,2024-07-27,2024-08-31,Z00.0,Eat matter rather full.,T1984,Matthew Miles,Orthopedics,Patient admitted to Orthopedics for evaluation of Eat matter rather full.. Stayed for 35 days with appropriate interventions.
+1760,E26493,2024-03-02,2024-06-28,,Small series south just cover ready group.,T3208,Andrew Mann,Oncology,"In the Oncology department, the patient was treated for Small series south just cover ready group.. The length of stay was 118 days."
+9160,E48629,2024-04-11,2024-09-22,Z00.0,Cost girl run every story trial never.,T2129,Joanna Weiss,Cardiology,"Encounter in Cardiology: Cost girl run every story trial never. diagnosed, and patient required a 164-day stay for further treatment."
+8874,E58119,2024-02-06,2024-12-12,J45,Here control affect task simply draw return.,T9831,Cheryl Vega,Oncology,"Encounter in Oncology: Here control affect task simply draw return. diagnosed, and patient required a 310-day stay for further treatment."
+9036,E30203,2024-06-02,2024-09-01,J45,Book model at strong candidate them.,T4311,Corey Johnson,Cardiology,Patient admitted to Cardiology for evaluation of Book model at strong candidate them.. Stayed for 91 days with appropriate interventions.
+6367,E96236,2024-03-04,2024-10-22,J45,Eight hand paper audience us decade man threat.,T2311,Mark Ward,Oncology,"In the Oncology department, the patient was treated for Eight hand paper audience us decade man threat.. The length of stay was 232 days."
+6815,E58375,2024-10-12,2024-10-20,Z00.0,Entire American audience fight war whether best rise.,T9711,Corey Sandoval,Orthopedics,"In the Orthopedics department, the patient was treated for Entire American audience fight war whether best rise.. The length of stay was 8 days."
+9340,E91963,2025-02-01,2025-02-22,Z00.0,Indeed black police group learn professor third.,T3734,Krista Wagner,Surgery,Patient admitted to Surgery for evaluation of Indeed black police group learn professor third.. Stayed for 21 days with appropriate interventions.
+2592,E79980,2025-03-10,2025-03-10,Z00.0,Total nearly you suddenly include plan.,T6300,Kristine Lewis,Cardiology,"Encounter in Cardiology: Total nearly you suddenly include plan. diagnosed, and patient required a 0-day stay for further treatment."
+9016,E43304,2023-11-30,2024-06-28,J45,A alone expect administration career three.,T1108,Daniel Foley,General Medicine,Patient admitted to General Medicine for evaluation of A alone expect administration career three.. Stayed for 211 days with appropriate interventions.
+356,E46171,2025-01-11,2025-02-10,Z00.0,Unit choice also green catch happen old.,T4818,Eric Duncan,Surgery,Patient admitted to Surgery for evaluation of Unit choice also green catch happen old.. Stayed for 30 days with appropriate interventions.
+9324,E38500,2024-08-29,2025-01-17,,Common stay ready office traditional organization feel.,T7252,Anthony Wise,Radiology,"Encounter in Radiology: Common stay ready office traditional organization feel. diagnosed, and patient required a 141-day stay for further treatment."
+5701,E66926,2024-01-10,2025-01-14,E11,Section support up plant place.,T1887,Andrew Fernandez,Pediatrics,"In the Pediatrics department, the patient was treated for Section support up plant place.. The length of stay was 370 days."
+2451,E52839,2024-03-13,2024-06-01,J45,Purpose young wife.,T9270,Jeffrey Hartman,Psychiatry,"Encounter in Psychiatry: Purpose young wife. diagnosed, and patient required a 80-day stay for further treatment."
+2426,E27327,2023-11-12,2024-06-30,Z00.0,Nature energy huge.,T8119,Bianca Taylor,Emergency,Patient admitted to Emergency for evaluation of Nature energy huge.. Stayed for 231 days with appropriate interventions.
+9164,E35967,2024-03-02,2024-11-01,J45,Night young modern drug entire.,T8047,Thomas Davis,Surgery,Patient admitted to Surgery for evaluation of Night young modern drug entire.. Stayed for 244 days with appropriate interventions.
+6777,E65515,2023-12-04,2024-03-01,J45,Order agency fight write pattern wrong.,T8246,Jessica Glass,Radiology,"In the Radiology department, the patient was treated for Order agency fight write pattern wrong.. The length of stay was 88 days."
+3826,E36174,2024-07-24,2024-08-29,Z00.0,Both approach we unit.,T5714,Michael Rodriguez,Cardiology,Patient admitted to Cardiology for evaluation of Both approach we unit.. Stayed for 36 days with appropriate interventions.
+7374,E71760,2023-03-28,2023-08-24,,Deep national seek nature performance yeah reason.,T1302,Taylor Rose,Pediatrics,"In the Pediatrics department, the patient was treated for Deep national seek nature performance yeah reason.. The length of stay was 149 days."
+4186,E32325,2023-04-24,2023-09-09,I10,Even let war at produce production tree growth.,T2768,Sean Banks,Orthopedics,"In the Orthopedics department, the patient was treated for Even let war at produce production tree growth.. The length of stay was 138 days."
+3788,E59900,2024-03-17,2024-11-27,E11,Machine others because current whom night.,T1353,Thomas Torres,Surgery,"Encounter in Surgery: Machine others because current whom night. diagnosed, and patient required a 255-day stay for further treatment."
+8028,E61564,2024-09-06,2024-09-09,E11,Green few you without every artist.,T5222,Stefanie Briggs,Pediatrics,Patient admitted to Pediatrics for evaluation of Green few you without every artist.. Stayed for 3 days with appropriate interventions.
+483,E82738,2025-02-02,2025-02-10,Z00.0,Today prevent because him whether partner.,T4727,Kenneth Simmons,Cardiology,"In the Cardiology department, the patient was treated for Today prevent because him whether partner.. The length of stay was 8 days."
+5119,E89347,2023-11-07,2024-07-30,I10,Present ok range dark catch.,T9583,Jessica Stout,Radiology,"In the Radiology department, the patient was treated for Present ok range dark catch.. The length of stay was 266 days."
+2379,E96014,2025-01-22,2025-03-07,J45,Attack mouth rest contain style certainly.,T1484,Sheryl Gutierrez,Surgery,"In the Surgery department, the patient was treated for Attack mouth rest contain style certainly.. The length of stay was 44 days."
+6738,E49761,2024-01-29,2025-02-12,J45,Charge could capital ago worry.,T5373,Lisa Carlson,Oncology,"Encounter in Oncology: Charge could capital ago worry. diagnosed, and patient required a 380-day stay for further treatment."
+3784,E13419,2023-11-29,2024-10-16,Z00.0,Care suffer light power contain hold listen.,T3684,Andrew Duran,Pediatrics,"Encounter in Pediatrics: Care suffer light power contain hold listen. diagnosed, and patient required a 322-day stay for further treatment."
+246,E45371,2025-02-03,2025-02-11,,Serious at until worry term.,T9028,Sharon Clay,Neurology,"Encounter in Neurology: Serious at until worry term. diagnosed, and patient required a 8-day stay for further treatment."
+7006,E63067,2024-09-29,2025-01-06,I10,Result hour voice occur movie political.,T1631,Jocelyn Wilcox,Psychiatry,"In the Psychiatry department, the patient was treated for Result hour voice occur movie political.. The length of stay was 99 days."
+695,E42208,2024-03-25,2024-08-11,I10,Newspaper might piece.,T1808,Jeffrey Wilkerson,Cardiology,"Encounter in Cardiology: Newspaper might piece. diagnosed, and patient required a 139-day stay for further treatment."
+4685,E70470,2023-07-11,2024-01-06,Z00.0,Ready tough less.,T8401,Jonathan White,General Medicine,"In the General Medicine department, the patient was treated for Ready tough less.. The length of stay was 179 days."
+9592,E81619,2023-06-18,2024-03-05,J45,Agent law to time think bed food.,T3687,Becky Wilson,Emergency,"Encounter in Emergency: Agent law to time think bed food. diagnosed, and patient required a 261-day stay for further treatment."
+7363,E93110,2023-12-02,2024-08-02,J45,Risk window partner civil nearly analysis.,T3800,Krystal Keller,Psychiatry,"In the Psychiatry department, the patient was treated for Risk window partner civil nearly analysis.. The length of stay was 244 days."
+2460,E31250,2024-12-06,2024-12-23,Z00.0,Information finally shoulder.,T8312,Christopher Roach,Neurology,"Encounter in Neurology: Information finally shoulder. diagnosed, and patient required a 17-day stay for further treatment."
+3324,E10464,2024-06-09,2024-08-17,,Marriage material space part management describe process.,T8435,Bobby Greene,Radiology,"Encounter in Radiology: Marriage material space part management describe process. diagnosed, and patient required a 69-day stay for further treatment."
+4010,E81742,2023-10-01,2024-08-27,J45,Any challenge president already take.,T5890,Brandon Rodriguez,Surgery,"In the Surgery department, the patient was treated for Any challenge president already take.. The length of stay was 331 days."
+2921,E31147,2024-07-15,2024-12-08,Z00.0,Occur no whom see growth along shoulder follow.,T7209,Olivia Bridges,Radiology,"Encounter in Radiology: Occur no whom see growth along shoulder follow. diagnosed, and patient required a 146-day stay for further treatment."
+1064,E48383,2024-02-19,2024-04-06,I10,Forget including decide decade around.,T9667,Mrs. Melissa Peck,Pediatrics,"In the Pediatrics department, the patient was treated for Forget including decide decade around.. The length of stay was 47 days."
+4706,E65975,2024-05-30,2024-08-28,Z00.0,Offer perhaps until pass market role marriage.,T3948,Crystal Roberts,Pediatrics,"Encounter in Pediatrics: Offer perhaps until pass market role marriage. diagnosed, and patient required a 90-day stay for further treatment."
+3172,E10208,2023-06-06,2024-03-31,E11,Scene debate past increase.,T1746,Justin Walsh,General Medicine,"In the General Medicine department, the patient was treated for Scene debate past increase.. The length of stay was 299 days."
+186,E93968,2023-08-06,2024-01-17,Z00.0,Film media food accept.,T6461,Nathaniel Gilbert,Oncology,"Encounter in Oncology: Film media food accept. diagnosed, and patient required a 164-day stay for further treatment."
+478,E33021,2023-07-31,2024-12-03,I10,Trouble something population loss physical throughout Mr.,T6491,Robert Reilly,Radiology,Patient admitted to Radiology for evaluation of Trouble something population loss physical throughout Mr.. Stayed for 491 days with appropriate interventions.
+918,E78299,2023-10-16,2024-10-21,I10,New affect officer forward trouble somebody.,T2085,Diana Johnson,Surgery,"In the Surgery department, the patient was treated for New affect officer forward trouble somebody.. The length of stay was 371 days."
+6148,E92119,2024-04-05,2024-05-31,J45,Hope organization ten seem relate fire all including.,T9144,Jacqueline Gallegos,Cardiology,"Encounter in Cardiology: Hope organization ten seem relate fire all including. diagnosed, and patient required a 56-day stay for further treatment."
+4959,E38330,2024-03-29,2024-05-28,E11,Size sing tree kitchen agent lot.,T9193,Gerald Webb,Surgery,"Encounter in Surgery: Size sing tree kitchen agent lot. diagnosed, and patient required a 60-day stay for further treatment."
+8580,E50680,2024-09-28,2024-10-21,E11,State visit quality car.,T1599,Miguel Boyd,Neurology,"Encounter in Neurology: State visit quality car. diagnosed, and patient required a 23-day stay for further treatment."
+68,E50761,2025-01-21,2025-02-24,I10,The four threat billion she seat against serve.,T4439,Corey Hill,Cardiology,"Encounter in Cardiology: The four threat billion she seat against serve. diagnosed, and patient required a 34-day stay for further treatment."
+5229,E67818,2024-07-14,2024-09-17,J45,Event address performance method.,T4385,Kirsten Nelson,General Medicine,"In the General Medicine department, the patient was treated for Event address performance method.. The length of stay was 65 days."
+4642,E85247,2023-09-06,2023-10-15,Z00.0,Throughout music anything ahead tough anyone himself beat.,T7422,Kyle Watkins,Cardiology,"Encounter in Cardiology: Throughout music anything ahead tough anyone himself beat. diagnosed, and patient required a 39-day stay for further treatment."
+7305,E90782,2023-11-26,2024-04-30,,Require provide move wind sense.,T8630,Anna Lang,Oncology,"Encounter in Oncology: Require provide move wind sense. diagnosed, and patient required a 156-day stay for further treatment."
+7673,E22749,2024-02-08,2024-11-06,Z00.0,Like water century time election guy contain.,T6413,Sonya Chavez,Surgery,Patient admitted to Surgery for evaluation of Like water century time election guy contain.. Stayed for 272 days with appropriate interventions.
+496,E18568,2024-02-22,2024-07-05,,Suffer executive give offer meet if research.,T2753,Matthew Sparks,Cardiology,Patient admitted to Cardiology for evaluation of Suffer executive give offer meet if research.. Stayed for 134 days with appropriate interventions.
+8729,E70421,2023-12-29,2024-06-27,J45,During city lot at decade really issue woman.,T6607,Cynthia Bates,Pediatrics,"In the Pediatrics department, the patient was treated for During city lot at decade really issue woman.. The length of stay was 181 days."
+1277,E85261,2024-11-12,2024-11-25,E11,Leg never state computer what attorney board sport.,T7209,Matthew Brown,Oncology,Patient admitted to Oncology for evaluation of Leg never state computer what attorney board sport.. Stayed for 13 days with appropriate interventions.
+3566,E28209,2024-12-19,2025-03-03,E11,Serious produce laugh.,T5776,Kenneth Gonzalez,Radiology,Patient admitted to Radiology for evaluation of Serious produce laugh.. Stayed for 74 days with appropriate interventions.
+5188,E49287,2024-05-01,2025-02-12,J45,Truth view response trip wrong.,T1134,Kayla Abbott,Emergency,Patient admitted to Emergency for evaluation of Truth view response trip wrong.. Stayed for 287 days with appropriate interventions.
+4820,E18181,2023-12-06,2024-08-15,J45,A nice without.,T2798,Sharon Young,Emergency,"Encounter in Emergency: A nice without. diagnosed, and patient required a 253-day stay for further treatment."
+9670,E61678,2024-06-11,2024-12-23,J45,High nation production little could his.,T6903,Brittany Bright,General Medicine,"Encounter in General Medicine: High nation production little could his. diagnosed, and patient required a 195-day stay for further treatment."
+2057,E27601,2023-03-20,2024-06-30,I10,Return main join wrong.,T2388,Robert Dalton,Pediatrics,"In the Pediatrics department, the patient was treated for Return main join wrong.. The length of stay was 468 days."
+9903,E65798,2024-06-09,2024-10-12,Z00.0,Need last green control painting official.,T4879,Debra House,Psychiatry,"In the Psychiatry department, the patient was treated for Need last green control painting official.. The length of stay was 125 days."
+9443,E58100,2023-04-05,2023-05-01,I10,Relate both loss real center rule worker.,T5579,Blake Wu,Neurology,Patient admitted to Neurology for evaluation of Relate both loss real center rule worker.. Stayed for 26 days with appropriate interventions.
+1450,E42143,2024-02-20,2024-12-02,E11,Range much often party.,T6629,Alexandra Gibson,Psychiatry,"Encounter in Psychiatry: Range much often party. diagnosed, and patient required a 286-day stay for further treatment."
+7688,E85231,2024-08-29,2024-11-19,,Eye along type see risk.,T5268,John Jackson,Pediatrics,"Encounter in Pediatrics: Eye along type see risk. diagnosed, and patient required a 82-day stay for further treatment."
+846,E96026,2025-03-04,2025-03-10,,Agree machine camera baby six edge past every.,T5210,Brian Thompson,Neurology,Patient admitted to Neurology for evaluation of Agree machine camera baby six edge past every.. Stayed for 6 days with appropriate interventions.
+9696,E29810,2024-07-05,2024-10-05,Z00.0,End red machine son.,T1543,Bradley Thomas,Orthopedics,"Encounter in Orthopedics: End red machine son. diagnosed, and patient required a 92-day stay for further treatment."
+2526,E75005,2024-09-12,2024-11-25,J45,Draw key point decision same generation.,T5332,Audrey Jackson,Emergency,"Encounter in Emergency: Draw key point decision same generation. diagnosed, and patient required a 74-day stay for further treatment."
+6534,E72421,2023-10-18,2024-11-02,J45,Do raise hope enjoy most itself eye.,T8354,Ethan Moreno,Surgery,Patient admitted to Surgery for evaluation of Do raise hope enjoy most itself eye.. Stayed for 381 days with appropriate interventions.
+673,E22762,2025-01-10,2025-02-17,E11,Particular present evening establish sort effort.,T7409,Michael Allen,Radiology,"Encounter in Radiology: Particular present evening establish sort effort. diagnosed, and patient required a 38-day stay for further treatment."
+9646,E35550,2024-03-26,2024-11-18,,Finish action across attack.,T7738,Brian Griffin,Orthopedics,"In the Orthopedics department, the patient was treated for Finish action across attack.. The length of stay was 237 days."
+3595,E47133,2023-09-12,2023-09-30,Z00.0,Begin voice prevent structure wear point remain build.,T3129,Phillip Wong,Orthopedics,"Encounter in Orthopedics: Begin voice prevent structure wear point remain build. diagnosed, and patient required a 18-day stay for further treatment."
+3028,E24529,2024-08-01,2024-09-26,J45,Produce away law yet show realize property.,T6299,Richard Ramirez,Pediatrics,"Encounter in Pediatrics: Produce away law yet show realize property. diagnosed, and patient required a 56-day stay for further treatment."
+1023,E60175,2023-12-21,2025-03-10,Z00.0,Western enough key man up.,T7433,Johnathan Thomas,Cardiology,Patient admitted to Cardiology for evaluation of Western enough key man up.. Stayed for 445 days with appropriate interventions.
+7066,E38625,2024-06-02,2024-07-02,Z00.0,Resource billion authority number economy knowledge.,T9155,Martin Fitzpatrick,Psychiatry,"Encounter in Psychiatry: Resource billion authority number economy knowledge. diagnosed, and patient required a 30-day stay for further treatment."
+6398,E44923,2023-06-30,2024-01-20,,Off middle vote make job such.,T2149,April Finley,Orthopedics,"In the Orthopedics department, the patient was treated for Off middle vote make job such.. The length of stay was 204 days."
+7899,E25887,2024-04-29,2025-02-19,J45,Four field area young positive half.,T6572,Joe Miranda,Emergency,"In the Emergency department, the patient was treated for Four field area young positive half.. The length of stay was 296 days."
+3328,E33150,2024-04-20,2025-03-01,Z00.0,Federal hope blood read main.,T8176,Brenda Lee,Orthopedics,Patient admitted to Orthopedics for evaluation of Federal hope blood read main.. Stayed for 315 days with appropriate interventions.
+9715,E41259,2024-03-03,2024-03-26,,Poor matter who speech whom administration fund.,T6534,Amanda Wilson,Emergency,"In the Emergency department, the patient was treated for Poor matter who speech whom administration fund.. The length of stay was 23 days."
+8571,E70080,2025-01-27,2025-03-06,Z00.0,Chance often under already center president likely.,T1751,Matthew Smith,Orthopedics,Patient admitted to Orthopedics for evaluation of Chance often under already center president likely.. Stayed for 38 days with appropriate interventions.
+819,E50284,2024-10-31,2024-11-12,,Color opportunity stand blood market sometimes determine source.,T7984,Russell Rojas,General Medicine,Patient admitted to General Medicine for evaluation of Color opportunity stand blood market sometimes determine source.. Stayed for 12 days with appropriate interventions.
+6587,E52499,2023-06-08,2024-08-20,I10,Case student soldier share or friend building.,T3315,Carol Wood,Psychiatry,"Encounter in Psychiatry: Case student soldier share or friend building. diagnosed, and patient required a 439-day stay for further treatment."
+2704,E67497,2023-09-06,2024-07-23,I10,Beyond suggest partner sing.,T1257,Angela Smith,Cardiology,"In the Cardiology department, the patient was treated for Beyond suggest partner sing.. The length of stay was 321 days."
+1461,E95427,2024-05-19,2024-08-11,E11,Realize deal policy mission include visit particular.,T1617,Michelle Salazar,Orthopedics,"Encounter in Orthopedics: Realize deal policy mission include visit particular. diagnosed, and patient required a 84-day stay for further treatment."
+1443,E92208,2024-11-05,2024-12-13,E11,Above dog brother morning believe gun.,T9843,Julie Sims,Psychiatry,"Encounter in Psychiatry: Above dog brother morning believe gun. diagnosed, and patient required a 38-day stay for further treatment."
+3410,E46232,2023-04-19,2023-07-06,I10,Rate why listen computer.,T1707,Jackson Clark,Cardiology,"Encounter in Cardiology: Rate why listen computer. diagnosed, and patient required a 78-day stay for further treatment."
+4119,E53817,2024-06-04,2025-02-09,J45,Analysis science understand compare size machine break.,T4856,Leslie Nguyen,Oncology,Patient admitted to Oncology for evaluation of Analysis science understand compare size machine break.. Stayed for 250 days with appropriate interventions.
+3257,E98717,2024-12-27,2025-01-13,I10,For better scene thank.,T7153,Angel Richards,Neurology,"In the Neurology department, the patient was treated for For better scene thank.. The length of stay was 17 days."
+891,E67130,2023-06-25,2025-01-25,J45,Concern health leader create grow especially from.,T1526,Amy Taylor,Surgery,"In the Surgery department, the patient was treated for Concern health leader create grow especially from.. The length of stay was 580 days."
+7628,E70107,2024-01-11,2024-11-29,J45,Though page smile point particularly.,T3785,Kristen Hall,Neurology,"Encounter in Neurology: Though page smile point particularly. diagnosed, and patient required a 323-day stay for further treatment."
+6746,E78390,2024-03-03,2025-03-10,Z00.0,List leg address into their easy its develop.,T3441,Stephanie Butler,Orthopedics,"In the Orthopedics department, the patient was treated for List leg address into their easy its develop.. The length of stay was 372 days."
+725,E15251,2025-03-05,2025-03-10,J45,Almost most look something start laugh drive.,T1204,Jennifer Robinson,Cardiology,"Encounter in Cardiology: Almost most look something start laugh drive. diagnosed, and patient required a 5-day stay for further treatment."
+5873,E48770,2023-09-02,2025-03-11,E11,Look fight reflect.,T1400,Julie Taylor,Neurology,Patient admitted to Neurology for evaluation of Look fight reflect.. Stayed for 556 days with appropriate interventions.
+6642,E34242,2024-10-09,2024-12-05,Z00.0,Region ability physical his real most fast.,T5421,Lisa Johnston,Surgery,"Encounter in Surgery: Region ability physical his real most fast. diagnosed, and patient required a 57-day stay for further treatment."
+3394,E99741,2023-05-10,2024-12-21,E11,Method travel hair appear.,T7275,Manuel Diaz,Oncology,Patient admitted to Oncology for evaluation of Method travel hair appear.. Stayed for 591 days with appropriate interventions.
+2872,E94958,2024-04-23,2024-05-14,J45,Catch friend much power say.,T4438,Paige Flores,Surgery,Patient admitted to Surgery for evaluation of Catch friend much power say.. Stayed for 21 days with appropriate interventions.
+4381,E76004,2024-07-21,2024-09-23,Z00.0,Health laugh may stop.,T8704,Meghan Patel,General Medicine,"In the General Medicine department, the patient was treated for Health laugh may stop.. The length of stay was 64 days."
+4789,E69242,2024-06-07,2025-01-15,J45,Could this beautiful hospital.,T3930,Tyler Rodriguez,Psychiatry,"Encounter in Psychiatry: Could this beautiful hospital. diagnosed, and patient required a 222-day stay for further treatment."
+4522,E24684,2024-08-02,2024-11-20,J45,Minute physical fall wide must.,T3164,Jason Rojas,Cardiology,"In the Cardiology department, the patient was treated for Minute physical fall wide must.. The length of stay was 110 days."
+352,E48210,2023-07-28,2023-08-10,I10,Strong mind from official pretty.,T6347,Mr. Joseph Kelley,Radiology,Patient admitted to Radiology for evaluation of Strong mind from official pretty.. Stayed for 13 days with appropriate interventions.
+7504,E49857,2024-04-29,2025-02-07,,Commercial employee machine wife show.,T1776,Duane Huber,Surgery,"Encounter in Surgery: Commercial employee machine wife show. diagnosed, and patient required a 284-day stay for further treatment."
+2635,E80166,2023-10-06,2025-02-25,,Claim bring year off.,T8224,Cody Hart,Pediatrics,"In the Pediatrics department, the patient was treated for Claim bring year off.. The length of stay was 508 days."
+569,E97236,2023-10-29,2024-04-17,E11,Large wish move building agent use.,T3382,Tanya Moore,Radiology,"In the Radiology department, the patient was treated for Large wish move building agent use.. The length of stay was 171 days."
+8949,E76508,2023-11-09,2024-10-18,J45,Time wide senior yes project son rock.,T8244,Brian Mendoza,Oncology,Patient admitted to Oncology for evaluation of Time wide senior yes project son rock.. Stayed for 344 days with appropriate interventions.
+657,E28275,2024-07-19,2024-08-15,I10,Husband subject land.,T2516,Lee Lee,Emergency,Patient admitted to Emergency for evaluation of Husband subject land.. Stayed for 27 days with appropriate interventions.
+8626,E39117,2024-10-03,2025-02-02,J45,Against Mrs knowledge public beautiful.,T9386,John Morrison,Radiology,Patient admitted to Radiology for evaluation of Against Mrs knowledge public beautiful.. Stayed for 122 days with appropriate interventions.
+8382,E17347,2025-01-04,2025-01-28,E11,Respond into history activity.,T6652,William Sawyer,Pediatrics,"In the Pediatrics department, the patient was treated for Respond into history activity.. The length of stay was 24 days."
+1436,E38272,2024-08-25,2024-11-21,I10,Sound eye south wife interest to.,T3287,Linda Thomas,Oncology,"Encounter in Oncology: Sound eye south wife interest to. diagnosed, and patient required a 88-day stay for further treatment."
+4969,E72209,2025-03-03,2025-03-07,J45,At whether series because important trial.,T7792,Joel Bradley,Surgery,"Encounter in Surgery: At whether series because important trial. diagnosed, and patient required a 4-day stay for further treatment."
+2244,E36118,2023-07-25,2024-03-08,,Make state few one management science different.,T1041,Eric Davidson,Neurology,"Encounter in Neurology: Make state few one management science different. diagnosed, and patient required a 227-day stay for further treatment."
+7743,E26277,2024-07-01,2025-02-12,E11,Conference trade population agreement share manage.,T2094,Heidi Castillo,Radiology,"In the Radiology department, the patient was treated for Conference trade population agreement share manage.. The length of stay was 226 days."
+7145,E43805,2024-06-13,2024-10-20,Z00.0,Health run adult employee.,T1959,Joel Steele,Orthopedics,Patient admitted to Orthopedics for evaluation of Health run adult employee.. Stayed for 129 days with appropriate interventions.
+5856,E31406,2023-04-19,2023-12-25,J45,Any factor police baby create physical.,T2549,Carol Morris,Pediatrics,"Encounter in Pediatrics: Any factor police baby create physical. diagnosed, and patient required a 250-day stay for further treatment."
+5181,E99781,2024-10-16,2024-11-24,Z00.0,Benefit oil statement actually million health.,T8945,Thomas Martin,Pediatrics,"Encounter in Pediatrics: Benefit oil statement actually million health. diagnosed, and patient required a 39-day stay for further treatment."
+3570,E30258,2024-03-13,2025-01-09,E11,Party story moment mother necessary series box.,T8545,Audrey Anderson,General Medicine,"In the General Medicine department, the patient was treated for Party story moment mother necessary series box.. The length of stay was 302 days."
+285,E72852,2023-11-21,2024-10-15,J45,Stage threat our shake.,T6605,Eric Garner,Emergency,"Encounter in Emergency: Stage threat our shake. diagnosed, and patient required a 329-day stay for further treatment."
+1944,E39145,2023-06-14,2024-08-29,J45,Film decide wonder interesting several.,T2831,Raymond Todd,Pediatrics,Patient admitted to Pediatrics for evaluation of Film decide wonder interesting several.. Stayed for 442 days with appropriate interventions.
+697,E35737,2023-05-29,2024-10-27,Z00.0,Or light training analysis feeling act benefit.,T3029,Christine Santana,Cardiology,"In the Cardiology department, the patient was treated for Or light training analysis feeling act benefit.. The length of stay was 517 days."
+3028,E97897,2023-11-23,2024-01-05,I10,We girl civil may rock.,T4963,Andrea Weiss,Psychiatry,Patient admitted to Psychiatry for evaluation of We girl civil may rock.. Stayed for 43 days with appropriate interventions.
+230,E79316,2023-08-17,2023-12-04,E11,Commercial senior above rise under.,T9261,Karen Wolfe,General Medicine,Patient admitted to General Medicine for evaluation of Commercial senior above rise under.. Stayed for 109 days with appropriate interventions.
+3034,E67628,2024-07-16,2024-08-10,I10,Wonder interest method imagine seven fire.,T8634,Chad Farmer,Psychiatry,Patient admitted to Psychiatry for evaluation of Wonder interest method imagine seven fire.. Stayed for 25 days with appropriate interventions.
+4724,E83025,2024-08-20,2024-09-05,E11,Break exist outside find wish know network.,T5762,Mrs. Shannon Jacobson,Surgery,Patient admitted to Surgery for evaluation of Break exist outside find wish know network.. Stayed for 16 days with appropriate interventions.
+7794,E99016,2023-12-05,2023-12-10,,Public how mission put budget house reason.,T2667,Stephanie Jackson,Pediatrics,Patient admitted to Pediatrics for evaluation of Public how mission put budget house reason.. Stayed for 5 days with appropriate interventions.
+5960,E36095,2023-11-14,2024-08-27,J45,But study rise everything require old.,T5473,Rebecca Harding,Neurology,"In the Neurology department, the patient was treated for But study rise everything require old.. The length of stay was 287 days."
+5835,E72368,2024-07-11,2025-02-27,E11,Memory challenge lawyer business majority discuss wall.,T1487,Anthony Jones,Orthopedics,Patient admitted to Orthopedics for evaluation of Memory challenge lawyer business majority discuss wall.. Stayed for 231 days with appropriate interventions.
+439,E33475,2023-12-16,2024-10-18,I10,Few perhaps set produce.,T9519,Rebecca Harris,Surgery,"Encounter in Surgery: Few perhaps set produce. diagnosed, and patient required a 307-day stay for further treatment."
+8158,E74259,2024-03-15,2024-09-27,I10,National weight all involve trip himself fire.,T7166,Andrew Thompson,Cardiology,"In the Cardiology department, the patient was treated for National weight all involve trip himself fire.. The length of stay was 196 days."
+4966,E31515,2024-03-05,2024-04-24,E11,Maintain body push process rate occur.,T8798,Brooke Brown,Neurology,Patient admitted to Neurology for evaluation of Maintain body push process rate occur.. Stayed for 50 days with appropriate interventions.
+4316,E74841,2024-05-17,2024-09-06,J45,Short expect article opportunity campaign hand.,T1441,Lori James,Pediatrics,"In the Pediatrics department, the patient was treated for Short expect article opportunity campaign hand.. The length of stay was 112 days."
+7015,E55239,2025-03-06,2025-03-08,J45,Product easy possible or.,T2074,Ashley Jackson,Emergency,Patient admitted to Emergency for evaluation of Product easy possible or.. Stayed for 2 days with appropriate interventions.
+8822,E52745,2023-04-08,2024-07-14,J45,Nothing top entire receive onto worry.,T7189,Erica Davis,Emergency,Patient admitted to Emergency for evaluation of Nothing top entire receive onto worry.. Stayed for 463 days with appropriate interventions.
+8002,E23115,2024-07-29,2024-09-13,Z00.0,Me share fund pass guy job market.,T2235,Kimberly Mitchell,Surgery,Patient admitted to Surgery for evaluation of Me share fund pass guy job market.. Stayed for 46 days with appropriate interventions.
+779,E48971,2025-03-09,2025-03-10,E11,Person when response official option.,T5479,Robert Alvarez,Radiology,"Encounter in Radiology: Person when response official option. diagnosed, and patient required a 1-day stay for further treatment."
+3437,E55524,2024-10-13,2025-01-18,J45,Measure feel professional finish increase.,T5117,Jody Hines,Surgery,"In the Surgery department, the patient was treated for Measure feel professional finish increase.. The length of stay was 97 days."
+2959,E12439,2024-06-12,2024-10-30,E11,Officer defense while score.,T8657,Mark Lamb,Radiology,"In the Radiology department, the patient was treated for Officer defense while score.. The length of stay was 140 days."
+7107,E84203,2024-08-24,2024-09-04,I10,Hair challenge character rate feel.,T8134,Scott Pruitt,Psychiatry,Patient admitted to Psychiatry for evaluation of Hair challenge character rate feel.. Stayed for 11 days with appropriate interventions.
+3336,E64060,2023-09-23,2024-02-23,,Either over image box.,T4145,Robert Collins,Orthopedics,"Encounter in Orthopedics: Either over image box. diagnosed, and patient required a 153-day stay for further treatment."
+7953,E83378,2025-03-05,2025-03-07,E11,Dark evening ahead.,T5552,Casey Phelps,Emergency,"Encounter in Emergency: Dark evening ahead. diagnosed, and patient required a 2-day stay for further treatment."
+7961,E12610,2023-04-21,2024-12-30,Z00.0,Own test too imagine guy price.,T2480,Ryan Cameron,Oncology,"In the Oncology department, the patient was treated for Own test too imagine guy price.. The length of stay was 619 days."
+3868,E24672,2024-05-02,2024-10-06,E11,Miss stock wear use.,T5126,Brandon Greene DDS,Radiology,"In the Radiology department, the patient was treated for Miss stock wear use.. The length of stay was 157 days."
+5135,E53161,2024-11-09,2025-02-07,Z00.0,Very design blood degree ever.,T7691,Kevin Henry,Cardiology,Patient admitted to Cardiology for evaluation of Very design blood degree ever.. Stayed for 90 days with appropriate interventions.
+6140,E24807,2023-10-29,2024-05-27,J45,White these view guy resource.,T6050,Walter Obrien,Psychiatry,Patient admitted to Psychiatry for evaluation of White these view guy resource.. Stayed for 211 days with appropriate interventions.
+896,E98028,2023-09-03,2024-07-06,E11,Police red total rate movement.,T4873,Jasmine Browning,Neurology,"Encounter in Neurology: Police red total rate movement. diagnosed, and patient required a 307-day stay for further treatment."
+6439,E43494,2023-10-17,2025-02-07,,Father teacher civil keep first.,T7657,Denise Miller,Psychiatry,"In the Psychiatry department, the patient was treated for Father teacher civil keep first.. The length of stay was 479 days."
+8056,E71747,2024-08-31,2025-02-25,J45,Response theory star station recognize media.,T6765,Nicholas Kelley,Oncology,"In the Oncology department, the patient was treated for Response theory star station recognize media.. The length of stay was 178 days."
+5354,E69410,2024-08-01,2025-01-17,,Picture social carry husband.,T6007,Bradley Moore,Orthopedics,"Encounter in Orthopedics: Picture social carry husband. diagnosed, and patient required a 169-day stay for further treatment."
+8461,E95090,2024-09-19,2025-02-13,,Society floor long same end reach.,T6368,Christina Perry,Psychiatry,"Encounter in Psychiatry: Society floor long same end reach. diagnosed, and patient required a 147-day stay for further treatment."
+2981,E61577,2024-12-11,2025-03-06,E11,Difference way type positive phone trade wind.,T4249,Samuel Williams,Cardiology,"In the Cardiology department, the patient was treated for Difference way type positive phone trade wind.. The length of stay was 85 days."
+7028,E88695,2023-09-18,2023-11-05,,Color note add moment significant up.,T9097,Micheal Lee,Pediatrics,"Encounter in Pediatrics: Color note add moment significant up. diagnosed, and patient required a 48-day stay for further treatment."
+4362,E47744,2024-09-07,2024-11-17,Z00.0,Task outside yet executive quality industry.,T7694,Alyssa Cherry,Pediatrics,"Encounter in Pediatrics: Task outside yet executive quality industry. diagnosed, and patient required a 71-day stay for further treatment."
+3859,E90961,2024-02-04,2024-05-13,J45,Range leader action card follow realize rather require.,T7936,Dawn Davis,Radiology,"Encounter in Radiology: Range leader action card follow realize rather require. diagnosed, and patient required a 99-day stay for further treatment."
+963,E16831,2023-11-10,2024-03-03,Z00.0,You vote whose our security animal.,T5156,Jane Madden,Cardiology,"Encounter in Cardiology: You vote whose our security animal. diagnosed, and patient required a 114-day stay for further treatment."
+6077,E27333,2025-02-16,2025-03-01,Z00.0,Conference college manage fund life bed report item.,T5267,Andrew Anderson,General Medicine,"In the General Medicine department, the patient was treated for Conference college manage fund life bed report item.. The length of stay was 13 days."
+4604,E57264,2025-01-17,2025-02-01,J45,Party seven enough fine throughout.,T6170,Katherine Dodson,General Medicine,Patient admitted to General Medicine for evaluation of Party seven enough fine throughout.. Stayed for 15 days with appropriate interventions.
+9105,E96170,2024-06-19,2024-10-14,Z00.0,Chance discover along employee relationship.,T8151,Steven Simpson,Cardiology,Patient admitted to Cardiology for evaluation of Chance discover along employee relationship.. Stayed for 117 days with appropriate interventions.
+7234,E56730,2025-03-03,2025-03-08,E11,Manage suffer term buy behavior test Congress.,T3758,Samantha Elliott,Cardiology,"Encounter in Cardiology: Manage suffer term buy behavior test Congress. diagnosed, and patient required a 5-day stay for further treatment."
+9596,E37840,2024-05-11,2025-03-03,E11,Short Congress turn east marriage behind forget.,T5658,Melanie Long,General Medicine,Patient admitted to General Medicine for evaluation of Short Congress turn east marriage behind forget.. Stayed for 296 days with appropriate interventions.
+9673,E23903,2024-11-12,2024-11-30,,Least remain look pick.,T5413,Abigail Booker,Emergency,"In the Emergency department, the patient was treated for Least remain look pick.. The length of stay was 18 days."
+7424,E52588,2025-02-01,2025-03-11,,Can tell soon executive sometimes season natural.,T7249,David Allen,Surgery,"Encounter in Surgery: Can tell soon executive sometimes season natural. diagnosed, and patient required a 38-day stay for further treatment."
+6536,E21691,2023-03-26,2023-08-22,E11,Single expect sell pressure building make.,T8084,Tammy Mckee,Oncology,"Encounter in Oncology: Single expect sell pressure building make. diagnosed, and patient required a 149-day stay for further treatment."
+9888,E27209,2023-11-29,2024-01-13,Z00.0,Mention majority those live none institution.,T7923,Lisa Hamilton,Emergency,"Encounter in Emergency: Mention majority those live none institution. diagnosed, and patient required a 45-day stay for further treatment."
+6980,E22183,2023-04-10,2023-12-05,,Put positive require us money positive base.,T8672,Terry Woods,Orthopedics,"Encounter in Orthopedics: Put positive require us money positive base. diagnosed, and patient required a 239-day stay for further treatment."
+2435,E26750,2024-07-24,2024-10-01,E11,Mission far answer baby and.,T2764,Jennifer Marshall,Psychiatry,"In the Psychiatry department, the patient was treated for Mission far answer baby and.. The length of stay was 69 days."
+9314,E43212,2023-11-26,2024-08-28,I10,Administration scientist leg skill successful and indicate.,T5877,Nathaniel Todd,Neurology,"In the Neurology department, the patient was treated for Administration scientist leg skill successful and indicate.. The length of stay was 276 days."
+7372,E91765,2024-10-22,2024-12-09,Z00.0,Decision back word else.,T2743,Albert Foster,Pediatrics,Patient admitted to Pediatrics for evaluation of Decision back word else.. Stayed for 48 days with appropriate interventions.
+218,E32510,2024-07-03,2024-10-26,J45,Than whole own main peace wind.,T6911,Tracey Leonard,Surgery,"Encounter in Surgery: Than whole own main peace wind. diagnosed, and patient required a 115-day stay for further treatment."
+4959,E21487,2023-06-11,2023-06-19,E11,Staff receive could agree.,T8883,Marie Graham,Orthopedics,"In the Orthopedics department, the patient was treated for Staff receive could agree.. The length of stay was 8 days."
+8825,E35024,2023-05-13,2024-10-08,I10,Listen against coach check.,T8296,Kaitlyn Heath,Oncology,"In the Oncology department, the patient was treated for Listen against coach check.. The length of stay was 514 days."
+9589,E41802,2023-08-06,2024-07-03,,Anything account piece require woman support.,T5765,James Palmer,Psychiatry,"In the Psychiatry department, the patient was treated for Anything account piece require woman support.. The length of stay was 332 days."
+7994,E40397,2024-08-15,2024-12-03,,Office network environmental possible threat bring.,T6682,Jeffrey Martin,Emergency,"In the Emergency department, the patient was treated for Office network environmental possible threat bring.. The length of stay was 110 days."
+3150,E71505,2023-11-18,2024-03-08,J45,Onto rate two table resource.,T8676,Edward Dawson,Emergency,Patient admitted to Emergency for evaluation of Onto rate two table resource.. Stayed for 111 days with appropriate interventions.
+6830,E98226,2024-06-30,2024-09-29,J45,Son suddenly perform executive see project can.,T4269,Johnathan Leon,Orthopedics,"Encounter in Orthopedics: Son suddenly perform executive see project can. diagnosed, and patient required a 91-day stay for further treatment."
+8090,E49801,2023-08-30,2024-07-06,J45,Grow end quality.,T3863,Stephanie Johnson,Emergency,Patient admitted to Emergency for evaluation of Grow end quality.. Stayed for 311 days with appropriate interventions.
+1044,E54268,2024-01-20,2024-10-03,I10,No main year size.,T1765,Kristin Kemp,Psychiatry,"In the Psychiatry department, the patient was treated for No main year size.. The length of stay was 257 days."
+8445,E89206,2024-07-13,2024-12-30,Z00.0,Sometimes while sense window sit participant.,T2670,Amanda Garcia,Cardiology,Patient admitted to Cardiology for evaluation of Sometimes while sense window sit participant.. Stayed for 170 days with appropriate interventions.
+1935,E36921,2025-01-05,2025-01-15,E11,Remain seven marriage that child.,T6960,Chad Allison,Cardiology,"In the Cardiology department, the patient was treated for Remain seven marriage that child.. The length of stay was 10 days."
+7195,E64494,2024-09-24,2024-09-25,,Game measure be head senior guess professor.,T3484,Kendra Cobb,Pediatrics,"Encounter in Pediatrics: Game measure be head senior guess professor. diagnosed, and patient required a 1-day stay for further treatment."

@@ -1,0 +1,26 @@
+--JOINING THREE DATA TABLES
+--The following SQL query joins three tables: Patient_vitals, Encounters, and Patient_RX. The query selects the Patient_ID, Age
+--PATIENT_ID is the common column in all the three tables. This query is designed for a scenario
+--where a patient's vitals, encounters, and prescription data are stored in separate tables. The query joins the tables on the Patient_ID column and selects the relevant columns from each table.
+--building a dataset to predict patient readmission risk by combining clinical measurements, encounter details, and medication history.
+
+SELECT 
+    pv.Patient_ID,
+    pv.Age,
+    pv.Gender,
+    pv.BMI,
+    pv.Heart_Rate,
+    pv.Blood_Pressure,
+    e.Encounter_ID,
+    e.Admission_Date,
+    e.Discharge_Date,
+    e.Diagnosis_Code,
+    pr.Weight_Loss_Drug,
+    pr.Hypertension_Drug,
+    pr.Diabetes_Drug,
+    pr.Cholesterol_Drug
+FROM Patient_vitals AS pv
+INNER JOIN Encounters AS e
+    ON pv.Patient_ID = e.Patient_ID
+INNER JOIN Patient_RX AS pr
+    ON pv.Patient_ID = pr.Patient_ID;
