@@ -69,14 +69,5 @@ theme: minima
 
 ## 🔗 Connect With Me
 
-<div align="center">
-
-<a href="https://github.com/MitaJuanita">
-  <img src="assets/images/github.png" alt="GitHub" width="40" style="margin-right: 10px;" />
-</a>
-
-<a href="https://linkedin.com/in/yourusername">
-  <img src="assets/images/linkedin.png" alt="LinkedIn" width="40" />
-</a>
-
-</div>
+## Contact
+For questions or collaboration opportunities, reach out via [LinkedIn](https://linkedin.com/in/shermintalawrence) or email me at **shermintalawrence@gmail.com**.
