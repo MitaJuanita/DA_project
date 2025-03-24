@@ -5,61 +5,78 @@ description: Showcasing healthcare data projects and interface development
 theme: minima
 ---
 
-# Healthcare Data Analytics Portfolio
+<!-- 🔥 Banner (optional visual flair with emoji) -->
+<h1 align="center">📊 Healthcare Data Analytics Portfolio</h1>
+<p align="center"><strong>Senior Data Analyst focused on healthcare interoperability, predictive modeling, and clinical data workflows.</strong></p>
 
-## 📊 Project Overview
-Senior Data Analyst specializing in healthcare interfaces and predictive modeling. Building solutions that bridge clinical data systems and improve patient care through analytics.
+---
 
 ## 🏥 Featured Projects
 
-### Clinical Trial Cohort Builder
+### 📌 Clinical Trial Cohort Builder
 [![SQL Analysis](assets/images/sql_analysis.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Clinical_Trial_List.ipynb)
 
-- **Tech Stack**: SQL, PostgreSQL, Python
-- **Key Features**: 
+- **Tech Stack:** SQL, PostgreSQL, Python  
+- **Key Features:**
   - Automated patient eligibility screening
   - Complex SQL joins for cohort selection
-  - Trial criteria mapping
-- **[View Project Details →](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Clinical_Trial_List.ipynb)**
+  - Trial criteria mapping  
+- 🔗 [**View Project →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Clinical_Trial_List.ipynb)
 
-### FHIR Resource Validation
+---
+
+### 🧪 FHIR Resource Validation
 [![FHIR Validation](assets/images/fhir_validation.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/FHIR_Project.ipynb)
 
-- **Tech Stack**: Python, HL7 FHIR
-- **Key Features**:
+- **Tech Stack:** Python, HL7 FHIR  
+- **Key Features:**
   - Resource validation framework
   - Error handling and logging
-  - Batch processing capability
-- **[View Implementation →](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/FHIR_Project.ipynb)**
+  - Batch processing capability  
+- 🔗 [**View Implementation →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/FHIR_Project.ipynb)
 
-### Readmission Risk Modeling
+---
+
+### 🧠 Readmission Risk Modeling
 [![Predictive Model](assets/images/prediction_model.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Readmission_Modeling.ipynb)
 
-- **Tech Stack**: Python, scikit-learn, pandas
-- **Key Features**:
+- **Tech Stack:** Python, scikit-learn, pandas  
+- **Key Features:**
   - Feature engineering pipeline
   - Model evaluation metrics
-  - Risk stratification
-- **[View Analysis →](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Readmission_Modeling.ipynb)**
+  - Risk stratification  
+- 🔗 [**View Analysis →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Readmission_Modeling.ipynb)
+
+---
 
 ## 🛠 Technical Skills
 
-| Category | Skills |
-|----------|--------|
-| Languages | Python, SQL, R |
-| Healthcare | HL7, FHIR, SNOMED-CT |
-| Data Science | pandas, scikit-learn, matplotlib |
-| Databases | PostgreSQL, MongoDB |
-
-## 📈 Project Documentation
-- [Feature Engineering Breakdown](docs/Feature_Engineering_Breakdown.md)
-- [Data Dictionary](docs/Data_Dictionary.md)
-- [Project Architecture](docs/Architecture.md)
+<!-- Better than a table for readability -->
+**Languages:** Python, SQL, R  
+**Healthcare Standards:** HL7, FHIR, SNOMED-CT  
+**Data Science Tools:** pandas, scikit-learn, matplotlib  
+**Databases:** PostgreSQL, MongoDB  
 
 ---
+
+## 📚 Project Documentation
+
+- 📌 [Feature Engineering Breakdown](docs/Feature_Engineering_Breakdown.md)
+- 📘 [Data Dictionary](docs/Data_Dictionary.md)
+- 🏗 [Project Architecture](docs/Architecture.md)
+
+---
+
+## 🔗 Connect With Me
+
 <div align="center">
 
-[![GitHub](assets/images/github.png)](https://github.com/MitaJuanita) 
-[![LinkedIn](assets/images/linkedin.png)](https://linkedin.com/in/yourusername)
+<a href="https://github.com/MitaJuanita">
+  <img src="assets/images/github.png" alt="GitHub" width="40" style="margin-right: 10px;" />
+</a>
+
+<a href="https://linkedin.com/in/yourusername">
+  <img src="assets/images/linkedin.png" alt="LinkedIn" width="40" />
+</a>
 
 </div>
