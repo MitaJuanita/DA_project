@@ -2,7 +2,7 @@
 
 CREATE DATABASE patient_vitals;
 
-\c patient_vitals;
+-- Connect to the database manually using your database client or ensure the script is run in the context of the 'patient_vitals' database.
 
 CREATE TABLE patient_vitals (
     patient_id VARCHAR(20) PRIMARY KEY,
@@ -29,9 +29,10 @@ CREATE TABLE encounters (
 -- Load data from CSV files into patient_vitals table
 COPY patient_vitals (patient_id, age, gender, blood_type, height_cm, weight_kg, bmi, temperature_c, heart_rate_bpm, blood_pressure_mmhg)
 FROM '/Users/shermintalawrence/DA_project/tests/patient_vitals.csv'
-WITH
+WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',');
+
 -- Load data from CSV files into encounters table
-\COPY encounters (encounter_id, patient_id, admission_date, discharge_date, diagnosis_code)
+COPY encounters (encounter_id, patient_id, admission_date, discharge_date, diagnosis_code)
 FROM '/Users/shermintalawrence/DA_project/tests/encounters.csv'
 WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',');
 -- Sample data for vitals

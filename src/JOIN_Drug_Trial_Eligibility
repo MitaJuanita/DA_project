@@ -11,14 +11,14 @@ SELECT DISTINCT
             v."Age" BETWEEN 18 AND 30
             AND rx."Weight_Loss_Drug" IS NOT NULL
             AND e."Diagnosis_Code" = 'E11'
-            AND e."Admission_Date" >= CURRENT_DATE - INTERVAL '24 months'
+            AND e."Admission_Date" >= CURRENT_DATE - INTERVAL '2 years'
         THEN 'Group A'
 
         WHEN 
             v."Age" > 30
             AND rx."Weight_Loss_Drug" IS NOT NULL
             AND e."Diagnosis_Code" = 'I10'
-            AND e."Admission_Date" >= CURRENT_DATE - INTERVAL '24 months'
+            AND e."Admission_Date" >= CURRENT_DATE - INTERVAL '2 years'
         THEN 'Group B'
 
         ELSE 'Not eligible'
