@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Healthcare Data Analytics Portfolio
 description: Showcasing healthcare data projects and interface development
+theme: minima
 ---
 
 # Healthcare Data Analytics Portfolio

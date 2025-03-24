@@ -1,0 +1,14 @@
+title: Healthcare Data Analytics Portfolio
+description: Showcasing healthcare data projects and interface development
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links
+github_username: MitaJuanita
+linkedin_username: yourusername
+
+# Build settings
+markdown: kramdown
