@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Healthcare Data Analytics Portfolio
 description: Showcasing healthcare data projects and interface development
 theme: minima
