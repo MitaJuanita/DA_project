@@ -1,8 +1,11 @@
 ---
-layout: home
+layout: default
 title: Healthcare Data Analytics Portfolio
-description: Showcasing healthcare data projects and interface development
-theme: minima
+author: Sherminta Lawrence
+description: Healthcare data analytics and interface development portfolio
+remote_theme: pages-themes/cayman
+plugins:
+- jekyll-remote-theme
 ---
 
 <!-- 🔥 Banner (optional visual flair with emoji) -->
