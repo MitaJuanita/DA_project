@@ -46,3 +46,7 @@ assets/*
 !assets/.gitkeep
 output/*
 !output/.gitkeep
+
+# Asset directories
+assets/*
+!assets/.gitkeep

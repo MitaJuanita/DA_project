@@ -28,16 +28,12 @@ CREATE TABLE encounters (
 
 -- Load data from CSV files into patient_vitals table
 COPY patient_vitals (patient_id, age, gender, blood_type, height_cm, weight_kg, bmi, temperature_c, heart_rate_bpm, blood_pressure_mmhg)
-FROM 'tests/patient_vitals.csv'
-DELIMITER ',' 
-CSV HEADER;
-
+FROM '/Users/shermintalawrence/DA_project/tests/patient_vitals.csv'
+WITH
 -- Load data from CSV files into encounters table
-COPY encounters (encounter_id, patient_id, admission_date, discharge_date, diagnosis_code)
-FROM 'tests/encounters.csv'
-DELIMITER ',' 
-CSV HEADER;
-
+\COPY encounters (encounter_id, patient_id, admission_date, discharge_date, diagnosis_code)
+FROM '/Users/shermintalawrence/DA_project/tests/encounters.csv'
+WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',');
 -- Sample data for vitals
 INSERT INTO vitals (patient_id, visit_date, height_cm, weight_kg, blood_pressure, heart_rate, temperature_c) VALUES
 (1, '2023-01-01', 175.5, 70.2, '120/80', 72, 36.6),
@@ -68,10 +64,10 @@ WHERE admission_date IS NULL
 --EDA: Total number of patients and encounters per patient
 
 SELECT COUNT (DISTINCT patient_id) AS total_patients,
-       COUNT (DISTINCT encounter_id) AS total_encounters,
+       COUNT (DISTINCT encounter_id) AS total_encounters
 FROM encounters;
 
-SELECT COUNT (DISTINCT patient_id) AS total_patients,
+SELECT COUNT (DISTINCT patient_id) AS total_patients
 FROM patient_vitals;
 
 --EDA: Average BMI and heart rate by diagnosis code
