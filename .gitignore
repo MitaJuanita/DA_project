@@ -47,6 +47,13 @@ assets/*
 output/*
 !output/.gitkeep
 
+# Asset management
+assets/*
+!assets/.gitkeep
+!assets/README.md
+!assets/images/.gitkeep
+!assets/docs/.gitkeep
+
 # Asset directories
 assets/*
 !assets/.gitkeep
