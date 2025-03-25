@@ -1,0 +1,19 @@
+title: Healthcare Data Analytics Portfolio
+description: Showcasing healthcare data projects and interface development
+remote_theme: pages-themes/cayman
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author details
+author:
+  name: Sherminta Lawrence
+  email: shermintalawrence@gmail.com
+
+# Social links
+github_username: MitaJuanita
+linkedin_username: shermintalawrence
