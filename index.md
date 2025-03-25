@@ -1,83 +1,44 @@
 ---
 layout: default
-title: Healthcare Data Analytics Portfolio
-author: Sherminta Lawrence
-description: Healthcare data analytics and interface development portfolio
-remote_theme: pages-themes/cayman
-plugins:
-  - jekyll-remote-theme
+title: Sherminta Lawrence | Healthcare Interface Analyst
+description: Healthcare interface development and data analytics portfolio
 ---
 
-<!-- 🔥 Intro Banner -->
-<h1 align="center">👋 Sherminta J. Lawrence</h1>
-<h2 align="center">📊 Healthcare Data Analytics Portfolio</h2>
-<p align="center"><strong>Senior Data Analyst focused on healthcare interoperability, predictive modeling, and clinical data workflows.</strong></p>
+# Sherminta Lawrence
+**Healthcare Interface Analyst | Data Specialist | Workflow Translator**
 
----
+I build the bridges between clinical operations and healthcare IT. With 10+ years in system integration, HL7/FHIR interoperability, and healthcare analytics, I help organizations streamline data flows, improve EMR connections, and drive smarter decision-making through better data.
 
-## 🏥 Featured Projects
-
-### 📌 Clinical Trial Cohort Builder
-[![SQL Analysis - Clinical Trial Cohort Builder](assets/images/sql_analysis.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Clinical_Trial_List.ipynb)
-
-- **Tech Stack:** SQL, PostgreSQL, Python  
-- **Key Features:**
-  - Automated patient eligibility screening  
-  - Complex SQL joins for cohort selection  
-  - Trial criteria mapping  
-- 🔗 [**View Project →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Clinical_Trial_List.ipynb)
+[GitHub](https://github.com/MitaJuanita) | 
+[LinkedIn](https://linkedin.com/in/shermintalawrence) | 
+[Download Resume (PDF)](Resume_S_Lawrence.pdf)
 
 ---
 
-### 🧪 FHIR Resource Validation
-[![FHIR Validation Project](assets/images/fhir_validation.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/FHIR_Project.ipynb)
+## What I Do
+- HL7 interface development (ADT, ORM, ORU)
+- EMR integration (Epic Beaker, Meditech, Cerner, Vista)
+- FHIR resource validation (JSON schema)
+- Agile SDLC implementation (sprint-based delivery)
+- SQL and Python for data validation & analytics
+- Power BI / Tableau dashboards for clinical insight
 
-- **Tech Stack:** Python, HL7 FHIR  
-- **Key Features:**
-  - Resource validation framework  
-  - Error handling and logging  
-  - Batch processing capability  
-- 🔗 [**View Implementation →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/FHIR_Project.ipynb)
+## Featured Projects
 
----
+### Mirth HL7 Interface Migration
+Migrated legacy VB-based interfaces to Mirth Connect, improving message reliability across EMRs. Implemented Agile workflows, FHIR validation, and post-deployment monitoring.  
+[View Project](https://github.com/MitaJuanita/DA_project)
 
-### 🧠 Readmission Risk Modeling
-[![Predictive Model - Readmission Risk](assets/images/prediction_model.png)](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Readmission_Modeling.ipynb)
+### Clinical Trial Patient Selector (SQL)
+Built SQL workflows using JOIN + CASE logic to identify clinical trial candidates based on lab results and demographics. Improved recruitment accuracy.  
+[Explore Query Logic](https://github.com/MitaJuanita/Clinical_Trial_List)
 
-- **Tech Stack:** Python, scikit-learn, pandas  
-- **Key Features:**
-  - Feature engineering pipeline  
-  - Model evaluation metrics  
-  - Risk stratification  
-- 🔗 [**View Analysis →**](https://github.com/MitaJuanita/DA_project/blob/main/notebooks/active/Readmission_Modeling.ipynb)
-
----
-
-## 🛠 Technical Skills
-
-**Languages:** Python, SQL, R  
-**Healthcare Standards:** HL7 v2.x, FHIR R4, SNOMED-CT  
-**Data Science Tools:** pandas, scikit-learn, matplotlib  
-**Databases:** PostgreSQL, MongoDB  
-**Interface Engines:** Mirth Connect, RESTful APIs
+### FHIR Resource Validator (Python)
+Created a Python tool to validate FHIR Patient resources against HL7 schema standards, reducing downstream integration errors.  
+[See the Code](https://github.com/MitaJuanita/FHIR_Project)
 
 ---
 
-## 📚 Project Documentation
-
-- 📌 [Feature Engineering Breakdown](docs/Feature_Engineering_Breakdown.md)  
-- 📘 [Data Dictionary](docs/Data_Dictionary.md)  
-- 🏗 [Project Architecture](docs/Architecture.md)  
-
----
-
-## 🔗 Contact Me
-
-For questions, consulting, or collaboration opportunities:  
-📧 **[ShermintaLawrence@gmail.com](mailto:ShermintaLawrence@gmail.com)**  
-🔗 **[LinkedIn Profile →](https://linkedin.com/in/shermintalawrence)**  
-🐙 **[GitHub →](https://github.com/MitaJuanita)**
-
-<p align="center">
-  <em>This site is built with Jekyll and GitHub Pages using the Cayman theme. Updated regularly with new work in healthcare analytics and interface development.</em>
-</p>
+## Contact
+**Email:** [shermintalawrence@gmail.com](mailto:shermintalawrence@gmail.com)  
+**LinkedIn:** [linkedin.com/in/shermintalawrence](https://linkedin.com/in/shermintalawrence)
