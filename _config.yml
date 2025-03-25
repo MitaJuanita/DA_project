@@ -1,19 +1,40 @@
-title: Healthcare Data Analytics Portfolio
-description: Showcasing healthcare data projects and interface development
-remote_theme: pages-themes/cayman
+# Site settings
+title: Sherminta Lawrence
+email: shermintalawrence@gmail.com
+description: Healthcare interface development and data analytics portfolio
+baseurl: ""
+url: "https://mitajuanita.github.io"
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Author details
+# Author information
 author:
   name: Sherminta Lawrence
   email: shermintalawrence@gmail.com
+  github_username: MitaJuanita
+  linkedin_username: shermintalawrence
 
-# Social links
-github_username: MitaJuanita
-linkedin_username: shermintalawrence
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
