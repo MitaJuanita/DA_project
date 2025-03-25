@@ -9,7 +9,8 @@ plugins:
 ---
 
 <!-- 🔥 Banner (optional visual flair with emoji) -->
-<h1 align="center">📊 Healthcare Data Analytics Portfolio</h1>
+<h1 align="center">Sherminta J. Lawrence</h1>
+<h2 align="center">📊 Healthcare Data Analytics Portfolio</h2>
 <p align="center"><strong>Senior Data Analyst focused on healthcare interoperability, predictive modeling, and clinical data workflows.</strong></p>
 
 ---
