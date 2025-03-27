@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Really Need an AI Agent? | Sherminta Lawrence</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../../index.html">← Back to Home</a>
+    </nav>
+
+    <article class="blog-post">
+        <h1>Do You Really Need an AI Agent? Lessons from Building My First Real App</h1>
+        <time datetime="2024-03-26">March 26, 2024</time>
+
+        <section class="intro">
+            <h3>🟦 Intro: The Agent Rabbit Hole</h3>
+            <p>I'm building an app. Not just another coding experiment or weekend test—but my first serious, "real" project. Something I can launch, test with users, and maybe even commercialize.</p>
+            <p>Once I mapped out the architecture, it hit me: a lot of the tasks in my build could be automated. So instead of hiring expensive resources, I thought, <em>“Why not use an AI agent?”</em></p>
+            <p>If you’ve spent any time in <strong>YouTube University</strong>, you’ll know there’s no shortage of creators hyping up AI agents promising you can automate complex workflows with just a few lines of code and a sprinkle of OpenAI.</p>
+            <p>But after watching a dozen videos and digging into frameworks, I had a realization:</p>
+            <blockquote> <strong>“AI Agent” is the buzzword of the moment—not the solution to my problem.</strong> </blockquote>
+            <p>What I needed wasn’t autonomy or decision-making. I needed <strong>execution</strong>.</p>
+        </section>
+
+        <section class="problem">
+            <h3>🟨 The Real Problem</h3>
+            <p>I wasn’t building a system that needed to reason like a human. I needed help with:</p>
+            <ul>
+                <li>Fetching and transforming data</li>
+                <li>Code refinement and debugging</li>
+                <li>Generating reports</li>
+                <li>UI/UX scaffolding</li>
+                <li>Basic customer support logic</li>
+            </ul>
+            <p>These are all tasks that are <em>structured, predictable, and don’t require real-time decisions or learning.</em></p>
+            <p>What I found instead was a confusing blend of tutorials, tools, and buzzwords—many of which blurred the line between <strong>workflows</strong> and <strong>agents</strong>. Worse, many agent frameworks came with major drawbacks: complexity, poor reliability, and hallucination risks.</p>
+            <p>Just Google <em>"AI agents hallucinations"</em>—or look at Microsoft’s now-infamous Copilot mistakes—for examples of why you don’t always want your AI to “think” for itself.</p>
+        </section>
+
+        <section class="clarity">
+            <h3>🟦 The Clarity I Needed</h3>
+            <p>Eventually, I came across <a href="https://www.anthropic.com/engineering/building-effective-agents">this post from Anthropic</a>, which helped me reframe my thinking. Here’s how they break it down:</p>
+            <ul>
+                <li><strong>Workflows</strong>: Systems where LLMs and tools are orchestrated through predefined steps. Think rule-based, repeatable, and easy to debug.</li>
+                <li><strong>Agents</strong>: Systems where LLMs dynamically decide how to accomplish tasks. Think autonomy, adaptability, and unpredictability.</li>
+            </ul>
+            <p>That’s when it clicked for me. I didn’t need an “agent.” I needed a smarter, more structured <strong>workflow</strong>.</p>
+        </section>
+
+        <section class="framework">
+            <h3>🧭 The Framework: Workflow vs. Agent</h3>
+            <div class="mermaid">
+                <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+                <div class="mermaid">
+                    flowchart TD
+                    A[What type of task are you trying to solve?] --> B{Does it require decision-making or autonomy?}
+                    B -- Yes --> C[Use an AI Agent 🤖]
+                    B -- No --> D{Is it repetitive, structured, and rules-based?}
+                    D -- Yes --> E[Use a Workflow ⚙️]
+                    D -- No --> F{Does it involve unstructured input ex. natural language}
+                    F -- Yes --> G[Use a Hybrid: Agent + Workflow 🔁]
+                    F -- No --> H[Use Traditional Code / Script 💻]
+                </div>
+            </div>
+        </section>
+
+        <section class="takeaway">
+            <h3>🟨 Real-World Takeaway</h3>
+            <p>There’s a lot of hype around AI agents right now and for good reason. When used correctly, they can enable powerful applications.</p>
+            <p>But don’t mistake buzzwords for architecture.</p>
+            <p>Most of what I needed,(and what a lot of builders need) is structured automation, not cognitive complexity.</p>
+            <p>Workflows are underrated. They’re simpler, safer, easier to debug, and they work. And when you do need more adaptability, there’s nothing stopping you from layering in agent-like behavior when it makes sense.</p>
+        </section>
+
+        <section class="conclusion">
+            <h3>🔵 Conclusion</h3>
+            <p>If you’re building AI-driven tools, the key question isn’t “How do I build an agent?”</p>
+            <p>It’s:</p>
+            <blockquote>“What’s the simplest system that can reliably get this done?”</blockquote>
+            <p>Don’t get distracted by the noise. Buzzwords won’t ship your product. Execution will.</p>
+        </section>
+    </article>
+</body>
+</html>
