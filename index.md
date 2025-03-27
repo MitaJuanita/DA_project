@@ -42,12 +42,6 @@ description: Healthcare interface development and data analytics portfolio
   }
 </style>
 
-<div class="logo">
-  <svg width="160" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <text x="10" y="35" font-family="monospace" font-size="32" fill="#2c3e50">{ SL }</text>
-    <polyline points="60,25 75,10 90,40 105,20 120,30 135,15" stroke="#2c3e50" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-</div>
 
 # Sherminta Lawrence
 **Healthcare Interface Analyst | Data Specialist | Workflow Translator**
