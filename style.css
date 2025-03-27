@@ -1,107 +1,178 @@
-/* Banner Styles */
-.hero-banner {
-    position: relative;
-    padding: 4rem 2rem;
-    text-align: center;
-    background-color: #f8f9fa;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0; left: 0;
-    height: 100%; width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-  }
-  
-  .banner-content {
-    position: relative;
-    z-index: 2;
-    padding: 1em;
-  }
-  
-  .banner-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-  }
-  
-  .banner-content p {
-    font-size: 1.25rem;
-    margin-bottom: 1.2em;
-  }
-  
-  .cta-button {
-    background-color: #ff4081;
-    color: white;
-    padding: 0.7em 1.4em;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #e73370;
-  }
-  
-  .profile-banner-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 2rem;
-    border: 4px solid #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Main Content */
-  body {
-    font-family: system-ui, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-    color: #333;
-  }
-  
-  .main-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: white;
-  }
-  
-  h2, h3 {
-    color: #222;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  hr {
-    margin: 2em 0;
-  }
+:root {
+  --soft-pink: #eab4bc;
+  --deep-pink: #d76d82;
+  --text-dark: #2d2d2d;
+  --background-light: #fdf7f7;
+  --white: #fff;
+  --card-shadow: rgba(0, 0, 0, 0.05);
+}
 
-  /* Navigation */
-  #quick-nav ul {
-    list-style: none;
-    padding: 0;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  /* Project Cards */
-  .project-card {
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--background-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background: var(--white);
+  padding: 1rem;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--deep-pink);
+}
+
+header {
+  background: var(--soft-pink);
+  padding: 3rem 1rem;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--text-dark);
+}
+
+header h2 {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  color: var(--deep-pink);
+}
+
+section {
+  margin: 2.5rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+section:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+section:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+section:nth-of-type(4) {
+  animation-delay: 0.6s;
+}
+section:nth-of-type(5) {
+  animation-delay: 0.8s;
+}
+section:nth-of-type(6) {
+  animation-delay: 1s;
+}
+
+section h3 {
+  color: var(--deep-pink);
+  border-bottom: 2px solid var(--soft-pink);
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Portfolio Grid & Cards */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  padding: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h4 {
+  margin-top: 0;
+  color: var(--deep-pink);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: var(--deep-pink);
+  text-decoration: underline;
+}
+
+/* Contact Links */
+.contact a {
+  text-decoration: none;
+  color: var(--deep-pink);
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
