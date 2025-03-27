@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sherminta Lawrence | Data & Interface Analyst</title>
+  <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -37,7 +37,7 @@
       <div class="project-card">
         <h4>HL7 to FHIR Conversion Dashboard</h4>
         <p>Visual tool to convert legacy HL7 messages into FHIR format with validation logs and schema comparison.</p>
-        <a href="https://github.com/yourusername/hl7-fhir-dashboard" target="_blank">View on GitHub</a>
+        <a href="https://github.com/MitaJuanita/DA_project" target="_blank">View on GitHub</a>
       </div>
       <div class="project-card">
         <h4>Interoperability Data Audit Tool</h4>
@@ -61,22 +61,36 @@
   <section class="blog" id="blog">
     <h3>Blog</h3>
     <ul>
-      <li><a href="#">Can AI Actually Fix System Integration?</a> <span>– Mar 2025</span></li>
-      <li><a href="#">Workflow vs Agent: Choosing the Right Automation Model</a> <span>– Feb 2025</span></li>
-      <li><em>More coming soon…</em></li>
+      <li><a href="#" onclick="loadMarkdown('blog1.md')">Can AI Actually Fix System Integration?</a> <span>– Mar 2025</span></li>
+      <li><a href="#" onclick="loadMarkdown('blog2.md')">Workflow vs Agent: Choosing the Right Automation Model</a> <span>– Feb 2025</span></li>
     </ul>
+    <div id="blog-content"></div>
   </section>
 
   <section class="contact" id="contact">
     <h3>Connect With Me</h3>
-    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
-    <a href="mailto:youremail@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/shermintalawrence" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/MitaJuanita/DA_project" target="_blank">GitHub</a> |
+    <a href="mailto:shermintalawrence@gmail.com.com">Email</a>
   </section>
 
   <footer>
     <p>© 2025 Sherminta Lawrence. All rights reserved.</p>
   </footer>
+
+  <script>
+    function loadMarkdown(file) {
+      fetch(file)
+        .then(response => response.text())
+        .then(markdown => {
+          document.getElementById("blog-content").innerHTML = marked.parse(markdown);
+          document.getElementById("blog-content").scrollIntoView({ behavior: 'smooth' });
+        })
+        .catch(error => {
+          document.getElementById("blog-content").innerHTML = "<p>Error loading blog post.</p>";
+        });
+    }
+  </script>
 </body>
 </html>
 <!DOCTYPE html>
@@ -84,7 +98,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sherminta Lawrence | Data & Interface Analyst</title>
+  <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -119,7 +133,7 @@
       <div class="project-card">
         <h4>HL7 to FHIR Conversion Dashboard</h4>
         <p>Visual tool to convert legacy HL7 messages into FHIR format with validation logs and schema comparison.</p>
-        <a href="https://github.com/yourusername/hl7-fhir-dashboard" target="_blank">View on GitHub</a>
+        <a href="https://github.com/MitaJuanita/DA_project" target="_blank">View on GitHub</a>
       </div>
       <div class="project-card">
         <h4>Interoperability Data Audit Tool</h4>
@@ -151,9 +165,9 @@
 
   <section class="contact" id="contact">
     <h3>Connect With Me</h3>
-    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
-    <a href="mailto:youremail@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/shermintalawrence" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/MitaJuanita/DA_project" target="_blank">GitHub</a> |
+    <a href="mailto:shermintalawence@gmail.com">Email</a>
   </section>
 
   <footer>

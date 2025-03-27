@@ -1,0 +1,107 @@
+/* Banner Styles */
+.hero-banner {
+    position: relative;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 2;
+    padding: 1em;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  .banner-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.2em;
+  }
+  
+  .cta-button {
+    background-color: #ff4081;
+    color: white;
+    padding: 0.7em 1.4em;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e73370;
+  }
+  
+  .profile-banner-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Content */
+  body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+  }
+  
+  h2, h3 {
+    color: #222;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    margin: 2em 0;
+  }
+
+  /* Navigation */
+  #quick-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Project Cards */
+  .project-card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
