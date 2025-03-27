@@ -16,7 +16,7 @@ This repository is designed for:
 
 Real-world patient healthcare data isn't available, however, there are datasets avaialble as well as ways to create our own data using Python. 
 
-How the data used in this repository was created and sourced: ![Practice Data](Faker_encounter.ipynb)
+How the data used in this repository was created and sourced: 📈 [Practice Data](notebooks/active/FHIR_Project.ipynb)
 
 ---
 ## Tech Stack
@@ -87,7 +87,7 @@ This diagram illustrates:
 ## JavaScript for Parsing JSON in Mirth:
 
 Here’s a generalized example of how JavaScript is used in Mirth to parse JSON patient data and create an HL7 message (with error handling).
-![JavaScript for Parsing JSON in Mirth](JS_Parse.ipynb)
+➡️ [JavaScript for Parsing JSON in Mirth](notebooks/archived/JS_Parse.ipynb)
 
 ---
 
@@ -104,7 +104,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - **Skills Used:** SQL joins, CASE statements, filtering, and patient cohort identification.
 - **Outcome:** Helped refine patient selection criteria, improving recruitment efficiency.
 
-![Project 1_Notebook](Clinical_Trial_List.ipynb)
+➡️ [Project 1_Notebook](notebooks/active/Clinical_Trial_List.ipynb)
 
 
 ### **Project 2: FHIR Resource Validation Lite**
@@ -113,7 +113,7 @@ Here’s a generalized example of how JavaScript is used in Mirth to parse JSON 
 - **Outcome:** Ensured compliance with FHIR interoperability guidelines, reducing integration errors.
 
 
-![Project 2_Notebook](FHIR_Project.ipynb)
+➡️ [Project 2_Notebook](notebooks/active/FHIR_Project.ipynb)
 
 
 - **Skills Used:** Python, JSON parsing, schema validation, and FHIR standards.
@@ -140,4 +140,3 @@ For questions or collaboration opportunities, reach out via [LinkedIn](https://l
 ---
 
 This README is continuously updated as I refine and expand my projects. 🚀
-
