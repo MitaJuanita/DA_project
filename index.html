@@ -4,7 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
   <nav>
@@ -61,10 +60,19 @@
   <section class="blog" id="blog">
     <h3>Blog</h3>
     <ul>
-      <li><a href="#" onclick="loadMarkdown('blog/_posts/2024-03-27-can-ai-finally-fix-system-integration.md')">Can AI Actually Fix System Integration?</a> <span>– Mar 2024</span></li>
-      <li><a href="#" onclick="loadMarkdown('blog/_posts/2024-03-26-do-you-really-need-an-ai-agent.md')">Workflow vs Agent: Choosing the Right Automation Model</a> <span>– Mar 2024</span></li>
+      <li>
+        <a href="blog/posts/2024-03-27-can-ai-finally-fix-system-integration.html">
+          Can AI Actually Fix System Integration?
+        </a>
+        <span>– Mar 2024</span>
+      </li>
+      <li>
+        <a href="blog/posts/2024-03-26-do-you-really-need-an-ai-agent.html">
+          Do You Really Need an AI Agent?
+        </a>
+        <span>– Mar 2024</span>
+      </li>
     </ul>
-    <div id="blog-content"></div>
   </section>
 
   <section class="contact" id="contact">
@@ -77,62 +85,5 @@
   <footer>
     <p>© 2025 Sherminta Lawrence. All rights reserved.</p>
   </footer>
-
-  <script>
-    function loadMarkdown(file) {
-      fetch(file)
-        .then(response => response.text())
-        .then(markdown => {
-          document.getElementById("blog-content").innerHTML = marked.parse(markdown);
-          document.getElementById("blog-content").scrollIntoView({ behavior: 'smooth' });
-        })
-        .catch(error => {
-          document.getElementById("blog-content").innerHTML = "<p>Error loading blog post.</p>";
-        });
-    }
-
-    // Update blog section to use direct links
-    const blogSection = document.querySelector('.blog');
-    const blogLinks = blogSection.querySelectorAll('a[href="#"]');
-    
-    // Convert relative MD paths to full HTML paths
-    blogLinks.forEach(link => {
-        const mdPath = link.getAttribute('onclick').match(/'([^']+)'/)[1];
-        const htmlPath = mdPath
-            .replace('blog/_posts/', 'blog/posts/')
-            .replace('.md', '.html');
-        link.href = htmlPath;
-        link.removeAttribute('onclick');
-    });
-
-    // Load blog post if hash is present
-    function loadBlogPost() {
-        const hash = window.location.hash;
-        if (hash && hash.includes('blog/posts/')) {
-            fetch(hash.slice(1))
-                .then(response => {
-                    if (!response.ok) throw new Error('Post not found');
-                    return response.text();
-                })
-                .then(html => {
-                    document.getElementById("blog-content").innerHTML = html;
-                    document.getElementById("blog-content").scrollIntoView({ behavior: 'smooth' });
-                })
-                .catch(error => {
-                    document.getElementById("blog-content").innerHTML = 
-                        `<div class="error-message">
-                            <h4>😕 Oops! Couldn't load that post.</h4>
-                            <p>Please try another post or check back later.</p>
-                        </div>`;
-                });
-        }
-    }
-
-    // Listen for hash changes
-    window.addEventListener('hashchange', loadBlogPost);
-    
-    // Check for direct links on page load
-    document.addEventListener('DOMContentLoaded', loadBlogPost);
-  </script>
 </body>
 </html>
