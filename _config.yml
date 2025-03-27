@@ -107,3 +107,12 @@ nav_item:
 header_pages:
   - about.md
   - projects.md
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+show_excerpts: true
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
