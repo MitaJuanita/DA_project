@@ -1,146 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .blog article {
-      background-color: #fff;
-      border: 1px solid #eab4bc;
-      padding: 1rem;
-      margin: 1.5rem 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
-      opacity: 0;
-      max-height: 0;
-      overflow: hidden;
-    }
+:root {
+  --soft-pink: #eab4bc;
+  --deep-pink: #d76d82;
+  --text-dark: #2d2d2d;
+  --background-light: #fdf7f7;
+  --white: #fff;
+  --gray-light: #eeeeee;
+  --gray-text: #666666;
+  --card-shadow: rgba(0, 0, 0, 0.05);
+}
 
-    .blog article.active {
-      opacity: 1;
-      max-height: 500px;
-      transition: opacity 0.4s ease, max-height 0.6s ease;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .blog article h4 {
-      margin-top: 0;
-      color: #d76d82;
-    }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--background-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
 
-    .blog article p {
-      margin-bottom: 0;
-    }
+/* Navigation */
+nav {
+  background: var(--white);
+  padding: 1rem;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 
-    .collapse-link {
-      display: block;
-      margin-top: 1rem;
-      color: #d76d82;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  </style>
-  <script>
-    function toggleBlogPost(id) {
-      const posts = document.querySelectorAll('.blog article');
-      posts.forEach(post => {
-        if (post.id === id) {
-          post.classList.toggle('active');
-        } else {
-          post.classList.remove('active');
-        }
-      });
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
 
-    function collapsePost(id) {
-      document.getElementById(id).classList.remove('active');
-    }
-  </script>
-</head>
-<body>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
-  <header id="home">
-    <h1>Sherminta Lawrence</h1>
-    <h2>Transforming Healthcare Data into Actionable Insights</h2>
-    <p>From HL7/FHIR integration to predictive modeling, I build smarter, interoperable systems.</p>
-  </header>
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--deep-pink);
+}
 
-  <section class="about" id="about">
-    <h3>About Me</h3>
-    <p>
-      Hello! I'm <strong>Sherminta Lawrence</strong>, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data.
-      My expertise lies in <strong>HL7 interface migration, HL7/FHIR validation, data analysis, and Agile SDLC methodologies</strong>.
-    </p>
-  </section>
+/* Header */
+header {
+  background: var(--soft-pink);
+  padding: 3rem 1rem;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
 
-  <section class="portfolio" id="portfolio">
-    <h3>Portfolio</h3>
-    <div class="project-grid">
-      <div class="project-card">
-        <h4>HL7 to FHIR Conversion Dashboard</h4>
-        <p>Visual tool to convert legacy HL7 messages into FHIR format with validation logs and schema comparison.</p>
-        <a href="https://github.com/MitaJuanita/DA_project" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project-card">
-        <h4>Interoperability Data Audit Tool</h4>
-        <p>Python-based script for validating EMR message formats, auditing timestamps, and identifying schema mismatches.</p>
-        <a href="#">Coming Soon</a>
-      </div>
-    </div>
-  </section>
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--text-dark);
+}
 
-  <section class="skills">
-    <h3>Skills & Tools</h3>
-    <ul>
-      <li>HL7, FHIR, CDA</li>
-      <li>Python, SQL, JSON</li>
-      <li>Tableau, Power BI</li>
-      <li>Rhapsody, Cloverleaf, Mirth Connect</li>
-      <li>Agile / Scrum</li>
-    </ul>
-  </section>
+header h2 {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  color: var(--deep-pink);
+}
 
-  <section class="blog" id="blog">
-    <h3>Blog</h3>
-    <ul>
-      <li><a href="#" onclick="toggleBlogPost('blog1')">Can AI Actually Fix System Integration?</a> <span>– Mar 2024</span></li>
-      <li><a href="#" onclick="toggleBlogPost('blog2')">Do You Really Need an AI Agent?</a> <span>– Mar 2024</span></li>
-    </ul>
+/* Sections */
+section {
+  margin: 2.5rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
 
-    <article id="blog1">
-      <h4>Can AI Actually Fix System Integration?</h4>
-      <p>This post explores the reality of system interoperability issues in healthcare and how AI can assist—not replace—manual integration efforts. From schema mapping to parsing issues, semantic drift, and LLM-enhanced code generation, we discuss how AI fits into practical integration workflows today.</p>
-      <span class="collapse-link" onclick="collapsePost('blog1')">Collapse ▲</span>
-    </article>
+section:nth-of-type(2) { animation-delay: 0.2s; }
+section:nth-of-type(3) { animation-delay: 0.4s; }
+section:nth-of-type(4) { animation-delay: 0.6s; }
+section:nth-of-type(5) { animation-delay: 0.8s; }
+section:nth-of-type(6) { animation-delay: 1s; }
 
-    <article id="blog2">
-      <h4>Do You Really Need an AI Agent?</h4>
-      <p>This post discusses the difference between AI agents and workflows. Based on my experience building healthcare applications, I discovered that many use cases being sold as "agent-powered" are more appropriately solved with structured workflows. Learn how to decide between autonomy and automation in real-world builds.</p>
-      <span class="collapse-link" onclick="collapsePost('blog2')">Collapse ▲</span>
-    </article>
-  </section>
+section h3 {
+  color: var(--deep-pink);
+  border-bottom: 2px solid var(--soft-pink);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
 
-  <section class="contact" id="contact">
-    <h3>Connect With Me</h3>
-    <a href="https://www.linkedin.com/in/shermintalawrence" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/MitaJuanita/DA_project" target="_blank">GitHub</a> |
-    <a href="mailto:shermintalawence@gmail.com">Email</a>
-  </section>
+/* Portfolio Cards */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
 
-  <footer>
-    <p>© 2025 Sherminta Lawrence. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+.project-card {
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  padding: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h4 {
+  margin-top: 0;
+  color: var(--deep-pink);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: var(--deep-pink);
+  text-decoration: underline;
+}
+
+/* Skills & Contact */
+ul {
+  padding-left: 1.2rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--deep-pink);
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: var(--gray-text);
+}
+
+/* Blog */
+.blog article {
+  background-color: var(--white);
+  border: 1px solid var(--soft-pink);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px var(--card-shadow);
+  transition: all 0.4s ease;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.blog article.active {
+  opacity: 1;
+  max-height: 1000px;
+  overflow-y: auto;
+  transition: opacity 0.4s ease, max-height 0.6s ease;
+}
+
+.blog article h4 {
+  margin-top: 0;
+  color: var(--deep-pink);
+}
+
+.blog article p {
+  margin-bottom: 0;
+}
+
+.collapse-link {
+  display: block;
+  margin-top: 1rem;
+  color: var(--deep-pink);
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+}
+
+/* Blog Preview */
+.blog ul {
+  padding: 0;
+  list-style: none;
+}
+
+.blog li {
+  margin-bottom: 0.5rem;
+}
+
+.blog li a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog li a:hover {
+  color: var(--deep-pink);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
