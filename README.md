@@ -28,7 +28,7 @@ How the data used in this repository was created and sourced: 📈 [Practice Dat
 - **Data Visualizatio tomorrow when you get home when you get home yeah don't know yet I'm gonna be I'm gonna do it want to be conscious or should be aware be aware listening listening listening OK listening right what more and yes yeah sister a lot anything else I'll call you in the morning rude 15 minutes I'll see you in 15 minutes later please yes OK gymnastics gymnastics 15 minutes you already OK yes hurry upn:** Matplotlib, Seaborn
 ---
 
-# Mirth HL7 Interface Migration (Case Study)
+# Mirth HL7 Interface Migration Workflow (Case Study)
 
 ### **Overview**
 **Challenge:** Migrate clients from a legacy VB-based interface to a **Mirth-powered HL7 interface engine** while ensuring seamless data exchange with EMRs like **Epic Beaker, Meditech, Vista, and Cloverleaf.**
