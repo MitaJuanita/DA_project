@@ -5,60 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .blog article {
-      background-color: #fff;
-      border: 1px solid #eab4bc;
-      padding: 1rem;
-      margin: 1.5rem 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
-      opacity: 0;
-      max-height: 0;
-      overflow: hidden;
-    }
-
-    .blog article.active {
-      opacity: 1;
-      max-height: 500px;
-      transition: opacity 0.4s ease, max-height 0.6s ease;
-    }
-
-    .blog article h4 {
-      margin-top: 0;
-      color: #d76d82;
-    }
-
-    .blog article p {
-      margin-bottom: 0;
-    }
-
-    .collapse-link {
-      display: block;
-      margin-top: 1rem;
-      color: #d76d82;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  </style>
-  <script>
-    function toggleBlogPost(id) {
-      const posts = document.querySelectorAll('.blog article');
-      posts.forEach(post => {
-        if (post.id === id) {
-          post.classList.toggle('active');
-        } else {
-          post.classList.remove('active');
-        }
-      });
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-
-    function collapsePost(id) {
-      document.getElementById(id).classList.remove('active');
-    }
-  </script>
 </head>
 <body>
   <nav>
@@ -114,27 +60,18 @@
 
   <section class="blog" id="blog">
     <h3>Blog</h3>
-    <ul>
-      <li><a href="#" onclick="toggleBlogPost('blog1')">Can AI Actually Fix System Integration?</a> <span>– Mar 2024</span></li>
-      <li><a href="#" onclick="toggleBlogPost('blog2')">Do You Really Need an AI Agent?</a> <span>– Mar 2024</span></li>
-    </ul>
-
-    <section class="blog" id="blog">
-      <h3>Blog</h3>
-      <div class="project-grid">
-        <div class="project-card">
-          <h4><a href="blog/posts/2024-03-27-can-ai-finally-fix-system-integration.html">Can AI Actually Fix System Integration?</a></h4>
-          <p>This post explores real-world challenges in healthcare system interoperability—and where AI fits in (and doesn’t).</p>
-          <a href="blog/posts/2024-03-27-can-ai-finally-fix-system-integration.html">Read full post →</a>
-        </div>
-        <div class="project-card">
-          <h4><a href="blog/posts/2024-03-26-do-you-really-need-an-ai-agent.html">Do You Really Need an AI Agent?</a></h4>
-          <p>This post breaks down the difference between AI agents and AI workflows—and how to decide which you need in practice.</p>
-          <a href="blog/posts/2024-03-26-do-you-really-need-an-ai-agent.html">Read full post →</a>
-        </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <h4><a href="blog/posts/2024-03-27-can-ai-finally-fix-system-integration.html">Can AI Actually Fix System Integration?</a></h4>
+        <p>This post explores real-world challenges in healthcare system interoperability—and where AI fits in (and doesn’t).</p>
+        <a href="blog/posts/2024-03-27-can-ai-finally-fix-system-integration.html">Read full post →</a>
       </div>
-    </section>
-    </article>
+      <div class="project-card">
+        <h4><a href="blog/posts/2024-03-26-do-you-really-need-an-ai-agent.html">Do You Really Need an AI Agent?</a></h4>
+        <p>This post breaks down the difference between AI agents and AI workflows—and how to decide which you need in practice.</p>
+        <a href="blog/posts/2024-03-26-do-you-really-need-an-ai-agent.html">Read full post →</a>
+      </div>
+    </div>
   </section>
 
   <section class="contact" id="contact">
