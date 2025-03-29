@@ -2,145 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Sherminta Lawrence</title>
+  <link rel="stylesheet" href="../style.css" />
   <style>
-    .blog article {
-      background-color: #fff;
-      border: 1px solid #eab4bc;
+    .blog-landing {
+      max-width: 900px;
+      margin: 3rem auto;
       padding: 1rem;
-      margin: 1.5rem 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
-      opacity: 0;
-      max-height: 0;
-      overflow: hidden;
     }
-
-    .blog article.active {
-      opacity: 1;
-      max-height: 500px;
-      transition: opacity 0.4s ease, max-height 0.6s ease;
-    }
-
-    .blog article h4 {
-      margin-top: 0;
+    .blog-landing h1 {
       color: #d76d82;
+      margin-bottom: 2rem;
     }
-
-    .blog article p {
-      margin-bottom: 0;
+    .blog-preview {
+      border-bottom: 1px solid #eab4bc;
+      padding: 1.5rem 0;
     }
-
-    .collapse-link {
-      display: block;
-      margin-top: 1rem;
+    .blog-preview h2 {
+      margin: 0;
+    }
+    .blog-preview p {
+      color: #2d2d2d;
+      margin: 0.5rem 0;
+    }
+    .blog-preview a {
       color: #d76d82;
       font-weight: bold;
-      cursor: pointer;
+      text-decoration: none;
+    }
+    .blog-preview a:hover {
+      text-decoration: underline;
     }
   </style>
-  <script>
-    function toggleBlogPost(id) {
-      const posts = document.querySelectorAll('.blog article');
-      posts.forEach(post => {
-        if (post.id === id) {
-          post.classList.toggle('active');
-        } else {
-          post.classList.remove('active');
-        }
-      });
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-
-    function collapsePost(id) {
-      document.getElementById(id).classList.remove('active');
-    }
-  </script>
 </head>
 <body>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+  <main class="blog-landing">
+    <h1>Healthcare Data & Interface Blog</h1>
 
-  <header id="home">
-    <h1>Sherminta Lawrence</h1>
-    <h2>Transforming Healthcare Data into Actionable Insights</h2>
-    <p>From HL7/FHIR integration to predictive modeling, I build smarter, interoperable systems.</p>
-  </header>
+    <section class="blog-preview">
+      <h2><a href="posts/2024-03-27-can-ai-finally-fix-system-integration.html">Can AI Actually Fix System Integration?</a></h2>
+      <p>This post explores real-world challenges in healthcare system interoperability—and where AI fits in (and doesn’t).</p>
+    </section>
 
-  <section class="about" id="about">
-    <h3>About Me</h3>
-    <p>
-      Hello! I'm <strong>Sherminta Lawrence</strong>, a Data & Interface Analyst with over 10 years of experience integrating and analyzing healthcare data.
-      My expertise lies in <strong>HL7 interface migration, HL7/FHIR validation, data analysis, and Agile SDLC methodologies</strong>.
-    </p>
-  </section>
+    <section class="blog-preview">
+      <h2><a href="posts/2024-03-26-do-you-really-need-an-ai-agent.html">Do You Really Need an AI Agent?</a></h2>
+      <p>This post breaks down the difference between AI agents and AI workflows—and how to decide which you need in practice.</p>
+    </section>
 
-  <section class="portfolio" id="portfolio">
-    <h3>Portfolio</h3>
-    <div class="project-grid">
-      <div class="project-card">
-        <h4>HL7 to FHIR Conversion Dashboard</h4>
-        <p>Visual tool to convert legacy HL7 messages into FHIR format with validation logs and schema comparison.</p>
-        <a href="https://github.com/MitaJuanita/DA_project" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project-card">
-        <h4>Interoperability Data Audit Tool</h4>
-        <p>Python-based script for validating EMR message formats, auditing timestamps, and identifying schema mismatches.</p>
-        <a href="#">Coming Soon</a>
-      </div>
+    <!-- Add more blog previews as needed -->
+
+    <div style="margin-top: 3rem;">
+      <a href="../index.html#blog">← Back to Portfolio</a>
     </div>
-  </section>
-
-  <section class="skills">
-    <h3>Skills & Tools</h3>
-    <ul>
-      <li>HL7, FHIR, CDA</li>
-      <li>Python, SQL, JSON</li>
-      <li>Tableau, Power BI</li>
-      <li>Rhapsody, Cloverleaf, Mirth Connect</li>
-      <li>Agile / Scrum</li>
-    </ul>
-  </section>
-
-  <section class="blog" id="blog">
-    <h3>Blog</h3>
-    <ul>
-      <li><a href="#" onclick="toggleBlogPost('blog1')">Can AI Actually Fix System Integration?</a> <span>– Mar 2024</span></li>
-      <li><a href="#" onclick="toggleBlogPost('blog2')">Do You Really Need an AI Agent?</a> <span>– Mar 2024</span></li>
-    </ul>
-
-    <article id="blog1">
-      <h4>Can AI Actually Fix System Integration?</h4>
-      <p>This post explores the reality of system interoperability issues in healthcare and how AI can assist—not replace—manual integration efforts. From schema mapping to parsing issues, semantic drift, and LLM-enhanced code generation, we discuss how AI fits into practical integration workflows today.</p>
-      <span class="collapse-link" onclick="collapsePost('blog1')">Collapse ▲</span>
-    </article>
-
-    <article id="blog2">
-      <h4>Do You Really Need an AI Agent?</h4>
-      <p>This post discusses the difference between AI agents and workflows. Based on my experience building healthcare applications, I discovered that many use cases being sold as "agent-powered" are more appropriately solved with structured workflows. Learn how to decide between autonomy and automation in real-world builds.</p>
-      <span class="collapse-link" onclick="collapsePost('blog2')">Collapse ▲</span>
-    </article>
-  </section>
-
-  <section class="contact" id="contact">
-    <h3>Connect With Me</h3>
-    <a href="https://www.linkedin.com/in/shermintalawrence" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/MitaJuanita/DA_project" target="_blank">GitHub</a> |
-    <a href="mailto:shermintalawence@gmail.com">Email</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Sherminta Lawrence. All rights reserved.</p>
-  </footer>
+  </main>
 </body>
 </html>
