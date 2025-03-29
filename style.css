@@ -64,11 +64,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 4rem;
-  background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
-  background-image: url('background.png'); /* Background image */
-  background-size: cover;
-  background-position: center;
-  color: var(--white);
+  background: none; /* Remove background color */
+  color: var(--text-dark); /* Set text color to black */
   animation: fadeIn 1s ease-in;
 }
 
