@@ -60,22 +60,35 @@ nav {
 
 /* Header */
 header {
-  text-align: center;
-  padding: 4rem 0;
-  background: var(--soft-pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
+  background-image: url('background.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
   animation: fadeIn 1s ease-in;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: var(--text-dark);
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-header h2 {
-  margin: 0.5rem 0;
-  font-weight: normal;
-  color: var(--deep-pink);
+.header-text {
+  max-width: 60%;
+}
+
+.header-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--white);
+  object-fit: cover;
 }
 
 /* Sections */
