@@ -64,7 +64,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 4rem;
-  background: none; /* Remove background color */
+  /*background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
+  background-image: url('background.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
   color: var(--text-dark); /* Set text color to black */
   animation: fadeIn 1s ease-in;
 }
@@ -81,8 +84,8 @@ header {
 }
 
 .header-image img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 3px solid var(--white);
   object-fit: cover;
@@ -152,11 +155,18 @@ section h3 {
 
 /* Skills Section */
 .skills ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  display: block; /* Change to single-column layout */
   list-style: none;
   padding: 1rem 0;
+}
+
+.skills ul li {
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.skills ul li strong {
+  font-weight: bold; /* Ensure bold text for labels before the colon */
 }
 
 /* Skills & Contact */
