@@ -65,7 +65,7 @@ header {
   justify-content: space-between;
   padding: 4rem;
   background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
-  background-image: url('background.jpg'); /* Background image */
+  background-image: url('background.png'); /* Background image */
   background-size: cover;
   background-position: center;
   color: var(--white);
