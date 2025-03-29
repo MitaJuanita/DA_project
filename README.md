@@ -25,7 +25,7 @@ How the data used in this repository was created and sourced: 📈 [Practice Dat
 - **Databases:** PostgreSQL
 - **Healthcare Data Standards:** HL7 (ADT, ORM, ORU), FHIR (Patient Resource), JSON Validation
 - **Data Processing & ETL:** Pandas, SQLAlchemy, SSIS
-- **Data Visualizatio tomorrow when you get home when you get home yeah don't know yet I'm gonna be I'm gonna do it want to be conscious or should be aware be aware listening listening listening OK listening right what more and yes yeah sister a lot anything else I'll call you in the morning rude 15 minutes I'll see you in 15 minutes later please yes OK gymnastics gymnastics 15 minutes you already OK yes hurry upn:** Matplotlib, Seaborn
+- **Data Visualization:** Matplotlib, Seaborn
 ---
 
 # Mirth HL7 Interface Migration Workflow (Case Study)
