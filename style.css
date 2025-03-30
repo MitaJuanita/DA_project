@@ -275,6 +275,27 @@ footer {
   background: #fdf7f7;
 }
 
+/* Diagram Section */
+.diagram-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.diagram-wrapper {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.diagram-wrapper h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -305,5 +326,9 @@ footer {
   
   .nav-links li {
     margin: 0.5rem 0;
+  }
+
+  .diagram-container {
+    grid-template-columns: 1fr;
   }
 }
