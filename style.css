@@ -64,7 +64,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 4rem;
-  /*background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
+  background: rgba(0, 0, 0, 0.5); /* Transparent grey background */
   background-image: url('./background.png'); /* Background image */
   background-size: cover;
   background-position: center;
@@ -266,6 +266,13 @@ footer {
 .blog span {
   color: #666;
   font-size: 0.9em;
+}
+.blog-preview {
+  transition: background 0.2s ease;
+}
+
+.blog-preview:hover {
+  background: #fdf7f7;
 }
 
 /* Animations */

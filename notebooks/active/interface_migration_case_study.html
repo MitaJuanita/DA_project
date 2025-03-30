@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirth HL7 Interface Migration Case Study</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">← Back to Portfolio</a>
+    </nav>
+
+    <article class="case-study">
+        <h1>Mirth HL7 Interface Migration (Case Study)</h1>
+
+        <section class="project-overview">
+            <h2>Project Overview</h2>
+            <div class="challenge">
+                <h3>Challenge:</h3>
+                <p>Migrate clients from a legacy VB-based interface to a <strong>Mirth-powered HL7 interface engine</strong> while ensuring seamless data exchange with EMRs like <strong>Epic Beaker, Meditech, Vista, and Cloverleaf.</strong></p>
+            </div>
+
+            <div class="sdlc-approach">
+                <h3>SDLC Approach:</h3>
+                <ul>
+                    <li>Followed <strong>Agile methodology</strong> with sprint-based releases.</li>
+                    <li>Participated in <strong>backlog grooming, sprint planning, and iterative testing cycles.</strong></li>
+                    <li>Conducted <strong>interface validation</strong> using HL7 message types (ADT, ORM, ORU) to ensure compliance.</li>
+                    <li>Deployed using <strong>parallel testing strategies</strong> to minimize downtime.</li>
+                </ul>
+            </div>
+
+            <div class="solution">
+                <h3>Solution:</h3>
+                <ul>
+                    <li>Configured and optimized <strong>HL7 transactions (ADT, ORM, ORU)</strong> to align with EMR requirements.</li>
+                    <li>Developed <strong>FHIR validation scripts</strong> to support JSON-based patient resource exchange.</li>
+                    <li>Created SQL queries for <strong>data validation and integrity checks</strong> during migration.</li>
+                    <li>Designed <strong>monitoring workflows</strong> to track message success rates post-migration.</li>
+                </ul>
+            </div>
+
+            <div class="outcome">
+                <h3>Outcome:</h3>
+                <p>✅ <strong>Reduced HL7 transaction errors</strong>, improving data reliability.</p>
+                <p>✅ <strong>Enhanced interoperability</strong> with major EMRs like Epic Beaker, Meditech, and Cloverleaf.</p>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <h2>Legacy Interface to Mirth Migration Workflow</h2>
+            <div class="mermaid">
+                graph TD;
+                    A[Assess Legacy HL7 Interfaces] --> B[Define Requirements]
+                    B --> C[Present to Stakeholders]
+                    C --> D[Develop Timeline & Planning]
+                    D --> E[Design & Configure Interfaces]
+                    E --> F[Test Messages & Resources]
+                    F --> G[Deploy & Validate]
+                    G --> H[Monitor & Support]
+                    H -->|If issues found| F
+                    G -->|Iterative improvements| F
+                    D -->|Continuous Sprints| F
+                    H -->|Major redesign needed| A
+            </div>
+        </section>
+
+        <section class="troubleshooting">
+            <h2>🔧 Troubleshooting & Monitoring HL7 Interfaces</h2>
+            <p>Common issues encountered and resolved:</p>
+            <ul>
+                <li>Missing HL7 segments – Using Mirth transformers to insert required fields.</li>
+                <li>Data mapping errors – Writing JavaScript mappings to properly structure ORU/ORM/ADT messages.</li>
+                <li>Duplicate messages – Implementing deduplication logic in Mirth.</li>
+            </ul>
+
+            <div class="debugging-workflow">
+                <h3>✅ Example Debugging Workflow:</h3>
+                <ol>
+                    <li>Check Mirth logs for message errors.</li>
+                    <li>Review ACK/NACK responses from the EMR.</li>
+                    <li>Use SQL queries to verify data integrity before and after transformation.</li>
+                </ol>
+            </div>
+        </section>
+    </article>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>
