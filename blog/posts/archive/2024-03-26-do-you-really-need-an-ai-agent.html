@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Really Need an AI Agent? | Sherminta Lawrence</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<nav>
+  <a href="../blog/index.html">← Back to Blogs</a>
+</nav>
+<body>
+  <main class="blog-post">
+    <h1>Do You Really Need an AI Agent?</h1>
+    <time datetime="2024-03-26">March 26, 2024</time>
+    
+    <p>When I started planning my first commercially viable app, I got pulled into the "AI agent" hype vortex. It sounded amazing: intelligent software that could handle decision-making and automate complex tasks end-to-end.</p>
+
+    <p>But the deeper I got, the more I realized that what I needed wasn’t an agent—it was a workflow.</p>
+
+    <h2>The Confusion: Agents vs. Workflows</h2>
+
+    <p>After watching a dozen "how to build an agent" YouTube videos and reading documentation from OpenAI and Anthropic, I noticed most of what people called "agents" were actually structured sequences of tasks—i.e., workflows.</p>
+
+    <div class="mermaid">
+      flowchart LR
+      %% AI Workflow
+      subgraph Workflow [AI Workflow]
+        Input([Input Data])
+        Step1([Data Preprocessing])
+        Step2([Model Training])
+        Output([Predictions])
+        Input --> Step1 --> Step2 --> Output
+      end
+
+      %% AI Agent
+      subgraph Agent [AI Agent Decision Process]
+        Goal([Define Goal])
+        Decision{Decision Point: Choose Action}
+        ActionA([Perform Action A])
+        ActionB([Perform Action B])
+        Result([Evaluate Result])
+        Goal --> Decision
+        Decision --> ActionA --> Result
+        Decision --> ActionB --> Result
+      end
+
+      %% Add colors to nodes
+      style Input fill:#f9f,stroke:#333,stroke-width:2px
+      style Step1 fill:#bbf,stroke:#333,stroke-width:2px
+      style Step2 fill:#bfb,stroke:#333,stroke-width:2px
+      style Output fill:#ff9,stroke:#333,stroke-width:2px
+      style Goal fill:#f99,stroke:#333,stroke-width:2px
+      style Decision fill:#9f9,stroke:#333,stroke-width:2px
+      style ActionA fill:#99f,stroke:#333,stroke-width:2px
+      style ActionB fill:#99f,stroke:#333,stroke-width:2px
+      style Result fill:#fc9,stroke:#333,stroke-width:2px
+    </div>
+
+    <p><strong>Here’s how I break it down:</strong></p>
+    <ul>
+      <li><strong>AI Workflows:</strong> Predefined steps using AI tools to automate predictable, repeatable processes.</li>
+      <li><strong>AI Agents:</strong> Autonomous systems that decide on steps dynamically to pursue a goal.</li>
+    </ul>
+
+    <p>If your task can be mapped out in advance, you probably don’t need an agent. Just a smart workflow.</p>
+
+    <h2>How I Decided What I Needed</h2>
+
+    <p>My app needed help with:</p>
+    <ul>
+      <li>Data fetching and transformation</li>
+      <li>Testing and debugging</li>
+      <li>Basic support ticket automation</li>
+    </ul>
+
+    <p>None of those require autonomous reasoning. They require reliability, consistency, and speed, perfect for workflows.</p>
+
+    <h2>Lessons Learned</h2>
+    <ul>
+      <li>Agents are powerful, but risky and harder to control.</li>
+      <li>Workflows are easier to debug, deploy, and trust.</li>
+      <li>Use agents only when flexibility and autonomy are <em>required</em>.</li>
+    </ul>
+
+    <p><strong>Buzzwords don’t solve problems, architecture does.</strong> Know what your problem is before picking a solution that sounds buzzy.</p>
+
+    <div class="back-link">
+      <a href="../../index.html#blog">← Back to Blog</a>
+    </div>
+  </main>
+</body>
+</html>

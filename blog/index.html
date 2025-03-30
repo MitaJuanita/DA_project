@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog | Sherminta Lawrence</title>
-  <link rel="stylesheet" href="../style.css" />
-  <style>
-    .blog-landing {
-      max-width: 900px;
-      margin: 3rem auto;
-      padding: 1rem;
-    }
-    .blog-landing h1 {
-      color: #d76d82;
-      margin-bottom: 2rem;
-    }
-    .blog-preview {
-      border-bottom: 1px solid #eab4bc;
-      padding: 1.5rem 0;
-    }
-    .blog-preview h2 {
-      margin: 0;
-    }
-    .blog-preview p {
-      color: #2d2d2d;
-      margin: 0.5rem 0;
-    }
-    .blog-preview a {
-      color: #d76d82;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .blog-preview a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Healthcare data integration and analytics blog by Sherminta Lawrence">
+    <title>Blog | Sherminta Lawrence</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .blog-landing {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 1rem;
+        }
+        .blog-preview {
+            border-bottom: 1px solid #eab4bc;
+            padding: 1.5rem 0;
+            transition: transform 0.2s ease;
+        }
+        .blog-preview:hover {
+            transform: translateX(10px);
+        }
+        .blog-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin: 0.5rem 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: #d76d82;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <main class="blog-landing">
-    <h1>Healthcare Data & Interface Blog</h1>
+    <nav>
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+    </nav>
 
-    <section class="blog-preview">
-      <h2><a href="posts/2024-03-27-can-ai-finally-fix-system-integration.html">Can AI Actually Fix System Integration?</a></h2>
-      <p>This post explores real-world challenges in healthcare system interoperability—and where AI fits in (and doesn’t).</p>
-    </section>
+    <main class="blog-landing">
+        <h1>Healthcare Data & Interface Blog</h1>
 
-    <section class="blog-preview">
-      <h2><a href="posts/2024-03-26-do-you-really-need-an-ai-agent.html">Do You Really Need an AI Agent?</a></h2>
-      <p>This post breaks down the difference between AI agents and AI workflows—and how to decide which you need in practice.</p>
-    </section>
+        <section class="blog-preview">
+            <h2><a href="posts/2024-03-27-can-ai-finally-fix-system-integration.html">Can AI Actually Fix System Integration?</a></h2>
+            <div class="blog-meta">March 27, 2024 • Integration, AI</div>
+            <p>This post explores real-world challenges in healthcare system interoperability—and where AI fits in (and doesn't).</p>
+        </section>
 
-    <section class="blog-preview">
-      <h2><a href="posts/2024-03-28-javascript-in-healthcare-interfaces.html">JavaScript in Healthcare Interfaces: A Mirth Connect Implementation</a></h2>
-      <p>Healthcare interface development often requires complex data transformations and routing logic. In this post, I give an overview of how JavaScript can be used in an interface like Mirth Connect to solve key intergration issues.</p>
-    </section>
+        <section class="blog-preview">
+            <h2><a href="posts/2024-03-26-do-you-really-need-an-ai-agent.html">Do You Really Need an AI Agent?</a></h2>
+            <div class="blog-meta">March 26, 2024 • AI, Development</div>
+            <p>This post breaks down the difference between AI agents and AI workflows—and how to decide which you need in practice.</p>
+        </section>
 
-    <!-- Add more blog previews as needed -->
+        <section class="blog-preview">
+            <h2><a href="posts/2024-03-28-javascript-in-healthcare-interfaces.html">JavaScript in Healthcare Interfaces: A Mirth Connect Implementation</a></h2>
+            <div class="blog-meta">March 28, 2024 • JavaScript, Integration</div>
+            <p>Healthcare interface development often requires complex data transformations and routing logic. In this post, I give an overview of how JavaScript can be used in an interface like Mirth Connect to solve key integration issues.</p>
+        </section>
+    </main>
 
-    <div style="margin-top: 3rem;">
-      <a href="../index.html">← Back to Home</a>
-    </div>
-  </main>
+    <footer>
+        <p>&copy; 2024 Sherminta Lawrence. All rights reserved.</p>
+    </footer>
 </body>
 </html>
