@@ -1,73 +1,72 @@
-interfaces.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript in Healthcare Interfaces | Sherminta Lawrence</title>
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript in Healthcare Interfaces | Sherminta Lawrence</title>
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
 </head>
 <body>
-    <nav>
-        <a href="../../index.html">← Back to Blogs</a>
-    </nav>
+  <nav>
+    <a href="../../index.html#blog">← Back to Blog</a>
+  </nav>
 
-    <article class="blog-post">
-        <h1>JavaScript in Healthcare Interfaces: A Mirth Connect Implementation</h1>
-        <time datetime="2024-03-28">March 28, 2024</time>
+  <article class="blog-post">
+    <h1>JavaScript in Healthcare Interfaces: A Mirth Connect Implementation</h1>
+    <time datetime="2024-03-28">March 28, 2024</time>
 
-        <p>Healthcare interface development often requires complex data transformations and routing logic. During my work with Mirth Connect, I leveraged JavaScript to solve several key integration challenges.</p>
+    <p>Healthcare interface development often requires complex data transformations and routing logic. During my work with Mirth Connect, I used JavaScript to solve several key integration challenges.</p>
 
-        <section>
-            <h2>Key Implementation Areas</h2>
+    <section>
+      <h2>Key Implementation Areas</h2>
 
-            <h3>1. JSON to HL7 Transformation</h3>
-            <pre><code class="language-javascript">
+      <h3>1. JSON to HL7 Transformation</h3>
+      <pre><code class="language-javascript">
 // Example: Transform POC device JSON to HL7 OBX
 function transformToHL7(jsonPayload) {
-    var hl7Message = "";
-    var result = JSON.parse(jsonPayload);
-    
-    hl7Message = "OBX|1|NM|" + result.testCode + 
-                 "|||" + result.value + 
-                 "|" + result.units + "||N|||F";
-    
-    return hl7Message;
-}
-            </code></pre>
+  var hl7Message = "";
+  var result = JSON.parse(jsonPayload);
 
-            <h3>2. Custom Validation Rules</h3>
-            <pre><code class="language-javascript">
+  hl7Message = "OBX|1|NM|" + result.testCode +
+               "|||" + result.value +
+               "|" + result.units + "||N|||F";
+
+  return hl7Message;
+}
+      </code></pre>
+
+      <h3>2. Custom Validation Rules</h3>
+      <pre><code class="language-javascript">
 // Validate required fields for Epic integration
 function validateMessage(msg) {
-    if (!msg.PID || !msg.PID.patientId) {
-        throw new Error("Missing required patient identifier");
-    }
-    if (!msg.OBR || !msg.OBR.universalServiceID) {
-        throw new Error("Missing required test code");
-    }
+  if (!msg.PID || !msg.PID.patientId) {
+    throw new Error("Missing required patient identifier");
+  }
+  if (!msg.OBR || !msg.OBR.universalServiceID) {
+    throw new Error("Missing required test code");
+  }
 }
-            </code></pre>
+      </code></pre>
 
-            <h3>3. Intelligent Message Routing</h3>
-            <p>Building routes based on clinical parameters ensures messages reach their intended destinations efficiently.</p>
+      <h3>3. Intelligent Message Routing</h3>
+      <p>Building routes based on clinical parameters ensures messages reach their intended destinations efficiently.</p>
 
-            <h3>4. Error Handling & Data Correction</h3>
-            <p>Implementing robust error handling prevents data loss and maintains interface reliability.</p>
-        </section>
+      <h3>4. Error Handling and Data Correction</h3>
+      <p>Implementing robust error handling prevents data loss and maintains interface reliability.</p>
+    </section>
 
-        <section>
-            <h2>Impact</h2>
-            <p>These implementations significantly improved our interface reliability and reduced data transmission errors by over 40%.</p>
-        </section>
-    </article>
+    <section>
+      <h2>Impact</h2>
+      <p>These implementations significantly improved our interface reliability and reduced transmission errors by more than 40 percent.</p>
+    </section>
+  </article>
 
-    <footer>
-        <p><a href="../../index.html">← Back to Portfolio</a></p>
-    </footer>
+  <footer>
+    <p>Written by Sherminta Lawrence</p>
+  </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
 </body>
 </html>

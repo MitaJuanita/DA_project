@@ -79,7 +79,7 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);  /* Black overlay with 50% opacity */
+  background: rgba(83, 72, 80, 0.5);  /* Black overlay with 50% opacity */
   z-index: 1;
 }
 
@@ -298,14 +298,15 @@ footer {
 /* Diagram Section */
 .diagram-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin: 2rem 0;
+  padding: 1rem;
 }
 
 .diagram-wrapper {
   background: #f8f9fa;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -314,6 +315,39 @@ footer {
   text-align: center;
   margin-bottom: 1rem;
   color: #2c3e50;
+}
+
+/* Example Section */
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.example-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Comparison Table */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.comparison-table th {
+  background: #f8f9fa;
 }
 
 /* Animations */

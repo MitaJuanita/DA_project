@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Do You Really Need an AI Agent? | Sherminta Lawrence</title>
@@ -9,6 +10,15 @@
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true });
   </script>
+  <meta name="description" content="Understanding when to use AI agents vs workflows in real-world applications">
+    <meta name="keywords" content="AI agents, workflows, software architecture, automation">
+    <style>
+        .reading-time {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 <body>
   <nav>
@@ -18,62 +28,179 @@
   <article class="blog-post">
     <h1>Do You Really Need an AI Agent?</h1>
     <time datetime="2024-03-26">March 26, 2024</time>
+    <div class="reading-time">Reading time: 5 minutes</div>
+    
+    <!-- Introduction -->
+    <section class="intro">
+        <p>When I started planning my first commercially viable app, I was drawn into the promise of AI Agents. It sounded like an amazing shortcut that could save me time and more importantly, money: intelligent software that could automate complex tasks and make decisions on its own.</p>
+        <p>But I quickly ran into a key question: do I really need autonomy, or just automation? But before I could answer my own question, I had to understand what exactly is an AI Agent.</p>
+    </section>
 
-    <p>When I started planning my first commercially viable app, I got pulled into the "AI agent" hype vortex. It sounded amazing: intelligent software that could automate complex tasks and make decisions on its own.</p>
+    <!-- AI Agent Definition -->
+    <section class="ai-agent">
+        <h2>What is an AI Agent?</h2>
+        <p>An AI agent is a software system that can:</p>
+        <ul>
+            <li>Make autonomous decisions based on its environment</li>
+            <li>Learn from past interactions and adapt its behavior</li>
+            <li>Take independent actions to achieve specified goals</li>
+            <li>Handle complex, open-ended tasks without constant human guidance</li>
+            <li>Examples: chatbots, self-driving cars, personal assistants</li>
+        </ul>
+        <p>Think of it like hiring a virtual assistant who can make decisions on their own, rather than following a strict set of instructions. While this sounds appealing, it's not always the best solution for every automation need.</p>
+    </section>
 
-    <p>But the deeper I went, the more I realized that what I actually needed wasn’t an agent. I needed a workflow.</p>
+    <!-- AI Workflow Definition -->
+    <section class="ai-workflow">
+        <h2>What is an AI Workflow?</h2>
+        <p>Unlike agents, an AI workflow is a structured sequence that:</p>
+        <ul>
+            <li>Follows a predetermined path with clear decision points</li>
+            <li>Uses AI components for specific, well-defined tasks</li>
+            <li>Maintains predictable behavior patterns</li>
+            <li>Offers clear monitoring and debugging capabilities</li>
+            <li>Examples: data preprocessing, model training, testing automation</li>
+        </ul>
+        <p>AI-powered workflows can inherit some unpredictability from their components, especially if they rely on non-deterministic models like GPT. But the overall process is structured and repeatable.</p>
+    </section>
 
+    <!-- Hybrid Approach -->
+    <section class="hybrid-approach">
+        <h2>How About Both?</h2>
+        <p>AI agents working together in workflows can handle complex tasks by breaking them down into manageable steps, with each agent specializing in a particular area, and collaborating to achieve a common goal. 
+        </p>
+        <ul></ul>
+    
+        <h2>Example: Customer Service Automation</h2>
+                <p><strong>Scenario:</strong> A customer service AI agent can handle routine inquiries and escalate complex issues to human agents with relevant context.</p>
+                <p><strong>Workflow:</strong></p>
+                <ol>
+                    <li>Agent 1 (Initial Query): Uses NLP to understand the customer's query</li>
+                    <li>Agent 2 (Knowledge Base): Retrieves relevant information if query is known</li>
+                    <li>Agent 3 (Escalation): Routes complex queries to human agents with context</li>
+                </ol>
+            </li>
+        </ul>
+    <p>Think of it like a smart assembly line - each station knows exactly what to do, when to do it, and how to handle exceptions.</p>
     <h2>Understanding the Confusion</h2>
-    <p>After watching a dozen “build your own agent” videos and reading docs from OpenAI and Anthropic, I noticed something: most “agents” were just structured task flows—workflows with a fancy name.</p>
+    <p>After watching a dozen “build your own agent” videos on YouTube and reading docs from OpenAI and Anthropic, I realized what I actually needed wasn't an AI Agent, I needed an AI Worflow.</p>
+       <div class="comparison-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>AI Workflow</th>
+                    <th>AI Agent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Decision Making</td>
+                    <td>Based on rules</td>
+                    <td>Autonomous</td>
+                </tr>
+                <tr>
+                    <td>Predictability</td>
+                    <td>High</td>
+                    <td>Variable</td>
+                </tr>
+                <tr>
+                    <td>Cost Control</td>
+                    <td>Predictable</td>
+                    <td>Can vary widely</td>
+                </tr>
+                <tr>
+                    <td>Best For</td>
+                    <td>Structured tasks</td>
+                    <td>Open-ended problems</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+    <p>To clarify further for my very visual way of understanding almost anything, I created some flowcharts to help:</p>
+    <div class="diagram-container">
+        <div class="diagram-wrapper">
+            <h3>AI Workflow</h3>
+            <div class="mermaid">
+                flowchart TD
+                    Input([Input Data])
+                    Step1([Data Preprocessing])
+                    Step2([Model Training])
+                    Output([Predictions])
+                    Input --> Step1 --> Step2 --> Output
+                
+                    %% Style nodes
+                    style Input fill:#f9f,stroke:#333
+                    style Step1 fill:#bbf,stroke:#333
+                    style Step2 fill:#bfb,stroke:#333
+                    style Output fill:#ff9,stroke:#333
+            </div>
+        </div>
 
-    <div class="mermaid">
-      flowchart LR
-        subgraph Workflow [AI Workflow]
-          Input([Input Data])
-          Step1([Data Preprocessing])
-          Step2([Model Training])
-          Output([Predictions])
-          Input --> Step1 --> Step2 --> Output
-        end
-
-        subgraph Agent [AI Agent Decision Process]
-          Goal([Define Goal])
-          Decision{Choose Action}
-          ActionA([Action A])
-          ActionB([Action B])
-          Result([Evaluate Result])
-          Goal --> Decision
-          Decision --> ActionA --> Result
-          Decision --> ActionB --> Result
-        end
+        <div class="diagram-wrapper">
+            <h3>AI Agent</h3>
+            <div class="mermaid">
+                flowchart TD
+                    Goal([Define Goal])
+                    Decision{Choose Action}
+                    ActionA([Action A])
+                    ActionB([Action B])
+                    Result([Evaluate Result])
+                    Goal --> Decision
+                    Decision --> ActionA --> Result
+                    Decision --> ActionB --> Result
+                    
+                    %% Style nodes
+                    style Goal fill:#f99,stroke:#333
+                    style Decision fill:#9f9,stroke:#333
+                    style ActionA fill:#99f,stroke:#333
+                    style ActionB fill:#99f,stroke:#333
+                    style Result fill:#fc9,stroke:#333
+            </div>
+        </div>
     </div>
 
-    <p><strong>Key distinction:</strong></p>
+    <h2><strong>Key distinctions:</strong></h2>
     <ul>
       <li><strong>Workflow:</strong> Predefined steps for repeatable, predictable tasks</li>
       <li><strong>Agent:</strong> Autonomous decision-making to pursue open-ended goals</li>
     </ul>
 
-    <h2>My Use Case</h2>
-    <ul>
-      <li>Data fetching and transformation</li>
+    <h2>Define Your Use Case</h2>
+    
+      <p>When deciding between an AI agent and an AI workflow, ask yourself:</p>
+      <ul>
+      <li>Is the task structured or open-ended?</li>
+      <li>Do I need real-time decision-making?</li>
+      <li>How much autonomy do I want the system to have?</li>
+    </ul>
+    
+    <h2>For example, for my app I needed:</h2>
+    <ul> <li>Data fetching and transformation</li>
       <li>Testing and debugging</li>
       <li>Basic customer support automation</li>
     </ul>
     <p>These are structured, repetitive needs. Workflows are the right fit.</p>
+   <p>(I also needed a way to monitor and adjust the workflow as needed, which is easier with workflows than agents.)</p>
+    
+        <h2>Lessons Learned</h2>
+        <ul>
+            <li>Agents are powerful but unpredictable. They offer autonomy at the cost of predictability</li>
+            <li>Workflows are easier to manage, scale and debug, especially for well-defined tasks</li>
+            <li>Be aware of the unpredictability of LLMs within your workflows</li>
+        </ul>
+        
+        <div class="conclusion">
+            <p><strong>So, do you really need an AI Agent?</strong></p>
+            <p>It depends on your use case. If you need structured, predictable automation, an AI workflow is likely the better choice. But if you need a system that can adapt to new situations and make decisions on its own, an AI agent might be the way to go.</p>
+            <p>Choose deliberately, do more research and build accordingly.</p>
+        </div>
+    </section>
+</article>
 
-    <h2>Lessons Learned</h2>
-    <ul>
-      <li>Agents are powerful but unpredictable</li>
-      <li>Workflows are easier to manage and debug</li>
-      <li>Only use agents when real autonomy is required</li>
-    </ul>
-
-    <p><strong>Buzzwords don't solve problems. Architecture does.</strong></p>
-  </article>
-
-  <footer>
-    <p>Written by Sherminta Lawrence</p>
-  </footer>
+<footer class="blog-footer">
+    <p>Written by Sherminta J. Lawrence</p>
+    <p><a href="../../index.html#blog">← Back to Blog</a></p>
+</footer>
 </body>
 </html>
