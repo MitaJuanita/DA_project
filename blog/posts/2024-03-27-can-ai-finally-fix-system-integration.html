@@ -36,30 +36,30 @@
         </section>
 
         <section class="pain-points">
-            <h3>🟨 The Pain Points of Integration</h3>
+            <h3>The Pain Points of Integration</h3>
             
-            <h4>🔄 Data Formatting Issues</h4>
+            <h4>Data Formatting Issues</h4>
             <ul>
                 <li>One system sends a timestamp in ISO 8601.</li>
                 <li>Another expects Unix time.</li>
                 <li>Some fields are booleans, others are strings that look like booleans (<code>"true"</code>, <code>"yes"</code>, <code>"1"</code>).</li>
             </ul>
 
-            <h4>🔄 Message Parsing Failures</h4>
+            <h4>Message Parsing Failures</h4>
             <ul>
                 <li>Slight deviations in structure cause entire records to fail silently.</li>
                 <li>Required fields are undocumented.</li>
                 <li>Error responses are vague or missing.</li>
             </ul>
 
-            <h4>🔄 Semantic Mismatch</h4>
+            <h4>Semantic Mismatch</h4>
             <ul>
                 <li><code>glucose_level</code> in System A means “raw reading.”</li>
                 <li><code>glucose_level</code> in System B expects a post-processed value.</li>
                 <li>Same name, different meaning.</li>
             </ul>
 
-            <h4>🔄 Inconsistent Schema Definitions</h4>
+            <h4>Inconsistent Schema Definitions</h4>
             <ul>
                 <li>JSON payloads drift with each version update.</li>
                 <li>Fields are renamed without changelogs.</li>
@@ -70,14 +70,14 @@
         </section>
 
         <section class="ai-helps">
-            <h3>🧠 Where AI Actually Helps (Today)</h3>
-            <h4>✅ 1. Schema Mapping & Field Translation</h4>
+            <h3>Where AI Actually Helps (Today)</h3>
+            <h4>1. Schema Mapping & Field Translation</h4>
             <p>LLMs (Large Language Models) are great at mapping structures, renaming keys, and flagging mismatches.</p>
             <blockquote>
                 <p><em>Prompt example:</em> “Map this EMR export schema to this lab data management import schema.”</p>
             </blockquote>
 
-            <h4>✅ 2. Message Parsing & Debugging</h4>
+            <h4>2. Message Parsing & Debugging</h4>
             <p>AI can help you:</p>
             <ul>
                 <li>Spot missing fields</li>
@@ -85,10 +85,10 @@
                 <li>Suggest correct structures</li>
             </ul>
 
-            <h4>✅ 3. Semantic Mediation (ALMOST...)</h4>
+            <h4>3. Semantic Mediation (ALMOST...)</h4>
             <p>AI can bridge terminology gaps. It infers meaning, suggests transformations BUT (at least not as of this publication) <strong>never</strong> replace human validation.</p>
 
-            <h4>✅ 4. Adapter Code & Middleware Scaffolding</h4>
+            <h4>4. Adapter Code & Middleware Scaffolding</h4>
             <p>AI can scaffold:</p>
             <ul>
                 <li>JSON and XML converters</li>
@@ -97,7 +97,7 @@
             </ul>
             <p>It won’t be perfect, but it’ll save you hours of hours of detective work.</p>
 
-            <h4>✅ 5. Documentation Assistance</h4>
+            <h4>5. Documentation Assistance</h4>
             <p>LLMs can:</p>
             <ul>
                 <li>Summarize API docs</li>
@@ -108,7 +108,7 @@
         </section>
 
         <section class="limitations">
-            <h3>⚠️ What AI Can't (or Shouldn't) Do</h3>
+            <h3>What AI Can't (or Shouldn't) Do</h3>
             <ul>
                 <li>Guarantee compliance or security</li>
                 <li>Understand business specific constraints</li>
@@ -119,7 +119,7 @@
         </section>
 
         <section class="conclusion">
-            <h3>🟨 Real-World Takeaway: Speed up the processes don't relinquish it</h3>
+            <h3>Real-World Takeaway: Speed up the processes don't relinquish it</h3>
             <p>AI won’t fix your integration problems, the tech isn't there. But it can keep you from drowning in them.</p>
             <p>Use it to speed up:</p>
             <ul>
@@ -135,7 +135,7 @@
         </section>
 
         <section class="conclusion">
-            <h3>🟦 Conclusion</h3>
+            <h3>Conclusion</h3>
             <p>The future of integration isn't AI Agent driven, it's AI workflow driven, guided by humans to accelerate processes.</p>
         </section>
     </article>
