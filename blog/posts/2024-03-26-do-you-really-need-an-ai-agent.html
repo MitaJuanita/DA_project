@@ -117,7 +117,7 @@
             </tbody>
         </table>
     </div> 
-    <p>To clarify further for my very visual way of understanding almost anything, I created some flowcharts to help:</p>
+    <p>To clarify further for my very visual way of understanding almost anything,  I created some flowcharts to help:</p>
     <div class="diagram-container">
         <div class="diagram-wrapper">
             <h3>AI Workflow</h3>
@@ -158,6 +158,31 @@
                     style Result fill:#fc9,stroke:#333
             </div>
         </div>
+        <div class="diagram-wrapper">
+          <h3>Hybrid: Workflow with Embedded Agent</h3>
+          <div class="mermaid">
+            flowchart TD
+              Input([User Request])
+              WorkflowStep1([Workflow Step: Classify Intent])
+              Decision{Ambiguous or Complex?}
+              Agent([AI Agent Handles Edge Case])
+              WorkflowStep2([Structured Workflow Task])
+              Output([Final Response])
+        
+              Input --> WorkflowStep1 --> Decision
+              Decision -- No --> WorkflowStep2 --> Output
+              Decision -- Yes --> Agent --> WorkflowStep2
+        
+              %% Style nodes
+              style Input fill:#f9f,stroke:#333
+              style WorkflowStep1 fill:#bbf,stroke:#333
+              style Decision fill:#ccc,stroke:#333
+              style Agent fill:#faa,stroke:#333
+              style WorkflowStep2 fill:#bfb,stroke:#333
+              style Output fill:#ff9,stroke:#333
+          </div>
+        </div>
+        
     </div>
 
     <h2><strong>Key distinctions:</strong></h2>
