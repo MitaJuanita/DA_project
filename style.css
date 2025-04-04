@@ -173,6 +173,33 @@ section h3 {
   text-decoration: underline;
 }
 
+.project-card p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-card p.expanded {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+}
+
+.project-card p::after {
+    content: "Click to expand";
+    display: block;
+    color: #666;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+.project-card p.expanded::after {
+    content: "Click to collapse";
+}
+
 /* Skills Section */
 .skills ul {
   display: block; /* Change to single-column layout */
