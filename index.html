@@ -43,7 +43,14 @@
 
   <section class="portfolio" id="portfolio">
     <h3>Portfolio</h3>
-    <div class="project-grid">
+      <div class="project-card">
+        <h4>Case Study: Medicare Part D Drug Cost & Utilization Dashboard</h4>
+        <p>This dashboard was created utilizing real-world data from the Centers for Medical and Medicare Studies (CMS.gov), Medicare Part D to identify the top prescription drugs by total spend and visualize how costs vary across the contiguous United States. Using data fields such as total claims, beneficiaries, and drug costs, the dashboard illustrates key insights into the geographic distribution of high-cost and frequency  medications, such as insulin and anticoagulants, and highlights states with elevated cost-per-beneficiary rates.
+          The interactive design allows users to filter by drug name, compare trends, at the state level and explore cost efficiency metrics like cost per claim and cost per beneficiary. This was created using Tableau Public (comparable to Power BI) and reflects the kind of business intelligence tooling that pharmacy benefit managers, policy teams, and healthcare leaders use to inform formulary design, negotiation strategies, and cost containment initiatives.
+          This case study was an exploratory project as part of my healthcare analytics portfolio to demonstrate my ability to transform complex public data into actionable insights. </p>
+       <!-- <a href="https://public.tableau.com/app/profile/sherminta.lawrence/viz/MedicarePartDDrugCostUtilizationDashboard/MedicarePartDDrugCostUtilizationDashboard" target="_blank"> -->*** Coming Soon on Tableau Dashboard ***</a>
+      </div>
+      <div class="project-grid">
       <div class="project-card">
         <h4>JavaScript for Parsing JSON in an Interface Engine (With Error Handling)</h4>
         <p>A simplfied JavaScript script illustrating JSON to HL7 parsing and the workflow for troubleshooting interface output.</p>
@@ -54,21 +61,21 @@
         <p>To demonstrate knowledge of the FHIR message structure and validate a few resources, I wrote a Python script and utilized some publically available "dummy" JSON messages to perform a "lite" data anlysis.</p>
         <a href="https://github.com/MitaJuanita/DA_project/blob/pages/notebooks/active/FHIR_Project.ipynb" target="_blank">View the Jupyter Notebook on GitHub</a>
       </div>
-    </div>
     <div class="project-card">
       <h4>Case Study: Legacy Interface Migration Project Workflow</h4>
       <p>A case study based on real world experience outlining the workflow of a legacy healthcare interface migration project. The project involved migrating a VB based interface to an JavaScript based interface engine.</p>
       <a href="https://github.com/MitaJuanita/DA_project/blob/pages/notebooks/active/interface_migration_case_study.md" target="_blank">View the project on GitHub</a>
     </div>
+    </div>
      </section>
   <section class="skills">
     <h3>Skills & Tools</h3>
     <ul>
-      <li><strong>Programming:</strong> Python, SQL, JavaScript</li>
+      <li><strong>Programming:</strong> Python, SQL, JavaScript, HTML/CSS</li>
       <li><strong>Databases:</strong> PostgreSQL</li>
       <li><strong>Healthcare Data Standards:</strong> HL7 (ADT, ORM, ORU), FHIR (Patient Resource), JSON Validation</li>
       <li><strong>Data Processing & ETL:</strong> Pandas, SQLAlchemy, SSIS</li>
-      <li><strong>Data Visualization:</strong> Matplotlib, Seaborn</li>
+      <li><strong>Data Visualization:</strong> Matplotlib, Seaborn, Tableau/Power BI</li>
     </ul>
   </section>
 
@@ -99,5 +106,12 @@
   <footer>
     <p>© 2025 Sherminta Lawrence. All rights reserved.</p>
   </footer>
+    <script>
+  document.querySelectorAll('.project-card p').forEach(paragraph => {
+      paragraph.addEventListener('click', function() {
+          this.classList.toggle('expanded');
+      });
+  });
+  </script>
 </body>
 </html>
