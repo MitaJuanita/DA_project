@@ -2,7 +2,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from trial_eligibility import load_patient_data, load_trial_criteria, assign_trial_groups
+from .trial_eligibility import load_patient_data, load_trial_criteria, assign_trial_groups
 
 # Step 1: Load data
 patients = load_patient_data()
