@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bridging the Gap Between HL7 and FHIR: A Developer's Guide to Interoperability</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>
-      mermaid.initialize({ 
-          startOnLoad: true,
-          theme: 'neutral',
-          flowchart: {
-              curve: 'basis'
-          }
-      });
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A comprehensive guide for developers covering interface engines, programming languages, and real-world implementation patterns.">
+    <meta name="keywords" content="HL7, FHIR, healthcare interoperability, interface engines, healthcare IT, medical data integration">
+    <meta name="author" content="Sherminta J. Lawrence">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="Bridging the Gap Between HL7 and FHIR: A Developer's Guide">
+    <meta property="og:description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A practical guide for developers working with healthcare data integration.">
+    <meta property="og:type" content="article">
+    
+    <title>Bridging the Gap Between HL7 and FHIR: A Developer's Guide to Interoperability | Sherminta J. Lawrence</title>
+    
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'neutral',
+            flowchart: {
+                curve: 'basis'
+            }
+        });
+    </script>
 </head>
+
 <body>
+  <nav>
+    <a href="../../index.html#blog">← Back to Blog</a>
+  </nav>
   <header>
     <div class="header-content">
       <div class="header-text">
@@ -35,7 +50,8 @@
         <li>HL7 is a legacy healthcare messaging standard; FHIR is a modern, web native, API framework.</li>
         <li>Many jobs ask for FHIR knowledge, but understanding HL7 gives you an edge.</li>
         <li>Programming skills in Python, JSON, and JavaScript help you translate and build between both systems.</li>
-        <li>This post explains where HL7 and FHIR overlap, how to map between them, and why bridging them makes you uniquely valuable in health tech.</li>
+        <li>This post explains where HL7 and FHIR overlap, how to map between them, and why bridging them makes you
+          uniquely valuable in health tech.</li>
       </ul>
     </section>
 
@@ -43,14 +59,20 @@
     <section id="introduction">
       <h2>Introduction</h2>
       <p>"...knowledge of FHIR standards required."</p>
-      <p>If you've been browsing job listings in the healthcare tech space, you've likely seen that phrase. But if you come from a background where HL7 was the dominant standard or if you’re newer to healthcare IT, it may not be obvious how FHIR relates to HL7. You may have knowledge of interfaces engines, programming skills like Python, JavaScript and JSON which can help you bridge the knowledge gap.</p>
-      <p>In this post, I’ll walk through the key differences and overlaps between HL7 and FHIR, and how programming fundamentals can help you become fluent in both worlds. Whether you're a developer entering health tech or a clinician learning how data moves behind the scenes, this post will give some insight.</p>
+      <p>If you've been browsing job listings in the healthcare tech space, you've likely seen that phrase. But if you
+        come from a background where HL7 was the dominant standard or if you’re newer to healthcare IT, it may not be
+        obvious how FHIR relates to HL7. You may have knowledge of interfaces engines, programming skills like Python,
+        JavaScript and JSON which can help you bridge the knowledge gap.</p>
+      <p>In this post, I’ll walk through the key differences and overlaps between HL7 and FHIR, and how programming
+        fundamentals can help you become fluent in both worlds. Whether you're a developer entering health tech or a
+        clinician learning how data moves behind the scenes, this post will give some insight.</p>
     </section>
 
     <!-- What Is HL7 -->
     <section id="what-is-hl7">
       <h2>What Is HL7?</h2>
-      <p>HL7 (Health Level Seven) is a family of standards for exchanging electronic health information. The most widely used version is HL7 v2, which has been around since the 1980s.</p>
+      <p>HL7 (Health Level Seven) is a family of standards for exchanging electronic health information. The most widely
+        used version is HL7 v2, which has been around since the 1980s.</p>
       <p><strong>Key characteristics:</strong></p>
       <ul>
         <li>Event-driven messaging standard (e.g., ADT events, orders)</li>
@@ -58,13 +80,15 @@
         <li>Hard to read, harder to debug</li>
         <li>Not built for the web or modern app architectures</li>
       </ul>
-      <p>HL7 v3 was an attempt to solve some of these issues with XML and a stronger underlying model (RIM), but adoption was limited.</p>
+      <p>HL7 v3 was an attempt to solve some of these issues with XML and a stronger underlying model (RIM), but
+        adoption was limited.</p>
     </section>
 
     <!-- What Is FHIR -->
     <section id="what-is-fhir">
       <h2>What Is FHIR?</h2>
-      <p>FHIR (Fast Healthcare Interoperability Resources) is a newer standard developed by HL7.org that builds on the lessons of v2 and v3 but embraces modern web technologies.</p>
+      <p>FHIR (Fast Healthcare Interoperability Resources) is a newer standard developed by HL7.org that builds on the
+        lessons of v2 and v3 but embraces modern web technologies.</p>
       <p><strong>Key features:</strong></p>
       <ul>
         <li>RESTful architecture</li>
@@ -72,7 +96,8 @@
         <li>Resource-oriented (e.g., <code>Patient</code>, <code>Observation</code>, <code>Encounter</code>)</li>
         <li>Designed for APIs, mobile apps, and modern dev environments</li>
       </ul>
-      <p>Where HL7 v2 focuses on events, FHIR focuses on <strong>resources</strong>: modular chunks of clinical data that can be easily created, read, updated, or deleted via HTTP.</p>
+      <p>Where HL7 v2 focuses on events, FHIR focuses on <strong>resources</strong>: modular chunks of clinical data
+        that can be easily created, read, updated, or deleted via HTTP.</p>
     </section>
 
     <!-- HL7 vs. FHIR: Where They Overlap -->
@@ -163,14 +188,21 @@
           </tr>
         </tbody>
       </table>
-      <p><strong>Real-world example:</strong> I once encountered a hospital lab system that used Visual Basic scripts to parse incoming HL7 messages from analyzers and route them into a central LIS (Laboratory Information System). The system had been in place for over a decade — no FHIR in sight, but the VB code still worked and was critical and risky to upgrade. This highlights the importance of understanding older tech even as we build with newer standards.</p>
-      <p>No matter your language of choice, the key is understanding the <strong>data models, transmission patterns, and integration challenges</strong> of healthcare systems.</p>
+      <p><strong>Real-world example:</strong> I once encountered a hospital lab system that used Visual Basic scripts to
+        parse incoming HL7 messages from analyzers and route them into a central LIS (Laboratory Information System).
+        The system had been in place for over a decade — no FHIR in sight, but the VB code still worked and was critical
+        and risky to upgrade. This highlights the importance of understanding older tech even as we build with newer
+        standards.</p>
+      <p>No matter your language of choice, the key is understanding the <strong>data models, transmission patterns, and
+          integration challenges</strong> of healthcare systems.</p>
     </section>
 
     <!-- The Role of Interface Engines -->
     <section id="interface-engines">
       <h2>The Role of Interface Engines</h2>
-      <p>Interface engines are critical middleware tools in healthcare IT. They make sure data flows correctly between systems that often speak very different languages. They’re responsible for transforming, routing, and monitoring data as it moves across platforms, departments, and even institutions.</p>
+      <p>Interface engines are critical middleware tools in healthcare IT. They make sure data flows correctly between
+        systems that often speak very different languages. They’re responsible for transforming, routing, and monitoring
+        data as it moves across platforms, departments, and even institutions.</p>
       <h3>What Interface Engines Do</h3>
       <table class="comparison-table">
         <thead>
@@ -234,73 +266,97 @@
         </tbody>
       </table>
       <h3>Visual: A Generic Interface Engine in the Data Flow</h3>
-      <pre><code class="mermaid">
-flowchart LR
-    EMR1[Legacy EMR - HL7 v2] --> ENGINE[Interface Engine]
-    LAB[Lab System - HL7] --> ENGINE
-    ENGINE --> API[FHIR API Service]
-    ENGINE --> APP[Web App / Patient Portal]
+      div class="diagram-container">
+      <div class="diagram-wrapper">
+        <div class="mermaid">
+          flowchart LR
+          EMR1[Legacy EMR - HL7 v2] --> ENGINE[Interface Engine]
+          LAB[Lab System - HL7] --> ENGINE
+          ENGINE --> API[FHIR API Service]
+          ENGINE --> APP[Web App / Patient Portal]
 
-    style EMR1 fill:#f9f,stroke:#333
-    style LAB fill:#ddf,stroke:#333
-    style ENGINE fill:#ccc,stroke:#000,stroke-width:2px
-    style API fill:#bfb,stroke:#333
-    style APP fill:#ff9,stroke:#333
-      </code></pre>
-      <p>Interface engines are especially important during transitions from HL7 to FHIR because they allow organizations to maintain functionality while modernizing in stages.</p>
+          style EMR1 fill:#f9f,stroke:#333
+          style LAB fill:#ddf,stroke:#333
+          style ENGINE fill:#ccc,stroke:#000,stroke-width:2px
+          style API fill:#bfb,stroke:#333
+          style APP fill:#ff9,stroke:#333
+        </div>
+      </div>,
+      <p>Interface engines are especially important during transitions from HL7 to FHIR because they allow organizations
+        to maintain functionality while modernizing in stages.</p>
     </section>
 
     <!-- A Hybrid Stack: Real-World Example -->
     <section id="hybrid-stack">
       <h2>A Hybrid Stack: Real-World Example</h2>
       <h3>Visual Map: Language Roles in HL7 ↔ FHIR Pipeline</h3>
-      <pre><code class="mermaid">
-flowchart LR
-    HL7[HL7 v2 Message Input] --> PY[Python: Parse + Transform]
-    PY --> MAP[Mapping Layer]
-    MAP --> FHIR[FHIR JSON Output]
-    FHIR --> API[API Gateway / Frontend]
+      <div class="diagram-container">
+        <div class="diagram-wrapper">
+          <div class="mermaid">
+            flowchart LR
+            HL7[HL7 v2 Message Input] --> PY[Python: Parse + Transform]
+            PY --> MAP[Mapping Layer]
+            MAP --> FHIR[FHIR JSON Output]
+            FHIR --> API[API Gateway / Frontend]
 
-    subgraph Language Roles
-        JAVA[Java: HAPI FHIR server or integration middleware]
-        CSHARP[C#: Legacy HL7 integration engines]
-        GO[Go: Lightweight services for parsing/mapping]
-        JS[JavaScript: FHIR Web App, SMART on FHIR]
-        SQL[SQL/NoSQL: Backend FHIR resource storage]
-    end
+            subgraph Language Roles
+            JAVA[Java: HAPI FHIR server or integration middleware]
+            CSHARP[C#: Legacy HL7 integration engines]
+            GO[Go: Lightweight services for parsing/mapping]
+            JS[JavaScript: FHIR Web App, SMART on FHIR]
+            SQL[SQL/NoSQL: Backend FHIR resource storage]
+            end
 
-    PY --> JAVA
-    HL7 --> CSHARP
-    MAP --> GO
-    FHIR --> JS
-    FHIR --> SQL
+            PY --> JAVA
+            HL7 --> CSHARP
+            MAP --> GO
+            FHIR --> JS
+            FHIR --> SQL
 
-    style HL7 fill:#f9f,stroke:#333
-    style PY fill:#bbf,stroke:#333
-    style MAP fill:#ccc,stroke:#333
-    style FHIR fill:#bfb,stroke:#333
-    style API fill:#ff9,stroke:#333
-    style JAVA fill:#e9f,stroke:#555
-    style CSHARP fill:#ddf,stroke:#555
-    style GO fill:#cfc,stroke:#555
-    style JS fill:#fcd,stroke:#555
-    style SQL fill:#fcf,stroke:#555
-      </code></pre>
-      <h3>Another Architecture Example</h3>
-      <pre><code class="mermaid">
-flowchart TD
-    A[HL7 v2 Message] --> B[Python Parser]
-    B --> C[Mapping Layer]
-    C --> D[FHIR JSON Output]
-    D --> E[API Gateway / Frontend]
+            style HL7 fill:#f9f,stroke:#333
+            style PY fill:#bbf,stroke:#333
+            style MAP fill:#ccc,stroke:#333
+            style FHIR fill:#bfb,stroke:#333
+            style API fill:#ff9,stroke:#333
+            style JAVA fill:#e9f,stroke:#555
+            style CSHARP fill:#ddf,stroke:#555
+            style GO fill:#cfc,stroke:#555
+            style JS fill:#fcd,stroke:#555
+            style SQL fill:#fcf,stroke:#555
+          </div>
+        </div>
+        <p>This diagram illustrates how different programming languages and technologies can work together in a hybrid
+          stack to facilitate the transition from HL7 to FHIR.</p>
+        <p>For example, you might use Python to parse and transform HL7 messages, then map them to FHIR resources, while
+          Java handles the backend server logic and JavaScript powers the frontend web app.</p>
+        <p>In this way, you can leverage the strengths of each language and technology to create a robust, interoperable
+          system.</p>
+        <p>In the real world, you might have a legacy system that still uses HL7 v2 messages, but you want to expose a
+          FHIR API for modern applications. You can use an interface engine to handle the translation and mapping
+          between the two formats.</p>
+        <p>For example, a hospital might have a legacy EMR system that generates HL7 v2 messages for patient admissions.
+          You could use Python to parse those messages, map them to FHIR resources, and then expose a FHIR API for
+          modern applications.</p>
+        <h3>Another Architecture Example</h3>
+        <div class="diagram-container">
+          <div class="diagram-wrapper">
+            <div class="mermaid">
+              flowchart TD
+              A[HL7 v2 Message] --> B[Python Parser]
+              B --> C[Mapping Layer]
+              C --> D[FHIR JSON Output]
+              D --> E[API Gateway / Frontend]
 
-    style A fill:#f9f,stroke:#333
-    style B fill:#bbf,stroke:#333
-    style C fill:#ccc,stroke:#333
-    style D fill:#bfb,stroke:#333
-    style E fill:#ff9,stroke:#333
-      </code></pre>
-      <p>This is the essence of <strong>bridging the interoperability divide</strong>: translating legacy formats into modern, web standards.</p>
+              style A fill:#f9f,stroke:#333
+              style B fill:#bbf,stroke:#333
+              style C fill:#ccc,stroke:#333
+              style D fill:#bfb,stroke:#333
+              style E fill:#ff9,stroke:#333
+            </div>
+          </div>
+        </div>
+        <p>This is the essence of <strong>bridging the interoperability divide</strong>: translating legacy formats into
+          modern, web standards.</p>
     </section>
 
     <!-- Why This Matters for Job Seekers -->
@@ -319,7 +375,8 @@ flowchart TD
         <li>Validate and simulate data</li>
         <li>Improve interoperability at a system level</li>
       </ul>
-      <p>You become not just a developer, but a <strong>bridge-builder</strong> – an added value in the job market, someone who can make systems talk to each other in a fragmented domain.</p>
+      <p>You become not just a developer, but a <strong>bridge-builder</strong> – an added value in the job market,
+        someone who can make systems talk to each other in a fragmented domain.</p>
     </section>
 
     <!-- Final Thoughts -->
@@ -332,7 +389,8 @@ flowchart TD
         <li>Be comfortable with <strong>data transformation</strong></li>
         <li>Use your coding skills to make systems <strong>interoperable by design</strong></li>
       </ul>
-      <p>In healthcare, the biggest problems aren’t just technical, they’re about communication. And that starts with knowing how the data moves.</p>
+      <p>In healthcare, the biggest problems aren’t just technical, they’re about communication. And that starts with
+        knowing how the data moves.</p>
       <p>If you can write code <em>and</em> decode standards, you’re more than hireable. You’re essential.</p>
     </section>
   </main>
@@ -341,4 +399,5 @@ flowchart TD
     <p>&copy; 2025 Bridging the Gap Between HL7 and FHIR. All rights reserved.</p>
   </footer>
 </body>
+
 </html>
