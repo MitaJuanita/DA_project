@@ -115,7 +115,6 @@ header::before {
   width: 800px;
   height: 500px;
   border-radius: 5%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border: 1px solid var(--white);
   object-fit: cover;
 }
