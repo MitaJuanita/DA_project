@@ -111,6 +111,14 @@ header::before {
   object-fit: cover;
 }
 
+.header-image2 img {
+  width: 800px;
+  height: 500px;
+  border-radius: 5%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid var(--white);
+  object-fit: cover;
+}
 /* Sections */
 section {
   margin: 2.5rem auto;
@@ -361,24 +369,82 @@ footer {
 
 /* Diagram Section */
 .diagram-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
   margin: 2rem 0;
   padding: 1rem;
+  background: var(--background-light);
+  border-radius: 8px;
 }
 
 .diagram-wrapper {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.diagram-wrapper h3 {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #2c3e50;
+.diagram-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.diagram-wrapper::after {
+  content: '🔍 Click to zoom';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: var(--soft-pink);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.diagram-wrapper:hover::after {
+  opacity: 1;
+}
+
+.mermaid {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border-radius: 8px;
+}
+
+.close-modal {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#modalDiagram .mermaid svg {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 90vh;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 2rem;
 }
 
 /* Example Section */
@@ -481,7 +547,7 @@ code {
 }
 blockquote {
   margin: 2rem 0;
-  padding: 1.2rem 1.5rem;
+  padding: 1.2rem 2rem 1.2rem 2.5rem; /* Adjusted left padding for better alignment */
   background-color: var(--background-light);
   border-left: 4px solid var(--deep-pink);
   font-style: italic;

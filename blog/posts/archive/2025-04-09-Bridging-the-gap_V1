@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A comprehensive guide for developers covering interface engines, programming languages, and real-world implementation patterns.">
+    <meta name="description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A comprehensive guide for analysts covering interface engines, programming languages, and real-world implementation patterns.">
     <meta name="keywords" content="HL7, FHIR, healthcare interoperability, interface engines, healthcare IT, medical data integration">
     <meta name="author" content="Sherminta J. Lawrence">
     
     <!-- Open Graph tags for social sharing -->
-    <meta property="og:title" content="Bridging the Gap Between HL7 and FHIR: A Developer's Guide">
-    <meta property="og:description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A practical guide for developers working with healthcare data integration.">
+    <meta property="og:title" content="Bridging the Gap Between HL7 and FHIR: A Healthcare Interface Analyst's Guide">
+    <meta property="og:description" content="Learn how to bridge HL7 and FHIR in healthcare systems. A practical guide for an interface analysts working with healthcare data integration.">
     <meta property="og:type" content="article">
     
-    <title>Bridging the Gap Between HL7 and FHIR: A Developer's Guide to Interoperability | Sherminta J. Lawrence</title>
+    <title>Bridging the Gap Between HL7 and FHIR: An Analyst's Guide to Interoperability | Sherminta J. Lawrence</title>
     
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
@@ -44,7 +44,7 @@
   <header>
     <div class="header-content">
       <div class="header-text">
-        <h1>Bridging the Gap Between HL7 and FHIR: A Developer's Guide to Interoperability</h1>
+        <h1>Bridging the Gap Between HL7 and FHIR: An Analyst's Guide to Interoperability</h1>
         <p><em>By Sherminta J. Lawrence</em></p>
       </div>
       <!-- Optional header image can be inserted here if available -->
@@ -78,7 +78,7 @@
         obvious how FHIR relates to HL7. You may have knowledge of interfaces engines, programming skills like Python,
         JavaScript and JSON which can help you bridge the knowledge gap.</p>
       <p>In this post, I’ll walk through the key differences and overlaps between HL7 and FHIR, and how programming
-        fundamentals can help you become fluent in both worlds. Whether you're a developer entering health tech or a
+        fundamentals can help you become fluent in both worlds. Whether you're an analyst entering health tech or a
         clinician learning how data moves behind the scenes, this post will give some insight.</p>
     </section>
 
@@ -380,7 +380,7 @@
         <li>Validate and simulate data</li>
         <li>Improve interoperability at a system level</li>
       </ul>
-      <p>You become not just a developer, but a <strong>bridge-builder</strong> – an added value in the job market,
+      <p>You become not just a analyst, but a <strong>bridge-builder</strong> – an added value in the job market,
         someone who can make systems talk to each other in a fragmented domain.</p>
     </section>
 
