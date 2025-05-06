@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
-    <meta name="keywords"
-        content="HL7, FHIR, healthcare interoperability, interface engines, healthcare IT, medical data integration">
+    <meta name="description" content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
+    <meta name="keywords" content="HL7, FHIR, healthcare interoperability, interface engines, healthcare IT, medical data integration">
     <meta name="author" content="Sherminta J. Lawrence">
 
     <meta property="og:title" content="From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills">
-    <meta property="og:description"
-        content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
+    <meta property="og:description" content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
     <meta property="og:type" content="article">
 
     <title>From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills</title>
@@ -34,14 +30,14 @@
     </script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             const diagrams = document.querySelectorAll('.diagram-wrapper');
             const modal = document.getElementById('diagramModal');
             const modalContent = document.getElementById('modalDiagram');
             const closeBtn = document.querySelector('.close-modal');
 
             diagrams.forEach(diagram => {
-                diagram.addEventListener('click', function () {
+                diagram.addEventListener('click', function() {
                     modal.style.display = "block";
                     modalContent.innerHTML = this.innerHTML;
                     mermaid.init(undefined, modalContent.querySelector('.mermaid'));
@@ -54,216 +50,120 @@
             }
         });
     </script>
-
-    <style>
-        .diagram-container {
-            width: 100%;
-            overflow-x: auto;
-        }
-
-        .diagram-wrapper {
-            min-width: 800px;
-        }
-
-        .workflow-container {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-        }
-
-        .workflow {
-            flex: 1;
-            min-width: 250px;
-        }
-
-        /* Spacing utilities */
-        .spacer {
-            margin: 2rem 0;
-        }
-        .small-spacer {
-            margin: 1rem 0;
-        }
-        .large-spacer {
-            margin: 3rem 0;
-        }
-        
-        /* For simple line breaks */
-        .line-break {
-            height: 1px;
-            margin: 1rem 0;
-            border: none;
-        }
-
-        /* Next Up Section Styling */
-        .next-up {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 2rem;
-            margin: 3rem 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-left: 4px solid #558b2f;  /* Using the FHIR green color */
-            transition: transform 0.2s ease;
-        }
-        
-        .next-up:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-        }
-        
-        .next-up h2 {
-            color: #2c3e50;
-            margin-top: 0;
-        }
-        
-        .next-up p {
-            color: #505764;
-            line-height: 1.6;
-        }
-    </style>
 </head>
 
 <body>
-    <nav>
-        <a href="../../index.html#blog">← Back to Blog</a>
-    </nav>
+  <nav>
+    <a href="../../index.html#blog">← Back to Blog</a>
+  </nav>
 
-    <article class="blog-post">
-        <h1>From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills</h1>
-        <p><em>By Sherminta J. Lawrence</em></p>
-        <div class="header-image2">
-            <img src="FHIR.png" alt="post it diagram" />
+  <article class="blog-post">
+    <h1>From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills</h1>
+    <p><em>By Sherminta J. Lawrence</em></p>
+
+    <div class="post-meta">
+        <span>April 2024</span> • 
+        <span>15 min read</span> • 
+        <span>Healthcare Integration</span>
+    </div>
+
+    <div class="series-banner">
+        <p>🔄 <em>This post is part of an ongoing series on translating HL7 experience into FHIR-first roles. New posts drop weekly(ish)!</em></p>
+    </div>
+
+    <section id="tldr">
+      <h2>Why This Post?</h2>
+      <p>Working with HL7 v2 gave me deep roots in healthcare data interoperability. But as the industry shifts to FHIR, I realized my experience wasn’t obsolete per se, it was foundational. This post is for other interface analysts making that same transition.</p>
+    </section>
+
+    <section id="background">
+      <h2>My Most Recent Experience: HL7-Centric Integration, with a Dash of Data Analysis</h2>
+      <p>I spent the last three years in a lab-focused, ancillary interface environment, configuring HL7 v2 interfaces between LIS and EMR systems. I worked with tools like Mirth and Cerner’s middleware, using VB and JavaScript to manipulate segments and route messages through various hospital workflows. The work was essential but very niche. Without room to advance outside of management, I realized my career growth required learning new tools and expanding into others like FHIR, SQL, and Python. 
+      I have experience with FHIR. Python was actually one of the first languages I learned, and SQL became the next mountain to climb. I mention all of this because I want to show how I made the leap from HL7 to FHIR—and how you can too. In this series, I’ll walk through my transition, the skills I leaned into, and how I visualized the pivot in my portfolio and practice.</p>
+    </section>
+
+    <section id="bridge">
+      <h2>What Transfers and What Doesn’t</h2>
+      <p>HL7 and FHIR share the same end goal: seamless healthcare communication. However, they differ in approach.</p>
+      <ul>
+        <li><strong>What’s familiar:</strong> Mapping, debugging, troubleshooting workflows</li>
+        <li><strong>What’s different:</strong> APIs, JSON, RESTful logic, and a resource-based mindset</li>
+      </ul>
+    </section>
+
+    <section id="programming-skills">
+      <h2>Programming Skills That Bridge the Gap</h2>
+      <p>To make the leap, I focused on Python, JSON, and REST fundamentals. I started using Postman, learned how to read FHIR resource definitions, and tested endpoints manually before writing transformations. I built middleware that acted as translators between the two systems, applying the same logic I’d used for HL7 mapping, just with modern tools.</p>
+    </section>
+
+    <section id="visuals">
+      <h2>How It All Connects: Visualizing the Transition</h2>
+      <p>The diagram below shows how different technologies work together to bridge HL7 and FHIR. My actual workflows look surprisingly similar, just with newer languages and standards.</p>
+      <div class="diagram-container">
+        <div class="diagram-wrapper">
+          <div class="mermaid">
+            flowchart LR
+  %% HL7 Workflow
+  subgraph HL7_Workflow
+    direction LR
+    A1[LIS / Lab System] --> B1[Interface Engine (Mirth)]
+    B1 --> C1[HL7 Message Routing]
+    C1 --> D1[EMR System]
+  end
+
+  %% FHIR Workflow
+  subgraph FHIR_Workflow
+    direction LR
+    A2[Data Source (EHR, App, Device)] --> B2[FHIR API Call]
+    B2 --> C2[FHIR Server]
+    C2 --> D2[Frontend or Analytics App]
+  end
+
+  %% Hybrid Environment
+  subgraph Hybrid_Workflow
+    direction LR
+    A3[LIS or Device] --> B3[HL7 to FHIR Translator (Python/JS)]
+    B3 --> C3[FHIR Proxy or Adapter]
+    C3 --> D3[API Gateway / Cloud Service]
+    D3 --> E3[Consumer App]
+  end
+
+  %% Coloring shared skills (Mirth, Transformation Logic, APIs, JSON)
+  style B1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+  style C1 fill:#fce4ec,stroke:#ad1457,stroke-width:2px
+  style B3 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+  style C3 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+  style B2 fill:#dcedc8,stroke:#558b2f,stroke-width:2px
+  style C2 fill:#dcedc8,stroke:#558b2f,stroke-width:2px
+
+  %% Apply skillOverlap class
+  class B3,C3 skillOverlap
+
+  %% Optional notes
+  classDef skillOverlap fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+
+  🔑 Legend for Color Coding:
+Color	Meaning
+🟦 Blue	HL7 Interface Engine (e.g., Mirth) — legacy skill
+🟪 Pink	HL7 Routing logic — still relevant
+🟨 Yellow	Your transferable skills (Python/JS, mapping)
+🟩 Green	FHIR-native workflows (API calls, FHIR servers)
           </div>
-        <div class="post-meta">
-            <span>April 2024</span> •
-            <span>10 min read</span> •
-            <span>Healthcare Integration</span>
         </div>
+      </div>
+    </section>
 
-        <div class="series-banner">
-            <p>🔄 <em>This post is part of an ongoing series on translating HL7 experience into FHIR-first roles. New
-                    posts drop weekly(ish)!</em></p>
-        </div>
-
-        <section id="tldr">
-            <h2>Why This Post?</h2>
-            <p>Working with HL7 v2 gave me deep roots in healthcare data interoperability. But as the industry continues
-                to shift to FHIR, I realized my experience wasn’t obsolete per se, it was foundational. This post is for
-                other interface analysts making that same transition.</p>
-        </section>
-
-        <section id="background">
-            <h2>My Most Recent Experience: HL7-Centric Integration, with a Dash of Data Analysis</h2>
-            <p>I spent the last three years in a lab-focused, ancillary interface environment, configuring HL7 v2
-                interfaces between LIS and EMR systems. I worked with tools like Mirth and Cerner’s middleware, using VB
-                and JavaScript to manipulate segments and route messages through various hospital workflows. The work
-                was essential but very niche. Without room to advance outside of management, I realized my career growth
-                required learning new tools and expanding into others like FHIR, SQL, and Python.
-                I have experience with FHIR. Python was actually one of the first languages I learned, and SQL became
-                the next mountain to climb. I mention all of this because I want to show how I made the leap from HL7 to
-                FHIR—and how you can too. In this series, I’ll walk through my transition, the skills I leaned into, and
-                how I visualized the pivot in my portfolio and practice.</p>
-        </section>
-
-        <section id="bridge">
-            <h2>What Transfers and What Doesn’t</h2>
-            <p>HL7 and FHIR share the same end goal: seamless healthcare communication. However, they differ in
-                approach:</p>
-
-            <ul>
-                <li><strong>What’s familiar:</strong> Mapping, debugging, troubleshooting workflows</li>
-                <li><strong>What’s different:</strong> APIs, JSON, RESTful logic, and a resource-based mindset</li>
-            </ul>
-        </section>
-
-        <section id="programming-skills">
-            <h2>Programming Skills That Bridge the Gap</h2>
-            <p>To make the leap, I focused on Python, JSON, and REST fundamentals. I started using Postman, learned how
-                to read FHIR resource definitions, and tested endpoints manually before writing transformations. I built
-                middleware that acted as translators between the two systems, applying the same logic I’d used for HL7
-                mapping, just with modern tools.</p>
-        </section>
-
-        <section id="visuals">
-            <h2>How It All Connects: Visualizing My Transferable Skillset</h2>
-            <p>The three workflows below illustrate the evolution of healthcare integration:</p>
-            <ul class="workflow-description">
-                <li><strong>Left (HL7 Workflow):</strong> Traditional interface setup where I started - lab systems
-                    connecting through HL7 messages</li>
-                <li><strong>Center (FHIR Workflow):</strong> Modern API-first approach where healthcare is heading</li>
-                <li><strong>Right (Hybrid Workflow):</strong> The reality in most hospitals today, where my HL7
-                    experience (blue/pink) combines with newer skills (yellow) to enable FHIR adoption (green)</li>
-            </ul>
-
-            <div class="diagram-container">
-                <div class="diagram-wrapper">
-                    <div class="mermaid">
-                        flowchart TB
-                        subgraph workflow3[Hybrid Workflow]
-                        direction TB
-                        A3[LIS Device]-->B3[HL7 to FHIR Translator]
-                        B3-->C3[FHIR Proxy]
-                        C3-->D3[API Gateway]
-                        D3-->E3[Consumer App]
-                        end
-
-
-                        subgraph workflow2[FHIR Workflow]
-                        direction TB
-                        A2[Data Source]-->B2[FHIR API Call]
-                        B2-->C2[FHIR Server]
-                        C2-->D2[Frontend App]
-                        end
-
-                        subgraph workflow1[HL7 Workflow]
-                        direction TB
-                        A1[LIS / Lab System]-->B1[Interface Engine]
-                        B1-->C1[HL7 Routing]
-                        C1-->D1[EMR System]
-                        end
-
-                        %% Place workflows side by side
-                        workflow1:::workflowClass
-                        workflow2:::workflowClass
-                        workflow3:::workflowClass
-
-                        %% Styles
-                        style B1 fill:#e0f7fa,stroke:#00796b
-                        style C1 fill:#fce4ec,stroke:#ad1457
-                        style B3 fill:#fff9c4,stroke:#fbc02d
-                        style C3 fill:#fff9c4,stroke:#fbc02d
-                        style B2 fill:#dcedc8,stroke:#558b2f
-                        style C2 fill:#dcedc8,stroke:#558b2f
-
-                        classDef workflowClass fill:none,stroke:#ccc
-                    </div>
-                </div>
-            </div>
-
-            <div class="workflow-insights">
-                <h3>Key Takeaways from the Workflows:</h3>
-                <ul>
-                    <li>Notice how the Hybrid Workflow combines elements from both HL7 and FHIR - this is where most
-                        opportunities exist</li>
-                    <li>The yellow components (Python/JS skills) are the bridge between legacy and modern systems</li>
-                    <li>While HL7 knowledge (blue/pink) remains relevant, FHIR capabilities (green) are becoming
-                        essential</li>
-                    <li>The translator role in the Hybrid flow represents the sweet spot for HL7 analysts transitioning
-                        to FHIR</li>
-                </ul>
-            </div>
-        </section>
-
-       <!-- <section id="code-examples">
-            <h2>Real-World Examples: HL7 vs FHIR</h2>
-            <div class="code-comparison">
-                <div class="hl7-example">
-                    <h3>HL7 v2 Message</h3>
-                    <pre><code>MSH|^~\&|LAB|MYHOSP|EMR|MYHOSP|201505151030||ORU^R01|MSGID|P|2.3
+    <section id="code-examples">
+        <h2>Real-World Examples: HL7 vs FHIR</h2>
+        <div class="code-comparison">
+            <div class="hl7-example">
+                <h3>HL7 v2 Message</h3>
+                <pre><code>MSH|^~\&|LAB|MYHOSP|EMR|MYHOSP|201505151030||ORU^R01|MSGID|P|2.3
 PID|||12345^^^MRN||DOE^JOHN</code></pre>
-                </div>
-                <div class="fhir-example">
-                    <h3>FHIR JSON</h3>
-                    <pre><code>{
+            </div>
+            <div class="fhir-example">
+                <h3>FHIR JSON</h3>
+                <pre><code>{
   "resourceType": "Patient",
   "identifier": [{
     "system": "MRN",
@@ -274,90 +174,73 @@ PID|||12345^^^MRN||DOE^JOHN</code></pre>
     "given": ["John"]
   }]
 }</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="job-impact" class="career-section">
+        <h2>Career Impact: From Interface Analyst to FHIR Expert</h2>
+        <div class="career-overview">
+            <p>Making the leap from HL7-focused integration work to FHIR-based development doesn't mean starting over—it means evolving. The fundamentals of interfacing, mapping, and clinical workflows are still core. What changes is the stack, the tools, and the strategic value you bring.</p>
+        </div>
+
+        <div class="career-roles">
+            <h3>🗭 Real-World Roles You Can Grow Into</h3>
+            <ul class="role-list">
+                <li>FHIR Integration Developer</li>
+                <li>Health Interoperability Analyst</li>
+                <li>Clinical Data Engineer</li>
+                <li>Health IT Solution Architect</li>
+                <li>SMART on FHIR Application Developer</li>
+                <li>FHIR Implementation Consultant</li>
+                <li>Health Information Exchange (HIE) Specialist</li>
+                <li>Digital Health Product Manager</li>
+                <li>Clinical Informaticist (FHIR-focused)</li>
+            </ul>
+        </div>
+
+        <div class="salary-info">
+            <h3>💰 Salary Uplift with FHIR Skills</h3>
+            <div class="salary-comparison">
+                <div class="hl7-salary">
+                    <h4>HL7 Interface Analysts</h4>
+                    <p><strong>$70K–$90K</strong> depending on region and scope</p>
+                </div>
+                <div class="fhir-salary">
+                    <h4>FHIR-Enabled Roles</h4>
+                    <ul>
+                        <li><strong>$105K–$145K+</strong> for mid-level roles</li>
+                        <li><strong>$150K–$180K+</strong> for senior engineers or architects</li>
+                        <li><strong>$90–$150/hour</strong> consulting rates</li>
+                    </ul>
                 </div>
             </div>
-        </section>-->
+        </div>
 
-        <section id="job-impact" class="career-section">
-            <h2>Career Impact: From Interface Analyst to FHIR Expert</h2>
-            <div class="career-overview">
-                <p>Making the leap from HL7-focused integration work to FHIR-based development doesn't mean starting
-                    over—it means evolving. The fundamentals of interfacing, mapping, and clinical workflows are still
-                    core. What changes is the stack, the tools, and the strategic value you bring.</p>
-            </div>
+        <div class="market-trends">
+            <h3>📈 Market Demand & Industry Trends</h3>
+            <ul class="trend-list">
+                <li>🏥 Over <strong>90% of U.S. hospitals</strong> use certified EHRs with FHIR APIs</li>
+                <li>🌐 FHIR job listings grew <strong>70% since 2020</strong></li>
+                <li>📊 <strong>50%+</strong> of health data roles now require FHIR</li>
+                <li>🧹 Required for CMS initiatives (Blue Button 2.0, TEFCA)</li>
+            </ul>
+        </div>
+    </section>
 
-            <div class="career-roles">
-                <h3>🗭 Real-World Roles You Can Grow Into</h3>
-                <ul class="role-list">
-                    <li>FHIR Integration Developer</li>
-                    <li>Health Interoperability Analyst</li>
-                    <li>Clinical Data Engineer</li>
-                    <li>Health IT Solution Architect</li>
-                    <li>SMART on FHIR Application Developer</li>
-                    <li>FHIR Implementation Consultant</li>
-                    <li>Health Information Exchange (HIE) Specialist</li>
-                    <li>Digital Health Product Manager</li>
-                    <li>Clinical Informaticist (FHIR-focused)</li>
-                </ul>
-            </div>
+    <section id="final-thoughts">
+      <h2>Final Thoughts</h2>
+      <p>This shift from HL7 to FHIR isn’t about abandoning the old — it’s about making your experience portable and future-ready. Don’t discard your HL7 skills. Use them to build the next generation of healthcare infrastructure.</p>
+    </section>
 
-            <div class="salary-info">
-                <h3>💰 Salary Uplift with FHIR Skills</h3>
-                <div class="salary-comparison">
-                    <div class="hl7-salary">
-                        <h4>HL7 Interface Analysts</h4>
-                        <p><strong>$70K–$90K</strong> depending on region and scope</p>
-                    </div>
-                    <div class="fhir-salary">
-                        <h4>FHIR-Enabled Roles</h4>
-                        <ul>
-                            <li><strong>$105K–$145K+</strong> for mid-level roles</li>
-                            <li><strong>$150K–$180K+</strong> for senior engineers or architects</li>
-                            <li><strong>$90–$150/hour</strong> consulting rates</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <section id="next-up">
+      <h2>Coming Up Next</h2>
+      <p>In the next post, I’ll break down how I approached re-learning FHIR using open sandboxes, GitHub examples, and Postman — without needing a full production EHR. I’ll also share some beginner pitfalls (because wow, did I fall into a few).</p>
+    </section>
+  </article>
 
-            <div class="market-trends">
-                <h3>📈 Market Demand & Industry Trends</h3>
-                <ul class="trend-list">
-                    <li>🏥 Over <strong>90% of U.S. hospitals</strong> use certified EHRs with FHIR APIs</li>
-                    <li>🌐 FHIR job listings grew <strong>70% since 2020</strong></li>
-                    <li>📊 <strong>50%+</strong> of health data roles now require FHIR</li>
-                    <li>🧹 Required for CMS initiatives (Blue Button 2.0, TEFCA)</li>
-                </ul>
-                <blockquote>
-                    <h4>Why CMS Initiatives Matter</h4>
-                    <div class="spacer">
-                    <p><strong>Blue Button 2.0</strong> is a FHIR-based API created by CMS to allow Medicare beneficiaries to access and share their health claims data securely. It uses FHIR and OAuth2, enabling developers to build third-party apps that pull structured data like medications, procedures, and costs directly from CMS.</p>
-                  <br>
-                    <p><strong>TEFCA</strong> (Trusted Exchange Framework and Common Agreement) is the federal framework for national health data exchange. While TEFCA itself is not a FHIR protocol, it pushes for standardized, secure, and interoperable data exchange and FHIR is central to that effort. Many Qualified Health Information Networks (QHINs) will rely on FHIR to support granular data sharing across systems.</p>
-                  <br>
-                    <p>Together, these initiatives show that <strong>FHIR isn’t just a trend, it's becoming a regulatory expectation</strong> for health data access, especially in Medicare, Medicaid, and nationwide exchange networks.</p>
-                </blockquote>
-                  </div>
-            </div>
-        </section>
-
-        <section id="final-thoughts">
-            <h2>Final Thoughts</h2>
-            <p>This shift from HL7 to FHIR isn’t about abandoning the old, it’s about making your experience portable
-                and future-ready. Don’t discard your HL7 skills. Use them to build the next generation of healthcare
-                infrastructure.</p>
-        </section>
-
-        <section id="next-up" class="next-up">
-            <h2>Coming Up Next</h2>
-            <p>In the next post, I'll break down how I approached refreshing my FHIR knowledge by creating a project for my portfolio, using open sandboxes, GitHub
-                examples, and Postman, without needing a full production EHR. I'll also share some beginner pitfalls
-                (because...yeah, I did fall into a few).</p>
-        </section>
-    </article>
-
-    <footer>
-        <p>&copy; 2025 Sherminta J. Lawrence. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Sherminta J. Lawrence. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>

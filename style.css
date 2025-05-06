@@ -494,6 +494,29 @@ code {
   margin: 1.5rem 0;
 }
 
+/* Step Numbers */
+.step-number {
+    background: var(--deep-pink);
+    color: var(--white);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-right: 1rem;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.process-step:hover .step-number {
+    transform: scale(1.1);
+    background: var(--text-dark);
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -542,6 +565,12 @@ code {
   .mermaid {
     max-width: 100%;
     overflow-x: auto;
+  }
+
+  .step-number {
+    width: 28px;
+    height: 28px;
+    font-size: 1rem;
   }
 }
 blockquote {

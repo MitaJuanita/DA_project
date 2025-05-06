@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
+    <meta name="keywords" content="HL7, FHIR, healthcare interoperability, interface engines, healthcare IT, medical data integration">
+    <meta name="author" content="Sherminta J. Lawrence">
+
+    <meta property="og:title" content="From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills">
+    <meta property="og:description" content="A guide for HL7 interface analysts transitioning to FHIR-based systems. Learn the overlaps, the differences, and how to modernize your skills.">
+    <meta property="og:type" content="article">
+
+    <title>From HL7 to FHIR: Translating Legacy Experience into Future-Proof Skills</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'neutral',
+            flowchart: {
+                curve: 'basis',
+                nodeSpacing: 50,
+                rankSpacing: 50
+            }
+        });
+    </script>
+graph TD;
+    A[Assess Legacy HL7 Interfaces] --> B[Define Requirements]
+    B --> C[Present to Stakeholders]
+    C --> D[Develop Timeline & Planning]
+    D --> E[Design & Configure Interfaces]
+    E --> F[Test Messages & Resources]
+    F --> G[Deploy & Validate]
+    G --> H[Monitor & Support]
+    H -->|If issues found| F
+    G -->|Iterative improvements| F
+    D -->|Continuous Sprints| F
+    H -->|Major redesign needed| A

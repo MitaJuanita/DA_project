@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMS Reporting Workflow - Medicare Advantage Case Study</title>
+    <meta name="description" content="A detailed case study of CMS reporting workflow for Medicare Advantage plans">
+    <meta name="keywords" content="CMS reporting, Medicare Advantage, healthcare data, compliance">
+    <meta name="author" content="Sherminta J. Lawrence">
+
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    
+    <style>
+        .workflow-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .process-step {
+            background: var(--white);
+            margin-bottom: 2rem;
+            border: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--soft-pink);
+            transition: border-left-color 0.3s ease;
+            border-radius: 8px;
+            position: relative;
+            padding-left: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .data-collection { border-left-color: #0073e6; }
+        .validation { border-left-color: #f28f5a; }
+        .submission { border-left-color: #32cd32; }
+        .audit { border-left-color: #8a2be2; }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .step-number {
+            background: #2c3e50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .workflow-overview {
+            background: var(--background-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .workflow-overview h3 {
+            color: var(--deep-pink);
+            margin-bottom: 1rem;
+        }
+
+        .focus-areas, .key-requirements {
+            margin: 1.5rem 0;
+        }
+
+        .focus-areas ul, .key-requirements ul {
+            margin-left: 1.5rem;
+        }
+
+        .focus-areas ul ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            border-top: 1px solid #ddd;
+            background-color: #f4f4f4;
+        }
+
+        .workflow-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .workflow-image:hover {
+            transform: scale(1.02);
+        }
+
+        .phase-header {
+            background: var(--deep-pink);
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            margin: 3rem 0 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .phase-header h2 {
+            color: var(--white);
+            margin: 0;
+            border: none;
+            font-size: 1.8rem;
+        }
+
+        .phase-description {
+            color: var(--gray-text);
+            font-style: italic;
+            margin: 1rem 0 2rem;
+            padding-left: 1rem;
+            border-left: 4px solid var(--soft-pink);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../../index.html#work">← Back to Portfolio</a>
+    </nav>
+    <article class="blog-post">
+        <div class="header-section">
+            <h1>CMS Reporting Workflow: Sample Process Overview</h1>
+            <p class="post-meta">By Sherminta J. Lawrence | Published: 2025</p>
+        </div>
+        <div class="intro">
+            <p>This sample process provides an overview of a CMS reporting workflow for Medicare Advantage plans, focusing on data collection, validation, submission, and compliance reporting.</p>
+
+       <!--- <div class="workflow-overview">
+            <h3>Overview</h3>
+            <p>This case study explores the CMS reporting workflow for Medicare Advantage plans, focusing on data collection, validation, submission, and compliance reporting.</p>
+        </div>
+
+        <div class="focus-areas">
+            <h4>Focus Areas:</h4>
+            <ul>
+                <li><strong>Programs Monitored:</strong>
+                    <ul>
+                        <li>Chronic Care Management</li>
+                        <li>Annual Wellness Visits</li>
+                        <li>Member Participation Tracking</li>
+                    </ul>
+                </li>
+                <li><strong>Data Sources:</strong>
+                    <ul>
+                        <li>EHR Systems</li>
+                        <li>Claims Data</li>
+                        <li>Patient Surveys</li>
+                    </ul>-->
+                </li>
+            </ul>
+        </div>
+
+       <!--- <div class="key-requirements">
+            <h4>Regulatory Requirements:</h4>
+            <ul>
+                <li>CMS Documentation Standards</li>
+                <li>Medicare Advantage Program Guidelines</li>
+                <li>HEDIS Measure Specifications</li>
+            </ul>
+        </div> --->
+
+        <div class="diagram-container">
+            <figure class="workflow-diagram">
+                <img src="/Users/shermintalawrence/DA_project/blog/posts/CMS_Reporting_Infographic.png" 
+                     alt="CMS Reporting Workflow diagram showing the complete process from data collection to compliance reporting"
+                     class="workflow-image">
+                <figcaption>CMS Reporting Process Flow - From Data Collection to Compliance</figcaption>
+            </figure>
+        </div>
+
+        <div class="workflow-phases">
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Data Collection</h2>
+                </div>
+                <div class="phase-description">
+                    Initial gathering and preparation of healthcare data from multiple sources
+                </div>
+                <div class="process-steps">
+                    <div class="process-step data-collection">
+                        <h3>Data Collection</h3>
+                        <p>The health plan collects data from multiple sources:</p>
+                        <ul>
+                            <li>EHR systems data</li>
+                            <li>Claims processing systems</li>
+                            <li>Patient satisfaction surveys</li>
+                            <li>Care management documentation</li>
+                        </ul>
+                    </div>
+                    <div class="process-step validation">
+                        <h3>Data Validation</h3>
+                        <p>Verify data quality and completeness:</p>
+                        <ul>
+                            <li>Check for missing or inconsistent data</li>
+                            <li>Validate patient program assignments</li>
+                            <li>Ensure proper chronic care management flagging</li>
+                            <li>Review diagnostic codes for accuracy</li>
+                        </ul>
+                    </div>
+                    <div class="process-step data-collection">
+                        <h3>Data Transformation</h3>
+                        <p>Convert data to CMS specifications:</p>
+                        <ul>
+                            <li>Map to standardized coding systems (ICD-10, CPT)</li>
+                            <li>Format data according to CMS requirements</li>
+                            <li>Apply required value sets for measures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Review & Submit</h2>
+                </div>
+                <div class="phase-description">
+                    Comprehensive verification and official submission to CMS
+                </div>
+                <div class="process-steps">
+                    <div class="process-step validation">
+                        <h3>Quality Checks</h3>
+                        <p>Comprehensive quality assurance:</p>
+                        <ul>
+                            <li>Run automated validation scripts</li>
+                            <li>Compare against historical benchmarks</li>
+                            <li>Check for statistical anomalies</li>
+                        </ul>
+                    </div>
+                    <div class="process-step submission">
+                        <h3>CMS Submission</h3>
+                        <p>Final submission process:</p>
+                        <ul>
+                            <li>Package data in required format</li>
+                            <li>Submit through CMS portal</li>
+                            <li>Generate submission logs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Final Documentation & Compliance</h2>
+                </div>
+                <div class="phase-description">
+                    Final review, documentation, and regulatory compliance steps
+                </div>
+                <div class="process-steps">
+                    <div class="process-step audit">
+                        <h3>Audit and Review</h3>
+                        <p>Post-submission validation:</p>
+                        <ul>
+                            <li>Address CMS data validation requests</li>
+                            <li>Provide supporting documentation</li>
+                            <li>Track and respond to audit findings</li>
+                        </ul>
+                    </div>
+                    <div class="process-step audit">
+                        <h3>Compliance Report</h3>
+                        <p>Final documentation and planning:</p>
+                        <ul>
+                            <li>Document submission outcomes</li>
+                            <li>Track corrective actions</li>
+                            <li>Create improvement plans</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p>&copy; 2024 Sherminta J. Lawrence. All rights reserved.</p>
+    </footer>
+</body>
+</html>
