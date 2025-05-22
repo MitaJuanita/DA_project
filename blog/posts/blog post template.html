@@ -3,9 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Post Title] | Sherminta Lawrence</title>
+  <title>Healthcare Interface Engines | Sherminta Lawrence</title>
   <link rel="stylesheet" href="../../style.css" />
-  <!-- Optional: Add Prism, Mermaid, or other scripts as needed -->
+  
+  <style>
+    /* Standardized table styles */
+    .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin: 2rem 0;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 15px;
+        border: 1px solid #ddd;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .comparison-table th {
+        background-color: var(--background-light);
+        font-weight: 600;
+    }
+
+    .comparison-table ul {
+        margin: 0;
+        padding-left: 1.2rem;
+    }
+
+    .comparison-table li {
+        margin-bottom: 0.5rem;
+    }
+
+    .comparison-table td strong {
+        color: var(--deep-pink);
+    }
+
+    /* Remove inline styles from tables */
+    table[border="1"] {
+        border: none;
+        width: 100%;
+    }
+
+    thead[style] {
+        background: none;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -13,25 +59,374 @@
   </nav>
 
   <article class="blog-post">
-    <h1>[Post Title]</h1>
-    <time datetime="YYYY-MM-DD">Month DD, YYYY</time>
+    <h1>Healthcare Interface Engines: Drivers of Interoperability</h1>
+    <h2>Introduction</h2>
+    
+    <p>This table compares the top three opensource interface engines in the US, by influence. In contrast to Epic Bridges which is proprietary, these are vendor neutral. </p>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Mirth Connect</th>
+          <th>Corepoint</th>
+          <th>Cloverleaf</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Developer</strong></td>
+          <td>NextGen Healthcare (Thoma Bravo)</td>
+          <td>Lyniate</td>
+          <td>Infor (Koch Industries)</td>
+        </tr>
+        <tr>
+          <td><strong>Open Source?</strong></td>
+          <td>Yes (Community Edition)</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td><strong>Primary Scripting</strong></td>
+          <td>JavaScript</td>
+          <td>Rules Language (VBScript-style)</td>
+          <td>TCL (Tool Command Language)</td>
+        </tr>
+        <tr>
+          <td><strong>User Interface</strong></td>
+          <td>Web-based GUI + scripting</td>
+          <td>Drag-and-drop GUI</td>
+          <td>Classic GUI (Java-based), some web tools</td>
+        </tr>
+        <tr>
+          <td><strong>Message Formats</strong></td>
+          <td>HL7 v2, v3, FHIR, X12, JSON, XML</td>
+          <td>HL7 v2, FHIR, APIs</td>
+          <td>HL7 v2, FHIR, X12, DICOM</td>
+        </tr>
+        <tr>
+          <td><strong>Monitoring</strong></td>
+          <td>Logging dashboard, customizable alerts</td>
+          <td>Rich dashboard, audit trails</td>
+          <td>Advanced alerting + visual monitoring tools</td>
+        </tr>
+        <tr>
+          <td><strong>Learning Curve</strong></td>
+          <td>Moderate to High</td>
+          <td>Low to Moderate</td>
+          <td>High</td>
+        </tr>
+        <tr>
+          <td><strong>Deployment</strong></td>
+          <td>On-prem, cloud, Docker support</td>
+          <td>Mostly on-prem, some hybrid support</td>
+          <td>Primarily on-prem, moving toward cloud</td>
+        </tr>
+        <tr>
+          <td><strong>Customization</strong></td>
+          <td>Very high (especially open source)</td>
+          <td>Moderate, within vendor ecosystem</td>
+          <td>High, but complex</td>
+        </tr>
+        <tr>
+          <td><strong>Best Fit For</strong></td>
+          <td>Startups, dev-heavy orgs, open systems</td>
+          <td>Hospitals, labs seeking user-friendly HL7 integration</td>
+          <td>Large enterprises needing deep customization & scale</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <p>[Opening paragraph]</p>
-
-    <section>
-      <h2>[Section Title]</h2>
-      <p>[Section content]</p>
+    <!-- Engine Comparison Table -->
+    <section id="engine-comparison">
+      <h2>Interface Engine Comparison: Corepoint vs Mirth Connect</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Corepoint</th>
+            <th>Mirth Connect</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Development Model</strong></td>
+            <td>Drag-and-drop GUI with proprietary scripting (Corepoint Rules Language).</td>
+            <td>GUI-based but script-heavy (JavaScript); more open-ended development model.</td>
+          </tr>
+          <tr>
+            <td><strong>Message Routing</strong></td>
+            <td>Uses visual interface and rules engine for routing decisions.</td>
+            <td>Channels configured via connectors and scripts; routing is highly flexible via JavaScript.</td>
+          </tr>
+          <tr>
+            <td><strong>Transformations</strong></td>
+            <td>Built-in HL7 parsers; transformation logic handled via GUI and embedded rules.</td>
+            <td>Message transformers using JavaScript and filters; supports XSLT.</td>
+          </tr>
+          <tr>
+            <td><strong>Scripting</strong></td>
+            <td>Rules Language (VBScript-like); integrated directly in the UI.</td>
+            <td>JavaScript; written inside transformers, filters, and connectors.</td>
+          </tr>
+          <tr>
+            <td><strong>Monitoring & Logging</strong></td>
+            <td>Robust, user-friendly dashboard with audit trails and alerts.</td>
+            <td>Logging via dashboard or custom JavaScript; can be verbose and customizable.</td>
+          </tr>
+          <tr>
+            <td><strong>Ease of Use</strong></td>
+            <td>High usability for non-programmers; intuitive layout.</td>
+            <td>Requires JavaScript knowledge; steeper learning curve.</td>
+          </tr>
+          <tr>
+            <td><strong>Integration Breadth</strong></td>
+            <td>Primarily HL7, strong EHR vendor alignment (e.g., Cerner).</td>
+            <td>Supports HL7, X12, XML, JSON, SOAP, REST APIs—more generalized.</td>
+          </tr>
+          <tr>
+            <td><strong>Deployment Model</strong></td>
+            <td>Typically on-prem; some support for cloud/hybrid.</td>
+            <td>Flexible—supports on-prem, cloud, and containerized environments (e.g., Docker).</td>
+          </tr>
+          <tr>
+            <td><strong>Customization</strong></td>
+            <td>Moderate—tailored to healthcare but within Corepoint’s ecosystem.</td>
+            <td>High—open-source base allows deep customization and community plugins.</td>
+          </tr>
+          <tr>
+            <td><strong>Support & Ecosystem</strong></td>
+            <td>Vendor-supported (Lyniate); proprietary.</td>
+            <td>Strong community plus vendor support (NextGen); open-source friendly.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
-    <section>
-      <h2>[Another Section]</h2>
-      <ul>
-        <li>Key point</li>
-        <li>Key point</li>
-      </ul>
+    <!-- Market Overview Section -->
+    <section id="market-overview">
+      <h2>U.S. Market Overview</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Integration Engine</th>
+            <th>Company</th>
+            <th>Public/Private</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Mirth Connect</strong></td>
+            <td><strong>NextGen Healthcare</strong></td>
+            <td class="private">Private</td>
+            <td>Acquired by Thoma Bravo in September 2023. Formerly public (NASDAQ: NXGN).</td>
+          </tr>
+          <tr>
+            <td><strong>Corepoint & Rhapsody</strong></td>
+            <td><strong>Lyniate</strong></td>
+            <td class="private">Private</td>
+            <td>Formed via merger. Owned by Hg Capital. Not publicly traded.</td>
+          </tr>
+          <tr>
+            <td><strong>Cloverleaf Integration Suite</strong></td>
+            <td><strong>Infor</strong></td>
+            <td class="private">Private</td>
+            <td>Acquired by Koch Industries in 2020. Operates as private subsidiary.</td>
+          </tr>
+          <tr>
+            <td><strong>Health Connect / Ensemble</strong></td>
+            <td><strong>InterSystems</strong></td>
+            <td class="private">Private</td>
+            <td>Longstanding privately held company based in Massachusetts.</td>
+          </tr>
+          <tr>
+            <td><strong>Qvera Interface Engine (QIE)</strong></td>
+            <td><strong>Qvera</strong></td>
+            <td class="private">Private</td>
+            <td>Privately owned and not publicly traded.</td>
+          </tr>
+          <tr>
+            <td><strong>Iguana</strong></td>
+            <td><strong>iNTERFACEWARE Inc.</strong></td>
+            <td class="private">Private</td>
+            <td>Privately held Canadian company. Not listed on any exchange.</td>
+          </tr>
+          <tr>
+            <td><strong>Redox (IaaS alternative)</strong></td>
+            <td><strong>Redox Inc.</strong></td>
+            <td class="private">Private</td>
+            <td>Venture-backed and cloud-native. Not publicly traded.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-
-    <p><strong>[Closing thought or quote]</strong></p>
+<!--
+     Market Share Section 
+    <section id="market-share">
+      <h2>Interface Engine Market Share & Adoption</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Integration Engine</th>
+            <th>Estimated U.S. Adoption / Market Share</th>
+            <th>Notable Users / Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Infor Cloverleaf</strong><br>(Integration Suite)</td>
+            <td>
+              <ul>
+                <li>Largest install-base in hospitals</li>
+                <li>Used by <strong>72%</strong> of U.S. hospitals >150 beds (as of 2014)</li>
+                <li>Over <strong>4,000</strong> healthcare orgs worldwide</li>
+              </ul>
+            </td>
+            <td>
+              Adopted by many large health systems. Widely regarded as a <strong>standard</strong> in academic and multi-hospital networks.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Lyniate Corepoint</strong><br>(formerly Corepoint Health)</td>
+            <td>
+              <ul>
+                <li>Extensive in community and mid-size hospitals</li>
+                <li>Serves <strong>1,500+</strong> healthcare organizations globally</li>
+                <li>"#1 in KLAS" Integration Engine for 10+ years</li>
+              </ul>
+            </td>
+            <td>
+              Used by health systems like <strong>WVU Medicine</strong>. Known for <strong>ease-of-use</strong> and strong support.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Lyniate Rhapsody</strong><br>(formerly Orion Health Rhapsody)</td>
+            <td>
+              <ul>
+                <li>Extensive in enterprise, HIEs, and public-sector integration</li>
+                <li>Had <strong>500+</strong> global customers (~<strong>350+</strong> in the U.S.) as of 2019</li>
+                <li>Now under Lyniate, combined with Corepoint</li>
+                <li>Consistently among top 2 in KLAS</li>
+              </ul>
+            </td>
+            <td>
+              <p>Trusted by large IDNs, HIEs, and vendors. <strong>Children's Hospital Los Angeles</strong> and the <strong>Wisconsin Statewide HIE (WISHIN)</strong> selected Rhapsody for enterprise integration.</p>
+              <p>Known for <strong>high-volume</strong> and complex interoperability.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>NextGen Mirth Connect</strong><br>(formerly an open-source engine)</td>
+            <td>
+              <ul>
+                <li>Widespread use in small/medium providers and vendor solutions</li>
+                <li>A 2023 security scan found <strong>2,200+</strong> active Mirth servers</li>
+                <li>Major player especially for cost-conscious organizations</li>
+              </ul>
+            </td>
+            <td>
+              Used by many community hospitals, clinics, and health IT vendors. <strong>Widely adopted</strong> for its flexibility and low cost.
+              <p><em>Trend:</em> NextGen has recently moved Mirth to a fully proprietary model (2024–2025)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>InterSystems HealthShare Health Connect</strong></td>
+            <td>
+              <ul>
+                <li>Focused on high-volume health systems</li>
+                <li>One top-3 U.S. IDN consolidated <strong>15 engines into Health Connect</strong></li>
+                <li>Converting <strong>2,000+ interfaces</strong></li>
+                <li>Known for <strong>zero-downtime</strong> stability</li>
+              </ul>
+            </td>
+            <td>
+              Selected by some of the <strong>largest IDNs</strong> and academic medical centers. Example: a large northeastern IDN (13 hospitals) used Health Connect to support its Epic rollout with 73 million messages/day.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Qvera Interface Engine (QIE)</strong></td>
+            <td>
+              <ul>
+                <li>Niche adoption, growing in ambulatory sector</li>
+                <li>Adoption is rising - outpacing competitors in growth</li>
+                <li>Popular for registry connections and EHR integration</li>
+              </ul>
+            </td>
+            <td>
+              Chosen by systems like <strong>Baptist Health Jacksonville (FL)</strong> and <strong>WestMed Practice Partners</strong>. Valued for <strong>low-code usability</strong> and cloud-ready design.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>iNTERFACEWARE Iguana</strong></td>
+            <td>
+              <ul>
+                <li>Moderate share, popular among tech-driven organizations</li>
+                <li><strong>800+</strong> organizations worldwide use Iguana</li>
+                <li>Known for developer-friendly, scriptable approach</li>
+              </ul>
+            </td>
+            <td>
+              <strong>Prime Healthcare</strong> (44-hospital system) uses Iguana enterprise-wide. Chosen when <strong>flexibility</strong> and custom coding capability are priorities.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Other/Legacy Engines</strong></td>
+            <td>
+              <ul>
+                <li>Minimal/new niche presence</li>
+                <li>Legacy products like <strong>Oracle JCAPS/eGate</strong> mostly retired</li>
+                <li>New cloud integration services emerging as alternatives</li>
+              </ul>
+            </td>
+            <td>
+              Most legacy engines replaced by modern solutions. Cloud-native services (e.g., <strong>Redox</strong>) represent emerging alternatives.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  -->
+  <table style="width:100%; border-collapse:collapse; text-align:left;">
+    <thead>
+      <tr style="background-color:#f2f2f2;">
+        <th style="padding:10px; border:1px solid #ccc;">Feature</th>
+        <th style="padding:10px; border:1px solid #ccc;">HL7 v2</th>
+        <th style="padding:10px; border:1px solid #ccc;">FHIR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Message Format</td>
+        <td style="padding:10px; border:1px solid #ccc;">Delimited (|, ^)</td>
+        <td style="padding:10px; border:1px solid #ccc;">JSON/XML (web-standard)</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Transport Protocol</td>
+        <td style="padding:10px; border:1px solid #ccc;">MLLP (TCP/IP)</td>
+        <td style="padding:10px; border:1px solid #ccc;">HTTP(S) / RESTful API</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Readability</td>
+        <td style="padding:10px; border:1px solid #ccc;">Hard for non-engineers</td>
+        <td style="padding:10px; border:1px solid #ccc;">Human- and machine-readable</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Flexibility</td>
+        <td style="padding:10px; border:1px solid #ccc;">Rigid, predefined segments</td>
+        <td style="padding:10px; border:1px solid #ccc;">Modular, resource-based</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Use Case</td>
+        <td style="padding:10px; border:1px solid #ccc;">High-volume clinical systems (e.g. LIS, RIS)</td>
+        <td style="padding:10px; border:1px solid #ccc;">Mobile apps, web services, modern APIs</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid #ccc;">Learning Curve</td>
+        <td style="padding:10px; border:1px solid #ccc;">Steep (lots of legacy idiosyncrasies)</td>
+        <td style="padding:10px; border:1px solid #ccc;">Moderate (web developers pick it up faster)</td>
+      </tr>
+    </tbody>
+  </table>
+  
   </article>
 
   <footer>
