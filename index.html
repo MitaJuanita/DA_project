@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sherminta Lawrence | Healthcare Interface Analyst</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="js/mobile-nav.js" defer></script>
 </head>
 
 <body>
   <nav>
-    <ul class="nav-links">
+      <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list" role="navigation">
+
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
@@ -122,8 +125,8 @@
 </section>
   <section class="portfolio" id="portfolio">
     <h3>Portfolio</h3>
-    <div class="project-grid">
-      <div class="project-card">
+    
+   <div class="project-card">
         <h4>Case Study: Medicare Part D Drug Cost & Utilization Dashboard</h4>
         <p>Uncover how opioid prescriptions differ between elderly (65+) and non-elderly populations, at the state and
           drug level, in both volume and intensity.</p>
@@ -173,6 +176,12 @@
 
   <section class="blog" id="blog">
     <h3>Blog</h3>
+    <p>Insights on healthcare data, analytics, and interoperability.</p>
+    <div class="project-card">
+      <h4><a href=".blog/posts/HC_Data_Tools">Healthcare Data Tools, Explained Simply</a></h4></a></h4>
+      <p>A visual guide for healthcare IT folks who feel like they're drowning in acronyms, job posts, and tools they've never heard of.</p>
+      <a href="./blog/posts/2025-04-09-bridging-the-gap.html">Read full post →</a>
+    </div>
     <div class="project-card">
       <h4><a href="./blog/posts/2025-04-09-bridging-the-gap.html">From HL7 to FHIR: Translating Legacy Experience into
           Future-Proof Skills</a></h4>
@@ -217,6 +226,7 @@
       });
     });
   </script>
+ 
 </body>
 
 </html>
