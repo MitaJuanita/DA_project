@@ -100,17 +100,21 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 1rem;
-  /*background-image: url('./background.png');*/
-  background-size: cover;
-  background-position: center;
+  background: var(--deep-pink);
   color: var(--white);
+  overflow: hidden;
 }
 
 header::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.589);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--text-dark);
+  transform: skewY(-6deg);
+  transform-origin: top left;
   z-index: 1;
 }
 
@@ -171,44 +175,31 @@ h1 { font-size: 2.5rem; margin-bottom: 1rem; }
 h2 { font-size: 2rem; margin-bottom: 1.5rem; }
 h3 { font-size: 1.5rem; margin: 2rem 0 1rem; }
 
-/* Portfolio and Blog Grid Layout */
-.portfolio, .blog {
-    padding: 2rem 0;
-}
-
-.project-grid {
+/* Portfolio Grid Layout */
+.portfolio .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-.project-card {
-    background: var(--white);
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 4px var(--card-shadow);
-    transition: all 0.3s ease;
+.portfolio .project-card {
     display: flex;
     flex-direction: column;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
     height: 100%;
+    box-shadow: 0 2px 8px var(--card-shadow);
 }
 
-.project-card h4 {
-    margin-bottom: 1rem;
+.portfolio .project-card strong {
     color: var(--deep-pink);
+    display: block;
+    margin-top: 1rem;
 }
-
-.project-card p {
-    flex-grow: 1;
-    margin-bottom: 1rem;
-}
-
-.project-card a {
-    align-self: flex-start;
-    margin-top: auto;
-}
-
 
 /* Blog and Portfolio Base Styles */
 .project-card {
