@@ -100,7 +100,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 1rem;
-  background-image: url('./background.png');
+  /*background-image: url('./background.png');*/
   background-size: cover;
   background-position: center;
   color: var(--white);
@@ -110,7 +110,7 @@ header::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.589);
   z-index: 1;
 }
 

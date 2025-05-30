@@ -1,71 +1,36 @@
-status# Git Commands Reference
+# Git Commands for Project Updates
 
-## Initial Setup
+## First Time Setup
 ```bash
-# Initialize repository
+# Initialize repository if not already done
 git init
 
-# Configure user
-git config --global user.name "Sherminta Lawrence"
-git config --global user.email "shermintalawrence@gmail.com"
+# Add remote repository (replace with your repo URL)
+git remote add origin https://github.com/MitaJuanita/DA_project.git
 ```
 
-## Basic Workflow
+## Regular Workflow
 ```bash
-# Check status
+# Check status of changes
 git status
 
-# Add files
-git add .                    # Add all files
-git add specific-file.html   # Add specific file
+# Stage all changes
+git add .
 
-# Commit changes
-git commit -m "Description of changes"
+# Commit changes with descriptive message
+git commit -m "Updated portfolio layout and blog content, improved mobile responsiveness"
 
-# Push to remote
+# Push to main branch
 git push origin main
 ```
 
-## Branching
+## If Changes Are Rejected
 ```bash
-# Create & switch to new branch
-git checkout -b feature-name
-
-# Switch branches
-git checkout main
-
-# Merge branch
-git merge feature-name
-```
-
-## Updates & History
-```bash
-# Get latest changes
+# Pull latest changes first
 git pull origin main
 
-# View commit history
-git log
-git log --oneline      # Compact view
-
-# View specific commit
-git show commit-hash
+# Resolve any conflicts, then
+git add .
+git commit -m "Merged remote changes and resolved conflicts"
+git push origin main
 ```
-
-## Common Scenarios
-```bash
-# Undo last commit (keep changes)
-git reset --soft HEAD~1
-
-# Discard changes in working directory
-git checkout -- file.html
-
-# Create/apply patch
-git diff > changes.patch
-git apply changes.patch
-```
-
-## Best Practices
-- Write clear commit messages
-- Commit often, push regularly
-- Branch for new features
-- Keep main/master branch stable
