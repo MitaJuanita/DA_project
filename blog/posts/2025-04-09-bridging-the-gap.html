@@ -79,7 +79,7 @@
     <section id="background">
       <h2>My Most Recent Experience: HL7-Centric Integration, with a Dash of Data Analysis</h2>
       <p>I spent the last three years in a lab-focused, ancillary interface environment, configuring HL7 v2 interfaces between LIS and EMR systems. I worked with tools like Mirth and Cerner’s middleware, using VB and JavaScript to manipulate segments and route messages through various hospital workflows. The work was essential but very niche. Without room to advance outside of management, I realized my career growth required learning new tools and expanding into others like FHIR, SQL, and Python. 
-      I have experience with FHIR. Python was actually one of the first languages I learned, and SQL became the next mountain to climb. I mention all of this because I want to show how I made the leap from HL7 to FHIR—and how you can too. In this series, I’ll walk through my transition, the skills I leaned into, and how I visualized the pivot in my portfolio and practice.</p>
+      My existing toolkit was strong in HL7, but I knew the future was increasingly FHIR-native. While I had some prior exposure to Python (it was one of the first languages I learned) and had begun tackling SQL, I consciously decided to deepen my FHIR knowledge significantly. This series is about that journey: how I made the leap, which existing skills proved invaluable, the new ones I prioritized, and how I began to showcase this evolution in my portfolio and daily practice.</p>
     </section>
 
     <section id="bridge">
@@ -98,7 +98,6 @@
 
     <section id="visuals">
       <h2>How It All Connects: Visualizing the Transition</h2>
-      <p>The diagram below shows how different technologies work together to bridge HL7 and FHIR. My actual workflows look surprisingly similar, just with newer languages and standards.</p>
       <div class="diagram-container">
         <div class="diagram-wrapper">
           <div class="mermaid">
@@ -144,12 +143,12 @@ graph LR
         <h2>Real-World Examples: HL7 vs FHIR</h2>
         <div class="code-comparison">
             <div class="hl7-example">
-                <h3>HL7 v2 Message</h3>
+                <h3>HL7 v2 Message: A typical HL7 v2 message header (MSH) and patient identification segment (PID)</h3>
                 <pre><code>MSH|^~\&|LAB|MYHOSP|EMR|MYHOSP|201505151030||ORU^R01|MSGID|P|2.3
 PID|||12345^^^MRN||DOE^JOHN</code></pre>
             </div>
             <div class="fhir-example">
-                <h3>FHIR JSON</h3>
+                <h3>FHIR JSON: FHIR Patient resource, showcasing the key-value structure and human-readable fields. </h3>
                 <pre><code>{
   "resourceType": "Patient",
   "identifier": [{
@@ -187,11 +186,11 @@ PID|||12345^^^MRN||DOE^JOHN</code></pre>
         </div>
 
         <div class="salary-info">
-            <h3>💰 Salary Uplift with FHIR Skills</h3>
+            <h3>💰 Salary Uplift with FHIR Skills: Figures vary based on location, experience and skillset.</h3>
             <div class="salary-comparison">
                 <div class="hl7-salary">
                     <h4>HL7 Interface Analysts</h4>
-                    <p><strong>$70K–$90K</strong> depending on region and scope</p>
+                    <p><strong>$70K–$90K</strong> </p>
                 </div>
                 <div class="fhir-salary">
                     <h4>FHIR-Enabled Roles</h4>
@@ -207,10 +206,10 @@ PID|||12345^^^MRN||DOE^JOHN</code></pre>
         <div class="market-trends">
             <h3>📈 Market Demand & Industry Trends</h3>
             <ul class="trend-list">
-                <li>🏥 Over <strong>90% of U.S. hospitals</strong> use certified EHRs with FHIR APIs</li>
-                <li>🌐 FHIR job listings grew <strong>70% since 2020</strong></li>
-                <li>📊 <strong>50%+</strong> of health data roles now require FHIR</li>
-                <li>🧹 Required for CMS initiatives (Blue Button 2.0, TEFCA)</li>
+                <li>Over <strong>90% of U.S. hospitals</strong> use certified EHRs with FHIR APIs</li>
+                <li>FHIR job listings grew <strong>70% since 2020</strong></li>
+                <li> <strong>50%+</strong> of health data roles now require FHIR</li>
+                <li> Required for CMS initiatives (Blue Button 2.0, TEFCA)</li>
             </ul>
         </div>
     </section>
