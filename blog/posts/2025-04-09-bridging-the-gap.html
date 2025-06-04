@@ -102,52 +102,39 @@
       <div class="diagram-container">
         <div class="diagram-wrapper">
           <div class="mermaid">
-            flowchart LR
-  %% HL7 Workflow
-  subgraph HL7_Workflow
-    direction LR
-    A1[LIS / Lab System] --> B1[Interface Engine (Mirth)]
-    B1 --> C1[HL7 Message Routing]
-    C1 --> D1[EMR System]
-  end
+graph LR
+    %% Define styles
+    classDef legacy fill:#e0f7fa,stroke:#00796b
+    classDef modern fill:#dcedc8,stroke:#558b2f
+    classDef bridge fill:#fff9c4,stroke:#fbc02d
 
-  %% FHIR Workflow
-  subgraph FHIR_Workflow
-    direction LR
-    A2[Data Source (EHR, App, Device)] --> B2[FHIR API Call]
-    B2 --> C2[FHIR Server]
-    C2 --> D2[Frontend or Analytics App]
-  end
+    %% HL7 Workflow (Left)
+    subgraph HL7["HL7 v2 Workflow"]
+        direction LR
+        A1[LIS System] --> B1[Interface Engine]
+        B1 --> C1[Message Router]
+        C1 --> D1[EMR System]
+    end
 
-  %% Hybrid Environment
-  subgraph Hybrid_Workflow
-    direction LR
-    A3[LIS or Device] --> B3[HL7 to FHIR Translator (Python/JS)]
-    B3 --> C3[FHIR Proxy or Adapter]
-    C3 --> D3[API Gateway / Cloud Service]
-    D3 --> E3[Consumer App]
-  end
+    %% FHIR Workflow (Right)
+    subgraph FHIR["FHIR Workflow"]
+        direction LR
+        A2[Data Source] --> B2[FHIR API]
+        B2 --> C2[FHIR Server]
+        C2 --> D2[Consumer App]
+    end
 
-  %% Coloring shared skills (Mirth, Transformation Logic, APIs, JSON)
-  style B1 fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-  style C1 fill:#fce4ec,stroke:#ad1457,stroke-width:2px
-  style B3 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-  style C3 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-  style B2 fill:#dcedc8,stroke:#558b2f,stroke-width:2px
-  style C2 fill:#dcedc8,stroke:#558b2f,stroke-width:2px
+    %% Bridge Layer (Bottom)
+    subgraph Bridge["Migration Bridge"]
+        direction LR
+        Legacy[Legacy HL7] --> Converter[HL7-FHIR Converter]
+        Converter --> FHIR_API[FHIR Endpoint]
+    end
 
-  %% Apply skillOverlap class
-  class B3,C3 skillOverlap
-
-  %% Optional notes
-  classDef skillOverlap fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-
-  🔑 Legend for Color Coding:
-Color	Meaning
-🟦 Blue	HL7 Interface Engine (e.g., Mirth) — legacy skill
-🟪 Pink	HL7 Routing logic — still relevant
-🟨 Yellow	Your transferable skills (Python/JS, mapping)
-🟩 Green	FHIR-native workflows (API calls, FHIR servers)
+    %% Apply styles
+    class A1,B1,C1,D1 legacy
+    class A2,B2,C2,D2 modern
+    class Legacy,Converter,FHIR_API bridge
           </div>
         </div>
       </div>
