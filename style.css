@@ -37,12 +37,61 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Make all images scale down */
+/* --- IMAGE STYLES --- */
+
+/* Global image scaling: Good practice for all images */
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+
+/* REVISED PORTFOLIO IMAGE STYLES
+  Instructions: 
+  1. Use `.portfolio-image-container` on the DIV that wraps your image.
+  2. Use `.portfolio-image` on the IMG tag itself.
+*/
+.portfolio-image-container {
+    width: 100%;
+    max-width: 600px; /* Set a max size for large screens */
+    margin: 2rem auto; /* Center the container */
+    border-radius: 8px; /* Apply rounded corners to the container */
+    box-shadow: 0 2px 8px var(--card-shadow);
+    overflow: hidden; /* Important for making object-fit work with border-radius */
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image-container:hover {
+    transform: scale(1.02);
+}
+
+.portfolio-image {
+    display: block; /* Remove any extra space below the image */
+    width: 100%;    /* Make the image fill its container */
+    height: auto;   /* Maintain aspect ratio */
+    aspect-ratio: 16 / 9; /* Force a consistent aspect ratio */
+    object-fit: cover;    /* Ensure image covers the area without distortion */
+}
+
+
+/* Blog post image containers */
+.blog-post figure,
+.blog-post .image-container {
+    max-width: 600px;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--card-shadow);
+}
+
+
+/* --- END IMAGE STYLES --- */
+
 
 /* Navigation Base Styles */
 nav {
@@ -142,6 +191,7 @@ header::before {
     overflow: hidden;
     border: 3px solid var(--white);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: width 0.3s ease, height 0.3s ease; /* Added for smooth resizing */
 }
 
 .header-image img {
@@ -230,26 +280,7 @@ h3 { font-size: 1.5rem; margin: 2rem 0 1rem; }
     font-weight: 500;
     margin-top: 0.5rem;
 }
-.portfolio-image {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px var(--card-shadow);
-    transition: transform 0.3s ease;
-}
 
-.portfolio-image:hover {
-    transform: scale(1.02);
-}
-
-@media (max-width: 300px) {
-    .portfolio-image {
-        aspect-ratio: 4/3;
-    }
-}
 
 /* Blog Post Layout */
 .blog-post {
@@ -349,8 +380,10 @@ h3 { font-size: 1.5rem; margin: 2rem 0 1rem; }
     transform: scaleX(1);
 }
 
-/* Responsive breakpoints */
-@media only screen and (max-width: 768px) {
+
+/* --- RESPONSIVE & MOBILE STYLES --- */
+
+@media (max-width: 768px) {
   /* Typography */
   h1 { font-size: 2rem; }
   h2 { font-size: 1.75rem; }
@@ -358,95 +391,72 @@ h3 { font-size: 1.5rem; margin: 2rem 0 1rem; }
   /* Container padding */
   body, .container { padding: 1rem; }
 
-  /* Header stacks */
-  .header-text, .header-image, .header-image2 {
-    flex: 1 1 100%;
-    max-width: 100%;
-    margin-bottom: 2rem;
+  /* Header adjustments */
+  .header-content {
+      flex-direction: column; /* Stack header content */
   }
-
-  /* Hide desktop nav, show hamburger */
-  #menu-toggle { display: block; }
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    background: var(--white);
+  .header-text {
+      max-width: 100%;
+      text-align: center;
   }
-  .nav-links.active { display: flex; }
-  .nav-links li { margin: 0.5rem 0; }
+  .header-image {
+      display: none; /* Hide profile image on mobile */
+  }
 
   /* Single-column projects */
-  .project-grid { grid-template-columns: 1fr; }
+  .portfolio .project-grid { 
+      grid-template-columns: 1fr; 
+  }
 
   /* Tables and diagrams scroll */
   .comparison-table, .mermaid {
     display: block;
     overflow-x: auto;
   }
-}
+  
+  /* Mobile Navigation Styles */
+  #menu-toggle {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+  }
 
-/* Mobile Navigation Styles */
-#menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    cursor: pointer;
-}
+  #nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      padding: 1rem;
+  }
 
-@media (max-width: 768px) {
-    #menu-toggle {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        z-index: 100;
-    }
+  #nav-list.show {
+      display: flex;
+  }
 
-    #nav-list {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: var(--white);
-        padding: 1rem;
-    }
+  #nav-list li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--gray-light);
+  }
 
-    #nav-list.show {
-        display: flex;
-    }
-
-    #nav-list li {
-        padding: 0.75rem 0;
-        border-bottom: 1px solid var(--gray-light);
-    }
-
-    #nav-list li:last-child {
-        border-bottom: none;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-  h1 { font-size: 1.75rem; }
-  h2 { font-size: 1.5rem; }
-
-  /* Further reduce tap targets */
-  .step-number {
-    width: 28px; height: 28px; font-size: 1rem;
+  #nav-list li:last-child {
+      border-bottom: none;
   }
 }
 
-/* Hide header image on mobile */
-@media (max-width: 768px) {
-    .header-image {
-        display: none; /* Hide image on mobile */
-    }
+@media (max-width: 480px) {
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+
+  .portfolio .project-card {
+      padding: 1.5rem; /* Reduce padding on small screens */
+  }
 }
+
 
 /* Carousel Styles */
 .carousel-container {
