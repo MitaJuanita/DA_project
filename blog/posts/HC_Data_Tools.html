@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Healthcare Data Tools | Sherminta Lawrence</title>
-  <meta name="description" content="A guide to understanding modern healthcare data tools and systems">
-  <meta name="keywords" content="healthcare IT, data tools, interface engines, EHR, integration">
-  <meta name="author" content="Sherminta J. Lawrence">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Healthcare Data Tools | Sherminta Lawrence</title>
+    <meta name="description" content="A guide to understanding modern healthcare data tools and systems">
+    <meta name="keywords" content="healthcare IT, data tools, interface engines, EHR, integration">
+    <meta name="author" content="Sherminta J. Lawrence">
 
-  <!-- Open Graph Meta -->
-  <meta property="og:title" content="Healthcare Data Tools, Explained Simply">
-  <meta property="og:description" content="A functional guide to navigating healthcare IT platforms">
-  <meta property="og:image" content="/assets/social-share.png">
-  <meta property="og:type" content="article">
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Healthcare Data Tools, Explained Simply">
+    <meta property="og:description" content="A functional guide to navigating healthcare IT platforms">
+    <meta property="og:image" content="/assets/social-share.png">
+    <meta property="og:type" content="article">
 
-  <!-- Fix stylesheet and script paths -->
-  <link rel="stylesheet" href="../../style.css">
-  <script src="../../js/carousel.js" defer></script>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../../js/carousel.js" defer></script>
+    
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .carousel-container {
+            margin: 2rem auto;
+            max-width: 800px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .carousel-slide {
+            min-width: 100%;
+            flex: 0 0 100%;
+        }
+        
+        .carousel-slide img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            padding: 0 1rem;
+        }
+    </style>
 </head>
 <body>
-  <nav role="navigation">
-    <a href="../../index.html#blog">← Back to Blog</a>
-  </nav>
+    <nav>
+        <a href="../../index.html#blog">← Back to Blog</a>
+    </nav>
 
-  <main>
     <article class="blog-post">
-      <header>  <!-- Add missing header opening tag -->
-        <h1>Healthcare Data Tools, Explained Simply</h1>
-        <time datetime="2025-05-22">May 22, 2025</time>
-        <p class="post-meta"><span>Healthcare Integration</span> • <span>10 min read</span> • <span>Tools & Systems</span></p>
-      </header>
+        <header>
+            <h1>Healthcare Data Tools, Explained Simply</h1>
+            <div class="post-meta">
+                <time datetime="2025-05-22">May 22, 2025</time>
+                <span>Healthcare Integration</span> • 
+                <span>10 min read</span> • 
+                <span>Tools & Systems</span>
+            </div>
+        </header>
 
-      <section class="intro">
-        <p>I’ve spent the last few months bouncing between job posts, interviews, and rabbit holes of acronyms I didn’t recognize. Every listing mentioned a system I had to Google. Some tools I knew but hadn’t used in years. Others? Total mystery. Epic-this, Snowflake-that, something called Alteryx (still wrapping my head around that one).</p>
-        <p>I’ve worked in healthcare IT for over a decade. And still, I found myself asking: Am I underqualified? Or is the whole landscape just... opaque by design? Spoiler: It’s the second one.</p>
-      </section>
+        <section class="intro">
+            <p>I’ve spent the last few months bouncing between job posts, interviews, and rabbit holes of acronyms I didn’t recognize. Every listing mentioned a system I had to Google. Some tools I knew but hadn’t used in years. Others? Total mystery. Epic-this, Snowflake-that, something called Alteryx (still wrapping my head around that one).</p>
+            <p>I’ve worked in healthcare IT for over a decade. And still, I found myself asking: Am I underqualified? Or is the whole landscape just... opaque by design? Spoiler: It’s the second one.</p>
+        </section>
 
-      <section class="why-made">
-        <h2>Why I Made This Slide Deck</h2>
-        <p>As I started to dig into the job market, I realized I wasn’t alone. Many of my colleagues were in the same boat, trying to make sense of a rapidly evolving landscape. So I decided to take a step back and look at the big picture. I wanted to get a bird’s-eye view of the platforms and systems we keep seeing — not just by name, but by function. Instead of sorting by vendor, I grouped them by what they actually do.</p>
-      </section>
+        <section class="why-made">
+            <h2>Why I Made This Slide Deck</h2>
+            <p>As I started to dig into the job market, I realized I wasn’t alone. Many of my colleagues were in the same boat, trying to make sense of a rapidly evolving landscape. So I decided to take a step back and look at the big picture. I wanted to get a bird’s-eye view of the platforms and systems we keep seeing — not just by name, but by function. Instead of sorting by vendor, I grouped them by what they actually do.</p>
+        </section>
 
-      <section id="visual-guide" aria-label="Healthcare Data Tools Carousel">
-        <h2>Visual Guide to Healthcare Data Tools</h2>
-        <figure class="carousel-container">
-          <div class="carousel" id="carousel" aria-live="polite">
-            <div class="carousel-slide"><img src="./HC_Data_Tools/timeline_cycle.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/2.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/3.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/4.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/5.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/6.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/7.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/8.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/9.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-            <div class="carousel-slide"><img src="./HC_Data_Tools/10.jpg" alt="Healthcare Data Tools" loading="lazy"></div>
-          </div>
-          <div class="carousel-nav">
-            <button class="carousel-btn prev-btn" aria-controls="carousel" aria-label="Previous slide">&lt;</button>
-            <button class="carousel-btn next-btn" aria-controls="carousel" aria-label="Next slide">&gt;</button>
-          </div>
-        </figure>
-      </section>
+        <div id="carousel-container" class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/timeline_cycle.jpg" alt="Healthcare Data Timeline"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/2.jpg" alt="Tool Comparison"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/3.jpg" alt="Data Management"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/4.jpg" alt="Analytics"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/5.jpg" alt="Reporting"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/6.jpg" alt="Interoperability"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/7.jpg" alt="Patient Engagement"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/8.jpg" alt="Telehealth"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/9.jpg" alt="Wearable Integration"></div>
+                <div class="carousel-slide"><img src="../images/HC_Data_Tools/10.jpg" alt="Mobile Health Apps"></div>
+            </div>
+            <div class="carousel-nav">
+                <button id="prev" class="carousel-btn">&lt;</button>
+                <button id="next" class="carousel-btn">&gt;</button>
+            </div>
+        </div>
 
-      <section class="conclusion">
-        <h2>Questions or Additions?</h2>
-        <p>If you have any questions, or if you want to add to the list, please reach out! I’m always looking to learn more.</p>
-        <p>— Sherminta</p>
-      </section>
+        <section class="conclusion">
+            <h2>Questions or Additions?</h2>
+            <p>If you have any questions, or if you want to add to the list, please reach out! I’m always looking to learn more.</p>
+            <p>— Sherminta</p>
+        </section>
     </article>
-  </main>
-
-  <footer role="contentinfo">
-    <p>Written by <a href="../../index.html">Sherminta Lawrence</a></p>
-    <p><a href="../../index.html#blog">← Back to all posts</a></p>
-    <p>&copy; 2025 Sherminta Lawrence. All rights reserved.</p>
-  </footer>
 </body>
 </html>

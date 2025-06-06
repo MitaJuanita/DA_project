@@ -60,9 +60,43 @@
 
   <article class="blog-post">
     <h1>Healthcare Interface Engines: Drivers of Interoperability</h1>
-    <h2>Introduction</h2>
-    
-    <p>This table compares the top three opensource interface engines in the US, by influence. In contrast to Epic Bridges which is proprietary, these are vendor neutral. </p>
+    <!--<h2>Introduction</h2>-->
+    <p>In the complex world of healthcare IT, interface engines play a crucial role in enabling interoperability between disparate systems. These engines facilitate the exchange of data across various platforms, ensuring that patient information flows seamlessly between electronic health records (EHRs), laboratory information systems (LIS), and other healthcare applications.</p>
+    <br>
+    <p>Interface engines are essential for integrating systems from different vendors, allowing healthcare organizations to share data efficiently and securely. They support various messaging standards such as HL7, FHIR, and DICOM, enabling the exchange of clinical, administrative, and financial information.</p>
+    <p>As healthcare continues to evolve, the demand for robust interface engines has grown significantly. These tools not only streamline data exchange but also enhance patient care by providing clinicians with timely access to critical information.</p>
+    <br>
+    <p>In this article, we will explore the concept of interface engines, their importance in healthcare interoperability, the different types available, and a comparison of popular engines in the U.S. market.</p>
+    <br>
+    <h2>What is an Interface Engine?</h2>
+    <br>
+    <p>An interface engine is a software application that facilitates the exchange of data between different healthcare systems. It acts as a middleware layer, translating and routing messages between systems that may use different data formats or protocols.</p>
+    <p>Interface engines are designed to handle various types of data, including clinical information (e.g., lab results, radiology reports), administrative data (e.g., patient demographics, appointment scheduling), and financial data (e.g., billing information). They ensure that data is accurately transformed and routed to the appropriate destination, enabling interoperability across healthcare systems.</p>
+    <p>These engines support multiple messaging standards, such as HL7 (Health Level 7), FHIR (Fast Healthcare Interoperability Resources), and DICOM (Digital Imaging and Communications in Medicine). By adhering to these standards, interface engines enable seamless communication between systems from different vendors, improving data exchange and collaboration within the healthcare ecosystem.</p>
+    <br>
+    <h2>Why are Interface Engines Important?</h2>
+    <br>
+    <p>Interface engines are critical for several reasons:</p>
+   <br>
+    <ul>
+      <li><strong>Interoperability:</strong> They enable different healthcare systems to communicate effectively, allowing for the exchange of patient data across platforms.</li>
+      <li><strong>Data Standardization:</strong> Interface engines help standardize data formats and protocols, ensuring that information is consistent and can be easily interpreted by various systems.</li>
+      <li><strong>Efficiency:</strong> By automating data exchange processes, interface engines reduce manual data entry, minimize errors, and streamline workflows within healthcare organizations.</li>
+      <li><strong>Improved Patient Care:</strong> With timely access to accurate patient information, clinicians can make informed decisions, leading to better patient outcomes.</li>
+      <li><strong>Regulatory Compliance:</strong> Interface engines help healthcare organizations comply with regulations such as HIPAA by ensuring secure and compliant data exchange.</li>
+    </ul>
+    <br>
+    <h2>Types of Interface Engines</h2>
+    <p>There are several types of interface engines, each designed to meet specific needs within the healthcare ecosystem:</p>
+    <ul>
+      <li><strong>Enterprise Interface Engines (EIEs):</strong> These are comprehensive solutions that support a wide range of data exchange needs across an entire healthcare organization. They typically handle multiple messaging standards and can integrate with various systems, including EHRs, LIS, and radiology systems.</li>
+      <li><strong>Specialized Interface Engines:</strong> These engines focus on specific areas of healthcare, such as laboratory information systems or radiology. They may offer tailored features and functionalities to meet the unique requirements of those domains.</li>
+      <li><strong>Cloud-based Interface Engines:</strong> With the rise of cloud computing, many interface engines are now offered as Software-as-a-Service (SaaS) solutions. These cloud-based engines provide scalability, flexibility, and ease of deployment for healthcare organizations.</li>
+      <li><strong>Open-source Interface Engines:</strong> Some interface engines are available as open-source solutions, allowing healthcare organizations to customize and extend their functionalities. These engines often have active communities that contribute to their development and support.</li>
+    </ul>
+    <h2>Comparing Key Features of Popular Interface Engines in the U.S. Market</h2>
+    <p>In the United States, several interface engines dominate the market, each with its own strengths and use cases. Here are some of the most popular:</p>
+<br>
     <table class="comparison-table">
       <thead>
         <tr>
@@ -70,6 +104,10 @@
           <th>Mirth Connect</th>
           <th>Corepoint</th>
           <th>Cloverleaf</th>
+          <th>Rhapsody</th>
+          <th>Health Connect</th>
+          <th>Qvera</th>
+          <th>iNTERFACEWARE Iguana</th>
         </tr>
       </thead>
       <tbody>
@@ -78,10 +116,18 @@
           <td>NextGen Healthcare (Thoma Bravo)</td>
           <td>Lyniate</td>
           <td>Infor (Koch Industries)</td>
+          <td>Lyniate</td>
+          <td>InterSystems</td>
+          <td>Qvera</td>
+          <td>iNTERFACEWARE Inc.</td>
         </tr>
         <tr>
           <td><strong>Open Source?</strong></td>
           <td>Yes (Community Edition)</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
           <td>No</td>
           <td>No</td>
         </tr>
@@ -90,53 +136,89 @@
           <td>JavaScript</td>
           <td>Rules Language (VBScript-style)</td>
           <td>TCL (Tool Command Language)</td>
+          <td>JavaScript</td>
+          <td>JavaScript</td>
+          <td>JavaScript</td>
+          <td>JavaScript</td>
+        
         </tr>
         <tr>
           <td><strong>User Interface</strong></td>
           <td>Web-based GUI + scripting</td>
           <td>Drag-and-drop GUI</td>
           <td>Classic GUI (Java-based), some web tools</td>
+          <td>Web-based GUI</td>
+          <td>Web-based GUI</td>
+          <td>Web-based GUI</td>
+          <td>Web-based GUI</td>
         </tr>
         <tr>
           <td><strong>Message Formats</strong></td>
           <td>HL7 v2, v3, FHIR, X12, JSON, XML</td>
           <td>HL7 v2, FHIR, APIs</td>
           <td>HL7 v2, FHIR, X12, DICOM</td>
+          <td>HL7 v2, FHIR, X12, JSON, XML</td> 
+          <td>HL7 v2, FHIR, X12, JSON, XML</td>
+          <td>HL7 v2, FHIR, X12, JSON, XML</td>
+          <td>HL7 v2, FHIR, X12, JSON, XML</td>
         </tr>
         <tr>
           <td><strong>Monitoring</strong></td>
           <td>Logging dashboard, customizable alerts</td>
           <td>Rich dashboard, audit trails</td>
           <td>Advanced alerting + visual monitoring tools</td>
+          <td>Dashboard with alerts and logs</td>
+          <td>Dashboard with alerts and logs</td>
+          <td>Dashboard with alerts and logs</td>
+          <td>Dashboard with alerts and logs</td>
         </tr>
         <tr>
           <td><strong>Learning Curve</strong></td>
           <td>Moderate to High</td>
           <td>Low to Moderate</td>
-          <td>High</td>
+          <td>High</td> 
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+
+            
         </tr>
         <tr>
           <td><strong>Deployment</strong></td>
           <td>On-prem, cloud, Docker support</td>
           <td>Mostly on-prem, some hybrid support</td>
           <td>Primarily on-prem, moving toward cloud</td>
+          <td>On-prem, cloud, hybrid</td>
+          <td>On-prem, cloud, hybrid</td>
+          <td>On-prem, cloud, hybrid</td>
+          <td>On-prem, cloud, hybrid</td>
         </tr>
         <tr>
           <td><strong>Customization</strong></td>
           <td>Very high (especially open source)</td>
           <td>Moderate, within vendor ecosystem</td>
           <td>High, but complex</td>
+          <td>High, with plugins</td>
+          <td>High, with plugins</td>
+          <td>High, with plugins</td>
+          <td>High, with plugins</td>
         </tr>
         <tr>
           <td><strong>Best Fit For</strong></td>
           <td>Startups, dev-heavy orgs, open systems</td>
           <td>Hospitals, labs seeking user-friendly HL7 integration</td>
           <td>Large enterprises needing deep customization & scale</td>
+          <td>Large health systems, HIEs, complex integrations</td>
+          <td>Large health systems, academic centers</td>
+          <td>Ambulatory care, registry connections</td>
+          <td>Tech-savvy orgs needing custom coding</td>
+
         </tr>
       </tbody>
     </table>
 
-    <!-- Engine Comparison Table -->
+    <!-- Engine Comparison Table 
     <section id="engine-comparison">
       <h2>Interface Engine Comparison: Corepoint vs Mirth Connect</h2>
       <table class="comparison-table">
@@ -201,8 +283,8 @@
         </tbody>
       </table>
     </section>
-
-    <!-- Market Overview Section -->
+-->
+    <!-- Market Overview Section 
     <section id="market-overview">
       <h2>U.S. Market Overview</h2>
       <table class="comparison-table">
@@ -260,6 +342,7 @@
         </tbody>
       </table>
     </section>
+    -->
 <!--
      Market Share Section 
     <section id="market-share">
@@ -385,47 +468,7 @@
       </table>
     </section>
   -->
-  <table style="width:100%; border-collapse:collapse; text-align:left;">
-    <thead>
-      <tr style="background-color:#f2f2f2;">
-        <th style="padding:10px; border:1px solid #ccc;">Feature</th>
-        <th style="padding:10px; border:1px solid #ccc;">HL7 v2</th>
-        <th style="padding:10px; border:1px solid #ccc;">FHIR</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Message Format</td>
-        <td style="padding:10px; border:1px solid #ccc;">Delimited (|, ^)</td>
-        <td style="padding:10px; border:1px solid #ccc;">JSON/XML (web-standard)</td>
-      </tr>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Transport Protocol</td>
-        <td style="padding:10px; border:1px solid #ccc;">MLLP (TCP/IP)</td>
-        <td style="padding:10px; border:1px solid #ccc;">HTTP(S) / RESTful API</td>
-      </tr>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Readability</td>
-        <td style="padding:10px; border:1px solid #ccc;">Hard for non-engineers</td>
-        <td style="padding:10px; border:1px solid #ccc;">Human- and machine-readable</td>
-      </tr>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Flexibility</td>
-        <td style="padding:10px; border:1px solid #ccc;">Rigid, predefined segments</td>
-        <td style="padding:10px; border:1px solid #ccc;">Modular, resource-based</td>
-      </tr>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Use Case</td>
-        <td style="padding:10px; border:1px solid #ccc;">High-volume clinical systems (e.g. LIS, RIS)</td>
-        <td style="padding:10px; border:1px solid #ccc;">Mobile apps, web services, modern APIs</td>
-      </tr>
-      <tr>
-        <td style="padding:10px; border:1px solid #ccc;">Learning Curve</td>
-        <td style="padding:10px; border:1px solid #ccc;">Steep (lots of legacy idiosyncrasies)</td>
-        <td style="padding:10px; border:1px solid #ccc;">Moderate (web developers pick it up faster)</td>
-      </tr>
-    </tbody>
-  </table>
+  
   
   </article>
 
